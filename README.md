@@ -1,4 +1,7 @@
-[![Shameless tip badge tips](https://img.shields.io/gratipay/TommyParnell.svg)](https://gratipay.com/TommyParnell)  
+**Master:** [![Build status](https://ci.appveyor.com/api/projects/status/rfnpsdmrkjx4a6un/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
+**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/rfnpsdmrkjx4a6un/branch/release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/release)
+
+**Tips:** [![Shameless tip badge tips](https://img.shields.io/gratipay/TommyParnell.svg)](https://gratipay.com/TommyParnell)  
 # Untappd.Net
 
 This is a c# wrapper around the Untappd API. This can be downloaded via [Nuget](https://www.nuget.org/packages/Untappd.Net/)
