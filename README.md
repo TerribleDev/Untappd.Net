@@ -26,7 +26,8 @@ var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 ## Contributing
 
 * There are no special instructions, submit pull requests against the master branch.
-* Releases to nuget occur on successful master branch builds
+* Releases to nuget occur on successful release branch builds
+ * The only reason I do not publish on master, is because sometimes commits can just contain readme files, or unit tests changes that do not affect the nuget package
 
 ## TODO
 
