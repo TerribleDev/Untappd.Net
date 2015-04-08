@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/tparnell8/Untappd.Net</projectUrl>
+    <iconUrl>https://lh5.googleusercontent.com/-OPPYklvIfLw/AAAAAAAAAAI/AAAAAAAAARs/UFcgcjeW6-E/photo.jpg?sz=48</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Basic Untappd Wrapper</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Untappd</tags>
+  </metadata>
+</package>
