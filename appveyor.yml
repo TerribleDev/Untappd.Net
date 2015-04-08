@@ -17,7 +17,14 @@ build:
   verbosity: normal
 deploy:
 - provider: NuGet
+  server:
   api_key:
     secure: fGNwXOtebe3kxu5SrB90CrbaCxVxuzuCQh3Ipcc0G/3cutoNZf7d7G6AaQ4fRv2l
   on:
-    branch: master
+    branch: release
+- provider: NuGet
+  server: https://www.myget.org/F/untappd-net/
+  api_key:
+    secure: wsN6BzH8ETiXhB9SndP57mHhivqM+CVnghI/+w5XE3bI8K092Z4V4FrJixcrxKnI
+  on:
+    branch: release
