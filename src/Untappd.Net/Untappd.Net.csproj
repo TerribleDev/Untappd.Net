@@ -57,12 +57,13 @@
     <Compile Include="Responses\BeerSearch.cs" />
     <Compile Include="Responses\BreweryInfo.cs" />
     <Compile Include="Responses\BrewerySearch.cs" />
+    <Compile Include="Responses\Feeds\UserActivityFeed.cs" />
     <Compile Include="Responses\UserBadges.cs" />
     <Compile Include="Responses\UserDistinctBeer.cs" />
     <Compile Include="Responses\UserFriends.cs" />
     <Compile Include="Responses\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Request\Request.cs" />
+    <Compile Include="Request\Repository.cs" />
     <Compile Include="Responses\UserWishlist.cs" />
     <Compile Include="Responses\VenueInfo.cs" />
   </ItemGroup>
