@@ -3,43 +3,123 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using Untappd.Net.Request;
 
 namespace Untappd.Net.Responses.UserFriends
 {
 
-    public class UserFriendsRootobject : BaseRequest
+    public class ResponseTime
     {
-        protected override string _EndPoint { get { return "v4/user/friends/{0}"; } }
-        public int count { get; set; }
-        public Item[] items { get; set; }
+
+        [JsonProperty("time")]
+        public double Time { get; set; }
+
+        [JsonProperty("measure")]
+        public string Measure { get; set; }
     }
 
-    public class Item
+    public class InitTime
     {
-        public string friendship_hash { get; set; }
-        public string created_at { get; set; }
-        public User user { get; set; }
-        public Mutual_Friends mutual_friends { get; set; }
+
+        [JsonProperty("time")]
+        public double Time { get; set; }
+
+        [JsonProperty("measure")]
+        public string Measure { get; set; }
+    }
+
+    public class Meta
+    {
+
+        [JsonProperty("code")]
+        public int Code { get; set; }
+
+        [JsonProperty("response_time")]
+        public ResponseTime ResponseTime { get; set; }
+
+        [JsonProperty("init_time")]
+        public InitTime InitTime { get; set; }
     }
 
     public class User
     {
-        public int uid { get; set; }
-        public string user_name { get; set; }
-        public string location { get; set; }
-        public string bio { get; set; }
-        public int is_supporter { get; set; }
-        public string first_name { get; set; }
-        public string last_name { get; set; }
-        public string relationship { get; set; }
-        public string user_avatar { get; set; }
+
+        [JsonProperty("uid")]
+        public int Uid { get; set; }
+
+        [JsonProperty("user_name")]
+        public string UserName { get; set; }
+
+        [JsonProperty("location")]
+        public string Location { get; set; }
+
+        [JsonProperty("bio")]
+        public string Bio { get; set; }
+
+        [JsonProperty("is_supporter")]
+        public int IsSupporter { get; set; }
+
+        [JsonProperty("first_name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("last_name")]
+        public string LastName { get; set; }
+
+        [JsonProperty("relationship")]
+        public string Relationship { get; set; }
+
+        [JsonProperty("user_avatar")]
+        public string UserAvatar { get; set; }
     }
 
-    public class Mutual_Friends
+    public class MutualFriends
     {
-        public int count { get; set; }
-        public object[] items { get; set; }
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("items")]
+        public IList<object> Items { get; set; }
+    }
+
+    public class Item
+    {
+
+        [JsonProperty("friendship_hash")]
+        public string FriendshipHash { get; set; }
+
+        [JsonProperty("created_at")]
+        public string CreatedAt { get; set; }
+
+        [JsonProperty("user")]
+        public User User { get; set; }
+
+        [JsonProperty("mutual_friends")]
+        public MutualFriends MutualFriends { get; set; }
+    }
+
+    public class Response
+    {
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("items")]
+        public IList<Item> Items { get; set; }
+    }
+
+    public class UserFriends : UnAuthenticatedRequest
+    {
+        protected override string _EndPoint { get { return "v4/user/friends/{0}"; } }
+        [JsonProperty("meta")]
+        public Meta Meta { get; set; }
+
+        [JsonProperty("notifications")]
+        public IList<object> Notifications { get; set; }
+
+        [JsonProperty("response")]
+        public Response Response { get; set; }
     }
 
 }

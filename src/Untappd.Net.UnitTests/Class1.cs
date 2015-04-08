@@ -1,11 +1,8 @@
-﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using NUnit.Framework;
 using Untappd.Client.Net;
-using Untappd.Net.Responses.UserInfo;
+using Untappd.Net.Request;
+using Untappd.Net.Responses.UserDistinctBeer;
 
 namespace Untappd.Net.UnitTests
 {
@@ -13,11 +10,12 @@ namespace Untappd.Net.UnitTests
     public class Class1
     {
         [Test]
+        [Ignore]
         public void Test()
         {
-            
-            //var t = new Request.Request().Get<UnAuthenticatedUntappdCredentials, UserInfoRootobject>(ts, "tparnell");
-            //Console.WriteLine(t.response.user.first_name);
+            var ts = new UnAuthenticatedUntappdCredentials("clientid", "clientkey");
+            var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
+            Console.WriteLine(t);
         }
     }
 }

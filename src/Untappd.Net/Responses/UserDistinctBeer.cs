@@ -3,81 +3,224 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using Untappd.Net.Request;
 
 namespace Untappd.Net.Responses.UserDistinctBeer
 {
 
-    public class UserDistinctBeerRootobject : BaseRequest
+    public class ResponseTime
     {
-        public Beers beers { get; set; }
-        protected override string _EndPoint { get { throw new NotImplementedException(); } }
+
+        [JsonProperty("time")]
+        public double Time { get; set; }
+
+        [JsonProperty("measure")]
+        public string Measure { get; set; }
     }
 
-    public class Beers
+    public class InitTime
     {
-        public string sort { get; set; }
-        public string sort_english { get; set; }
-        public int count { get; set; }
-        public Items items { get; set; }
+
+        [JsonProperty("time")]
+        public double Time { get; set; }
+
+        [JsonProperty("measure")]
+        public string Measure { get; set; }
     }
 
-    public class Items
+    public class Meta
     {
-        public int first_checkin_id { get; set; }
-        public string first_created_at { get; set; }
-        public int recent_checkin_id { get; set; }
-        public string recent_created_at { get; set; }
-        public string recent_created_at_timezone { get; set; }
-        public float rating_score { get; set; }
-        public string first_had { get; set; }
-        public int count { get; set; }
-        public Beer beer { get; set; }
-        public Brewery brewery { get; set; }
+
+        [JsonProperty("code")]
+        public int Code { get; set; }
+
+        [JsonProperty("response_time")]
+        public ResponseTime ResponseTime { get; set; }
+
+        [JsonProperty("init_time")]
+        public InitTime InitTime { get; set; }
     }
 
     public class Beer
     {
-        public int bid { get; set; }
-        public string beer_name { get; set; }
-        public string beer_label { get; set; }
-        public float beer_abv { get; set; }
-        public int beer_ibu { get; set; }
-        public string beer_slug { get; set; }
-        public string beer_style { get; set; }
-        public string beer_description { get; set; }
-        public string created_at { get; set; }
-        public float auth_rating { get; set; }
-        public bool wish_list { get; set; }
-        public float rating_score { get; set; }
-    }
 
-    public class Brewery
-    {
-        public int brewery_id { get; set; }
-        public string brewery_name { get; set; }
-        public string brewery_slug { get; set; }
-        public string brewery_label { get; set; }
-        public string country_name { get; set; }
-        public Contact contact { get; set; }
-        public Location location { get; set; }
-        public int brewery_active { get; set; }
+        [JsonProperty("bid")]
+        public int Bid { get; set; }
+
+        [JsonProperty("beer_name")]
+        public string BeerName { get; set; }
+
+        [JsonProperty("beer_label")]
+        public string BeerLabel { get; set; }
+
+        [JsonProperty("beer_abv")]
+        public double BeerAbv { get; set; }
+
+        [JsonProperty("beer_ibu")]
+        public int BeerIbu { get; set; }
+
+        [JsonProperty("beer_slug")]
+        public string BeerSlug { get; set; }
+
+        [JsonProperty("beer_style")]
+        public string BeerStyle { get; set; }
+
+        [JsonProperty("beer_description")]
+        public string BeerDescription { get; set; }
+
+        [JsonProperty("created_at")]
+        public string CreatedAt { get; set; }
+
+        [JsonProperty("auth_rating")]
+        public int AuthRating { get; set; }
+
+        [JsonProperty("wish_list")]
+        public bool WishList { get; set; }
+
+        [JsonProperty("rating_score")]
+        public double RatingScore { get; set; }
+
+        [JsonProperty("rating_count")]
+        public int RatingCount { get; set; }
     }
 
     public class Contact
     {
-        public string twitter { get; set; }
-        public string facebook { get; set; }
-        public string instagram { get; set; }
-        public string url { get; set; }
+
+        [JsonProperty("twitter")]
+        public string Twitter { get; set; }
+
+        [JsonProperty("facebook")]
+        public string Facebook { get; set; }
+
+        [JsonProperty("instagram")]
+        public string Instagram { get; set; }
+
+        [JsonProperty("url")]
+        public string Url { get; set; }
     }
 
     public class Location
     {
-        public string brewery_city { get; set; }
-        public string brewery_state { get; set; }
-        public float lat { get; set; }
-        public float lng { get; set; }
+
+        [JsonProperty("brewery_city")]
+        public string BreweryCity { get; set; }
+
+        [JsonProperty("brewery_state")]
+        public string BreweryState { get; set; }
+
+        [JsonProperty("lat")]
+        public double Lat { get; set; }
+
+        [JsonProperty("lng")]
+        public double Lng { get; set; }
+    }
+
+    public class Brewery
+    {
+
+        [JsonProperty("brewery_id")]
+        public int BreweryId { get; set; }
+
+        [JsonProperty("brewery_name")]
+        public string BreweryName { get; set; }
+
+        [JsonProperty("brewery_slug")]
+        public string BrewerySlug { get; set; }
+
+        [JsonProperty("brewery_label")]
+        public string BreweryLabel { get; set; }
+
+        [JsonProperty("country_name")]
+        public string CountryName { get; set; }
+
+        [JsonProperty("contact")]
+        public Contact Contact { get; set; }
+
+        [JsonProperty("location")]
+        public Location Location { get; set; }
+
+        [JsonProperty("brewery_active")]
+        public int BreweryActive { get; set; }
+    }
+
+    public class Item
+    {
+
+        [JsonProperty("first_checkin_id")]
+        public int FirstCheckinId { get; set; }
+
+        [JsonProperty("first_created_at")]
+        public string FirstCreatedAt { get; set; }
+
+        [JsonProperty("recent_checkin_id")]
+        public int RecentCheckinId { get; set; }
+
+        [JsonProperty("recent_created_at")]
+        public string RecentCreatedAt { get; set; }
+
+        [JsonProperty("recent_created_at_timezone")]
+        public string RecentCreatedAtTimezone { get; set; }
+
+        [JsonProperty("rating_score")]
+        public double RatingScore { get; set; }
+
+        [JsonProperty("first_had")]
+        public string FirstHad { get; set; }
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("beer")]
+        public Beer Beer { get; set; }
+
+        [JsonProperty("brewery")]
+        public Brewery Brewery { get; set; }
+    }
+
+    public class Beers
+    {
+
+        [JsonProperty("sort")]
+        public string Sort { get; set; }
+
+        [JsonProperty("sort_english")]
+        public string SortEnglish { get; set; }
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("items")]
+        public IList<Item> Items { get; set; }
+    }
+
+    public class Response
+    {
+
+        [JsonProperty("is_search")]
+        public bool IsSearch { get; set; }
+
+        [JsonProperty("beers")]
+        public Beers Beers { get; set; }
+    }
+
+    public class UserDistinctBeers : UnAuthenticatedRequest
+    {
+
+        [JsonProperty("meta")]
+        public Meta Meta { get; set; }
+
+        [JsonProperty("notifications")]
+        public IList<object> Notifications { get; set; }
+
+        [JsonProperty("response")]
+        public Response Response { get; set; }
+
+        protected override string _EndPoint
+        {
+            get { return "v4/user/beers/{0}"; }
+        }
     }
 
 }

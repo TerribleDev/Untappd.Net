@@ -3,64 +3,145 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using Untappd.Net.Request;
 
 namespace Untappd.Net.Responses.UserBadges
 {
 
-    public class UserBadgesRootobject : BaseRequest
+    public class ResponseTime
     {
-        public string type { get; set; }
-        public string sort { get; set; }
-        public int count { get; set; }
-        public Item[] items { get; set; }
-        protected override string _EndPoint { get { return "v4/user/badges/{0}"; } }
+
+        [JsonProperty("time")]
+        public double Time { get; set; }
+
+        [JsonProperty("measure")]
+        public string Measure { get; set; }
     }
 
-    public class Item
+    public class InitTime
     {
-        public int user_badge_id { get; set; }
-        public int badge_id { get; set; }
-        public int checkin_id { get; set; }
-        public string badge_name { get; set; }
-        public string badge_description { get; set; }
-        public int badge_active_status { get; set; }
-        public Media media { get; set; }
-        public string created_at { get; set; }
-        public bool is_level { get; set; }
-        public int category_id { get; set; }
-        public Levels levels { get; set; }
+
+        [JsonProperty("time")]
+        public double Time { get; set; }
+
+        [JsonProperty("measure")]
+        public string Measure { get; set; }
+    }
+
+    public class Meta
+    {
+
+        [JsonProperty("code")]
+        public int Code { get; set; }
+
+        [JsonProperty("response_time")]
+        public ResponseTime ResponseTime { get; set; }
+
+        [JsonProperty("init_time")]
+        public InitTime InitTime { get; set; }
     }
 
     public class Media
     {
-        public string badge_image_sm { get; set; }
-        public string badge_image_md { get; set; }
-        public string badge_image_lg { get; set; }
+
+        [JsonProperty("badge_image_sm")]
+        public string BadgeImageSm { get; set; }
+
+        [JsonProperty("badge_image_md")]
+        public string BadgeImageMd { get; set; }
+
+        [JsonProperty("badge_image_lg")]
+        public string BadgeImageLg { get; set; }
     }
 
-    public class Levels
+    public class BadgePackProgress
     {
-        public int count { get; set; }
-        public Item1[] items { get; set; }
+
+        [JsonProperty("completed")]
+        public int Completed { get; set; }
+
+        [JsonProperty("total")]
+        public int Total { get; set; }
     }
 
-    public class Item1
+    public class Item
     {
-        public int actual_badge_id { get; set; }
-        public int badge_id { get; set; }
-        public int checkin_id { get; set; }
-        public string badge_name { get; set; }
-        public string badge_description { get; set; }
-        public Media1 media { get; set; }
-        public string created_at { get; set; }
+
+        [JsonProperty("badge_id")]
+        public int BadgeId { get; set; }
+
+        [JsonProperty("user_badge_id")]
+        public int UserBadgeId { get; set; }
+
+        [JsonProperty("checkin_id")]
+        public int CheckinId { get; set; }
+
+        [JsonProperty("badge_name")]
+        public string BadgeName { get; set; }
+
+        [JsonProperty("badge_description")]
+        public string BadgeDescription { get; set; }
+
+        [JsonProperty("badge_hint")]
+        public string BadgeHint { get; set; }
+
+        [JsonProperty("badge_active_status")]
+        public int BadgeActiveStatus { get; set; }
+
+        [JsonProperty("media")]
+        public Media Media { get; set; }
+
+        [JsonProperty("created_at")]
+        public string CreatedAt { get; set; }
+
+        [JsonProperty("is_level")]
+        public bool IsLevel { get; set; }
+
+        [JsonProperty("category_id")]
+        public int CategoryId { get; set; }
+
+        [JsonProperty("levels")]
+        public object Levels { get; set; }
+
+        [JsonProperty("badge_pack")]
+        public int BadgePack { get; set; }
+
+        [JsonProperty("badge_pack_name")]
+        public bool BadgePackName { get; set; }
+
+        [JsonProperty("badge_pack_progress")]
+        public BadgePackProgress BadgePackProgress { get; set; }
     }
 
-    public class Media1
+    public class Response
     {
-        public string badge_image_sm { get; set; }
-        public string badge_image_md { get; set; }
-        public string badge_image_lg { get; set; }
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("sort")]
+        public string Sort { get; set; }
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("items")]
+        public IList<Item> Items { get; set; }
     }
+
+    public class UserBadges : UnAuthenticatedRequest
+    {
+        protected override string _EndPoint { get { return "v4/user/badges/{0}"; } }
+        [JsonProperty("meta")]
+        public Meta Meta { get; set; }
+
+        [JsonProperty("notifications")]
+        public IList<object> Notifications { get; set; }
+
+        [JsonProperty("response")]
+        public Response Response { get; set; }
+    }
+
 
 }

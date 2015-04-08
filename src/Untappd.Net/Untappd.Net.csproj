@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IUntappdCredentials.cs" />
     <Compile Include="Client\UnAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Request\AuthenticatedRequest.cs" />
-    <Compile Include="Request\BaseRequest.cs" />
+    <Compile Include="Request\UnAuthenticatedRequest.cs" />
     <Compile Include="Responses\BeerInfo.cs" />
     <Compile Include="Responses\BeerSearch.cs" />
     <Compile Include="Responses\BreweryInfo.cs" />

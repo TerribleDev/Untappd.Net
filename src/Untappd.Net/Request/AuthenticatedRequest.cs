@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace Untappd.Net.Request
 {
-    public abstract class AuthenticatedRequest : BaseRequest
+    public abstract class AuthenticatedRequest
     {
-        protected override abstract string _EndPoint { get; }
+        protected abstract string _EndPoint { get; }
+        /// <summary>
+        /// Pass in the parameter into the request...ie username, brewery, etc.
+        /// </summary>
+        /// <param name="parameter"></param>
+        /// <returns></returns>
+        internal string EndPoint(string parameter)
+        {
+            return string.Format(_EndPoint, parameter);
+        }
     }
 }
