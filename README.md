@@ -36,7 +36,8 @@ var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 ## TODO
 
 * Actually Make unit tests
-* Add authentication wrapper
+* Add authentication layer
 * Implement API calls that require authentication tokens
 * Coveralls?
 * Code Quality?
+* Exception Handling?
