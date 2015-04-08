@@ -21,3 +21,9 @@ var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 
 
 ```
+
+
+## Contributing
+
+* There are no special instructions, submit pull requests against the master branch.
+* Releases to nuget occur on successful master branch builds
