@@ -27,3 +27,11 @@ var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 
 * There are no special instructions, submit pull requests against the master branch.
 * Releases to nuget occur on successful master branch builds
+
+## TODO
+
+* Actually Make unit tests
+* Add authentication wrapper
+* Implement API calls that require authentication tokens
+* Coveralls?
+* Code Quality?
