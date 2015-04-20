@@ -34,12 +34,3 @@ var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 * There are no special instructions, submit pull requests against the master branch.
 * Releases to nuget occur on successful release branch builds.
  * The only reason I do not publish on master, is because sometimes commits can just contain readme files, or unit tests changes that do not affect the nuget package
-
-## TODO
-
-* Actually Make unit tests
-* Add authentication layer
-* Implement API calls that require authentication tokens
-* Coveralls?
-* Code Quality?
-* Exception Handling?
