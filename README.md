@@ -22,6 +22,7 @@ Note: Additional parameters can be passed into the Get Method with an IDictionar
 
 var ts = new UnAuthenticatedUntappdCredentials("key", "secret");
 var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
+ar t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 
 
 ```
