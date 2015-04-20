@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Untappd.Net.Client
 {
-    public class AuthenticatedUntappdCredentials : UnAuthenticatedUntappdCredentials
+    public sealed class AuthenticatedUntappdCredentials : UnAuthenticatedUntappdCredentials
     {
         internal string AccessToken { get; private set; }
         /// <summary>

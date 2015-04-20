@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Moq;
 using Newtonsoft.Json;
 using NUnit.Framework;
@@ -22,7 +18,7 @@ namespace Untappd.Net.UnitTests.Request
             var mockCreds = new Mock<IUntappdCredentials>();
             mockCreds.Setup(a => a.ClientId).Returns("id");
             mockCreds.Setup(a => a.ClientSecret).Returns("secret");
-            var bodyParam = new Dictionary<string, string>(){{"key", "value"}};
+            var bodyParam = new Dictionary<string, string> {{"key", "value"}};
             var client = new Mock<IRestClient>();
             var request = new Mock<IRestRequest>();
             request.Setup(a => a.AddParameter(It.IsAny<string>(), It.IsAny<string>()));
@@ -31,7 +27,7 @@ namespace Untappd.Net.UnitTests.Request
             var response = new Mock<IRestResponse>();
             var obj = JsonConvert.SerializeObject(new BeerInfo());
             response.Setup(a => a.Content).Returns(obj);
-            client.Setup((a) => a.Execute(It.IsAny<IRestRequest>())).Callback(() =>
+            client.Setup(a => a.Execute(It.IsAny<IRestRequest>())).Callback(() =>
             {
             }).Returns(response.Object);
             var repository = new Repository(client.Object, request.Object);
