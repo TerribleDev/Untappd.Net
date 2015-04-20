@@ -1,4 +1,4 @@
-version: 0.1.{build}
+version: 0.2.{build}
 configuration: Release
 assembly_info:
   patch: true
@@ -23,7 +23,7 @@ deploy:
   on:
     branch: release
 - provider: NuGet
-  server: https://www.myget.org/F/untappd-net/
+  server: https://www.myget.org/F/untappd-net/api/v2
   api_key:
     secure: wsN6BzH8ETiXhB9SndP57mHhivqM+CVnghI/+w5XE3bI8K092Z4V4FrJixcrxKnI
   on:
