@@ -1,17 +1,27 @@
-﻿using Newtonsoft.Json;
-using RestSharp;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Untappd.Client.Net;
+using Newtonsoft.Json;
+using RestSharp;
 using Untappd.Net.Client;
 
 namespace Untappd.Net.Request
 {
     public class Repository
     {
+        internal IRestClient Client;
+        internal IRestRequest Request;
+        public Repository()
+        {
+            Client = new RestClient(Constants.BaseRequestString);
+            Request = new RestRequest();
+        }
+
+        internal Repository(IRestClient client, IRestRequest request)
+        {
+            Client = client;
+            Request = request;
+        }
+
         /// <summary>
         /// Get the things!
         /// </summary>
@@ -23,18 +33,17 @@ namespace Untappd.Net.Request
         public TResult Get<TResult> (IUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
             where TResult : UnAuthenticatedRequest,new()
         {
-           // throw new NotImplementedException();
             var result = new TResult();
-            var client = new RestClient(Constants.BaseRequestString);
-            var request = new RestRequest(result.EndPoint(urlParameter), Method.GET);
-            request.AddParameter("client_id", credentials.ClientId);
-            request.AddParameter("client_secret", credentials.ClientSecret);
+            Request.Resource = result.EndPoint(urlParameter);
+            Request.Method = Method.GET;
+            Request.AddParameter("client_id", credentials.ClientId);
+            Request.AddParameter("client_secret", credentials.ClientSecret);
             if (bodyParameters != null)
                 foreach (var x in bodyParameters)
                 {
-                    request.AddParameter(x.Key, x.Value);
+                    Request.AddParameter(x.Key, x.Value);
                 }
-            var resp = client.Execute(request);
+            var resp = Client.Execute(Request);
             var jsonresult = JsonConvert.DeserializeObject<TResult>(resp.Content);
             return jsonresult;
 
