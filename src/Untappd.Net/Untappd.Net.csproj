@@ -51,6 +51,8 @@
     <Compile Include="Client\IUntappdCredentials.cs" />
     <Compile Include="Client\UnAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="Exception\BaseUntappdException.cs" />
+    <Compile Include="Exception\EndpointConfigurationException.cs" />
     <Compile Include="Request\AuthenticatedRequest.cs" />
     <Compile Include="Request\UnAuthenticatedRequest.cs" />
     <Compile Include="Responses\BeerInfo.cs" />
