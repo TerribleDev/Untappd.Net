@@ -1,5 +1,5 @@
-**Master:** [![Build status](https://ci.appveyor.com/api/projects/status/rfnpsdmrkjx4a6un/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
-**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/rfnpsdmrkjx4a6un/branch/release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/release)
+**Master:** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
+**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
 
 **Tips:** [![Shameless tip badge tips](https://img.shields.io/gratipay/TommyParnell.svg)](https://gratipay.com/TommyParnell)  
 # Untappd.Net
