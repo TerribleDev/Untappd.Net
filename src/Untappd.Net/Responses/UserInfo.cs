@@ -864,7 +864,7 @@ namespace Untappd.Net.Responses.UserInfo
         public User User { get; set; }
     }
 
-    public class UserInfo : UnAuthenticatedRequest
+    public class UserInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
         protected override string _EndPoint { get { return "v4/user/info{0}"; } }
 
@@ -877,5 +877,4 @@ namespace Untappd.Net.Responses.UserInfo
         [JsonProperty("response")]
         public Response Response { get; set; }
     }
-
 }

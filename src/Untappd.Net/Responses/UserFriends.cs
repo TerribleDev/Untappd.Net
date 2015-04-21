@@ -105,9 +105,10 @@ namespace Untappd.Net.Responses.UserFriends
         public IList<Item> Items { get; set; }
     }
 
-    public class UserFriends : UnAuthenticatedRequest
+    public class UserFriends : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/friends/{0}"; } }
+        protected override string _EndPoint { get { return "v4/user/friends{0}"; } }
+
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 

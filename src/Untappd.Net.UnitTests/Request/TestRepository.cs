@@ -15,7 +15,7 @@ namespace Untappd.Net.UnitTests.Request
         [Test]
         public void ConfirmRequestWorks()
         {
-            var mockCreds = new Mock<IUntappdCredentials>();
+            var mockCreds = new Mock<IUnAuthenticadedUntappdCredentials>();
             mockCreds.Setup(a => a.ClientId).Returns("id");
             mockCreds.Setup(a => a.ClientSecret).Returns("secret");
             var bodyParam = new Dictionary<string, string> {{"key", "value"}};

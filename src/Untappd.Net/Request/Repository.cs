@@ -31,7 +31,7 @@ namespace Untappd.Net.Request
         /// <param name="bodyParameters">Any additional params you wish to add to the request</param>
         /// <returns></returns>
         public TResult Get<TResult> (IUnAuthenticadedUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
-            where TResult : UnAuthenticatedRequest,new()
+            where TResult : IUnAuthenticatedRequest,new()
         {
             var result = new TResult();
             Request.Resource = result.EndPoint(urlParameter);
@@ -50,7 +50,7 @@ namespace Untappd.Net.Request
         }
 
         public TResult Get<TResult>(IAuthenticatedUntappdCredentials credentials, string parameter = "", IDictionary<string, string> bodyParameters = null)
-            where TResult : AuthenticatedRequest, new()
+            where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();
             var client = new RestClient(Constants.BaseRequestString);
