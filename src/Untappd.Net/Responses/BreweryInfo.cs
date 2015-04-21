@@ -176,7 +176,7 @@ namespace Untappd.Net.Responses.BreweryInfo
         public string BeerStyle { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }
@@ -364,7 +364,7 @@ namespace Untappd.Net.Responses.BreweryInfo
         public string BeerStyle { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }
@@ -764,7 +764,7 @@ namespace Untappd.Net.Responses.BreweryInfo
         public string CreatedAt { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }

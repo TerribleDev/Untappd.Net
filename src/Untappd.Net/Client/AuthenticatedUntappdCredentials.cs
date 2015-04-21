@@ -7,9 +7,9 @@ using Untappd.Client.Net;
 
 namespace Untappd.Net.Client
 {
-    public class AuthenticatedUntappdCredentials : UnAuthenticatedUntappdCredentials
+    public class AuthenticatedUntappdCredentials : UntappdCredentials, IAuthenticatedUntappdCredentials
     {
-        internal string AccessToken { get; private set; }
+        public string AccessToken { get; private set; }
         /// <summary>
         /// Pass your authenticated access token
         /// </summary>

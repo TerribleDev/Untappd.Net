@@ -73,7 +73,7 @@ namespace Untappd.Net.Responses.UserDistinctBeer
         public string CreatedAt { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }
@@ -195,6 +195,28 @@ namespace Untappd.Net.Responses.UserDistinctBeer
         public IList<Item> Items { get; set; }
     }
 
+    public class UnreadCount
+    {
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+        [JsonProperty("toasts")]
+        public int Toasts { get; set; }
+        [JsonProperty("friends")]
+        public int Friends { get; set; }
+        [JsonProperty("messages")]
+        public int Messages { get; set; }
+        [JsonProperty("news")]
+        public int news { get; set; }
+    }
+
+    public class Notifications
+    {
+        [JsonProperty("type")]
+        public string Type { get; set; }
+        [JsonProperty("unread_count")]
+        public UnreadCount UnreadCount { get; set; }
+    }
+
     public class Response
     {
 
@@ -207,20 +229,16 @@ namespace Untappd.Net.Responses.UserDistinctBeer
 
     public class UserDistinctBeers : UnAuthenticatedRequest
     {
+        protected override string _EndPoint { get { return "v4/user/beers{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
-        public IList<object> Notifications { get; set; }
+        public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
         public Response Response { get; set; }
-
-        protected override string _EndPoint
-        {
-            get { return "v4/user/beers/{0}"; }
-        }
     }
 
 }

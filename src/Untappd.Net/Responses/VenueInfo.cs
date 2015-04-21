@@ -196,7 +196,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public string BeerStyle { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }

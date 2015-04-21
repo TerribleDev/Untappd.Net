@@ -14,9 +14,14 @@ namespace Untappd.Net.Request
         /// </summary>
         /// <param name="parameter"></param>
         /// <returns></returns>
-        internal string EndPoint(string parameter)
+        internal string EndPoint(string parameter = "")
         {
-            return string.Format(_EndPoint, parameter);
+            if (!String.IsNullOrEmpty(parameter))
+            {
+                parameter = string.Format("/{0}", parameter);
+                return string.Format(_EndPoint, parameter);
+            }
+            return string.Format(_EndPoint, string.Empty);
         }
     }
 }

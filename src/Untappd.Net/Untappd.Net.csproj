@@ -48,8 +48,10 @@
   <ItemGroup>
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Client\IUnAuthenticadedUntappdCredentials.cs" />
     <Compile Include="Client\IUntappdCredentials.cs" />
     <Compile Include="Client\UnAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Client\UntappdCredentials.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Request\AuthenticatedRequest.cs" />
     <Compile Include="Request\UnAuthenticatedRequest.cs" />
