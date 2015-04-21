@@ -1,5 +1,5 @@
-**Master:** [![Build status](https://ci.appveyor.com/api/projects/status/rfnpsdmrkjx4a6un/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
-**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/rfnpsdmrkjx4a6un/branch/release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/release)
+**Master:** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
+**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
 
 **Tips:** [![Shameless tip badge tips](https://img.shields.io/gratipay/TommyParnell.svg)](https://gratipay.com/TommyParnell)  
 # Untappd.Net
@@ -22,7 +22,7 @@ Note: Additional parameters can be passed into the Get Method with an IDictionar
 
 var ts = new UnAuthenticatedUntappdCredentials("key", "secret");
 var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
-ar t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
+var t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 
 
 ```
@@ -31,7 +31,7 @@ ar t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 ## Contributing
 
 * Everyone is welcome to contribute!
-* If you are looking for something to do, look at the issues. 
+* If you are looking for something to do, look at the issues.
 * There are no special instructions, submit pull requests against the master branch.
 * Releases to nuget occur on successful release branch builds.
  * The only reason I do not publish on master, is because sometimes commits can just contain readme files, or unit tests changes that do not affect the nuget package
