@@ -31,6 +31,12 @@ namespace Untappd.Net.Responses.UserInfo
         [JsonProperty("code")]
         public int Code { get; set; }
 
+        [JsonProperty("error_detail")]
+        public string ErrorDetail { get; set; }
+
+        [JsonProperty("error_type")]
+        public string ErrorType { get; set; }
+
         [JsonProperty("response_time")]
         public ResponseTime ResponseTime { get; set; }
 
@@ -240,7 +246,7 @@ namespace Untappd.Net.Responses.UserInfo
         public double BeerAbv { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }
@@ -718,6 +724,41 @@ namespace Untappd.Net.Responses.UserInfo
         public string Twitter { get; set; }
     }
 
+    public class Badge
+    {
+        [JsonProperty("badges_to_facebook")]
+        public int BadgesToFacebook { get; set; }
+        [JsonProperty("badges_to_twitter")]
+        public int BadgesToTwitter { get; set; }
+    }
+
+    public class Checkin
+    {
+        [JsonProperty("checkin_to_facebook")]
+        public int CheckinToFacebook { get; set; }
+        [JsonProperty("checkin_to_twitter")]
+        public int CheckinToTwitter { get; set; }
+        [JsonProperty("checkin_to_foursquare")]
+        public int CheckinToFoursquare { get; set; }
+    }
+
+    public class Navigation
+    {
+        [JsonProperty("default_to_checkin")]
+        public int DefaultToCheckin { get; set; }
+    }
+
+    public class Settings
+    {
+        [JsonProperty("badge")]
+        public Badge Badge { get; set; }
+        [JsonProperty("checkin")]
+        public Checkin Checkin { get; set; }
+        [JsonProperty("navigation")]
+        public Navigation Navigation { get; set; }
+        [JsonProperty("email_address")]
+        public string EmailAddress { get; set; }
+    }
     public class User
     {
 
@@ -791,7 +832,29 @@ namespace Untappd.Net.Responses.UserInfo
         public string DateJoined { get; set; }
 
         [JsonProperty("settings")]
-        public IList<object> Settings { get; set; }
+        public Settings Settings { get; set; }
+    }
+
+    public class UnreadCount
+    {
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+        [JsonProperty("toasts")]
+        public int Toasts { get; set; }
+        [JsonProperty("friends")]
+        public int Friends { get; set; }
+        [JsonProperty("messages")]
+        public int Messages { get; set; }
+        [JsonProperty("news")]
+        public int news { get; set; }
+    }
+
+    public class Notifications
+    {
+        [JsonProperty("type")]
+        public string Type { get; set; }
+        [JsonProperty("unread_count")]
+        public UnreadCount UnreadCount { get; set; }
     }
 
     public class Response
@@ -801,17 +864,17 @@ namespace Untappd.Net.Responses.UserInfo
         public User User { get; set; }
     }
 
-    public class UserInfo : UnAuthenticatedRequest
+    public class UserInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/info/{0}"; } }
+        protected override string _EndPoint { get { return "v4/user/info{0}"; } }
+
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
-        public IList<object> Notifications { get; set; }
+        public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
         public Response Response { get; set; }
     }
-
 }

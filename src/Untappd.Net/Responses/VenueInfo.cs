@@ -192,7 +192,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public string BeerStyle { get; set; }
 
         [JsonProperty("auth_rating")]
-        public int AuthRating { get; set; }
+        public double AuthRating { get; set; }
 
         [JsonProperty("wish_list")]
         public bool WishList { get; set; }
@@ -554,8 +554,10 @@ namespace Untappd.Net.Responses.VenueInfo
         public Venue Venue { get; set; }
     }
 
-    public class VenueInfo : UnAuthenticatedRequest
+    public class VenueInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
+        protected override string _EndPoint { get { return "v4/venue/info{0}"; }
+        }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
@@ -565,11 +567,5 @@ namespace Untappd.Net.Responses.VenueInfo
 
         [JsonProperty("response")]
         public Response Response { get; set; }
-
-        protected override string _EndPoint
-        {
-            get { return "v4/venue/info/{0}"; }
-        }
     }
-
 }

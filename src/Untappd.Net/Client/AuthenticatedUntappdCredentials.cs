@@ -2,9 +2,9 @@
 
 namespace Untappd.Net.Client
 {
-    public sealed class AuthenticatedUntappdCredentials : UnAuthenticatedUntappdCredentials
+    public class AuthenticatedUntappdCredentials : UntappdCredentials, IAuthenticatedUntappdCredentials
     {
-        internal string AccessToken { get; private set; }
+        public string AccessToken { get; private set; }
         /// <summary>
         /// Pass your authenticated access token
         /// </summary>
