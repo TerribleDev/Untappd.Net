@@ -223,7 +223,7 @@ namespace Untappd.Net.Responses.UserDistinctBeer
         public Beers Beers { get; set; }
     }
 
-    public class UserDistinctBeers : UnAuthenticatedRequest
+    public class UserDistinctBeers : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
         protected override string _EndPoint { get { return "v4/user/beers{0}"; } }
 

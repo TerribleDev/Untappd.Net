@@ -2,7 +2,7 @@
 
 namespace Untappd.Net.Client
 {
-    public class AuthenticatedUntappdCredentials : UnAuthenticatedUntappdCredentials
+    public class AuthenticatedUntappdCredentials : UntappdCredentials, IAuthenticatedUntappdCredentials
     {
         public string AccessToken { get; private set; }
         /// <summary>

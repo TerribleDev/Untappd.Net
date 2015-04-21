@@ -33,5 +33,6 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("0.2.*")]
-[assembly: AssemblyFileVersion("0.2.*")]
+//If AssemblyFileVersion is not explicitly set, it takes its value from the AssemblyVersion attribute. 
+//[assembly: AssemblyFileVersion("0.2.*")]
 [assembly: InternalsVisibleTo("Untappd.Net.UnitTests")]

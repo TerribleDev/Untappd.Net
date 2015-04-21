@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Untappd.Net.Request
 {
-    public abstract class AuthenticatedRequest
+    public abstract class BasicRequest
     {
         protected abstract string _EndPoint { get; }
         /// <summary>
@@ -14,7 +9,7 @@ namespace Untappd.Net.Request
         /// </summary>
         /// <param name="parameter"></param>
         /// <returns></returns>
-        internal string EndPoint(string parameter = "")
+        public string EndPoint(string parameter = "")
         {
             if (!String.IsNullOrEmpty(parameter))
             {

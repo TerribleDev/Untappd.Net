@@ -388,9 +388,10 @@ namespace Untappd.Net.Responses.BeerSearch
         public Breweries Breweries { get; set; }
     }
 
-    public class BeerSearch : UnAuthenticatedRequest
+    public class BeerSearch : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-
+        protected override string _EndPoint { get { return "v4/search/beer"; }
+        }
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
@@ -399,11 +400,5 @@ namespace Untappd.Net.Responses.BeerSearch
 
         [JsonProperty("response")]
         public Response Response { get; set; }
-
-        protected override string _EndPoint
-        {
-            get { return "v4/search/beer"; }
-        }
     }
-
 }

@@ -64,9 +64,9 @@ namespace Untappd.Net.Responses.UserWishlist
         public Beers Beers { get; set; }
     }
 
-    public class UserWishList : UnAuthenticatedRequest
+    public class UserWishList : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "/v4/user/wishlist/{0}"; } }
+        protected override string _EndPoint { get { return "/v4/user/wishlist{0}"; } }
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
@@ -76,6 +76,4 @@ namespace Untappd.Net.Responses.UserWishlist
         [JsonProperty("response")]
         public Response Response { get; set; }
     }
-
-
 }
