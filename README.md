@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/tparnell8/untappd.net.png?label=ready&title=Ready)](https://waffle.io/tparnell8/untappd.net)
 **Master:** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
 **Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
 
