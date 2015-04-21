@@ -4,6 +4,7 @@ using Untappd.Net.Client;
 using Untappd.Net.Request;
 using UserInfo = Untappd.Net.Responses.UserInfo;
 using ActivityFeed = Untappd.Net.Responses.Feeds.ActivityFeed;
+using UserActivityFeed = Untappd.Net.Responses.Feeds.UserActivityFeed;
 
 namespace Untappd.Net.UnitTests
 {
@@ -21,6 +22,7 @@ namespace Untappd.Net.UnitTests
         }
 
         [Test]
+        [Ignore]
         public void GetActualJsonRequest()
         {
             var credentials = new AuthenticatedUntappdCredentials(
@@ -29,7 +31,7 @@ namespace Untappd.Net.UnitTests
                 "");
 
             var repo = new Repository();
-            var activityFeed = repo.Get<ActivityFeed.ActivityFeed>(credentials);
+            var activityFeed = repo.Get<UserActivityFeed.UserActivityFeed>(credentials);
 
         }
     }
