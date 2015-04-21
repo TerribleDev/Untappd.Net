@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Untappd.Net.Client;
 
-namespace Untappd.Client.Net
+namespace Untappd.Net.Client
 {
     public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticadedUntappdCredentials
     {

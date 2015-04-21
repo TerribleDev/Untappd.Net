@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Untappd.Net.Exception;
 
 namespace Untappd.Net.Request
 {
@@ -10,18 +6,17 @@ namespace Untappd.Net.Request
     {
         protected abstract string _EndPoint { get; }
         /// <summary>
-        /// Pass in the parameter into the request...ie username, brewery, etc.
+        /// Pass in the url parameter into the request...ie username, brewery, etc.
         /// </summary>
-        /// <param name="parameter"></param>
+        /// <param name="parameter">this can be null if request has no url params</param>
         /// <returns></returns>
-        internal string EndPoint(string parameter = "")
+        internal string EndPoint(string parameter)
         {
-            if (!String.IsNullOrEmpty(parameter))
+            if (string.IsNullOrWhiteSpace(_EndPoint))
             {
-                parameter = string.Format("/{0}", parameter);
-                return string.Format(_EndPoint, parameter);
+                throw new EndpointConfigurationException();
             }
-            return string.Format(_EndPoint, string.Empty);
+            return string.Format(_EndPoint, parameter);
         }
     }
 }
