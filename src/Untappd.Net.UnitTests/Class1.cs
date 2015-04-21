@@ -2,7 +2,9 @@
 using NUnit.Framework;
 using Untappd.Net.Client;
 using Untappd.Net.Request;
-using Untappd.Net.Responses.UserInfo;
+using UserInfo = Untappd.Net.Responses.UserInfo;
+using ActivityFeed = Untappd.Net.Responses.Feeds.ActivityFeed;
+using UserActivityFeed = Untappd.Net.Responses.Feeds.UserActivityFeed;
 
 namespace Untappd.Net.UnitTests
 {
@@ -15,8 +17,22 @@ namespace Untappd.Net.UnitTests
         {
 
             var ts = new UnAuthenticatedUntappdCredentials("id", "scrt");
-            var t = new Repository().Get<UserInfo>(ts, "tparnell");
+            var t = new Repository().Get<UserInfo.UserInfo>(ts, "tparnell");
             Console.WriteLine(t);
+        }
+
+        [Test]
+        [Ignore]
+        public void GetActualJsonRequest()
+        {
+            var credentials = new AuthenticatedUntappdCredentials(
+                "",
+                "",
+                "");
+
+            var repo = new Repository();
+            var activityFeed = repo.Get<UserActivityFeed.UserActivityFeed>(credentials);
+
         }
     }
 }

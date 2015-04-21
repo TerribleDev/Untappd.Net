@@ -126,9 +126,10 @@ namespace Untappd.Net.Responses.UserBadges
         public IList<Item> Items { get; set; }
     }
 
-    public class UserBadges : UnAuthenticatedRequest
+    public class UserBadges : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/badges/{0}"; } }
+        protected override string _EndPoint { get { return "v4/user/badges{0}"; } }
+
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
@@ -138,6 +139,4 @@ namespace Untappd.Net.Responses.UserBadges
         [JsonProperty("response")]
         public Response Response { get; set; }
     }
-
-
 }

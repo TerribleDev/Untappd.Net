@@ -48,17 +48,22 @@
   <ItemGroup>
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Client\IUnAuthenticadedUntappdCredentials.cs" />
     <Compile Include="Client\IUntappdCredentials.cs" />
     <Compile Include="Client\UnAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Client\UntappdCredentials.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Exception\BaseUntappdException.cs" />
     <Compile Include="Exception\EndpointConfigurationException.cs" />
-    <Compile Include="Request\AuthenticatedRequest.cs" />
-    <Compile Include="Request\UnAuthenticatedRequest.cs" />
+    <Compile Include="Request\IAuthenticatedRequest.cs" />
+    <Compile Include="Request\IRequest.cs" />
+    <Compile Include="Request\BasicRequest.cs" />
+    <Compile Include="Request\IUnAuthenticatedRequest.cs" />
     <Compile Include="Responses\BeerInfo.cs" />
     <Compile Include="Responses\BeerSearch.cs" />
     <Compile Include="Responses\BreweryInfo.cs" />
     <Compile Include="Responses\BrewerySearch.cs" />
+    <Compile Include="Responses\Feeds\ActivityFeed.cs" />
     <Compile Include="Responses\Feeds\UserActivityFeed.cs" />
     <Compile Include="Responses\UserBadges.cs" />
     <Compile Include="Responses\UserDistinctBeer.cs" />
@@ -71,6 +76,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Responses\Actions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
