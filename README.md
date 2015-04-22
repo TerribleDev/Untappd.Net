@@ -13,10 +13,13 @@ This is a c# wrapper around the Untappd API. This can be downloaded via [Nuget](
 ## API Coverage
 
 Current both Authenticated and Unauthenticated requests.
+
 More info: https://untappd.com/api/docs
 
 For Authenticated requests, you should already have a valid token, provided via OAuth authentication.
+
 Such authentication can be achieved using Owin OAuth Providers for ASP.NET Web Applications, which already have an Untappd provider.
+
 More info: https://github.com/RockstarLabs/OwinOAuthProviders
 
 ## How do I use?
