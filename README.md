@@ -1,15 +1,26 @@
 **Master:** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
-**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
+**Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/Release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
+**Code Coverage:** [![Coverage Status](https://coveralls.io/repos/tparnell8/Untappd.Net/badge.svg?branch=master)](https://coveralls.io/r/tparnell8/Untappd.Net?branch=master)
 
-**Tips:** [![Shameless tip badge tips](https://img.shields.io/gratipay/TommyParnell.svg)](https://gratipay.com/TommyParnell)  
+**Kanban** [![Stories in Ready](https://badge.waffle.io/tparnell8/untappd.net.png?label=ready&title=Ready)](https://waffle.io/tparnell8/untappd.net)
+
+**Tips:** [![Shameless tip badge tips](https://img.shields.io/gratipay/TommyParnell.svg)](https://gratipay.com/TommyParnell)
+**Chat:** [![Join the chat at https://gitter.im/tparnell8/Untappd.Net](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tparnell8/Untappd.Net?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # Untappd.Net
 
 This is a c# wrapper around the Untappd API. This can be downloaded via [Nuget](https://www.nuget.org/packages/Untappd.Net/), or the [backup feed](https://www.myget.org/F/untappd-net/api/v2).
 
-## Coverage
+## API Coverage
 
-So far only the Requests that do not require user tokens have been implemented
+Current both Authenticated and Unauthenticated requests.
 
+More info: https://untappd.com/api/docs
+
+For Authenticated requests, you should already have a valid token, provided via OAuth authentication.
+
+Such authentication can be achieved using Owin OAuth Providers for ASP.NET Web Applications, which already have an Untappd provider.
+
+More info: https://github.com/RockstarLabs/OwinOAuthProviders
 
 ## How do I use?
 
@@ -24,9 +35,16 @@ var ts = new UnAuthenticatedUntappdCredentials("key", "secret");
 var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 var t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 
-
 ```
 
+For Authenticated requests:
+
+```csharp
+
+var ts = new AuthenticatedUntappdCredentials("token", "key", "secret");
+var t = new Repository().Get<ActivityFeed>(ts);
+
+```
 
 ## Contributing
 
@@ -35,3 +53,7 @@ var t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 * There are no special instructions, submit pull requests against the master branch.
 * Releases to nuget occur on successful release branch builds.
  * The only reason I do not publish on master, is because sometimes commits can just contain readme files, or unit tests changes that do not affect the nuget package
+
+Current contributors:
+* Tommy James Parnell (https://github.com/tparnell8)
+* Rodrigo P Reis (https://github.com/rodkings)

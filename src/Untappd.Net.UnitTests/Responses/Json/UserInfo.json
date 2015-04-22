@@ -1,0 +1,2733 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.233,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.011,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "user": {
+            "uid": 950704,
+            "id": 950704,
+            "user_name": "rodrigountappd",
+            "first_name": "Rodrigo",
+            "last_name": "R.",
+            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+            "user_avatar_hd": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_300x300.jpg",
+            "user_cover_photo": "https:\/\/untappd.s3.amazonaws.com\/site\/assets\/v3\/images\/cover_default.jpg",
+            "user_cover_photo_offset": 0,
+            "is_private": 0,
+            "location": "Calgary, AB",
+            "url": "",
+            "bio": "Drink hard.",
+            "is_supporter": 0,
+            "relationship": "self",
+            "untappd_url": "http:\/\/untappd.com\/user\/rodrigountappd",
+            "account_type": "user",
+            "stats": {
+                "total_badges": 384,
+                "total_friends": 36,
+                "total_checkins": 804,
+                "total_beers": 716,
+                "total_created_beers": 4,
+                "total_followings": 64,
+                "total_photos": 527
+            },
+            "recent_brews": {
+                "count": 5,
+                "items": [
+                    {
+                        "beer": {
+                            "bid": 49197,
+                            "beer_name": "Spark House Red Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_49197_b260c1bf7a49c95259091ae2ed13.jpeg",
+                            "beer_abv": 5,
+                            "beer_description": "Our take on a traditional Quebecois style of beer. In response to customer requests for a darker beer than our popular Pale Ale, we have come up with a flavourful blend of dark roasted malts and spicy hops for an unforgettably smooth and aromatic drinking experience!",
+                            "beer_style": "American Amber \/ Red Ale",
+                            "auth_rating": 1.5,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 1685,
+                            "brewery_name": "Lake of Bays Brewing Company",
+                            "brewery_slug": "lake-of-bays-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-LakeofBaysBrewingCompany_1685.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "LB_Brewing",
+                                "facebook": "http:\/\/www.facebook.com\/LoBBrewery",
+                                "instagram": "",
+                                "url": "http:\/\/lakeofbaysbrewing.ca"
+                            },
+                            "location": {
+                                "brewery_city": "Baysville",
+                                "brewery_state": "ON",
+                                "lat": 45.1721,
+                                "lng": -78.9955
+                            },
+                            "brewery_active": 1
+                        }
+                    },
+                    {
+                        "beer": {
+                            "bid": 397375,
+                            "beer_name": "He'Brew Death Of A Contract Brewer",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_397375_sm_395c08feb96f59de5d7939f949b7b7.jpeg",
+                            "beer_abv": 7,
+                            "beer_description": "Coming into 17 years of beer, and Year with our own Brewery, we commemorate this conversio with Death Of A Contract Brewer, our Shmaltz homage to new life — L’Chaim!",
+                            "beer_style": "Black IPA \/ Cascadian Dark Ale",
+                            "auth_rating": 4,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 1137,
+                            "brewery_name": "Shmaltz Brewing Company",
+                            "brewery_slug": "shmaltz-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-1137_fc8ae.jpeg",
+                            "country_name": "United States",
+                            "contact": {
+                                "twitter": "ShmaltzBrewing",
+                                "facebook": "http:\/\/www.facebook.com\/ShmaltzBrewing",
+                                "instagram": "shmaltzbrewing",
+                                "url": "http:\/\/www.shmaltzbrewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Clifton Park",
+                                "brewery_state": "NY",
+                                "lat": 42.9014,
+                                "lng": -73.7914
+                            },
+                            "brewery_active": 1
+                        }
+                    },
+                    {
+                        "beer": {
+                            "bid": 6760,
+                            "beer_name": "St. Bernardus Abt 12",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-stbernardusApt12.jpg",
+                            "beer_abv": 10,
+                            "beer_description": "The St.Bernardus Abt 12 is the pride of our stable, the nec plus ultra of our brewery. Abbey ale brewed in the classic 'Quadrupel' style of Belgium's best Abbey Ales. Dark with a full, ivory-colored head. It has a fruity aroma, full of complex flavours and excells because of its long bittersweet finish with a hoppy bite. (10,0% ABV) Worldwide seen as one of the best beers in the world. It's a very balanced beer, with a full-bodied taste and a perfect equilibrium between malty, bitter and sweet. One of the original recipes from the days of license-brewing for the Trappist monks of Westvleteren ",
+                            "beer_style": "Belgian Quad",
+                            "auth_rating": 4,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 296,
+                            "brewery_name": "Brouwerij St. Bernardus",
+                            "brewery_slug": "brouwerij-st-bernardus",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrouwerijStBernardus_296.jpeg",
+                            "country_name": "Belgium",
+                            "contact": {
+                                "twitter": "",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.sintbernardus.be"
+                            },
+                            "location": {
+                                "brewery_city": "8978 Watou",
+                                "brewery_state": "",
+                                "lat": 50.841,
+                                "lng": 2.63944
+                            },
+                            "brewery_active": 1
+                        }
+                    },
+                    {
+                        "beer": {
+                            "bid": 487,
+                            "beer_name": "Westmalle Trappist Tripel",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-WestmalleTrappistTripel_487.jpeg",
+                            "beer_abv": 9.5,
+                            "beer_description": "Was first brewed in 1934 and the recipe has not changed since 1956. It is made with pale candy sugar and has a very pale color produced from a mash of light pilsener malts. Styrian Goldings hops are used along with some German varieties and the classic Saaz pilsener hop. After a long secondary fermentation, the Tripel Westmalle is bottled with a dose of sugar and yeast. This beer holds up well in the bottle over time and seems to soften with age.",
+                            "beer_style": "Belgian Tripel",
+                            "auth_rating": 4,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 262,
+                            "brewery_name": "Brouwerij der Trappisten van Westmalle",
+                            "brewery_slug": "brouwerij-der-trappisten-van-westmalle",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-262_06c72.jpeg",
+                            "country_name": "Belgium",
+                            "contact": {
+                                "twitter": "AbbeyWestmalle",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.trappistwestmalle.be"
+                            },
+                            "location": {
+                                "brewery_city": "2390 Malle",
+                                "brewery_state": "Antwerpen",
+                                "lat": 51.2852,
+                                "lng": 4.65889
+                            },
+                            "brewery_active": 1
+                        }
+                    },
+                    {
+                        "beer": {
+                            "bid": 81525,
+                            "beer_name": "Solstice d'Eté (Framboise)",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-81517_db1b1_sm.jpeg",
+                            "beer_abv": 5.9,
+                            "beer_description": "Bière de blé sûre brassée avec des framboises.\n\nL’acidité évidente et dominante de la Solstice d'Eté est obtenue naturellement en laissant surir le moût non bouilli durant quelques jours. Elle est complétée par l’ajout durant la fermentation d’une quantité phénoménale de fruits entiers. Il en résulte une bière très rafraîchissante dans laquelle l’acidité et le fruit utilisé dominent sans partage.\n\nLa Solstice d'Eté n'est brassée qu'une seule fois par année, pour être vendue en juin jusqu'à épuisement des stocks.",
+                            "beer_style": "Berliner Weisse",
+                            "auth_rating": 4.5,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 1674,
+                            "brewery_name": "Brasserie Dieu du Ciel",
+                            "brewery_slug": "brasserie-dieu-du-ciel",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrasserieDieuDuCiel_1674.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Brasseries_DDC",
+                                "facebook": "http:\/\/www.facebook.com\/pages\/Brasserie-Dieu-du-Ciel-la-page-officielle\/104295439644026",
+                                "instagram": "",
+                                "url": "http:\/\/dieuduciel.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "St-Jérôme",
+                                "brewery_state": "QC",
+                                "lat": 45.7752,
+                                "lng": -74.0016
+                            },
+                            "brewery_active": 1
+                        }
+                    }
+                ]
+            },
+            "checkins": {
+                "count": 15,
+                "items": [
+                    {
+                        "checkin_id": 175116586,
+                        "created_at": "Wed, 22 Apr 2015 02:26:50 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 1.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 49197,
+                            "beer_name": "Spark House Red Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_49197_b260c1bf7a49c95259091ae2ed13.jpeg",
+                            "beer_style": "American Amber \/ Red Ale",
+                            "beer_abv": 5,
+                            "auth_rating": 1.5,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 1685,
+                            "brewery_name": "Lake of Bays Brewing Company",
+                            "brewery_slug": "lake-of-bays-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-LakeofBaysBrewingCompany_1685.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "LB_Brewing",
+                                "facebook": "http:\/\/www.facebook.com\/LoBBrewery",
+                                "instagram": "",
+                                "url": "http:\/\/lakeofbaysbrewing.ca"
+                            },
+                            "location": {
+                                "brewery_city": "Baysville",
+                                "brewery_state": "ON",
+                                "lat": 45.1721,
+                                "lng": -78.9955
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 36061651,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 174663105,
+                        "created_at": "Sun, 19 Apr 2015 23:49:02 +0000",
+                        "checkin_comment": "Black IPA do amor",
+                        "rating_score": 4,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 397375,
+                            "beer_name": "He'Brew Death Of A Contract Brewer",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_397375_sm_395c08feb96f59de5d7939f949b7b7.jpeg",
+                            "beer_style": "Black IPA \/ Cascadian Dark Ale",
+                            "beer_abv": 7,
+                            "auth_rating": 4,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 1137,
+                            "brewery_name": "Shmaltz Brewing Company",
+                            "brewery_slug": "shmaltz-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-1137_fc8ae.jpeg",
+                            "country_name": "United States",
+                            "contact": {
+                                "twitter": "ShmaltzBrewing",
+                                "facebook": "http:\/\/www.facebook.com\/ShmaltzBrewing",
+                                "instagram": "shmaltzbrewing",
+                                "url": "http:\/\/www.shmaltzbrewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Clifton Park",
+                                "brewery_state": "NY",
+                                "lat": 42.9014,
+                                "lng": -73.7914
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35932589,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "badge_id": 2621,
+                                    "user_badge_id": 54939740,
+                                    "badge_name": "I Believe in IPA!  (Level 35)",
+                                    "badge_description": "We believe in IPA and you should too. You certainly have a taste for the hops! That's 175 different IPAs. Try 5 more for Level 36!",
+                                    "created_at": "Sun, 19 Apr 2015 23:49:03 +0000",
+                                    "badge_image": {
+                                        "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_hoptopia_sm.jpg",
+                                        "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_hoptopia_md.jpg",
+                                        "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_hoptopia_lg.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173954362,
+                        "created_at": "Sat, 18 Apr 2015 17:48:41 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 4,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 6760,
+                            "beer_name": "St. Bernardus Abt 12",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-stbernardusApt12.jpg",
+                            "beer_style": "Belgian Quad",
+                            "beer_abv": 10,
+                            "auth_rating": 4,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 296,
+                            "brewery_name": "Brouwerij St. Bernardus",
+                            "brewery_slug": "brouwerij-st-bernardus",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrouwerijStBernardus_296.jpeg",
+                            "country_name": "Belgium",
+                            "contact": {
+                                "twitter": "",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.sintbernardus.be"
+                            },
+                            "location": {
+                                "brewery_city": "8978 Watou",
+                                "brewery_state": "",
+                                "lat": 50.841,
+                                "lng": 2.63944
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35740926,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "badge_id": 3458,
+                                    "user_badge_id": 54686732,
+                                    "badge_name": "Dubbel, Tripel and Quad Oh My!",
+                                    "badge_description": "Dubbel, Tripel, or Quad, you can’t go wrong with these amazing feats of Belgian style brewing. Whether you’re looking for something light and golden or dark and boozy, one of these will do the trick! That's 5 different beers with the style of Dubbel, Tripel or Quad! Try 5 more for Level 2!",
+                                    "created_at": "Sat, 18 Apr 2015 17:48:42 +0000",
+                                    "badge_image": {
+                                        "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_sm.jpg",
+                                        "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_md.jpg",
+                                        "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_lg.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173850785,
+                        "created_at": "Sat, 18 Apr 2015 05:46:26 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 3.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 487,
+                            "beer_name": "Westmalle Trappist Tripel",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-WestmalleTrappistTripel_487.jpeg",
+                            "beer_style": "Belgian Tripel",
+                            "beer_abv": 9.5,
+                            "auth_rating": 4,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 262,
+                            "brewery_name": "Brouwerij der Trappisten van Westmalle",
+                            "brewery_slug": "brouwerij-der-trappisten-van-westmalle",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-262_06c72.jpeg",
+                            "country_name": "Belgium",
+                            "contact": {
+                                "twitter": "AbbeyWestmalle",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.trappistwestmalle.be"
+                            },
+                            "location": {
+                                "brewery_city": "2390 Malle",
+                                "brewery_state": "Antwerpen",
+                                "lat": 51.2852,
+                                "lng": 4.65889
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35706460,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173849182,
+                        "created_at": "Sat, 18 Apr 2015 05:37:28 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 4.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 81525,
+                            "beer_name": "Solstice d'Eté (Framboise)",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-81517_db1b1_sm.jpeg",
+                            "beer_style": "Berliner Weisse",
+                            "beer_abv": 5.9,
+                            "auth_rating": 4.5,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 1674,
+                            "brewery_name": "Brasserie Dieu du Ciel",
+                            "brewery_slug": "brasserie-dieu-du-ciel",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrasserieDieuDuCiel_1674.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Brasseries_DDC",
+                                "facebook": "http:\/\/www.facebook.com\/pages\/Brasserie-Dieu-du-Ciel-la-page-officielle\/104295439644026",
+                                "instagram": "",
+                                "url": "http:\/\/dieuduciel.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "St-Jérôme",
+                                "brewery_state": "QC",
+                                "lat": 45.7752,
+                                "lng": -74.0016
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 1,
+                            "count": 1,
+                            "auth_toast": false,
+                            "items": [
+                                {
+                                    "uid": 217409,
+                                    "user": {
+                                        "uid": 217409,
+                                        "user_name": "amrf",
+                                        "first_name": "Antonio",
+                                        "last_name": "MR",
+                                        "bio": "Paraná - Brasil\nInstagram: amrfcwb",
+                                        "location": "Brazil - PR",
+                                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/3ff610ed8593b2ed9c57e9c666f80cb5_100x100.jpg",
+                                        "user_link": "https:\/\/untappd.com\/user\/amrf",
+                                        "account_type": "user",
+                                        "brewery_details": [
+                                        ]
+                                    },
+                                    "like_id": 101277216,
+                                    "like_owner": false,
+                                    "created_at": "Sat, 18 Apr 2015 13:37:44 +0000"
+                                }
+                            ]
+                        },
+                        "media": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173767336,
+                        "created_at": "Sat, 18 Apr 2015 02:20:14 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 3.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1022386,
+                            "beer_name": "Brews Brothers Smokestack Lightning India Pale Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "American IPA",
+                            "beer_abv": 7,
+                            "auth_rating": 3.5,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173762870,
+                        "created_at": "Sat, 18 Apr 2015 02:13:38 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 3.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1023097,
+                            "beer_name": "Brews Brothers One Bourbon. One Scotch. One Beer Barrel Aged Smoked Scotch Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "Scotch Ale \/ Wee Heavy",
+                            "beer_abv": 8.5,
+                            "auth_rating": 3.5,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35686070,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173724799,
+                        "created_at": "Sat, 18 Apr 2015 01:22:40 +0000",
+                        "checkin_comment": "niceee",
+                        "rating_score": 4,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1022561,
+                            "beer_name": "Brews Brothers Hound Dog Belgian India Pale Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "Belgian IPA",
+                            "beer_abv": 6,
+                            "auth_rating": 4,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "badge_id": 1894,
+                                    "user_badge_id": 54602642,
+                                    "badge_name": "The Great White North  (Level 28)",
+                                    "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 140 different beers from a brewery in Canada! Try 5 more for Level 29.",
+                                    "created_at": "Sat, 18 Apr 2015 01:22:41 +0000",
+                                    "badge_image": {
+                                        "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                        "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                        "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173722187,
+                        "created_at": "Sat, 18 Apr 2015 01:19:36 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 3,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1024149,
+                            "beer_name": "Brews Brothers Backdoor Man Basil India Pale Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "American IPA",
+                            "beer_abv": 6.5,
+                            "auth_rating": 3,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35674570,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/5ff89286e3079534d685abe94791a616_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/5ff89286e3079534d685abe94791a616_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/5ff89286e3079534d685abe94791a616_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/5ff89286e3079534d685abe94791a616_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "badge_id": 3408,
+                                    "user_badge_id": 54601634,
+                                    "badge_name": "Better Together",
+                                    "badge_description": "What happens when you take two or more amazing breweries, throw them into the tank and let them ferment together? An amazing collaboration beer, that’s what! Cheers to working together to create the perfect flavor. That's 5 different beers that been brewed as a collboration. Try 5 more for Level 2!",
+                                    "created_at": "Sat, 18 Apr 2015 01:19:37 +0000",
+                                    "badge_image": {
+                                        "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_sm.jpg",
+                                        "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_md.jpg",
+                                        "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_lg.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173694763,
+                        "created_at": "Sat, 18 Apr 2015 00:44:42 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 3.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1023310,
+                            "beer_name": "Brews Brothers Boom Boom Boom Triple Hop Belgian Tripel",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "Belgian Tripel",
+                            "beer_abv": 9,
+                            "auth_rating": 3.5,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173694103,
+                        "created_at": "Sat, 18 Apr 2015 00:44:03 +0000",
+                        "checkin_comment": "looks like it's missing something",
+                        "rating_score": 3,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1022504,
+                            "beer_name": "Brews Brothers Les Portes Du Pénitencier Black Table Saison",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "Saison \/ Farmhouse Ale",
+                            "beer_abv": 5,
+                            "auth_rating": 3,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35667361,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/c5be35c9f4bf210c1d58446037c4e9a6_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/c5be35c9f4bf210c1d58446037c4e9a6_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/c5be35c9f4bf210c1d58446037c4e9a6_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/c5be35c9f4bf210c1d58446037c4e9a6_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173673622,
+                        "created_at": "Sat, 18 Apr 2015 00:17:39 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 2,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 914351,
+                            "beer_name": "Brooding Soldier Belgian Tripel",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-914351_cfe19_sm.jpeg",
+                            "beer_style": "Belgian Tripel",
+                            "beer_abv": 8.5,
+                            "auth_rating": 2,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 2416,
+                            "brewery_name": "Brewsters Brewing Company - Alberta",
+                            "brewery_slug": "brewsters-brewing-company-alberta",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2416_2654b.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "WeAreBrewsters",
+                                "facebook": "https:\/\/www.facebook.com\/pages\/WeAreBrewsters",
+                                "instagram": "WeAreBrewsters",
+                                "url": "http:\/\/brewsters.ca"
+                            },
+                            "location": {
+                                "brewery_city": "Calgary, Airdrie and Edmonton",
+                                "brewery_state": "AB",
+                                "lat": 53.5444,
+                                "lng": -113.491
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 173671514,
+                        "created_at": "Sat, 18 Apr 2015 00:14:39 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 2.5,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 1022490,
+                            "beer_name": "Brews Brothers House of the Rising Sun Table Saison",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_style": "Saison \/ Farmhouse Ale",
+                            "beer_abv": 4.5,
+                            "auth_rating": 2.5,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35661529,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/aa5218f7876d1be8323d3a85e03b3d1f_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/aa5218f7876d1be8323d3a85e03b3d1f_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/aa5218f7876d1be8323d3a85e03b3d1f_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/aa5218f7876d1be8323d3a85e03b3d1f_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 2,
+                            "items": [
+                                {
+                                    "badge_id": 1893,
+                                    "user_badge_id": 54583011,
+                                    "badge_name": "The Great White North  (Level 27)",
+                                    "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 135 different beers from a brewery in Canada! Try 5 more for Level 28.",
+                                    "created_at": "Sat, 18 Apr 2015 00:14:40 +0000",
+                                    "badge_image": {
+                                        "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                        "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                        "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                                    }
+                                },
+                                {
+                                    "badge_id": 427,
+                                    "user_badge_id": 54583013,
+                                    "badge_name": "Trip to the Farm (Level 4)",
+                                    "badge_description": "You have a keen taste for this Belgian master piece. Did you know the Saison style beer was invented by Belgium Farms, brewed in the Winter and served the Spring\/Summer to all their workers? Well now you do! That’s 20 different Saisons, try 5 more for Level 5.",
+                                    "created_at": "Sat, 18 Apr 2015 00:14:40 +0000",
+                                    "badge_image": {
+                                        "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_sm.jpg",
+                                        "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_md.jpg",
+                                        "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_lg.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 172911019,
+                        "created_at": "Wed, 15 Apr 2015 02:29:44 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 1,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 36212,
+                            "beer_name": "Old Style Pilsner",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-OldStylePilsner_36212.jpeg",
+                            "beer_style": "German Pilsner",
+                            "beer_abv": 5,
+                            "auth_rating": 1,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 878,
+                            "brewery_name": "Molson Coors Canada",
+                            "brewery_slug": "molson-coors-canada",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-MolsonCoorsCanada_878.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "molsoncoors",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.molsoncoors.com"
+                            },
+                            "location": {
+                                "brewery_city": "Toronto",
+                                "brewery_state": "ON",
+                                "lat": 43.6751,
+                                "lng": -79.5902
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 162981,
+                            "venue_name": "The Den & Black Lounge",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 2,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "2500 University Dr NW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0782,
+                                "lng": -114.131
+                            },
+                            "contact": {
+                                "twitter": "@denblacklounge",
+                                "venue_url": "http:\/\/www.su.ucalgary.ca\/den"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4b0586e9f964a520987422e3",
+                                "foursquare_url": "http:\/\/4sq.com\/8JWdUE"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35438671,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/e213a5be9145637abdfc3b0379fced08_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/e213a5be9145637abdfc3b0379fced08_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/e213a5be9145637abdfc3b0379fced08_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/e213a5be9145637abdfc3b0379fced08_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    },
+                    {
+                        "checkin_id": 172898962,
+                        "created_at": "Wed, 15 Apr 2015 01:52:22 +0000",
+                        "checkin_comment": "",
+                        "rating_score": 1,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "location": "Calgary, AB",
+                            "is_supporter": 0,
+                            "url": "",
+                            "bio": "Drink hard.",
+                            "relationship": "self",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "is_private": 0,
+                            "contact": {
+                                "facebook": 1782790848
+                            }
+                        },
+                        "beer": {
+                            "bid": 6700,
+                            "beer_name": "Alexander Keith's India Pale Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-IndiaPaleAle_6700.jpeg",
+                            "beer_style": "English IPA",
+                            "beer_abv": 5,
+                            "auth_rating": 1,
+                            "wish_list": false,
+                            "beer_active": 1
+                        },
+                        "brewery": {
+                            "brewery_id": 49965,
+                            "brewery_name": "Oland Brewery",
+                            "brewery_slug": "oland-brewery",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-OlandBrewery_49965.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "AlexanderKeiths",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.keiths.ca\/"
+                            },
+                            "location": {
+                                "brewery_city": "Halifax",
+                                "brewery_state": "NS",
+                                "lat": 44.66,
+                                "lng": -63.5999
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 162981,
+                            "venue_name": "The Den & Black Lounge",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 2,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "2500 University Dr NW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0782,
+                                "lng": -114.131
+                            },
+                            "contact": {
+                                "twitter": "@denblacklounge",
+                                "venue_url": "http:\/\/www.su.ucalgary.ca\/den"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4b0586e9f964a520987422e3",
+                                "foursquare_url": "http:\/\/4sq.com\/8JWdUE"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        },
+                        "comments": {
+                            "total_count": 0,
+                            "count": 0,
+                            "items": [
+                            ]
+                        },
+                        "toasts": {
+                            "total_count": 0,
+                            "count": 0,
+                            "auth_toast": false,
+                            "items": [
+                            ]
+                        },
+                        "media": {
+                            "count": 1,
+                            "items": [
+                                {
+                                    "photo_id": 35435732,
+                                    "photo": {
+                                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/54d99180bad2de8457cb18b25c05dccc_100x100.jpg",
+                                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/54d99180bad2de8457cb18b25c05dccc_320x320.jpg",
+                                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/54d99180bad2de8457cb18b25c05dccc_640x640.jpg",
+                                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_15\/54d99180bad2de8457cb18b25c05dccc_raw.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        "source": {
+                            "app_name": "Untappd for iPhone - (V2)",
+                            "app_website": "http:\/\/untpd.it\/iphoneapp"
+                        },
+                        "badges": {
+                            "count": 0,
+                            "items": [
+                            ]
+                        }
+                    }
+                ]
+            },
+            "media": {
+                "count": 5,
+                "items": [
+                    {
+                        "photo_id": 36061651,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_100x100.jpg",
+                            "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_320x320.jpg",
+                            "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_640x640.jpg",
+                            "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_22\/1167ea48ae6c5d9fe21697986b00950f_raw.jpg"
+                        },
+                        "created_at": "Wed, 22 Apr 2015 02:27:14 +0000",
+                        "checkin_id": 175116586,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "location": "Calgary, AB",
+                            "bio": "Drink hard.",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "account_type": "user",
+                            "url": ""
+                        },
+                        "beer": {
+                            "bid": 49197,
+                            "beer_name": "Spark House Red Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_49197_b260c1bf7a49c95259091ae2ed13.jpeg",
+                            "beer_abv": 5,
+                            "beer_style": "American Amber \/ Red Ale",
+                            "beer_description": "Our take on a traditional Quebecois style of beer. In response to customer requests for a darker beer than our popular Pale Ale, we have come up with a flavourful blend of dark roasted malts and spicy hops for an unforgettably smooth and aromatic drinking experience!",
+                            "auth_rating": 1.5,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 1685,
+                            "brewery_name": "Lake of Bays Brewing Company",
+                            "brewery_slug": "lake-of-bays-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-LakeofBaysBrewingCompany_1685.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "LB_Brewing",
+                                "facebook": "http:\/\/www.facebook.com\/LoBBrewery",
+                                "instagram": "",
+                                "url": "http:\/\/lakeofbaysbrewing.ca"
+                            },
+                            "location": {
+                                "brewery_city": "Baysville",
+                                "brewery_state": "ON",
+                                "lat": 45.1721,
+                                "lng": -78.9955
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        }
+                    },
+                    {
+                        "photo_id": 35932589,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_100x100.jpg",
+                            "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_320x320.jpg",
+                            "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_640x640.jpg",
+                            "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_19\/fa0d168465fcf8157788dac2f74cf1cb_raw.jpg"
+                        },
+                        "created_at": "Sun, 19 Apr 2015 23:49:20 +0000",
+                        "checkin_id": 174663105,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "location": "Calgary, AB",
+                            "bio": "Drink hard.",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "account_type": "user",
+                            "url": ""
+                        },
+                        "beer": {
+                            "bid": 397375,
+                            "beer_name": "He'Brew Death Of A Contract Brewer",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_397375_sm_395c08feb96f59de5d7939f949b7b7.jpeg",
+                            "beer_abv": 7,
+                            "beer_style": "Black IPA \/ Cascadian Dark Ale",
+                            "beer_description": "Coming into 17 years of beer, and Year with our own Brewery, we commemorate this conversio with Death Of A Contract Brewer, our Shmaltz homage to new life — L’Chaim!",
+                            "auth_rating": 4,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 1137,
+                            "brewery_name": "Shmaltz Brewing Company",
+                            "brewery_slug": "shmaltz-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-1137_fc8ae.jpeg",
+                            "country_name": "United States",
+                            "contact": {
+                                "twitter": "ShmaltzBrewing",
+                                "facebook": "http:\/\/www.facebook.com\/ShmaltzBrewing",
+                                "instagram": "shmaltzbrewing",
+                                "url": "http:\/\/www.shmaltzbrewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Clifton Park",
+                                "brewery_state": "NY",
+                                "lat": 42.9014,
+                                "lng": -73.7914
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        }
+                    },
+                    {
+                        "photo_id": 35740926,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_100x100.jpg",
+                            "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_320x320.jpg",
+                            "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_640x640.jpg",
+                            "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/38693dbd3d3f4c815fe6caac465e8cfd_raw.jpg"
+                        },
+                        "created_at": "Sat, 18 Apr 2015 17:48:52 +0000",
+                        "checkin_id": 173954362,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "location": "Calgary, AB",
+                            "bio": "Drink hard.",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "account_type": "user",
+                            "url": ""
+                        },
+                        "beer": {
+                            "bid": 6760,
+                            "beer_name": "St. Bernardus Abt 12",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-stbernardusApt12.jpg",
+                            "beer_abv": 10,
+                            "beer_style": "Belgian Quad",
+                            "beer_description": "The St.Bernardus Abt 12 is the pride of our stable, the nec plus ultra of our brewery. Abbey ale brewed in the classic 'Quadrupel' style of Belgium's best Abbey Ales. Dark with a full, ivory-colored head. It has a fruity aroma, full of complex flavours and excells because of its long bittersweet finish with a hoppy bite. (10,0% ABV) Worldwide seen as one of the best beers in the world. It's a very balanced beer, with a full-bodied taste and a perfect equilibrium between malty, bitter and sweet. One of the original recipes from the days of license-brewing for the Trappist monks of Westvleteren ",
+                            "auth_rating": 4,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 296,
+                            "brewery_name": "Brouwerij St. Bernardus",
+                            "brewery_slug": "brouwerij-st-bernardus",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrouwerijStBernardus_296.jpeg",
+                            "country_name": "Belgium",
+                            "contact": {
+                                "twitter": "",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.sintbernardus.be"
+                            },
+                            "location": {
+                                "brewery_city": "8978 Watou",
+                                "brewery_state": "",
+                                "lat": 50.841,
+                                "lng": 2.63944
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        }
+                    },
+                    {
+                        "photo_id": 35706460,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_100x100.jpg",
+                            "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_320x320.jpg",
+                            "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_640x640.jpg",
+                            "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/655b5c85ce1a77979be1896047b07809_raw.jpg"
+                        },
+                        "created_at": "Sat, 18 Apr 2015 05:46:32 +0000",
+                        "checkin_id": 173850785,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "location": "Calgary, AB",
+                            "bio": "Drink hard.",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "account_type": "user",
+                            "url": ""
+                        },
+                        "beer": {
+                            "bid": 487,
+                            "beer_name": "Westmalle Trappist Tripel",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-WestmalleTrappistTripel_487.jpeg",
+                            "beer_abv": 9.5,
+                            "beer_style": "Belgian Tripel",
+                            "beer_description": "Was first brewed in 1934 and the recipe has not changed since 1956. It is made with pale candy sugar and has a very pale color produced from a mash of light pilsener malts. Styrian Goldings hops are used along with some German varieties and the classic Saaz pilsener hop. After a long secondary fermentation, the Tripel Westmalle is bottled with a dose of sugar and yeast. This beer holds up well in the bottle over time and seems to soften with age.",
+                            "auth_rating": 4,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 262,
+                            "brewery_name": "Brouwerij der Trappisten van Westmalle",
+                            "brewery_slug": "brouwerij-der-trappisten-van-westmalle",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-262_06c72.jpeg",
+                            "country_name": "Belgium",
+                            "contact": {
+                                "twitter": "AbbeyWestmalle",
+                                "facebook": "",
+                                "instagram": "",
+                                "url": "http:\/\/www.trappistwestmalle.be"
+                            },
+                            "location": {
+                                "brewery_city": "2390 Malle",
+                                "brewery_state": "Antwerpen",
+                                "lat": 51.2852,
+                                "lng": 4.65889
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 2230112,
+                            "venue_name": "Beyond The Wall - Ice and Beer",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 1,
+                                "items": [
+                                    {
+                                        "category_name": "Beer Garden",
+                                        "category_id": "4bf58dd8d48988d117941735",
+                                        "is_primary": true
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "replaced",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0709,
+                                "lng": -114.126
+                            },
+                            "contact": {
+                                "twitter": "",
+                                "venue_url": ""
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "54542707498eee46cdd93d58",
+                                "foursquare_url": "http:\/\/4sq.com\/1zSFaHd"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                            }
+                        }
+                    },
+                    {
+                        "photo_id": 35686070,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_100x100.jpg",
+                            "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_320x320.jpg",
+                            "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_640x640.jpg",
+                            "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_04_18\/00b25557fa7e3aaf2640e86d15327869_raw.jpg"
+                        },
+                        "created_at": "Sat, 18 Apr 2015 02:21:21 +0000",
+                        "checkin_id": 173762870,
+                        "user": {
+                            "uid": 950704,
+                            "user_name": "rodrigountappd",
+                            "location": "Calgary, AB",
+                            "bio": "Drink hard.",
+                            "first_name": "Rodrigo",
+                            "last_name": "R.",
+                            "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/675b5629f4c9497d1dd26582e0ad4a60_100x100.jpg",
+                            "account_type": "user",
+                            "url": ""
+                        },
+                        "beer": {
+                            "bid": 1023097,
+                            "beer_name": "Brews Brothers One Bourbon. One Scotch. One Beer Barrel Aged Smoked Scotch Ale",
+                            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                            "beer_abv": 8.5,
+                            "beer_style": "Scotch Ale \/ Wee Heavy",
+                            "beer_description": "Barrel aged smoked Scotch ale. Collaboration with Firehall Brewery",
+                            "auth_rating": 3.5,
+                            "wish_list": false
+                        },
+                        "brewery": {
+                            "brewery_id": 22683,
+                            "brewery_name": "Parallel 49 Brewing Company",
+                            "brewery_slug": "parallel-49-brewing-company",
+                            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                            "country_name": "Canada",
+                            "contact": {
+                                "twitter": "Parallel49Beer",
+                                "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                                "instagram": "",
+                                "url": "http:\/\/parallel49brewing.com\/"
+                            },
+                            "location": {
+                                "brewery_city": "Vancouver",
+                                "brewery_state": "BC",
+                                "lat": 49.2839,
+                                "lng": -123.064
+                            },
+                            "brewery_active": 1
+                        },
+                        "venue": {
+                            "venue_id": 124405,
+                            "venue_name": "Beer Revolution",
+                            "primary_category": "Nightlife Spot",
+                            "parent_category_id": "4d4b7105d754a06376d81259",
+                            "categories": {
+                                "count": 3,
+                                "items": [
+                                    {
+                                        "category_name": "Bar",
+                                        "category_id": "4bf58dd8d48988d116941735",
+                                        "is_primary": true
+                                    },
+                                    {
+                                        "category_name": "Pizza Place",
+                                        "category_id": "4bf58dd8d48988d1ca941735",
+                                        "is_primary": false
+                                    },
+                                    {
+                                        "category_name": "Pub",
+                                        "category_id": "4bf58dd8d48988d11b941735",
+                                        "is_primary": false
+                                    }
+                                ]
+                            },
+                            "location": {
+                                "venue_address": "1080 8 St SW",
+                                "venue_city": "Calgary",
+                                "venue_state": "AB",
+                                "venue_country": "Canada",
+                                "lat": 51.0429,
+                                "lng": -114.081
+                            },
+                            "contact": {
+                                "twitter": "@revolutionyyc",
+                                "venue_url": "http:\/\/beerrevolution.ca"
+                            },
+                            "public_venue": true,
+                            "foursquare": {
+                                "foursquare_id": "4ea77277b8f7ff211a7aedf6",
+                                "foursquare_url": "http:\/\/4sq.com\/rOjQxa"
+                            },
+                            "venue_icon": {
+                                "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                                "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                                "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "contact": {
+                "facebook": 1782790848
+            },
+            "date_joined": "Sat, 21 Dec 2013 19:00:00 +0000",
+            "settings": {
+                "badge": {
+                    "badges_to_facebook": 0,
+                    "badges_to_twitter": 0
+                },
+                "checkin": {
+                    "checkin_to_facebook": 0,
+                    "checkin_to_twitter": 0,
+                    "checkin_to_foursquare": 0
+                },
+                "navigation": {
+                    "default_to_checkin": 0
+                },
+                "email_address": "replaced"
+            }
+        }
+    }
+}

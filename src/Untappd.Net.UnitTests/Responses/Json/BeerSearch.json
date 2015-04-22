@@ -1,0 +1,696 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.156,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.011,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "message": "",
+        "brewery_id": false,
+        "search_type": "",
+        "type_id": 0,
+        "search_version": 3,
+        "found": 17,
+        "offset": 0,
+        "limit": 25,
+        "term": "BrewDog Paradox",
+        "parsed_term": "brewdog* AND paradox*",
+        "beers": {
+            "count": 17,
+            "items": [
+                {
+                    "checkin_count": 4903,
+                    "have_had": true,
+                    "your_count": 1,
+                    "beer": {
+                        "bid": 115958,
+                        "beer_name": "Paradox Jura",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-115958_0a662_sm.jpeg",
+                        "beer_abv": 15,
+                        "beer_ibu": 70,
+                        "beer_description": "Scottish Malt Whisky Casks Rock!\n\nTheir ruggedly robust beauty, character, captivating aromas and unique Scottish heritage had us completely spellbound.\n\nThis edition sees our Imperial Stout aged for six months in specially selected Jura casks. This maturation proccess results in the whisky flavours and aromas being infused deep into our beer.\n\nMade in Scotland, Paradox combines BrewDog's craft brewed beer with the finest malt whisky casks. \n\nTo release the true character, complexity and depth of flavours in this beer please enjoy it at room temperature, unless you live in an igloo",
+                        "created_at": "Mon, 02 Jan 2012 09:08:25 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 4.5,
+                        "wish_list": false,
+                        "in_production": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 3363,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 294678,
+                        "beer_name": "Paradox Isle Of Arran (15%)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-294678_27df7_sm.jpeg",
+                        "beer_abv": 15,
+                        "beer_ibu": 70,
+                        "beer_description": "A rock 'n roll partnership between Scotland's best new distillery (Distiller of the Year 2007) and Scotland's hardcore new microbrewery (Gold MedalWinner, World Beer Cup 2008).\n\nParadox, Isle of Arran Edition, see's BrewDog's killer 15% Imperial Stout matured in stunning whisky casks from the Arran distillery.\n\nThe rich vanilla sweetness, hints of cinnamon and balancing aromatic fruit and ginger flavours of the Arran Malt are all completely infused  deep into the texture of our smooth, robust, Imperial Stout.\n\nProfund new depths emerge with each pass and sip, the pallet is as pollished and classic as a Robbie Burns masterpiece, this is Scotland in a glass.",
+                        "created_at": "Mon, 14 Jan 2013 03:05:55 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 2296,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 641405,
+                        "beer_name": "Paradox Heaven Hill",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-641405_86ad6_sm.jpeg",
+                        "beer_abv": 15,
+                        "beer_ibu": 70,
+                        "beer_description": "Paradox Heaven Hill is a 15% Imperial Stout aged in American Bourbon Barrels for 12 months. A schizophrenic translatlantic son of a bitch of a beer. Huge, decadent imperial stout clashes in the most beautiful way with the best incarnation of the American Dream since Nixon choked on a cheeseburger. We think this might just be the best Paradox ever.",
+                        "created_at": "Mon, 07 Apr 2014 07:28:22 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 1209,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 322584,
+                        "beer_name": "Paradox Grain (15%)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-322584_4e3cf_sm.jpeg",
+                        "beer_abv": 15,
+                        "beer_ibu": 70,
+                        "beer_description": "This is the latest release of our awesome Paradox series, where we take our signature 15% imperial stout and mature it in different ways.\n\nParadox Grain has been matured in ex bourbon whisky barrels. Wonderful oak notes complimented by smooth vanilla, rich treacle, stewed fruits and decadent chocolate.\n\nBest enjoyed at room temperature, unless you live in an igloo.",
+                        "created_at": "Fri, 08 Mar 2013 04:08:18 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 328,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 976247,
+                        "beer_name": "Paradox Compass Box",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-976247_0d90c_sm.jpeg",
+                        "beer_abv": 15,
+                        "beer_ibu": 100,
+                        "beer_description": "Paradox Compass Box is the latest of our whisky cask aged imperial stouts to be released from its smoky, shadowy cocoon.\n\nOur huge stout was aged in Compass Box great King Street barrels for 221 days before bottling.\n\nFull bodied, crashing roasty malt flavours are tempered by a rich chocolate character, balanced with light smoke and an extra layer of orange oil complexity.\n\nMalts: Cara, Carafa, Dark Crystal, Extra Pale, Munich\n\nHops: Columbus, First Gold, Saaz",
+                        "created_at": "Fri, 13 Feb 2015 12:08:42 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 1,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 1009550,
+                        "beer_name": "Paradox Longrow",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 10,
+                        "beer_ibu": 0,
+                        "beer_description": "Imperial stout aged in a Longrow whiskey cask.",
+                        "created_at": "Sat, 14 Mar 2015 01:09:40 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 2191,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 10557,
+                        "beer_name": "Paradox Smokehead",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-10557_c6c7d_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "BrewDog and Smokehead’s enthralling alliance creates a revolutionary beer with all the Atlantic smoke, encapsulating peat and intensity of flavour of an Islay malt Whisky.\n\nServe at room temperature, unless you live in an igloo.",
+                        "created_at": "Tue, 23 Nov 2010 07:37:05 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 2046,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 12860,
+                        "beer_name": "Paradox Isle of Arran (10%)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-12860_6dfc7_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "A rock 'n roll partnership between Scotland's best new distillery (Distiller of the Year 2007) and Scotland's hardcore new microbrewery (Gold MedalWinner, World Beer Cup 2008).\n\nParadox, Isle of Arran Edition, see's BrewDog's killer 15% Imperial Stout matured in stunning whisky casks from the Arran distillery.\n\nThe rich vanilla sweetness, hints of cinnamon and balancing aromatic fruit and ginger flavours of the Arran Malt are all completely infused  deep into the texture of our smooth, robust, Imperial Stout.\n\nProfund new depths emerge with each pass and sip, the pallet is as pollished and classic as a Robbie Burns masterpiece, this is Scotland in a glass.",
+                        "created_at": "Sat, 04 Dec 2010 12:59:06 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 1074,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 267048,
+                        "beer_name": "Christmas Paradox 2012",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-267048_0225e_sm.jpeg",
+                        "beer_abv": 15,
+                        "beer_ibu": 70,
+                        "beer_description": "This delicious dark beer has been matured for 12 months in rum casks and has all the wonderful flavours of Christmas, roasted chocolate notes infused with cinnamon and vanilla.\nWhen the season of peace on earth can roughly be translated as commercialised hysteria on a tight budget.\nOr the precursor to January's 'new you' is a week spent devouring the equivalent of your own weight with the ferocity of a ravenous reindeer.\nLet this be the year that you choose not to succumb when the lure of conformity is at its strongest. Instead, fight fire with fire by unleashing this paradoxical beer as the antidote to Christmas.\nSimply pour yourself a glass and sit back as the world descends into a temporary fairy light fuelled frenzy.",
+                        "created_at": "Thu, 22 Nov 2012 03:52:05 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 772,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 16652,
+                        "beer_name": "Paradox Islay",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-ParadoxIslay_16652.jpeg",
+                        "beer_abv": 13.8,
+                        "beer_ibu": 70,
+                        "beer_description": "NOTE: ABV varies for this product.\n\nThis Imperial Stout has been matured in specially selected Islay Malt Whisky casks.\n\nThis aging process infuses into the beer all the threatening smoke, the encapsulating peat, the Atlantic essence and raw power of Scotland’s most distinctive Whiskies.",
+                        "created_at": "Fri, 24 Dec 2010 11:44:51 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 675,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 26487,
+                        "beer_name": "Paradox Port Dundas",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-26487_16e8f_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "Port Dundas 1966 We set about to unite two of Scotland proudest heritages and produce a product which combined all that was good about Scotland’s whisky producing history and our contemporary take on a traditional Scottish style of stout.\n\nThe fact that we have developed this product in conjunction with Duncan Taylor Ltd of Huntly means we mature our beer in the casks that once housed some of the most prestigious whiskies available today. The distinct flavours of these whiskies is beautifully infused into the beer giving a unique and unrivalled experience for both beer and whisky lovers.\n\nParadox is produced in very small batches and each batch is bottled in a unique numbered limited edition bottle.",
+                        "created_at": "Tue, 25 Jan 2011 05:50:01 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 355,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 15164,
+                        "beer_name": "Paradox Macallan",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-15164_0357c_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "Scottish Malt Whisky Casks Rock!\n\nTheir ruggedly robust beauty, character, captivating aromas and unique Scottish heritage had us completely spellbound.\n\nThis edition sees our Imperial Stout aged for several months in former 1987 Macallan Sherry casks. This maturation proccess results in the whisky flavours and aromas being infused deep into our beer.\n\nMade in Scotland, Paradox combines BrewDog's craft brewed beer with the finest malt whisky casks. \n\nTo release the true character, complexity and depth of flavours in this beer please enjoy it at room temperature, unless you live in an igloo.",
+                        "created_at": "Fri, 17 Dec 2010 10:51:14 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 275,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 48569,
+                        "beer_name": "Paradox Glen Grant",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-48569_55b61_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "Their ruggedly robust beauty, character, captivating aromas and unique Scottish heritage had us completely spellbound.\n\nThis edition sees our Imperial Stout aged for several months in specially selected whisky casks. This maturation proccess results in the whisky flavours and aromas being infused deep into our beer.\n\nMade in Scotland, Paradox combines BrewDog's craft brewed beer with the finest malt whisky casks. \n\nTo release the true character, complexity and depth of flavours in this beer please enjoy it at room temperature, unless you live in an igloo.",
+                        "created_at": "Fri, 06 May 2011 16:52:50 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 275,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 5704,
+                        "beer_name": "Paradox Speyside",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5704_1a389_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "Scottish Malt Whisky Casks Rock!\n\nTheir ruggedly robust beauty, character, captivating aromas and unique Scottish heritage had us completely spellbound.\n\nThis edition sees our Imperial Stout aged for six months in specially selected Speyside casks. This maturation proccess results in the whisky flavours and aromas being infused deep into our beer.\n\nMade in Scotland, Paradox combines BrewDog's craft brewed beer with the finest malt whisky casks. \n\nTo release the true character, complexity and depth of flavours in this beer please enjoy it at room temperature, unless you live in an igloo.",
+                        "created_at": "Sat, 21 Aug 2010 07:26:35 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 256,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 24867,
+                        "beer_name": "Paradox Springbank",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-24867_dde2f_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "Scottish Malt Whisky Casks Rock!\n\nTheir ruggedly robust beauty, character, captivating aromas and unique Scottish heritage had us completely spellbound.\n\nThis edition sees our Imperial Stout aged for six months in specially selected Springbank casks. This maturation proccess results in the whisky flavours and aromas being infused deep into our beer.\n\nMade in Scotland, Paradox combines BrewDog's craft brewed beer with the finest malt whisky casks. \n\nTo release the true character, complexity and depth of flavours in this beer please enjoy it at room temperature, unless you live in an igloo.",
+                        "created_at": "Sun, 16 Jan 2011 23:10:40 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 29,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 89888,
+                        "beer_name": "Paradox Grain (10%)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-89888_5bbaf_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 70,
+                        "beer_description": "Paradox Grain has been matured in ex bourbon whisky barrels. Wonderful oak notes complimented by smooth vanilla, rich treacle, stewed fruits and decadent chocolate.\n\nBest enjoyed at room temperature, unless you live in an igloo.",
+                        "created_at": "Thu, 20 Oct 2011 12:01:54 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "checkin_count": 3,
+                    "have_had": false,
+                    "your_count": 0,
+                    "beer": {
+                        "bid": 982717,
+                        "beer_name": "Paradox Islay 1968 Anniversary Edition",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 10,
+                        "beer_ibu": 0,
+                        "beer_description": "BrewDog 1st Anniversary beer. Bottled on the 28th April 2008. Only 200 bottles were produced.\n\nThis was the first batch of beer that BrewDog ever made, it was aged for 12 months in a single Bowmore 1968 cask. It comes with a specially designed and hand printed label, by Johanna Basford. \n\nDesigner Johanna Basford thinks, \"each bottle is a little work of art in its own right\". Enjoy yours.",
+                        "created_at": "Wed, 18 Feb 2015 17:56:40 +0000",
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "in_production": 0
+                    },
+                    "brewery": {
+                        "brewery_id": 241,
+                        "brewery_name": "BrewDog",
+                        "brewery_slug": "brewdog",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-241_8c584.jpeg",
+                        "country_name": "Scotland",
+                        "contact": {
+                            "twitter": "BrewDog",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/BrewDog\/21251598643",
+                            "instagram": "brewdogofficial",
+                            "url": "http:\/\/www.brewdog.com"
+                        },
+                        "location": {
+                            "brewery_city": "Ellon",
+                            "brewery_state": "Aberdeenshire, AB41 8BX",
+                            "lat": 57.3716,
+                            "lng": -2.04834
+                        },
+                        "brewery_active": 1
+                    }
+                }
+            ]
+        },
+        "homebrew": {
+            "count": 0,
+            "items": [
+            ]
+        },
+        "breweries": {
+            "items": [
+            ],
+            "count": 0
+        }
+    }
+}

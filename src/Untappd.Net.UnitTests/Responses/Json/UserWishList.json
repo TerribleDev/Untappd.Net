@@ -1,0 +1,1058 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.128,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.016,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "sort": "",
+        "sort_english": "Date (Descending)",
+        "type_id": 0,
+        "beers": {
+            "count": 25,
+            "items": [
+                {
+                    "created_at": "Mon, 06 Apr 2015 02:02:44 +0000",
+                    "beer": {
+                        "bid": 923055,
+                        "beer_name": "The Hobbit: Bolg Belgian Tripel",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-923055_75260_sm.jpeg",
+                        "beer_abv": 9.5,
+                        "beer_ibu": 35,
+                        "beer_slug": "central-city-brewers-distillers-the-hobbit-bolg-belgian-tripel",
+                        "beer_description": "An Orc Chieftan who ruled for 150 years, Bolg would drink his grog of choice and no one would tell him otherwise - a flavourful strong Belgium Tripel. Some said it refined an otherwise gruesome character. We don't know for sure, but we think this smooth Tripel is sure to please wherever your hunt takes you.",
+                        "is_in_production": 1,
+                        "beer_style": "Belgian Tripel",
+                        "created_at": "Thu, 25 Dec 2014 05:13:17 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.47,
+                        "rating_count": 916,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 357,
+                        "brewery_name": "Central City Brewers + Distillers",
+                        "brewery_slug": "central-city-brewers-distillers",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-357_cd993.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "centralcitybrew",
+                            "facebook": "http:\/\/www.facebook.com\/centralcitybrewing",
+                            "instagram": "centralcitybrew",
+                            "url": "http:\/\/www.centralcitybrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Surrey",
+                            "brewery_state": "BC",
+                            "lat": 49.1873,
+                            "lng": -122.85
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sat, 04 Apr 2015 22:39:23 +0000",
+                    "beer": {
+                        "bid": 246300,
+                        "beer_name": "Prairie Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_246300_55b8f2c7af7a310199056a814dff.jpeg",
+                        "beer_abv": 8.2,
+                        "beer_ibu": 25,
+                        "beer_slug": "prairie-artisan-ales-prairie-ale",
+                        "beer_description": "Prairie Ale is our classic saison. We brew this beer with pilsner malt, wheat malt, flaked wheat, and cane sugar. A healthy dose of saaz hops are used to add a spicy element to the beer. Prairie Ale is fermented with a mix of ale yeast, wine yeast, and brettanomyces. Notes of black pepper and pineapple can be found in this beer.",
+                        "is_in_production": 1,
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "created_at": "Sat, 13 Oct 2012 21:44:39 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.8,
+                        "rating_count": 10725,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 37713,
+                        "brewery_name": "Prairie Artisan Ales",
+                        "brewery_slug": "prairie-artisan-ales",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-prairieartisanales_37713.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "Prairieales",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Prairie-Artisan-Ales\/343283922420146?ref=ts&fref=ts",
+                            "instagram": "prairieales",
+                            "url": "http:\/\/Prairieales.com"
+                        },
+                        "location": {
+                            "brewery_city": "Tulsa",
+                            "brewery_state": "OK",
+                            "lat": 36.1368,
+                            "lng": -96.0472
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sat, 04 Apr 2015 20:21:23 +0000",
+                    "beer": {
+                        "bid": 29494,
+                        "beer_name": "Double Dragon Imperial Red Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-DoubleDragonImperialRedAle_29494.jpeg",
+                        "beer_abv": 8.2,
+                        "beer_ibu": 0,
+                        "beer_slug": "phillips-brewing-company-double-dragon-imperial-red-ale",
+                        "beer_description": "",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double Red Ale",
+                        "created_at": "Wed, 09 Feb 2011 06:51:27 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.73,
+                        "rating_count": 691,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1472,
+                        "brewery_name": "Phillips Brewing Company",
+                        "brewery_slug": "phillips-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-PhillipsBrewingCompany_1472.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "phillipsbeer",
+                            "facebook": "http:\/\/www.facebook.com\/phillipsbeer",
+                            "instagram": "",
+                            "url": "http:\/\/phillipsbeer.com"
+                        },
+                        "location": {
+                            "brewery_city": "Victoria",
+                            "brewery_state": "BC",
+                            "lat": 48.4323,
+                            "lng": -123.367
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Thu, 26 Mar 2015 04:28:57 +0000",
+                    "beer": {
+                        "bid": 374544,
+                        "beer_name": "Disco Soleil",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-374544_b5d9a_sm.jpeg",
+                        "beer_abv": 6.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "brasserie-dieu-du-ciel-disco-soleil",
+                        "beer_description": "Cette India pale ale aux kumquats incarne le fantasme de l’été à chaque gorgée. La fraîcheur du kumquat inondera vos papilles de notes d’agrume, à laquelle s’allie une légère acidité. L’amertume fait son chemin à notre palais en catimini, puis se déploie toute en longueur, vous faisant saliver jusqu’à la prochaine gorgée. À l’année longue, l’été chantera sur vos lèvres et vous danserez, éperdus, sur les airs de vos plus chers succès disco. \/\/ Disco Sunshine is a sun-inspired Kumquat India Pale Ale. Fresh kumquat delivers citrus notes and pleasing acidity while the lingering bitterness from the hops makes you thirst for more. These bright rays of sunshine will now be available year-long, bottled-up, ready for you to enjoy whenever you please.",
+                        "is_in_production": 1,
+                        "beer_style": "American IPA",
+                        "created_at": "Wed, 29 May 2013 11:42:56 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.78,
+                        "rating_count": 3135,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1674,
+                        "brewery_name": "Brasserie Dieu du Ciel",
+                        "brewery_slug": "brasserie-dieu-du-ciel",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrasserieDieuDuCiel_1674.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Brasseries_DDC",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Brasserie-Dieu-du-Ciel-la-page-officielle\/104295439644026",
+                            "instagram": "",
+                            "url": "http:\/\/dieuduciel.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "St-Jérôme",
+                            "brewery_state": "QC",
+                            "lat": 45.7752,
+                            "lng": -74.0016
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Wed, 07 Jan 2015 05:19:34 +0000",
+                    "beer": {
+                        "bid": 153422,
+                        "beer_name": "Barrel-Aged Church On A Hill",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-BarrelAgedChurchOnAHill_153422.jpeg",
+                        "beer_abv": 13,
+                        "beer_ibu": 0,
+                        "beer_slug": "cigar-city-brewing-barrel-aged-church-on-a-hill",
+                        "beer_description": "Collaboration with Swamp Head Brewery. Aged in Cognac barrels.",
+                        "is_in_production": 1,
+                        "beer_style": "English Barleywine",
+                        "created_at": "Sun, 01 Apr 2012 14:12:21 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.43,
+                        "rating_count": 517,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 379,
+                        "brewery_name": "Cigar City Brewing",
+                        "brewery_slug": "cigar-city-brewing",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-CigarCityBrewing_379.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "CigarCityBeer",
+                            "facebook": "http:\/\/www.facebook.com\/cigarcitybeer",
+                            "instagram": "cigarcitybrewing",
+                            "url": "http:\/\/cigarcitybrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Tampa",
+                            "brewery_state": "FL",
+                            "lat": 27.9593,
+                            "lng": -82.5092
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 04 Jan 2015 02:36:57 +0000",
+                    "beer": {
+                        "bid": 251676,
+                        "beer_name": "Puzzler Belgian Black IPA",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_251676_1108b075d5426294d4c226d56171.jpeg",
+                        "beer_abv": 7.3,
+                        "beer_ibu": 0,
+                        "beer_slug": "phillips-brewing-company-puzzler-belgian-black-ipa",
+                        "beer_description": "Collaboration with Great Lakes (Toronto)",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double Black IPA",
+                        "created_at": "Tue, 23 Oct 2012 21:06:15 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.75,
+                        "rating_count": 1549,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1472,
+                        "brewery_name": "Phillips Brewing Company",
+                        "brewery_slug": "phillips-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-PhillipsBrewingCompany_1472.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "phillipsbeer",
+                            "facebook": "http:\/\/www.facebook.com\/phillipsbeer",
+                            "instagram": "",
+                            "url": "http:\/\/phillipsbeer.com"
+                        },
+                        "location": {
+                            "brewery_city": "Victoria",
+                            "brewery_state": "BC",
+                            "lat": 48.4323,
+                            "lng": -123.367
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 16 Nov 2014 02:02:20 +0000",
+                    "beer": {
+                        "bid": 242860,
+                        "beer_name": "Wee Heavy Bourbon (Scotch Ale - futs de bourbon)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_242860_sm_23d8f61fa4db0ad3bfe9910263f51a.jpeg",
+                        "beer_abv": 11,
+                        "beer_ibu": 25,
+                        "beer_slug": "microbrasserie-le-castor-wee-heavy-bourbon-scotch-ale-futs-de-bourbon",
+                        "beer_description": "Notre premier obsession etait le whisky écossais. Ensuite la bière est arrive. Cette bière allie nos deux passions. Vous devez faire attention de ne pas brasser la bière trop sucré car il recoit beaucoup de sucre en fut. Comme toujours, notre objectif est d'équilibrer le malt, le chêne, et le bourbon. Chaque batch sera légèrement différent, car chaque fut est unique. On a hate de sortir d'autres bieres vieilli en fut de chene\/bourbon - dès qu'on sera capable d'acheter des cuves supplementaires!",
+                        "is_in_production": 1,
+                        "beer_style": "Scotch Ale \/ Wee Heavy",
+                        "created_at": "Mon, 08 Oct 2012 17:01:08 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.96,
+                        "rating_count": 791,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 34927,
+                        "brewery_name": "Microbrasserie Le Castor",
+                        "brewery_slug": "microbrasserie-le-castor",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-lecastor_34927.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "https:\/\/www.facebook.com\/micro.lecastor",
+                            "instagram": "",
+                            "url": "http:\/\/www.microlecastor.ca"
+                        },
+                        "location": {
+                            "brewery_city": "Rigaud",
+                            "brewery_state": "QC",
+                            "lat": 45.4863,
+                            "lng": -74.3189
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Fri, 14 Nov 2014 02:23:36 +0000",
+                    "beer": {
+                        "bid": 6807,
+                        "beer_name": "Sofie",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-gooseIslandSofie.jpg",
+                        "beer_abv": 6.5,
+                        "beer_ibu": 25,
+                        "beer_slug": "goose-island-beer-co-sofie",
+                        "beer_description": "Fermented with wild yeasts and aged in wine barrels with orange peel, Sofie is a tart, dry, sparkling ale. A subtle, spicy white pepper note, a hint of citrus from the orange peel and a creamy vanilla finish make Sofie an intriguing choice for Champagne drinkers and beer drinkers who are fond of Belgian Saisons.",
+                        "is_in_production": 1,
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "created_at": "Sat, 23 Oct 2010 13:24:53 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.77,
+                        "rating_count": 50462,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "instagram": "gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Mon, 10 Nov 2014 00:50:04 +0000",
+                    "beer": {
+                        "bid": 14525,
+                        "beer_name": "Porter",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_14525_sm_3f2a7275bf6fa643a96d2c5b06072c.jpeg",
+                        "beer_abv": 8,
+                        "beer_ibu": 0,
+                        "beer_slug": "mikkeller-porter",
+                        "beer_description": "En porter brygget på vand, malt, sukker, humle og gær.",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double Porter",
+                        "created_at": "Mon, 13 Dec 2010 02:50:04 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.07,
+                        "rating_count": 1513,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 2813,
+                        "brewery_name": "Mikkeller",
+                        "brewery_slug": "mikkeller",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2813_649c4.jpeg",
+                        "country_name": "Denmark",
+                        "contact": {
+                            "twitter": "MikkellerBeer",
+                            "facebook": "http:\/\/www.facebook.com\/mikkeller",
+                            "instagram": "mikkellerbeer",
+                            "url": "http:\/\/www.mikkeller.dk"
+                        },
+                        "location": {
+                            "brewery_city": "Copenhagen",
+                            "brewery_state": "1620, Hovedstaden",
+                            "lat": 55.672,
+                            "lng": 12.5575
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Mon, 10 Nov 2014 00:49:46 +0000",
+                    "beer": {
+                        "bid": 467139,
+                        "beer_name": "Imperial Biscotti Break Natale Pretty Please With A Cherry On Top",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_467139_sm_7826d62272252e65d1b1573741ad39.jpeg",
+                        "beer_abv": 11.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "evil-twin-brewing-imperial-biscotti-break-natale-pretty-please-with-a-cherry-on-top",
+                        "beer_description": "",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double Porter",
+                        "created_at": "Wed, 02 Oct 2013 16:15:06 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.07,
+                        "rating_count": 10138,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 3735,
+                        "brewery_name": "Evil Twin Brewing",
+                        "brewery_slug": "evil-twin-brewing",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-TheEvilTwin_3735.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "EvilTwinBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/EvilTwinBrewing",
+                            "instagram": "eviltwinbrewing",
+                            "url": "http:\/\/www.eviltwin.dk"
+                        },
+                        "location": {
+                            "brewery_city": "",
+                            "brewery_state": "2500 Valby",
+                            "lat": 55.6617,
+                            "lng": 12.4959
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 09 Nov 2014 20:59:06 +0000",
+                    "beer": {
+                        "bid": 734462,
+                        "beer_name": "Saison",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-734462_8b56e_sm.jpeg",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 25,
+                        "beer_slug": "casey-brewing-blending-saison",
+                        "beer_description": "Our Saison is as old-world as it gets. We use 100% Colorado ingredients: Colorado water, malted and raw barley and wheat, Crystal hops and a yeast blend of saison yeast, brettanomyces and lactobacillus. We ferment the beer in custom-made open oak barrel fermenters. After this rustic primary fermentation, the beer goes to other barrels for further aging and flavor development. The result is a citrusy, dry, tart and effervescent beer worthy of sharing.",
+                        "is_in_production": 1,
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "created_at": "Thu, 03 Jul 2014 20:51:50 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.23,
+                        "rating_count": 1003,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 127424,
+                        "brewery_name": "Casey Brewing & Blending",
+                        "brewery_slug": "casey-brewing-blending",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-127424_d63e0.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "CaseyBrewing",
+                            "facebook": "https:\/\/www.facebook.com\/CaseyBrewingAndBlending",
+                            "instagram": "CaseyBrewing",
+                            "url": "http:\/\/caseybrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Glenwood Springs",
+                            "brewery_state": "CO",
+                            "lat": 39.5157,
+                            "lng": -107.32
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 09 Nov 2014 20:59:06 +0000",
+                    "beer": {
+                        "bid": 178047,
+                        "beer_name": "Oak Aged Bretta",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_178047_sm_6cbe6fc67ae176beb1f4ad37fc028e.jpeg",
+                        "beer_abv": 8,
+                        "beer_ibu": 0,
+                        "beer_slug": "logsdon-farmhouse-ales-oak-aged-bretta",
+                        "beer_description": "",
+                        "is_in_production": 1,
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "created_at": "Fri, 25 May 2012 17:28:59 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.09,
+                        "rating_count": 2628,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 12831,
+                        "brewery_name": "Logsdon Farmhouse Ales",
+                        "brewery_slug": "logsdon-farmhouse-ales",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-LogsdonFarmhouseAles_12831.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "farmhouseales",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Logsdon-Farmhouse-Ales-LLC\/108301339251368",
+                            "instagram": "",
+                            "url": "http:\/\/farmhousebeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Hood River",
+                            "brewery_state": "OR",
+                            "lat": 45.5885,
+                            "lng": -121.536
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 09 Nov 2014 20:59:06 +0000",
+                    "beer": {
+                        "bid": 45654,
+                        "beer_name": "Florence",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-Florence_45654.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_slug": "hill-farmstead-brewery-florence",
+                        "beer_description": "Florence (1915-1967) was our grandfather’s sister, and Hill Farmstead Brewery rests upon the land that was once home to her and her 13 siblings. In her honor, this Belgian inspired Wheat ale is crafted from American malted barley, Organic Vermont wheat, European and American hops, our distinctive farmhouse yeast and water from our well. It is unfiltered and naturally carbonated. Soft, cloudy, and fresh, this is the ale that I dream to have shared with Florence. 5% ALC\/VOL 12º P Ingredients: Pale Malt; Vermont Organic Wheat; American and European Hops; Ale Yeast, and our Well Water.",
+                        "is_in_production": 1,
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "created_at": "Sat, 23 Apr 2011 10:16:58 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.21,
+                        "rating_count": 3784,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 2562,
+                        "brewery_name": "Hill Farmstead Brewery",
+                        "brewery_slug": "hill-farmstead-brewery",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2562_3179d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "HillFarmstead",
+                            "facebook": "http:\/\/www.facebook.com\/hillfarmstead",
+                            "instagram": "hillfarmstead",
+                            "url": "http:\/\/www.hillfarmstead.com"
+                        },
+                        "location": {
+                            "brewery_city": "Greensboro",
+                            "brewery_state": "VT",
+                            "lat": 44.6067,
+                            "lng": -72.2634
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Thu, 06 Nov 2014 03:11:48 +0000",
+                    "beer": {
+                        "bid": 6272,
+                        "beer_name": "Gandhi-Bot",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-GandhiBot_6272.jpeg",
+                        "beer_abv": 8.8,
+                        "beer_ibu": 85,
+                        "beer_slug": "new-england-brewing-co-gandhi-bot",
+                        "beer_description": "Gandhi-Bot is an intensely hopped Double India Pale Ale with a blend of three varieties of American hops. ",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double IPA",
+                        "created_at": "Wed, 06 Oct 2010 11:31:00 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.4,
+                        "rating_count": 12526,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1467,
+                        "brewery_name": "New England Brewing Co.",
+                        "brewery_slug": "new-england-brewing-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-NewEnglandBrewingCo_1467.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "NewEnglandBrew",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/New-England-Brewing-Co\/58798029455",
+                            "instagram": "newenglandbrewing",
+                            "url": "http:\/\/www.newenglandbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Woodbridge",
+                            "brewery_state": "CT",
+                            "lat": 41.3393,
+                            "lng": -72.9809
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 26 Oct 2014 05:55:35 +0000",
+                    "beer": {
+                        "bid": 348850,
+                        "beer_name": "Bomb!",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_348850_sm_3a74b0d55ea0ba6398ece6e65aed6c.jpeg",
+                        "beer_abv": 13,
+                        "beer_ibu": 65,
+                        "beer_slug": "prairie-artisan-ales-prairie-bomb",
+                        "beer_description": "Bomb! is an imperial stout aged on Nordaggio's espresso beans, chocolate, vanilla beans, and ancho chile peppers. All the flavors meld to create a truly unique beer. The peppers add just the right amount of heat to compliment the intense coffee and chocolate flavors.",
+                        "is_in_production": 1,
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "created_at": "Fri, 19 Apr 2013 18:04:39 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.37,
+                        "rating_count": 29252,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 37713,
+                        "brewery_name": "Prairie Artisan Ales",
+                        "brewery_slug": "prairie-artisan-ales",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-prairieartisanales_37713.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "Prairieales",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Prairie-Artisan-Ales\/343283922420146?ref=ts&fref=ts",
+                            "instagram": "prairieales",
+                            "url": "http:\/\/Prairieales.com"
+                        },
+                        "location": {
+                            "brewery_city": "Tulsa",
+                            "brewery_state": "OK",
+                            "lat": 36.1368,
+                            "lng": -96.0472
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Tue, 21 Oct 2014 02:37:55 +0000",
+                    "beer": {
+                        "bid": 272586,
+                        "beer_name": "Galaxy Unicorn",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_272586_535f1d69d1ca29e0c6fcb83e1a22.jpeg",
+                        "beer_abv": 9.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "pipeworks-brewing-company-galaxy-unicorn",
+                        "beer_description": "This beer uses a 20% wheat malt and as you may have guessed “a ton of Galaxy hops”. ",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double IPA",
+                        "created_at": "Sat, 01 Dec 2012 19:31:31 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.23,
+                        "rating_count": 3002,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 4012,
+                        "brewery_name": "Pipeworks Brewing Company",
+                        "brewery_slug": "pipeworks-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-PipeworksBrewingCo_4012.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "PipeworksBrewin",
+                            "facebook": "http:\/\/www.facebook.com\/pipeworks",
+                            "instagram": "pipeworksbrewing",
+                            "url": "http:\/\/www.pipeworksbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.9124,
+                            "lng": -87.6869
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Tue, 21 Oct 2014 00:50:22 +0000",
+                    "beer": {
+                        "bid": 121023,
+                        "beer_name": "Space Dust IPA",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-121023_a79a0_sm.jpeg",
+                        "beer_abv": 7.2,
+                        "beer_ibu": 62,
+                        "beer_slug": "elysian-brewing-space-dust-ipa",
+                        "beer_description": "Space Dust :: A Totally Nebular IPA. Great Western premium two-row, combined with c-15 and Dextri-Pils, give this beer a bright and galactic Milky Way hue.  The hopping is pure starglow energy, with Chinook to bitter and late and dry additions of Citra and Amarillo.  Space Dust is out of this world, with 62 IBU, and 7.2% ABV.",
+                        "is_in_production": 1,
+                        "beer_style": "American IPA",
+                        "created_at": "Tue, 17 Jan 2012 12:48:42 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.94,
+                        "rating_count": 23668,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 7294,
+                        "brewery_name": "Elysian Brewing",
+                        "brewery_slug": "elysian-brewing",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-7294_35aa6.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "ElysianBrewing",
+                            "facebook": "https:\/\/www.facebook.com\/ElysianBrewingCompany",
+                            "instagram": "elysianbrewing",
+                            "url": "http:\/\/www.elysianbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Seattle",
+                            "brewery_state": "WA",
+                            "lat": 47.614,
+                            "lng": -122.316
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Thu, 16 Oct 2014 01:57:00 +0000",
+                    "beer": {
+                        "bid": 5805,
+                        "beer_name": "Nelson",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-Nelson_5805.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 80,
+                        "beer_slug": "alpine-beer-company-ca-nelson",
+                        "beer_description": "A Golden Rye IPA.\nAn outstanding hop from New Zealand, Nelson Sauvin, is generously used throughout the brewing and dry-hopping of this unique beer. European rye is added for a smooth, malty addition to flavor. 1.065 OG 7",
+                        "is_in_production": 1,
+                        "beer_style": "American IPA",
+                        "created_at": "Sat, 21 Aug 2010 07:26:35 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.29,
+                        "rating_count": 17052,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 29,
+                        "brewery_name": "Alpine Beer Company (CA)",
+                        "brewery_slug": "alpine-beer-company-ca",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-AlpineBeerCompany_29.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "http:\/\/www.facebook.com\/alpinebeercompany",
+                            "instagram": "",
+                            "url": "http:\/\/alpinebeerco.com"
+                        },
+                        "location": {
+                            "brewery_city": "Alpine",
+                            "brewery_state": "CA",
+                            "lat": 32.8354,
+                            "lng": -116.766
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Thu, 16 Oct 2014 01:56:59 +0000",
+                    "beer": {
+                        "bid": 323645,
+                        "beer_name": "Project Dank",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-323645_733e5_sm.jpeg",
+                        "beer_abv": 7.6,
+                        "beer_ibu": 100,
+                        "beer_slug": "la-cumbre-brewing-company-project-dank",
+                        "beer_description": "",
+                        "is_in_production": 1,
+                        "beer_style": "American IPA",
+                        "created_at": "Sat, 09 Mar 2013 12:25:46 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.2,
+                        "rating_count": 3321,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 3761,
+                        "brewery_name": "La Cumbre Brewing Company",
+                        "brewery_slug": "la-cumbre-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-LaCumbreBrewingCompany_3761.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "LaCumbreBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/La-Cumbre-Brewing-Co\/141058152588214",
+                            "instagram": "lacumbrebrewing",
+                            "url": "http:\/\/www.lacumbrebrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Albuquerque",
+                            "brewery_state": "NM",
+                            "lat": 35.1179,
+                            "lng": -106.614
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Fri, 10 Oct 2014 21:29:16 +0000",
+                    "beer": {
+                        "bid": 11024,
+                        "beer_name": "Rare Bourbon County Brand Stout",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-RareBourbonCountyStout_11024.jpeg",
+                        "beer_abv": 13,
+                        "beer_ibu": 60,
+                        "beer_slug": "goose-island-beer-co-rare-bourbon-county-brand-stout",
+                        "beer_description": "Aged 2 years in 23-year old Pappy Van Winkle Bourbon Barrels. A true rarity—savor and share it only with those you hold dear, as it will never be made again.  ",
+                        "is_in_production": 0,
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "created_at": "Fri, 26 Nov 2010 00:09:45 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.84,
+                        "rating_count": 4390,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "instagram": "gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sat, 27 Sep 2014 21:53:49 +0000",
+                    "beer": {
+                        "bid": 705285,
+                        "beer_name": "Scream IIPA (Thumbprint)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-705285_2e3a7_sm.jpeg",
+                        "beer_abv": 9,
+                        "beer_ibu": 85,
+                        "beer_slug": "new-glarus-brewing-company-scream-iipa-thumbprint",
+                        "beer_description": "Scream pierces reality, effortlessly slicing our sky, He flies over the Brewery just as Abe circled over Wisconsin’s 8th Infantry during the Civil War. He calls us to something bigger. Scream boasts an inspired 85 IBUs that reverberate cleanly though this IIPA. New Glarus Brewery grown estate hops join other Wisconsin grown hops to dominate this brew from Kettle Boil to Dry Hopping. You hold a deceptively seductive Original Gravity of 20.9 degrees Plato following the always 100% naturally bottle conditioned fermentation. Luscious Wisconsin grown and malted barley along with English Maris Otter malt is the bold heart of this lustful sensory enchantment. Surrender is inevitable so enjoy today.",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double IPA",
+                        "created_at": "Fri, 06 Jun 2014 15:30:13 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.15,
+                        "rating_count": 12438,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 907,
+                        "brewery_name": "New Glarus Brewing Company",
+                        "brewery_slug": "new-glarus-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-NewGlarusBrewingCompany_907.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "newglarusbeer",
+                            "facebook": "http:\/\/www.facebook.com\/newglarusbrewing",
+                            "instagram": "",
+                            "url": "http:\/\/www.newglarusbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "New Glarus",
+                            "brewery_state": "WI",
+                            "lat": 42.8171,
+                            "lng": -89.6306
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sat, 27 Sep 2014 21:53:47 +0000",
+                    "beer": {
+                        "bid": 34271,
+                        "beer_name": "Ephraim",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-Ephraim_34271.jpeg",
+                        "beer_abv": 10.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "hill-farmstead-brewery-ephraim",
+                        "beer_description": "Ephraim (1823-1913) was our great-great grandfather; Hill Farmstead Brewery resides several hundred feet downhill from the land that he and his father settled. In his honor, this Imperial India Pale Ale is dutifully crafted from American malted barley, buckets of American hops, our ale yeast and water from our well. It is unfiltered and double dry hopped. Intensely aromatic and saturated with resinous hop flavor, this is the ale that I dream to have shared with Ephraim. 9.6%. Ingredients: Pale Malt; Dextrose; Centennial, Chinook, Columbus, Simcoe, and Warrior hops, Ale Yeast, and Water.",
+                        "is_in_production": 1,
+                        "beer_style": "Imperial \/ Double IPA",
+                        "created_at": "Wed, 02 Mar 2011 13:54:52 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.56,
+                        "rating_count": 1640,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 2562,
+                        "brewery_name": "Hill Farmstead Brewery",
+                        "brewery_slug": "hill-farmstead-brewery",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2562_3179d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "HillFarmstead",
+                            "facebook": "http:\/\/www.facebook.com\/hillfarmstead",
+                            "instagram": "hillfarmstead",
+                            "url": "http:\/\/www.hillfarmstead.com"
+                        },
+                        "location": {
+                            "brewery_city": "Greensboro",
+                            "brewery_state": "VT",
+                            "lat": 44.6067,
+                            "lng": -72.2634
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Fri, 26 Sep 2014 20:56:01 +0000",
+                    "beer": {
+                        "bid": 67996,
+                        "beer_name": "Aventinus Eisbock",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_67996_sm_0da42bac4a447533b1bdc18a544d34.jpeg",
+                        "beer_abv": 12,
+                        "beer_ibu": 15,
+                        "beer_slug": "weisses-brauhaus-g-schneider-sohn-aventinus-eisbock",
+                        "beer_description": "Stronger than strong. Powerful aromas and an intense flavor.\n\nMahogany, nearly black Eisbock. The aroma reminds of ripe plums with a hint of bitter almonds and marzipan displaying strong characteristics of banana and clove. It is full and warming on your palate.\nThe ideal digestive after a great dish. Goes great with crepes suzette, profiteroles with a dark chocolate sauce, tiramisu and mature Parmesan.\n",
+                        "is_in_production": 1,
+                        "beer_style": "Eisbock",
+                        "created_at": "Sat, 30 Jul 2011 11:39:53 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 3.95,
+                        "rating_count": 15475,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1023,
+                        "brewery_name": "Weisses Bräuhaus G. Schneider & Sohn",
+                        "brewery_slug": "weisses-br-uhaus-g-schneider-sohn",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-WeissbierbrauereiGSchneiderSohn_1023.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "schneiderweisse",
+                            "facebook": "http:\/\/www.facebook.com\/schneiderweisse",
+                            "instagram": "",
+                            "url": "http:\/\/www.schneider-weisse.com"
+                        },
+                        "location": {
+                            "brewery_city": "Kelheim",
+                            "brewery_state": "Bavaria",
+                            "lat": 48.9175,
+                            "lng": 11.8735
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Thu, 31 Jul 2014 23:14:52 +0000",
+                    "beer": {
+                        "bid": 378089,
+                        "beer_name": "Mash & Grind",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_378089_sm_d0c231be19d8396b48bcbc4114c23b.jpeg",
+                        "beer_abv": 12.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "the-bruery-mash-and-grind",
+                        "beer_description": "Bourbon barrel aged English barleywine with Portola coffee.",
+                        "is_in_production": 1,
+                        "beer_style": "English Barleywine",
+                        "created_at": "Sun, 02 Jun 2013 23:36:57 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.13,
+                        "rating_count": 3376,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1246,
+                        "brewery_name": "The Bruery",
+                        "brewery_slug": "the-bruery",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-thebruery_1246.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "thebruery",
+                            "facebook": "https:\/\/www.facebook.com\/TheBruery",
+                            "instagram": "thebruery",
+                            "url": "http:\/\/www.thebruery.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Placentia",
+                            "brewery_state": "CA",
+                            "lat": 33.8614,
+                            "lng": -117.88
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                },
+                {
+                    "created_at": "Sun, 27 Jul 2014 22:18:20 +0000",
+                    "beer": {
+                        "bid": 89357,
+                        "beer_name": "Grey Monday",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_89357_a3a1810ea89cd48f9e61379801d0.jpeg",
+                        "beer_abv": 18.6,
+                        "beer_ibu": 30,
+                        "beer_slug": "the-bruery-grey-monday",
+                        "beer_description": "Grey Monday is a special, limited edition version of our Black Tuesday imperial stout to which we’ve added hazelnuts to the barrels while the beer ages. Originally concocted for a molecular gastronomy dinner at a favorite Orange County restaurant a few years ago, this variation on our already popular stout was an instant hit both among the restaurant diners and our own staff, begging to be brewed again and bottled up.",
+                        "is_in_production": 1,
+                        "beer_style": "American Imperial \/ Double Stout",
+                        "created_at": "Mon, 17 Oct 2011 19:58:18 +0000",
+                        "auth_rating": 0,
+                        "rating_score": 4.54,
+                        "rating_count": 4058,
+                        "wish_list": true
+                    },
+                    "brewery": {
+                        "brewery_id": 1246,
+                        "brewery_name": "The Bruery",
+                        "brewery_slug": "the-bruery",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-thebruery_1246.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "thebruery",
+                            "facebook": "https:\/\/www.facebook.com\/TheBruery",
+                            "instagram": "thebruery",
+                            "url": "http:\/\/www.thebruery.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Placentia",
+                            "brewery_state": "CA",
+                            "lat": 33.8614,
+                            "lng": -117.88
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": [
+                    ]
+                }
+            ]
+        }
+    }
+}
