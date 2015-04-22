@@ -18,6 +18,16 @@ namespace Untappd.Net.Authentication
         /// <returns></returns>
         public static string RedirectUserTo(IUnAuthenticadedUntappdCredentials credentials, string redirectUrl)
         {
+            if (credentials == null)
+            {
+                throw new ArgumentNullException("credentials");
+            }
+
+            if (string.IsNullOrWhiteSpace(redirectUrl))
+            {
+                throw new ArgumentNullException("redirectUrl");
+            }
+           
             return string.Format("{0}/?client_id={1}&response_type=code&redirect_url={2}", Constants.BaseRequestString,
                 credentials.ClientId, redirectUrl);
         }
@@ -31,6 +41,19 @@ namespace Untappd.Net.Authentication
         /// <returns></returns>
         public static string TokenUrl(IUnAuthenticadedUntappdCredentials credentials, string redirectUrl, string code)
         {
+            if (credentials == null)
+            {
+                throw new ArgumentNullException("credentials");
+            }
+
+            if (string.IsNullOrWhiteSpace(redirectUrl))
+            {
+                throw new ArgumentNullException("redirectUrl");
+            }
+            if (string.IsNullOrWhiteSpace(code))
+            {
+                throw new ArgumentNullException("code");
+            }
             return string.Format("{0}/?client_id={1}&client_secret={2}&response_type=code&redirect_url={3}&code={4}", 
                 Constants.OAuthTokenEndPoint, 
                 credentials.ClientId, 
