@@ -1,0 +1,1158 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 1.019,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.01,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "is_search": false,
+        "beers": {
+            "sort": "date",
+            "sort_english": "Date (Descending)",
+            "count": 25,
+            "items": [
+                {
+                    "first_checkin_id": 175116586,
+                    "first_created_at": "Tue, 21 Apr 2015 20:26:50 -0600",
+                    "recent_checkin_id": 175116586,
+                    "recent_created_at": "Tue, 21 Apr 2015 20:26:50 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 1.5,
+                    "first_had": "Tue, 21 Apr 2015 20:26:50 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 49197,
+                        "beer_name": "Spark House Red Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_49197_b260c1bf7a49c95259091ae2ed13.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 25,
+                        "beer_slug": "lake-of-bays-brewing-company-spark-house-red-ale",
+                        "beer_style": "American Amber \/ Red Ale",
+                        "beer_description": "Our take on a traditional Quebecois style of beer. In response to customer requests for a darker beer than our popular Pale Ale, we have come up with a flavourful blend of dark roasted malts and spicy hops for an unforgettably smooth and aromatic drinking experience!",
+                        "created_at": "Mon, 09 May 2011 17:10:55 +0000",
+                        "auth_rating": 1.5,
+                        "wish_list": false,
+                        "rating_score": 3.444,
+                        "rating_count": 3413
+                    },
+                    "brewery": {
+                        "brewery_id": 1685,
+                        "brewery_name": "Lake of Bays Brewing Company",
+                        "brewery_slug": "lake-of-bays-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-LakeofBaysBrewingCompany_1685.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "LB_Brewing",
+                            "facebook": "http:\/\/www.facebook.com\/LoBBrewery",
+                            "instagram": "",
+                            "url": "http:\/\/lakeofbaysbrewing.ca"
+                        },
+                        "location": {
+                            "brewery_city": "Baysville",
+                            "brewery_state": "ON",
+                            "lat": 45.1721,
+                            "lng": -78.9955
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 174663105,
+                    "first_created_at": "Sun, 19 Apr 2015 17:49:02 -0600",
+                    "recent_checkin_id": 174663105,
+                    "recent_created_at": "Sun, 19 Apr 2015 17:49:02 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 4,
+                    "first_had": "Sun, 19 Apr 2015 17:49:02 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 397375,
+                        "beer_name": "He'Brew Death Of A Contract Brewer",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_397375_sm_395c08feb96f59de5d7939f949b7b7.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 0,
+                        "beer_slug": "shmaltz-brewing-company-death-of-a-contract-brewer-commemorative-black-ipa",
+                        "beer_style": "Black IPA \/ Cascadian Dark Ale",
+                        "beer_description": "Coming into 17 years of beer, and Year with our own Brewery, we commemorate this conversio with Death Of A Contract Brewer, our Shmaltz homage to new life — L’Chaim!",
+                        "created_at": "Wed, 03 Jul 2013 08:51:39 +0000",
+                        "auth_rating": 4,
+                        "wish_list": false,
+                        "rating_score": 3.603,
+                        "rating_count": 14232
+                    },
+                    "brewery": {
+                        "brewery_id": 1137,
+                        "brewery_name": "Shmaltz Brewing Company",
+                        "brewery_slug": "shmaltz-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-1137_fc8ae.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "ShmaltzBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/ShmaltzBrewing",
+                            "instagram": "shmaltzbrewing",
+                            "url": "http:\/\/www.shmaltzbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Clifton Park",
+                            "brewery_state": "NY",
+                            "lat": 42.9014,
+                            "lng": -73.7914
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173954362,
+                    "first_created_at": "Sat, 18 Apr 2015 11:48:41 -0600",
+                    "recent_checkin_id": 173954362,
+                    "recent_created_at": "Sat, 18 Apr 2015 11:48:41 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 4,
+                    "first_had": "Sat, 18 Apr 2015 11:48:41 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 6760,
+                        "beer_name": "St. Bernardus Abt 12",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-stbernardusApt12.jpg",
+                        "beer_abv": 10,
+                        "beer_ibu": 0,
+                        "beer_slug": "brouwerij-st-bernardus-st-bernardus-abt-12",
+                        "beer_style": "Belgian Quad",
+                        "beer_description": "The St.Bernardus Abt 12 is the pride of our stable, the nec plus ultra of our brewery. Abbey ale brewed in the classic 'Quadrupel' style of Belgium's best Abbey Ales. Dark with a full, ivory-colored head. It has a fruity aroma, full of complex flavours and excells because of its long bittersweet finish with a hoppy bite. (10,0% ABV) Worldwide seen as one of the best beers in the world. It's a very balanced beer, with a full-bodied taste and a perfect equilibrium between malty, bitter and sweet. One of the original recipes from the days of license-brewing for the Trappist monks of Westvleteren ",
+                        "created_at": "Fri, 22 Oct 2010 19:52:26 +0000",
+                        "auth_rating": 4,
+                        "wish_list": false,
+                        "rating_score": 4.143,
+                        "rating_count": 63608
+                    },
+                    "brewery": {
+                        "brewery_id": 296,
+                        "brewery_name": "Brouwerij St. Bernardus",
+                        "brewery_slug": "brouwerij-st-bernardus",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrouwerijStBernardus_296.jpeg",
+                        "country_name": "Belgium",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.sintbernardus.be"
+                        },
+                        "location": {
+                            "brewery_city": "8978 Watou",
+                            "brewery_state": "",
+                            "lat": 50.841,
+                            "lng": 2.63944
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173767336,
+                    "first_created_at": "Fri, 17 Apr 2015 20:20:14 -0600",
+                    "recent_checkin_id": 173767336,
+                    "recent_created_at": "Fri, 17 Apr 2015 20:20:14 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Fri, 17 Apr 2015 20:20:14 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1022386,
+                        "beer_name": "Brews Brothers Smokestack Lightning India Pale Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 7,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-smokestack-lightning-india-pale-ale",
+                        "beer_style": "American IPA",
+                        "beer_description": "Collaboration with Rossland",
+                        "created_at": "Tue, 24 Mar 2015 00:20:17 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.541,
+                        "rating_count": 388
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173762870,
+                    "first_created_at": "Fri, 17 Apr 2015 20:13:38 -0600",
+                    "recent_checkin_id": 173762870,
+                    "recent_created_at": "Fri, 17 Apr 2015 20:13:38 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Fri, 17 Apr 2015 20:13:38 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1023097,
+                        "beer_name": "Brews Brothers One Bourbon. One Scotch. One Beer Barrel Aged Smoked Scotch Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 8.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-one-bourbon-one-scotch-one-beer-barrel-aged-smoked-scotch-ale",
+                        "beer_style": "Scotch Ale \/ Wee Heavy",
+                        "beer_description": "Barrel aged smoked Scotch ale. Collaboration with Firehall Brewery",
+                        "created_at": "Wed, 25 Mar 2015 00:19:04 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.271,
+                        "rating_count": 387
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173724799,
+                    "first_created_at": "Fri, 17 Apr 2015 19:22:40 -0600",
+                    "recent_checkin_id": 173724799,
+                    "recent_created_at": "Fri, 17 Apr 2015 19:22:40 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 4,
+                    "first_had": "Fri, 17 Apr 2015 19:22:40 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1022561,
+                        "beer_name": "Brews Brothers Hound Dog Belgian India Pale Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 6,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-hound-dog-belgian-india-pale-ale",
+                        "beer_style": "Belgian IPA",
+                        "beer_description": "Collaboration with Yellow Dog",
+                        "created_at": "Tue, 24 Mar 2015 03:48:07 +0000",
+                        "auth_rating": 4,
+                        "wish_list": false,
+                        "rating_score": 3.759,
+                        "rating_count": 401
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173722187,
+                    "first_created_at": "Fri, 17 Apr 2015 19:19:36 -0600",
+                    "recent_checkin_id": 173722187,
+                    "recent_created_at": "Fri, 17 Apr 2015 19:19:36 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3,
+                    "first_had": "Fri, 17 Apr 2015 19:19:36 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1024149,
+                        "beer_name": "Brews Brothers Backdoor Man Basil India Pale Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 6.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-backdoor-man-basil-india-pale-ale",
+                        "beer_style": "American IPA",
+                        "beer_description": "Basil IPA - Collab with Storm",
+                        "created_at": "Thu, 26 Mar 2015 03:05:08 +0000",
+                        "auth_rating": 3,
+                        "wish_list": false,
+                        "rating_score": 3.437,
+                        "rating_count": 437
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173694763,
+                    "first_created_at": "Fri, 17 Apr 2015 18:44:42 -0600",
+                    "recent_checkin_id": 173694763,
+                    "recent_created_at": "Fri, 17 Apr 2015 18:44:42 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Fri, 17 Apr 2015 18:44:42 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1023310,
+                        "beer_name": "Brews Brothers Boom Boom Boom Triple Hop Belgian Tripel",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 9,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-boom-boom-boom-triple-hop-belgian-tripel",
+                        "beer_style": "Belgian Tripel",
+                        "beer_description": "Triple Hop Belgian Tripel",
+                        "created_at": "Wed, 25 Mar 2015 03:53:22 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.615,
+                        "rating_count": 395
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173694103,
+                    "first_created_at": "Fri, 17 Apr 2015 18:44:03 -0600",
+                    "recent_checkin_id": 173694103,
+                    "recent_created_at": "Fri, 17 Apr 2015 18:44:03 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3,
+                    "first_had": "Fri, 17 Apr 2015 18:44:03 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1022504,
+                        "beer_name": "Brews Brothers Les Portes Du Pénitencier Black Table Saison",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-les-portes-du-penitencier-black-table-saison",
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "beer_description": "Black table saison brewed in collaboration with Townsite brewing. ",
+                        "created_at": "Tue, 24 Mar 2015 02:24:09 +0000",
+                        "auth_rating": 3,
+                        "wish_list": false,
+                        "rating_score": 3.379,
+                        "rating_count": 391
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173673622,
+                    "first_created_at": "Fri, 17 Apr 2015 18:17:39 -0600",
+                    "recent_checkin_id": 173673622,
+                    "recent_created_at": "Fri, 17 Apr 2015 18:17:39 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 2,
+                    "first_had": "Fri, 17 Apr 2015 18:17:39 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 914351,
+                        "beer_name": "Brooding Soldier Belgian Tripel",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-914351_cfe19_sm.jpeg",
+                        "beer_abv": 8.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "brewsters-brewing-company-alberta-brooding-soldier-belgian-tripel",
+                        "beer_style": "Belgian Tripel",
+                        "beer_description": "",
+                        "created_at": "Thu, 18 Dec 2014 19:01:54 +0000",
+                        "auth_rating": 2,
+                        "wish_list": false,
+                        "rating_score": 3.508,
+                        "rating_count": 130
+                    },
+                    "brewery": {
+                        "brewery_id": 2416,
+                        "brewery_name": "Brewsters Brewing Company - Alberta",
+                        "brewery_slug": "brewsters-brewing-company-alberta",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2416_2654b.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "WeAreBrewsters",
+                            "facebook": "https:\/\/www.facebook.com\/pages\/WeAreBrewsters",
+                            "instagram": "WeAreBrewsters",
+                            "url": "http:\/\/brewsters.ca"
+                        },
+                        "location": {
+                            "brewery_city": "Calgary, Airdrie and Edmonton",
+                            "brewery_state": "AB",
+                            "lat": 53.5444,
+                            "lng": -113.491
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 173671514,
+                    "first_created_at": "Fri, 17 Apr 2015 18:14:39 -0600",
+                    "recent_checkin_id": 173671514,
+                    "recent_created_at": "Fri, 17 Apr 2015 18:14:39 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 2.5,
+                    "first_had": "Fri, 17 Apr 2015 18:14:39 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1022490,
+                        "beer_name": "Brews Brothers House of the Rising Sun Table Saison",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 4.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "parallel-49-brewing-company-brews-brothers-house-of-the-rising-sun-table-saison",
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "beer_description": "",
+                        "created_at": "Tue, 24 Mar 2015 02:04:02 +0000",
+                        "auth_rating": 2.5,
+                        "wish_list": false,
+                        "rating_score": 3.44,
+                        "rating_count": 402
+                    },
+                    "brewery": {
+                        "brewery_id": 22683,
+                        "brewery_name": "Parallel 49 Brewing Company",
+                        "brewery_slug": "parallel-49-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-49thParallel_22683.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Parallel49Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Parallel49Brewing",
+                            "instagram": "",
+                            "url": "http:\/\/parallel49brewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vancouver",
+                            "brewery_state": "BC",
+                            "lat": 49.2839,
+                            "lng": -123.064
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 172911019,
+                    "first_created_at": "Tue, 14 Apr 2015 20:29:44 -0600",
+                    "recent_checkin_id": 172911019,
+                    "recent_created_at": "Tue, 14 Apr 2015 20:29:44 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 1,
+                    "first_had": "Tue, 14 Apr 2015 20:29:44 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 36212,
+                        "beer_name": "Old Style Pilsner",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-OldStylePilsner_36212.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_slug": "molson-coors-canada-old-style-pilsner",
+                        "beer_style": "German Pilsner",
+                        "beer_description": "At Pilsner we have not changed since our beer was first brewed in 1926. Why? It's right there on the bottle…. \"old style\". Those are more than just words on a beloved label. Being true to who we are has kept our drinkers loyal and kept Pilsner from being a fad.",
+                        "created_at": "Thu, 10 Mar 2011 04:48:51 +0000",
+                        "auth_rating": 1,
+                        "wish_list": false,
+                        "rating_score": 2.833,
+                        "rating_count": 3430
+                    },
+                    "brewery": {
+                        "brewery_id": 878,
+                        "brewery_name": "Molson Coors Canada",
+                        "brewery_slug": "molson-coors-canada",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-MolsonCoorsCanada_878.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "molsoncoors",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.molsoncoors.com"
+                        },
+                        "location": {
+                            "brewery_city": "Toronto",
+                            "brewery_state": "ON",
+                            "lat": 43.6751,
+                            "lng": -79.5902
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 172898962,
+                    "first_created_at": "Tue, 14 Apr 2015 19:52:22 -0600",
+                    "recent_checkin_id": 172898962,
+                    "recent_created_at": "Tue, 14 Apr 2015 19:52:22 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 1,
+                    "first_had": "Tue, 14 Apr 2015 19:52:22 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 6700,
+                        "beer_name": "Alexander Keith's India Pale Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-IndiaPaleAle_6700.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 20,
+                        "beer_slug": "oland-brewery-alexander-keith-s-india-pale-ale",
+                        "beer_style": "English IPA",
+                        "beer_description": "The pride of Nova Scotia",
+                        "created_at": "Thu, 21 Oct 2010 12:08:31 +0000",
+                        "auth_rating": 1,
+                        "wish_list": false,
+                        "rating_score": 2.945,
+                        "rating_count": 13325
+                    },
+                    "brewery": {
+                        "brewery_id": 49965,
+                        "brewery_name": "Oland Brewery",
+                        "brewery_slug": "oland-brewery",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-OlandBrewery_49965.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "AlexanderKeiths",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.keiths.ca\/"
+                        },
+                        "location": {
+                            "brewery_city": "Halifax",
+                            "brewery_state": "NS",
+                            "lat": 44.66,
+                            "lng": -63.5999
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 171555760,
+                    "first_created_at": "Fri, 10 Apr 2015 19:51:32 -0600",
+                    "recent_checkin_id": 171555760,
+                    "recent_created_at": "Fri, 10 Apr 2015 19:51:32 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3,
+                    "first_had": "Fri, 10 Apr 2015 19:51:32 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 4453,
+                        "beer_name": "Blanche de Chambly",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-unibroueBlanche-de-Chambly.jpg",
+                        "beer_abv": 5,
+                        "beer_ibu": 10,
+                        "beer_slug": "unibroue-blanche-de-chambly",
+                        "beer_style": "Witbier",
+                        "beer_description": "(White of Chambly) was the first bottle\nrefermented ale produced by Unibroue. It is\nbrewed from a blend of pale barley malt,\nwheat malt and unmalted wheat, to which\nwe blend selected spices and hops.\n \nBlanche de Chambly is only partially filtered,\nretaining its natural cloud of yeast that is\ncharacteristic of the original white ales\nbrewed during the Middle Ages.\n\nWe recommend this remarkably refreshing",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 3,
+                        "wish_list": false,
+                        "rating_score": 3.643,
+                        "rating_count": 21684
+                    },
+                    "brewery": {
+                        "brewery_id": 1307,
+                        "brewery_name": "Unibroue",
+                        "brewery_slug": "unibroue",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-unibroue_1307.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Unibroue",
+                            "facebook": "http:\/\/www.facebook.com\/unibroue",
+                            "instagram": "Unibroue",
+                            "url": "http:\/\/www.unibroue.com"
+                        },
+                        "location": {
+                            "brewery_city": "Chambly",
+                            "brewery_state": "QC",
+                            "lat": 45.4418,
+                            "lng": -73.2595
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 171159723,
+                    "first_created_at": "Thu, 09 Apr 2015 19:07:02 -0600",
+                    "recent_checkin_id": 171159723,
+                    "recent_created_at": "Thu, 09 Apr 2015 19:07:02 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 2.5,
+                    "first_had": "Thu, 09 Apr 2015 19:07:02 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 249219,
+                        "beer_name": "Bad Hare Hefeweizen",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_slug": "rhinelander-brewing-company-bad-hare-hefeweizen",
+                        "beer_style": "Hefeweizen",
+                        "beer_description": "",
+                        "created_at": "Fri, 19 Oct 2012 22:15:46 +0000",
+                        "auth_rating": 2.5,
+                        "wish_list": false,
+                        "rating_score": 3.024,
+                        "rating_count": 146
+                    },
+                    "brewery": {
+                        "brewery_id": 7601,
+                        "brewery_name": "Rhinelander Brewing Company",
+                        "brewery_slug": "rhinelander-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-RhinelanderBrewingCompany_7601.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Rhinelander-Shorty-Beer\/163826533681774",
+                            "instagram": "",
+                            "url": "http:\/\/rhinelanderbrewery.com"
+                        },
+                        "location": {
+                            "brewery_city": "Rhinelander",
+                            "brewery_state": "WI",
+                            "lat": 45.6372,
+                            "lng": -89.4127
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170753404,
+                    "first_created_at": "Tue, 07 Apr 2015 22:48:26 -0600",
+                    "recent_checkin_id": 170753404,
+                    "recent_created_at": "Tue, 07 Apr 2015 22:48:26 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 4.5,
+                    "first_had": "Tue, 07 Apr 2015 22:48:26 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 320964,
+                        "beer_name": "Tørst Back Room",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_320964_da9f23fd855798b302f930556e00.jpeg",
+                        "beer_abv": 11.2,
+                        "beer_ibu": 0,
+                        "beer_slug": "evil-twin-brewing-torst-back-room",
+                        "beer_style": "English Barleywine",
+                        "beer_description": "Barley Wines aged in Malaga port barrels.\n\nBrewed at Fanø Bryghus, Denmark.",
+                        "created_at": "Sun, 03 Mar 2013 19:58:36 +0000",
+                        "auth_rating": 4.5,
+                        "wish_list": false,
+                        "rating_score": 4.101,
+                        "rating_count": 549
+                    },
+                    "brewery": {
+                        "brewery_id": 3735,
+                        "brewery_name": "Evil Twin Brewing",
+                        "brewery_slug": "evil-twin-brewing",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-TheEvilTwin_3735.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "EvilTwinBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/EvilTwinBrewing",
+                            "instagram": "eviltwinbrewing",
+                            "url": "http:\/\/www.eviltwin.dk"
+                        },
+                        "location": {
+                            "brewery_city": "",
+                            "brewery_state": "2500 Valby",
+                            "lat": 55.6617,
+                            "lng": 12.4959
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170743117,
+                    "first_created_at": "Tue, 07 Apr 2015 21:55:11 -0600",
+                    "recent_checkin_id": 170743117,
+                    "recent_created_at": "Tue, 07 Apr 2015 21:55:11 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Tue, 07 Apr 2015 21:55:11 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 937012,
+                        "beer_name": "Olde Deuteronomy Barley Wine 20th Anniversary",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 10.3,
+                        "beer_ibu": 0,
+                        "beer_slug": "alley-kat-brewing-co-olde-deuteronomy-barley-wine-20th-anniversary",
+                        "beer_style": "American Barleywine",
+                        "beer_description": "",
+                        "created_at": "Tue, 06 Jan 2015 08:59:46 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.694,
+                        "rating_count": 18
+                    },
+                    "brewery": {
+                        "brewery_id": 2026,
+                        "brewery_name": "Alley Kat Brewing Co.",
+                        "brewery_slug": "alley-kat-brewing-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-AlleyKatBrewingCo_2026.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "alley_kat_beer",
+                            "facebook": "http:\/\/www.facebook.com\/groups\/2376909468\/",
+                            "instagram": "",
+                            "url": "http:\/\/www.alleykatbeer.com"
+                        },
+                        "location": {
+                            "brewery_city": "Edmonton",
+                            "brewery_state": "AB",
+                            "lat": 53.4954,
+                            "lng": -113.488
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170708945,
+                    "first_created_at": "Tue, 07 Apr 2015 20:21:50 -0600",
+                    "recent_checkin_id": 170708945,
+                    "recent_created_at": "Tue, 07 Apr 2015 20:21:50 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Tue, 07 Apr 2015 20:21:50 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 8337,
+                        "beer_name": "Stone Smoked Porter w\/ Vanilla Bean",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-stoneSmokedPorterVanilla.jpg",
+                        "beer_abv": 5.9,
+                        "beer_ibu": 53,
+                        "beer_slug": "stone-brewing-co-stone-smoked-porter-with-vanilla-bean",
+                        "beer_style": "Smoked Beer",
+                        "beer_description": "Stone Smoked Porter w\/ Vanilla Bean was the brainchild of Small Batch Brewer Laura Ulrich, who had a stroke of genius after trying Stone Smoked Porter poured over a couple scoops of vanilla ice cream. The complex flavor of Madagascar vanilla beans melds perfectly with the chocolatey, malty, coffee-like character of the beer, making it almost like a liquid dessert, but without an overbearing sweetness.",
+                        "created_at": "Wed, 10 Nov 2010 11:33:58 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.816,
+                        "rating_count": 42276
+                    },
+                    "brewery": {
+                        "brewery_id": 1204,
+                        "brewery_name": "Stone Brewing Co.",
+                        "brewery_slug": "stone-brewing-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-stone.jpg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "StoneBrewingCo",
+                            "facebook": "http:\/\/www.facebook.com\/StoneBrewingCo",
+                            "instagram": "StoneBrewingCo",
+                            "url": "http:\/\/www.stonebrew.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Escondido",
+                            "brewery_state": "CA",
+                            "lat": 33.1157,
+                            "lng": -117.12
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170682984,
+                    "first_created_at": "Tue, 07 Apr 2015 19:32:58 -0600",
+                    "recent_checkin_id": 170682984,
+                    "recent_created_at": "Tue, 07 Apr 2015 19:32:58 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 4,
+                    "first_had": "Tue, 07 Apr 2015 19:32:58 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 10413,
+                        "beer_name": "I Beat yoU",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_10413_sm_1027dd080883cb4d51d779a72bee1f.jpeg",
+                        "beer_abv": 9.75,
+                        "beer_ibu": 0,
+                        "beer_slug": "mikkeller-i-beat-you",
+                        "beer_style": "Imperial \/ Double IPA",
+                        "beer_description": "En Imperial India Pale Ale brygget på: vand, malt (maris otter, munich og cara-munich), flækket havre, humle (herkules, warrior, centennial, amarillo, simcoe og columbus) og alegær.",
+                        "created_at": "Sun, 21 Nov 2010 14:08:37 +0000",
+                        "auth_rating": 4,
+                        "wish_list": false,
+                        "rating_score": 3.915,
+                        "rating_count": 6310
+                    },
+                    "brewery": {
+                        "brewery_id": 2813,
+                        "brewery_name": "Mikkeller",
+                        "brewery_slug": "mikkeller",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2813_649c4.jpeg",
+                        "country_name": "Denmark",
+                        "contact": {
+                            "twitter": "MikkellerBeer",
+                            "facebook": "http:\/\/www.facebook.com\/mikkeller",
+                            "instagram": "mikkellerbeer",
+                            "url": "http:\/\/www.mikkeller.dk"
+                        },
+                        "location": {
+                            "brewery_city": "Copenhagen",
+                            "brewery_state": "1620, Hovedstaden",
+                            "lat": 55.672,
+                            "lng": 12.5575
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170252414,
+                    "first_created_at": "Sun, 05 Apr 2015 22:11:43 -0600",
+                    "recent_checkin_id": 170252414,
+                    "recent_created_at": "Sun, 05 Apr 2015 22:11:43 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Sun, 05 Apr 2015 22:11:43 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 912763,
+                        "beer_name": "Beer Camp Hoppy Lager (2015)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-912763_3c966_sm.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 55,
+                        "beer_slug": "sierra-nevada-brewing-co-beer-camp-hoppy-lager-2015",
+                        "beer_style": "IPL (India Pale Lager)",
+                        "beer_description": "Last summer we teamed up with San Diego’s Ballast Point for a hop-head twist on a crisp lager. We remixed this encore which is loaded with whole-cone hops in the brew kettle in our Hop Torpedo to deliver a bold aroma back by smooth malt flavor.",
+                        "created_at": "Tue, 16 Dec 2014 21:15:15 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.646,
+                        "rating_count": 64658
+                    },
+                    "brewery": {
+                        "brewery_id": 1142,
+                        "brewery_name": "Sierra Nevada Brewing Co.",
+                        "brewery_slug": "sierra-nevada-brewing-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-1142_f241d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "SierraNevada",
+                            "facebook": "http:\/\/www.facebook.com\/sierranevadabeer",
+                            "instagram": "sierranevada",
+                            "url": "http:\/\/www.sierranevada.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chico",
+                            "brewery_state": "CA",
+                            "lat": 39.7242,
+                            "lng": -121.815
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170226350,
+                    "first_created_at": "Sun, 05 Apr 2015 20:02:38 -0600",
+                    "recent_checkin_id": 170226350,
+                    "recent_created_at": "Sun, 05 Apr 2015 20:02:38 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Sun, 05 Apr 2015 20:02:38 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 34039,
+                        "beer_name": "Chimay Bleue (Grande Réserve)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-ChimayBleueGrandeReserve_34039.jpeg",
+                        "beer_abv": 9,
+                        "beer_ibu": 0,
+                        "beer_slug": "bieres-de-chimay-abbaye-notre-dame-de-scourmont-chimay-bleue-grande-reserve",
+                        "beer_style": "Belgian Strong Dark Ale",
+                        "beer_description": "The Chimay Blue Cap, \"baptized' \"Grande Reserve\" in 750 ml bottles is a dark Trappist beer with a powerful aroma, the complex flavour of which improves across the years. It was first brewed as a Christmas beer, explaining the presence of a \"vintage\".\n\nThis authentic Belgian beer, whose tinge of fresh yeast is associated with a light rosy flowery touch, is particularly pleasant. Its aroma, perceived as one enjoys it, only accents the delightful sensations revealed by the odour, all revealing a light but agreeable caramelized note. \n\nIt is served ideally at cellar temperature (10 to 12°C). ",
+                        "created_at": "Tue, 01 Mar 2011 18:34:09 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 4.022,
+                        "rating_count": 68753
+                    },
+                    "brewery": {
+                        "brewery_id": 378,
+                        "brewery_name": "Bières de Chimay (Abbaye Notre Dame de Scourmont) ",
+                        "brewery_slug": "bi-res-de-chimay-abbaye-notre-dame-de-scourmont",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BieresdeChimayAbbayeNotreDamedeScourmont_378.jpeg",
+                        "country_name": "Belgium",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Chimay\/133062720101674",
+                            "instagram": "",
+                            "url": "http:\/\/www.chimay.com"
+                        },
+                        "location": {
+                            "brewery_city": "Baileux",
+                            "brewery_state": "",
+                            "lat": 50.0356,
+                            "lng": 4.38177
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 170226259,
+                    "first_created_at": "Sun, 05 Apr 2015 20:02:33 -0600",
+                    "recent_checkin_id": 170226259,
+                    "recent_created_at": "Sun, 05 Apr 2015 20:02:33 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Sun, 05 Apr 2015 20:02:33 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 583329,
+                        "beer_name": "Chimay Bleue (Grande Réserve) (2014)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-ChimayBleueGrandeReserve_34039.jpeg",
+                        "beer_abv": 9,
+                        "beer_ibu": 0,
+                        "beer_slug": "bieres-de-chimay-abbaye-notre-dame-de-scourmont-chimay-bleue-grande-reserve-2014",
+                        "beer_style": "Belgian Strong Dark Ale",
+                        "beer_description": "",
+                        "created_at": "Sat, 08 Feb 2014 13:32:49 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.924,
+                        "rating_count": 5937
+                    },
+                    "brewery": {
+                        "brewery_id": 378,
+                        "brewery_name": "Bières de Chimay (Abbaye Notre Dame de Scourmont) ",
+                        "brewery_slug": "bi-res-de-chimay-abbaye-notre-dame-de-scourmont",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BieresdeChimayAbbayeNotreDamedeScourmont_378.jpeg",
+                        "country_name": "Belgium",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Chimay\/133062720101674",
+                            "instagram": "",
+                            "url": "http:\/\/www.chimay.com"
+                        },
+                        "location": {
+                            "brewery_city": "Baileux",
+                            "brewery_state": "",
+                            "lat": 50.0356,
+                            "lng": 4.38177
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 169816716,
+                    "first_created_at": "Sat, 04 Apr 2015 19:23:20 -0600",
+                    "recent_checkin_id": 169816716,
+                    "recent_created_at": "Sat, 04 Apr 2015 19:23:20 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Sat, 04 Apr 2015 19:23:20 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 7076,
+                        "beer_name": "Equinoxe du Printemps",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-EquinoxeduPrintemps_7076.jpeg",
+                        "beer_abv": 9.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "brasserie-dieu-du-ciel-equinoxe-du-printemps",
+                        "beer_style": "Scotch Ale \/ Wee Heavy",
+                        "beer_description": "Équinoxe du Printemps (French for \"spring equinox\") is the quintessential marriage of two great traditions: beer brewing in Scotland, and maple syrup production in Quebec. At the first draught, the mouth is overcome by woody, malty flavors, sustained by a discrete touch of sweetness. The aftertaste brings about the flavors of maple, which are sufficiently present to be appreciated, but never overwhelming the typical flavors of a Scotch Ale. ",
+                        "created_at": "Mon, 01 Nov 2010 11:09:40 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.79,
+                        "rating_count": 2852
+                    },
+                    "brewery": {
+                        "brewery_id": 1674,
+                        "brewery_name": "Brasserie Dieu du Ciel",
+                        "brewery_slug": "brasserie-dieu-du-ciel",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrasserieDieuDuCiel_1674.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Brasseries_DDC",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Brasserie-Dieu-du-Ciel-la-page-officielle\/104295439644026",
+                            "instagram": "",
+                            "url": "http:\/\/dieuduciel.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "St-Jérôme",
+                            "brewery_state": "QC",
+                            "lat": 45.7752,
+                            "lng": -74.0016
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 169816284,
+                    "first_created_at": "Sat, 04 Apr 2015 19:22:57 -0600",
+                    "recent_checkin_id": 169816284,
+                    "recent_created_at": "Sat, 04 Apr 2015 19:22:57 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3.5,
+                    "first_had": "Sat, 04 Apr 2015 19:22:57 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1007343,
+                        "beer_name": "Équinoxe Du Printemps (2015)",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-EquinoxeduPrintemps_7076.jpeg",
+                        "beer_abv": 9.1,
+                        "beer_ibu": 0,
+                        "beer_slug": "brasserie-dieu-du-ciel-equinoxe-du-printemps-2015",
+                        "beer_style": "Scotch Ale \/ Wee Heavy",
+                        "beer_description": "",
+                        "created_at": "Thu, 12 Mar 2015 19:04:24 +0000",
+                        "auth_rating": 3.5,
+                        "wish_list": false,
+                        "rating_score": 3.75,
+                        "rating_count": 56
+                    },
+                    "brewery": {
+                        "brewery_id": 1674,
+                        "brewery_name": "Brasserie Dieu du Ciel",
+                        "brewery_slug": "brasserie-dieu-du-ciel",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-BrasserieDieuDuCiel_1674.jpeg",
+                        "country_name": "Canada",
+                        "contact": {
+                            "twitter": "Brasseries_DDC",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Brasserie-Dieu-du-Ciel-la-page-officielle\/104295439644026",
+                            "instagram": "",
+                            "url": "http:\/\/dieuduciel.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "St-Jérôme",
+                            "brewery_state": "QC",
+                            "lat": 45.7752,
+                            "lng": -74.0016
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 169804666,
+                    "first_created_at": "Sat, 04 Apr 2015 19:08:25 -0600",
+                    "recent_checkin_id": 169804666,
+                    "recent_created_at": "Sat, 04 Apr 2015 19:08:25 -0600",
+                    "recent_created_at_timezone": "-6",
+                    "rating_score": 3,
+                    "first_had": "Sat, 04 Apr 2015 19:08:25 -0600",
+                    "count": 1,
+                    "beer": {
+                        "bid": 5383,
+                        "beer_name": "CoCoNut PorTeR",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-CoCoNutPorTeR_5383.jpeg",
+                        "beer_abv": 6,
+                        "beer_ibu": 30,
+                        "beer_slug": "maui-brewing-co-coconut-porter",
+                        "beer_style": "American Porter",
+                        "beer_description": "\"...like hot chicks on the beach.\"\n\nA classic robust porter spiced with all natural toasted coconut.  It is black in color and crowned with a creamy, dark tan head. It begins with a malty-toasted coconut aroma followed by a rich, silky feel with tastes of dark malt, chocolate, and hints of coffee.  It then finishes with flavors of  toasted coconut and hoppy spice to balance the finish.",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 3,
+                        "wish_list": false,
+                        "rating_score": 3.709,
+                        "rating_count": 24370
+                    },
+                    "brewery": {
+                        "brewery_id": 836,
+                        "brewery_name": "Maui Brewing Company",
+                        "brewery_slug": "maui-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-MauiBrewingCo_836.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "mauibrewingco",
+                            "facebook": "http:\/\/www.facebook.com\/MBCBrewpub",
+                            "instagram": "",
+                            "url": "http:\/\/www.mauibrewingco.com"
+                        },
+                        "location": {
+                            "brewery_city": "Lahaina, Maui",
+                            "brewery_state": "HI",
+                            "lat": 20.8792,
+                            "lng": -156.679
+                        },
+                        "brewery_active": 1
+                    }
+                }
+            ]
+        }
+    }
+}

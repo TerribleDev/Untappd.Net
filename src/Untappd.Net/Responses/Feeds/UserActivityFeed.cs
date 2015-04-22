@@ -4,7 +4,7 @@ using Untappd.Net.Request;
 
 namespace Untappd.Net.Responses.Feeds.UserActivityFeed
 {
-    public sealed class ResponseTime
+    public class ResponseTime
     {
 
         [JsonProperty("time")]
@@ -37,6 +37,35 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public InitTime InitTime { get; set; }
     }
 
+    public class UnreadCount
+    {
+
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+
+        [JsonProperty("toasts")]
+        public int Toasts { get; set; }
+
+        [JsonProperty("friends")]
+        public int Friends { get; set; }
+
+        [JsonProperty("messages")]
+        public int Messages { get; set; }
+
+        [JsonProperty("news")]
+        public int News { get; set; }
+    }
+
+    public class Notifications
+    {
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("unread_count")]
+        public UnreadCount UnreadCount { get; set; }
+    }
+
     public class Pagination
     {
 
@@ -55,9 +84,6 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
 
         [JsonProperty("facebook")]
         public int Facebook { get; set; }
-
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
     }
 
     public class User
@@ -88,7 +114,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public string Bio { get; set; }
 
         [JsonProperty("relationship")]
-        public object Relationship { get; set; }
+        public string Relationship { get; set; }
 
         [JsonProperty("user_avatar")]
         public string UserAvatar { get; set; }
@@ -188,6 +214,74 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public int BreweryActive { get; set; }
     }
 
+    public class User2
+    {
+
+        [JsonProperty("uid")]
+        public int Uid { get; set; }
+
+        [JsonProperty("user_name")]
+        public string UserName { get; set; }
+
+        [JsonProperty("first_name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("last_name")]
+        public string LastName { get; set; }
+
+        [JsonProperty("bio")]
+        public string Bio { get; set; }
+
+        [JsonProperty("location")]
+        public string Location { get; set; }
+
+        [JsonProperty("relationship")]
+        public string Relationship { get; set; }
+
+        [JsonProperty("is_supporter")]
+        public int IsSupporter { get; set; }
+
+        [JsonProperty("user_avatar")]
+        public string UserAvatar { get; set; }
+
+        [JsonProperty("user_link")]
+        public string UserLink { get; set; }
+
+        [JsonProperty("account_type")]
+        public string AccountType { get; set; }
+
+        [JsonProperty("brewery_details")]
+        public IList<object> BreweryDetails { get; set; }
+    }
+
+    public class Item2
+    {
+
+        [JsonProperty("user")]
+        public User2 User { get; set; }
+
+        [JsonProperty("checkin_id")]
+        public int CheckinId { get; set; }
+
+        [JsonProperty("comment_id")]
+        public int CommentId { get; set; }
+
+        [JsonProperty("comment_owner")]
+        public bool CommentOwner { get; set; }
+
+        [JsonProperty("comment_editor")]
+        public bool CommentEditor { get; set; }
+
+        [JsonProperty("comment")]
+        public string Comment { get; set; }
+
+        [JsonProperty("created_at")]
+        public string CreatedAt { get; set; }
+
+        [JsonProperty("comment_source")]
+        public string CommentSource { get; set; }
+    }
+
     public class Comments
     {
 
@@ -198,10 +292,10 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<object> Items { get; set; }
+        public IList<Item2> Items { get; set; }
     }
 
-    public class User2
+    public class User3
     {
 
         [JsonProperty("uid")]
@@ -232,17 +326,17 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public string AccountType { get; set; }
 
         [JsonProperty("brewery_details")]
-        public object BreweryDetails { get; set; }
+        public IList<object> BreweryDetails { get; set; }
     }
 
-    public class Item2
+    public class Item3
     {
 
         [JsonProperty("uid")]
         public int Uid { get; set; }
 
         [JsonProperty("user")]
-        public User2 User { get; set; }
+        public User3 User { get; set; }
 
         [JsonProperty("like_id")]
         public int LikeId { get; set; }
@@ -264,10 +358,10 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public int Count { get; set; }
 
         [JsonProperty("auth_toast")]
-        public object AuthToast { get; set; }
+        public bool AuthToast { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item2> Items { get; set; }
+        public IList<Item3> Items { get; set; }
     }
 
     public class Photo
@@ -286,7 +380,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public string PhotoImgOg { get; set; }
     }
 
-    public class Item3
+    public class Item4
     {
 
         [JsonProperty("photo_id")]
@@ -303,7 +397,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item3> Items { get; set; }
+        public IList<Item4> Items { get; set; }
     }
 
     public class Source
@@ -329,7 +423,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public string Lg { get; set; }
     }
 
-    public class Item4
+    public class Item5
     {
 
         [JsonProperty("badge_id")]
@@ -358,7 +452,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item4> Items { get; set; }
+        public IList<Item5> Items { get; set; }
     }
 
     public class Item
@@ -432,7 +526,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
-        public IList<object> Notifications { get; set; }
+        public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
         public Response Response { get; set; }

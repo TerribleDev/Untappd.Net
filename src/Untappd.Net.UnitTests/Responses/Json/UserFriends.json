@@ -1,0 +1,528 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.017,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.011,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "count": 25,
+        "items": [
+            {
+                "friendship_hash": "0e4febd2a0c35a63abe5e0e3ce00a282",
+                "created_at": "Tue, 21 Apr 2015 23:19:30 +0000",
+                "user": {
+                    "uid": 2089631,
+                    "user_name": "tparnell",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Tommy",
+                    "last_name": "Parnell",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/333e3cea32cd17ff2007d131df336061?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "f215a9cb6ea4185b4efe00b32ed892b7",
+                "created_at": "Thu, 16 Apr 2015 15:17:47 +0000",
+                "user": {
+                    "uid": 2173683,
+                    "user_name": "brubscosta",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Bruna",
+                    "last_name": "Costa",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/51e4c046b4818381011d7578e9fe131d_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "e0a0b02346835783e67b1556dbe0dbff",
+                "created_at": "Mon, 30 Mar 2015 01:11:21 +0000",
+                "user": {
+                    "uid": 63642,
+                    "user_name": "Drebrazil",
+                    "location": "Curitiba",
+                    "bio": "",
+                    "is_supporter": 1,
+                    "first_name": "Andre",
+                    "last_name": "CuritibaBeer",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/138d78a1fd59dfb6e1213002ade30ccc_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "07cef68b2ac3e98946d67e6a1eecc646",
+                "created_at": "Sat, 14 Mar 2015 01:01:32 +0000",
+                "user": {
+                    "uid": 29606,
+                    "user_name": "whatchrisdrinks",
+                    "location": "Calgary, AB",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Chris",
+                    "last_name": "vdP",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/74bf8175e617100e0083a3a0de519f0d_thumb.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "35e2d64ff686e339770ffb19fcea3a9d",
+                "created_at": "Fri, 20 Feb 2015 21:33:55 +0000",
+                "user": {
+                    "uid": 431214,
+                    "user_name": "eaglecreekbeercompany",
+                    "location": "Indianapolis, Indiana",
+                    "bio": "Drink some great Beer from the heart of Discover Eagle Creek! Brewed Local! Drank by the people! ",
+                    "is_supporter": 0,
+                    "first_name": "Eagle Creek Beer Company",
+                    "last_name": "",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/fa82acf8935b866c2e21b94542a4deee_thumb.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "9f669419e0f65f86680ffbb60fd4a63b",
+                "created_at": "Fri, 23 Jan 2015 18:18:47 +0000",
+                "user": {
+                    "uid": 1954943,
+                    "user_name": "eisfeld",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Guilherme",
+                    "last_name": "Eisfeld",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/cd6cd40a907ac06ebb1ddf16be51b1c8_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "87e1381ca68cb7251d5fcf5083f0e4c4",
+                "created_at": "Tue, 06 Jan 2015 23:49:30 +0000",
+                "user": {
+                    "uid": 217409,
+                    "user_name": "amrf",
+                    "location": "Brazil - PR",
+                    "bio": "Paraná - Brasil\nInstagram: amrfcwb",
+                    "is_supporter": 1,
+                    "first_name": "Antonio",
+                    "last_name": "MR",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/3ff610ed8593b2ed9c57e9c666f80cb5_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "5caabbf050fd7b9b4e8f419a4c3022f4",
+                "created_at": "Thu, 18 Dec 2014 02:59:51 +0000",
+                "user": {
+                    "uid": 691788,
+                    "user_name": "elpetrucio",
+                    "location": "Salvador",
+                    "bio": "I'm a beerhunter...",
+                    "is_supporter": 0,
+                    "first_name": "Elton",
+                    "last_name": "Petrucio",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/b7741e13e2bfbaef6c792435f4137958_thumb.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "419dff67fee7c65027b1e448a36873c6",
+                "created_at": "Sun, 16 Nov 2014 03:57:30 +0000",
+                "user": {
+                    "uid": 1080006,
+                    "user_name": "adamfehr",
+                    "location": "Calgary ",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Adam",
+                    "last_name": "Fehr",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/0ccbafda3ade6c0d1bd08f4b9466bb37_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "e4b592a6dd6942e852e2b6e214f10610",
+                "created_at": "Sun, 16 Nov 2014 03:57:01 +0000",
+                "user": {
+                    "uid": 1353946,
+                    "user_name": "RobBarchard",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Robert",
+                    "last_name": "Barchard",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/0e0a7bb5207347c18147d9e058c3fd14_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "37ad73ff9728ede836d7aced68d6e04f",
+                "created_at": "Mon, 15 Sep 2014 03:18:56 +0000",
+                "user": {
+                    "uid": 1586791,
+                    "user_name": "carlos_joia",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Carlos",
+                    "last_name": "Joia",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/8c322eb8d416bef6a373131b3e082d78_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "896ae278f2d35d4d61de6312479f9fd6",
+                "created_at": "Sat, 06 Sep 2014 14:04:21 +0000",
+                "user": {
+                    "uid": 1351487,
+                    "user_name": "murilolz",
+                    "location": "Foz Do Iguassú, Parana, Brazil",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Murilo",
+                    "last_name": "Senger",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/dfcaef7b4bca1563cb681b9fab5b9a61?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "5baa27e028a6207f106c36ebc423a613",
+                "created_at": "Sat, 06 Sep 2014 14:04:18 +0000",
+                "user": {
+                    "uid": 1276090,
+                    "user_name": "ValterSantos",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Valter",
+                    "last_name": "Santos",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/79b4fa858328f2eb85dff817d79a66a7_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "04fa0d1bc353527af7289dacd4f994f7",
+                "created_at": "Mon, 18 Aug 2014 12:55:11 +0000",
+                "user": {
+                    "uid": 1522756,
+                    "user_name": "gblecci",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Gilberto",
+                    "last_name": "Lecci",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/81037285df438cc76a39f43419f86e23_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "e92bf7ae787cae3e1fa05a153e41bd4d",
+                "created_at": "Thu, 14 Aug 2014 19:26:55 +0000",
+                "user": {
+                    "uid": 1511987,
+                    "user_name": "Seibt",
+                    "location": "Curitiba",
+                    "bio": "... A fucking drunk!",
+                    "is_supporter": 0,
+                    "first_name": "Junior",
+                    "last_name": "Seibt",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/7f5e7c4244ded648df508b361341b84d_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "07036b6641559b5a5d6de64654217dc1",
+                "created_at": "Tue, 20 May 2014 10:12:07 +0000",
+                "user": {
+                    "uid": 4489,
+                    "user_name": "pebianchi",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Pedro",
+                    "last_name": "Bianchi",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/dc01aaf8c57bcca2a7789e2a316e01c2?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "4934856a878e2053475b6a1a2742eb9a",
+                "created_at": "Tue, 20 May 2014 10:10:58 +0000",
+                "user": {
+                    "uid": 1296745,
+                    "user_name": "guilhermeovo",
+                    "location": "Curitiba",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Guilherme",
+                    "last_name": "Silva",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/68c5685daf11616d17943cce4c151b42?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "71e7eaa9e39df69d61119499a5dd90a4",
+                "created_at": "Thu, 01 May 2014 19:44:16 +0000",
+                "user": {
+                    "uid": 273146,
+                    "user_name": "ZeAmaral",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "José Carlos",
+                    "last_name": "Amaral",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/99969331a083053eec91d884f6a6228e_thumb.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "657f18515d5e45e6b8e35d2f0c133bea",
+                "created_at": "Thu, 24 Apr 2014 06:55:34 +0000",
+                "user": {
+                    "uid": 835807,
+                    "user_name": "Wogaiht",
+                    "location": "Foz do Iguaçu",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Thiago",
+                    "last_name": "Wenzel",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/e498e3b0db8ac79a31657f25265754cc_thumb.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "55df2c06656698cc5174f081992fe147",
+                "created_at": "Mon, 21 Apr 2014 21:14:39 +0000",
+                "user": {
+                    "uid": 1229549,
+                    "user_name": "Oicram",
+                    "location": "Rio de Janeiro",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Marcio",
+                    "last_name": "Lima",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/985629b701a2e9f5f9704f667728d9e6_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "9ed7772ec96282a4a9c68569e14d20b5",
+                "created_at": "Sat, 05 Apr 2014 17:51:02 +0000",
+                "user": {
+                    "uid": 1191592,
+                    "user_name": "renke",
+                    "location": "Curitiba ",
+                    "bio": "Já é a saideira",
+                    "is_supporter": 0,
+                    "first_name": "Robson",
+                    "last_name": "Enke",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/5b5afa5b190abf9d6b469bc981218a70_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "6aac8de6a282ed2f0839d84d3a83921c",
+                "created_at": "Thu, 03 Apr 2014 11:06:03 +0000",
+                "user": {
+                    "uid": 1184056,
+                    "user_name": "BrumD",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Bruno",
+                    "last_name": "Damian",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/c2193fca299858069730994a4253baef?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "876eb6cc212e2c49049ac2e5727e4296",
+                "created_at": "Sat, 29 Mar 2014 16:43:31 +0000",
+                "user": {
+                    "uid": 1175027,
+                    "user_name": "Francampos",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Francinete",
+                    "last_name": "Campos",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/9b1617647ed644328159780feef36dcb?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "50321a982bee71d136738b518e0431fb",
+                "created_at": "Sat, 29 Mar 2014 16:29:45 +0000",
+                "user": {
+                    "uid": 1174974,
+                    "user_name": "anderbarison",
+                    "location": "",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Andersson",
+                    "last_name": "Barison",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/b780615fbd4e2ab86db87e19a4aa6d58?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            },
+            {
+                "friendship_hash": "cb87bb2960774c906fe014539b6b5a7c",
+                "created_at": "Wed, 26 Mar 2014 10:49:48 +0000",
+                "user": {
+                    "uid": 1166219,
+                    "user_name": "augustaschmidt",
+                    "location": "Calgary ",
+                    "bio": "",
+                    "is_supporter": 0,
+                    "first_name": "Augusta",
+                    "last_name": "Schmidt",
+                    "relationship": "friends",
+                    "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/faedd390ef54d503779d3fa8f925734e_100x100.jpg"
+                },
+                "mutual_friends": {
+                    "count": 0,
+                    "items": [
+                    ]
+                }
+            }
+        ]
+    }
+}
