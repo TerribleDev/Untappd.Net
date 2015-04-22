@@ -55,4 +55,5 @@ var t = new Repository().Get<ActivityFeed>(ts);
  * The only reason I do not publish on master, is because sometimes commits can just contain readme files, or unit tests changes that do not affect the nuget package
 
 Current contributors:
+* Tommy James Parnell (https://github.com/tparnell8)
 * Rodrigo P Reis (https://github.com/rodkings)
