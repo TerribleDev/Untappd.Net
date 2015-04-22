@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Authentication\AuthenticationHelper.cs" />
+<<<<<<< HEAD
     <Compile Include="SingleObjectArrayConverter.cs" />
+=======
+    <Compile Include="Authentication\AuthenticationHelper.cs" />
+>>>>>>> upstream/master
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IUnAuthenticatedUntappdCredentials.cs" />

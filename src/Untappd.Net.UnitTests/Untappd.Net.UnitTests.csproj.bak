@@ -69,8 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Responses\TestDeserializer.cs" />
+=======
     <Compile Include="Authentication\TestAuthenticationHelper.cs" />
+    <Compile Include="Class1.cs" />
+>>>>>>> upstream/master
     <Compile Include="Client\TestAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\TestUnAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Exception\TestBaseUntappdException.cs" />
