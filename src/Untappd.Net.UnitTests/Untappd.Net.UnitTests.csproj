@@ -69,8 +69,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Responses\TestDeserializer.cs" />
     <Compile Include="Authentication\TestAuthenticationHelper.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Client\TestAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\TestUnAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Exception\TestBaseUntappdException.cs" />
@@ -79,6 +79,18 @@
     <Compile Include="Request\TestRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Responses\Json\ActivityFeed.json" />
+    <None Include="Responses\Json\BeerInfo.json" />
+    <None Include="Responses\Json\BeerSearch.json" />
+    <None Include="Responses\Json\BreweryInfo.json" />
+    <None Include="Responses\Json\BrewerySearch.json" />
+    <None Include="Responses\Json\UserActivityFeed.json" />
+    <None Include="Responses\Json\UserBadges.json" />
+    <None Include="Responses\Json\UserDistinctBeers.json" />
+    <None Include="Responses\Json\UserFriends.json" />
+    <None Include="Responses\Json\UserInfo.json" />
+    <None Include="Responses\Json\UserWishList.json" />
+    <None Include="Responses\Json\VenueInfo.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

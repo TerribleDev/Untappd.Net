@@ -5,7 +5,7 @@ using Untappd.Net.Request;
 namespace Untappd.Net.Responses.BrewerySearch
 {
 
-    public sealed class ResponseTime
+    public class ResponseTime
     {
 
         [JsonProperty("time")]
@@ -36,6 +36,35 @@ namespace Untappd.Net.Responses.BrewerySearch
 
         [JsonProperty("init_time")]
         public InitTime InitTime { get; set; }
+    }
+
+    public class UnreadCount
+    {
+
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+
+        [JsonProperty("toasts")]
+        public int Toasts { get; set; }
+
+        [JsonProperty("friends")]
+        public int Friends { get; set; }
+
+        [JsonProperty("messages")]
+        public int Messages { get; set; }
+
+        [JsonProperty("news")]
+        public int News { get; set; }
+    }
+
+    public class Notifications
+    {
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("unread_count")]
+        public UnreadCount UnreadCount { get; set; }
     }
 
     public class Location
@@ -117,13 +146,13 @@ namespace Untappd.Net.Responses.BrewerySearch
 
     public class BrewerySearch : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/search/brewery"; }
-        }
+        protected override string _EndPoint { get { return "v4/search/brewery"; } }
+
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
-        public IList<object> Notifications { get; set; }
+        public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
         public Response Response { get; set; }

@@ -12,8 +12,15 @@ This is a c# wrapper around the Untappd API. This can be downloaded via [Nuget](
 
 ## API Coverage
 
-So far only the Requests that do not require user tokens have been implemented
+Current both Authenticated and Unauthenticated requests.
 
+More info: https://untappd.com/api/docs
+
+For Authenticated requests, you should already have a valid token, provided via OAuth authentication.
+
+Such authentication can be achieved using Owin OAuth Providers for ASP.NET Web Applications, which already have an Untappd provider.
+
+More info: https://github.com/RockstarLabs/OwinOAuthProviders
 
 ## How do I use?
 
@@ -28,9 +35,16 @@ var ts = new UnAuthenticatedUntappdCredentials("key", "secret");
 var t = new Repository().Get<UserDistinctBeers>(ts, "tparnell");
 var t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 
-
 ```
 
+For Authenticated requests:
+
+```csharp
+
+var ts = new AuthenticatedUntappdCredentials("token", "key", "secret");
+var t = new Repository().Get<ActivityFeed>(ts);
+
+```
 
 ## Contributing
 
@@ -39,3 +53,6 @@ var t = new Repository().Get<BeerInfo>(ts, "BeerIdHere");
 * There are no special instructions, submit pull requests against the master branch.
 * Releases to nuget occur on successful release branch builds.
  * The only reason I do not publish on master, is because sometimes commits can just contain readme files, or unit tests changes that do not affect the nuget package
+
+Current contributors:
+* Rodrigo P Reis (https://github.com/rodkings)

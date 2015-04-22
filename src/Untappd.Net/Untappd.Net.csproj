@@ -47,9 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication\AuthenticationHelper.cs" />
+    <Compile Include="SingleObjectArrayConverter.cs" />
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
-    <Compile Include="Client\IUnAuthenticadedUntappdCredentials.cs" />
+    <Compile Include="Client\IUnAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IUntappdCredentials.cs" />
     <Compile Include="Client\UnAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\UntappdCredentials.cs" />

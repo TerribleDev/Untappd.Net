@@ -16,7 +16,7 @@ namespace Untappd.Net.Authentication
         /// <param name="credentials"></param>
         /// <param name="redirectUrl">The URL to redirect back to your application. Should listen on code as a string param</param>
         /// <returns></returns>
-        public static string RedirectUserTo(IUnAuthenticadedUntappdCredentials credentials, string redirectUrl)
+        public static string RedirectUserTo(IUnAuthenticatedUntappdCredentials credentials, string redirectUrl)
         {
             if (credentials == null)
             {
@@ -39,7 +39,7 @@ namespace Untappd.Net.Authentication
         /// <param name="redirectUrl"></param>
         /// <param name="code">Data returned by the initial request(see: RedirectUserTo)</param>
         /// <returns></returns>
-        public static string TokenUrl(IUnAuthenticadedUntappdCredentials credentials, string redirectUrl, string code)
+        public static string TokenUrl(IUnAuthenticatedUntappdCredentials credentials, string redirectUrl, string code)
         {
             if (credentials == null)
             {

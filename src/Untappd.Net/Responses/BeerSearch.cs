@@ -5,7 +5,7 @@ using Untappd.Net.Request;
 namespace Untappd.Net.Responses.BeerSearch
 {
 
-    public sealed class ResponseTime
+    public class ResponseTime
     {
 
         [JsonProperty("time")]
@@ -36,6 +36,35 @@ namespace Untappd.Net.Responses.BeerSearch
 
         [JsonProperty("init_time")]
         public InitTime InitTime { get; set; }
+    }
+
+    public class UnreadCount
+    {
+
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+
+        [JsonProperty("toasts")]
+        public int Toasts { get; set; }
+
+        [JsonProperty("friends")]
+        public int Friends { get; set; }
+
+        [JsonProperty("messages")]
+        public int Messages { get; set; }
+
+        [JsonProperty("news")]
+        public int News { get; set; }
+    }
+
+    public class Notifications
+    {
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("unread_count")]
+        public UnreadCount UnreadCount { get; set; }
     }
 
     public class Beer
@@ -164,122 +193,6 @@ namespace Untappd.Net.Responses.BeerSearch
         public IList<Item> Items { get; set; }
     }
 
-    public class Beer2
-    {
-
-        [JsonProperty("bid")]
-        public int Bid { get; set; }
-
-        [JsonProperty("beer_name")]
-        public string BeerName { get; set; }
-
-        [JsonProperty("beer_label")]
-        public string BeerLabel { get; set; }
-
-        [JsonProperty("beer_abv")]
-        public double BeerAbv { get; set; }
-
-        [JsonProperty("beer_ibu")]
-        public int BeerIbu { get; set; }
-
-        [JsonProperty("beer_description")]
-        public string BeerDescription { get; set; }
-
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
-
-        [JsonProperty("beer_style")]
-        public string BeerStyle { get; set; }
-
-        [JsonProperty("auth_rating")]
-        public double AuthRating { get; set; }
-
-        [JsonProperty("wish_list")]
-        public bool WishList { get; set; }
-
-        [JsonProperty("in_production")]
-        public int InProduction { get; set; }
-    }
-
-    public class Contact2
-    {
-
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
-
-        [JsonProperty("facebook")]
-        public string Facebook { get; set; }
-
-        [JsonProperty("instagram")]
-        public string Instagram { get; set; }
-
-        [JsonProperty("url")]
-        public string Url { get; set; }
-    }
-
-    public class Location2
-    {
-
-        [JsonProperty("brewery_city")]
-        public string BreweryCity { get; set; }
-
-        [JsonProperty("brewery_state")]
-        public string BreweryState { get; set; }
-
-        [JsonProperty("lat")]
-        public int Lat { get; set; }
-
-        [JsonProperty("lng")]
-        public int Lng { get; set; }
-    }
-
-    public class Brewery2
-    {
-
-        [JsonProperty("brewery_id")]
-        public int BreweryId { get; set; }
-
-        [JsonProperty("brewery_name")]
-        public string BreweryName { get; set; }
-
-        [JsonProperty("brewery_slug")]
-        public string BrewerySlug { get; set; }
-
-        [JsonProperty("brewery_label")]
-        public string BreweryLabel { get; set; }
-
-        [JsonProperty("country_name")]
-        public string CountryName { get; set; }
-
-        [JsonProperty("contact")]
-        public Contact2 Contact { get; set; }
-
-        [JsonProperty("location")]
-        public Location2 Location { get; set; }
-
-        [JsonProperty("brewery_active")]
-        public int BreweryActive { get; set; }
-    }
-
-    public class Item2
-    {
-
-        [JsonProperty("checkin_count")]
-        public int CheckinCount { get; set; }
-
-        [JsonProperty("have_had")]
-        public bool HaveHad { get; set; }
-
-        [JsonProperty("your_count")]
-        public int YourCount { get; set; }
-
-        [JsonProperty("beer")]
-        public Beer2 Beer { get; set; }
-
-        [JsonProperty("brewery")]
-        public Brewery2 Brewery { get; set; }
-    }
-
     public class Homebrew
     {
 
@@ -287,59 +200,14 @@ namespace Untappd.Net.Responses.BeerSearch
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item2> Items { get; set; }
-    }
-
-    public class Location3
-    {
-
-        [JsonProperty("brewery_city")]
-        public string BreweryCity { get; set; }
-
-        [JsonProperty("brewery_state")]
-        public string BreweryState { get; set; }
-
-        [JsonProperty("lat")]
-        public int Lat { get; set; }
-
-        [JsonProperty("lng")]
-        public int Lng { get; set; }
-    }
-
-    public class Brewery3
-    {
-
-        [JsonProperty("brewery_id")]
-        public int BreweryId { get; set; }
-
-        [JsonProperty("beer_count")]
-        public int BeerCount { get; set; }
-
-        [JsonProperty("brewery_name")]
-        public string BreweryName { get; set; }
-
-        [JsonProperty("brewery_label")]
-        public string BreweryLabel { get; set; }
-
-        [JsonProperty("country_name")]
-        public string CountryName { get; set; }
-
-        [JsonProperty("location")]
-        public Location3 Location { get; set; }
-    }
-
-    public class Item3
-    {
-
-        [JsonProperty("brewery")]
-        public Brewery3 Brewery { get; set; }
+        public IList<object> Items { get; set; }
     }
 
     public class Breweries
     {
 
         [JsonProperty("items")]
-        public IList<Item3> Items { get; set; }
+        public IList<object> Items { get; set; }
 
         [JsonProperty("count")]
         public int Count { get; set; }
@@ -390,13 +258,13 @@ namespace Untappd.Net.Responses.BeerSearch
 
     public class BeerSearch : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/search/beer"; }
-        }
+        protected override string _EndPoint { get { return "v4/search/beer"; } }
+
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
-        public IList<object> Notifications { get; set; }
+        public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
         public Response Response { get; set; }

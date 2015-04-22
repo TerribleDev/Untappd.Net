@@ -1,0 +1,2052 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.066,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.013,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "type": "earned",
+        "sort": "all",
+        "count": 50,
+        "items": [
+            {
+                "user_badge_id": 54686732,
+                "badge_id": 3458,
+                "checkin_id": 173954362,
+                "badge_name": "Dubbel, Tripel and Quad Oh My!",
+                "badge_description": "Dubbel, Tripel, or Quad, you can’t go wrong with these amazing feats of Belgian style brewing. Whether you’re looking for something light and golden or dark and boozy, one of these will do the trick! That's 5 different beers with the style of Dubbel, Tripel or Quad! Try 5 more for Level 2!",
+                "badge_hint": "Check-in 5 different beers with the style of Belgian Dubbel, Tripel or Quad.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_lg.jpg"
+                },
+                "created_at": "Sat, 18 Apr 2015 17:48:42 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 3458,
+                            "badge_id": 54686732,
+                            "checkin_id": 173954362,
+                            "badge_name": "Dubbel, Tripel and Quad Oh My!",
+                            "badge_description": "Dubbel, Tripel, or Quad, you can’t go wrong with these amazing feats of Belgian style brewing. Whether you’re looking for something light and golden or dark and boozy, one of these will do the trick! That's 5 different beers with the style of Dubbel, Tripel or Quad! Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_DubTripQuad_lg.jpg"
+                            },
+                            "created_at": "Sat, 18 Apr 2015 17:48:42 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 54601634,
+                "badge_id": 3408,
+                "checkin_id": 173722187,
+                "badge_name": "Better Together",
+                "badge_description": "What happens when you take two or more amazing breweries, throw them into the tank and let them ferment together? An amazing collaboration beer, that’s what! Cheers to working together to create the perfect flavor. That's 5 different beers that been brewed as a collboration. Try 5 more for Level 2!",
+                "badge_hint": "Check-in 5 different beers that been brewed by 2 more more breweries (collaboration).",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_lg.jpg"
+                },
+                "created_at": "Sat, 18 Apr 2015 01:19:37 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 3408,
+                            "badge_id": 54601634,
+                            "checkin_id": 173722187,
+                            "badge_name": "Better Together",
+                            "badge_description": "What happens when you take two or more amazing breweries, throw them into the tank and let them ferment together? An amazing collaboration beer, that’s what! Cheers to working together to create the perfect flavor. That's 5 different beers that been brewed as a collboration. Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BetterTogether_lg.jpg"
+                            },
+                            "created_at": "Sat, 18 Apr 2015 01:19:37 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 53799464,
+                "badge_id": 837,
+                "checkin_id": 171555760,
+                "badge_name": "Keep Your Wits About You",
+                "badge_description": "Hazy and white like a winter storm, but best enjoyed on a warm sunny day. This specific style of wheat beer brings with it a subtle mix of spices and hops, giving it a distinct flavor with little bitterness. That's 5 different beers categorized as a Witbier. Try 5 more for Level 2!",
+                "badge_hint": "Check-in to 5 different beers that are categorized as a Witbier.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_witbier_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_witbier_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_witbier_lg.jpg"
+                },
+                "created_at": "Sat, 11 Apr 2015 01:51:33 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 837,
+                            "badge_id": 53799464,
+                            "checkin_id": 171555760,
+                            "badge_name": "Keep Your Wits About You",
+                            "badge_description": "Hazy and white like a winter storm, but best enjoyed on a warm sunny day. This specific style of wheat beer brings with it a subtle mix of spices and hops, giving it a distinct flavor with little bitterness. That's 5 different beers categorized as a Witbier. Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_witbier_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_witbier_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_witbier_lg.jpg"
+                            },
+                            "created_at": "Sat, 11 Apr 2015 01:51:33 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3560,
+                "user_badge_id": 53431470,
+                "checkin_id": 170682984,
+                "badge_name": "National Beer Day (2015)",
+                "badge_description": "It's time to celebrate water, barley, yeast, and hops. On this National Beer Day, let's raise a toast to our favorite beverage... beer, duh!",
+                "badge_hint": "Check-in any beer on April 7th, 2015 in your Local Timezone.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NationalBeerDay2015_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NationalBeerDay2015_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NationalBeerDay2015_lg.jpg"
+                },
+                "created_at": "Wed, 08 Apr 2015 01:32:58 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3522,
+                "user_badge_id": 53168665,
+                "checkin_id": 170252414,
+                "badge_name": "NC Beer Month - April (2015)",
+                "badge_description": "It’s April and that means one thing: NC Beer Month is back! An annual celebration of the unique flavors of North Carolina craft brews filled with events and beer-related travel deals throughout the month. Find out more at <a href=\"http:\/\/ncbeermonth.com\" rel=\"link-out\">http:\/\/ncbeermonth.com<\/a>. Cheers!",
+                "badge_hint": "Check in to (1) one beer from a list of NC Breweries on our blog form 4\/1\/15 to 4\/30\/15. (This for the April list only!)",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NCBeerMonth2015April_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NCBeerMonth2015April_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NCBeerMonth2015April_lg.jpg"
+                },
+                "created_at": "Mon, 06 Apr 2015 04:11:44 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3524,
+                "user_badge_id": 53168666,
+                "checkin_id": 170252414,
+                "badge_name": "Sierra Nevada: New Year, New Beers",
+                "badge_description": "Solid beer choice. Watch for Sierra Nevada’s three brand new beers: Hop Hunter IPA, Nooner Pilsner, and Beer Camp Hoppy Lager. Check into one of them to start collecting Alpha Ascent badges, you beer adventurer!",
+                "badge_hint": "Check­in to any Sierra Nevada beer between 3\/5\/15 - 4\/5\/15.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_SN2015Bonus_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_SN2015Bonus_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_SN2015Bonus_lg.jpg"
+                },
+                "created_at": "Mon, 06 Apr 2015 04:11:44 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3525,
+                "user_badge_id": 53168667,
+                "checkin_id": 170252414,
+                "badge_name": "Alpha Ascent - The Trailhead",
+                "badge_description": "Cheers to kick­starting your ascent! Find your stride and look for the second of three milestones on the journey: Hop Hunter IPA, Nooner Pilsner, and Beer Camp Hoppy Lager.",
+                "badge_hint": "Check in to any one (1) of Sierra Nevada’s newest beers ­ Hop Hunter IPA, Nooner Pilsner, or Beer Camp Hoppy Lager ­ between 3\/5\/15 - 4\/5\/15.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_SN2015L1_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_SN2015L1_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_SN2015L1_lg.jpg"
+                },
+                "created_at": "Mon, 06 Apr 2015 04:11:44 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 38,
+                "user_badge_id": 52941809,
+                "checkin_id": 169651149,
+                "badge_name": "Risk Taker",
+                "badge_description": "You’ve never had it, but you’ll take our word for it. Try 10 different recommended brews in the last 60 days.",
+                "badge_hint": "Take your pick, select a recommended beer from our list!",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_riskTaker_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_riskTaker_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_riskTaker_lg.jpg"
+                },
+                "created_at": "Sat, 04 Apr 2015 21:56:54 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3528,
+                "user_badge_id": 52110924,
+                "checkin_id": 167549985,
+                "badge_name": "Magners Irish Cider St. Patrick’s Day (2015)",
+                "badge_description": "Celebrate St. Patrick’s Day with Magners Irish Cider! Made from 17 varieties of apples and aged for up to two years in oak vats, both our Original and Pear ciders are best served over ice, with friends. Now is a good time.",
+                "badge_hint": "Check­in 3 times to Magners Irish Ciders or Irish Pear Cider from 3\/13\/15 ­- 4\/13\/15.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_MagnersStPatricks2015_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_MagnersStPatricks2015_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_MagnersStPatricks2015_lg.jpg"
+                },
+                "created_at": "Sun, 29 Mar 2015 00:30:14 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3530,
+                "user_badge_id": 50745056,
+                "checkin_id": 164104373,
+                "badge_name": "St. Patrick's Day (2015)",
+                "badge_description": "Cheers to the Luck of the Irish on this St. Patrick's Day! Whether you're enjoying a hefty Triple IPA or a green Pilsner, we hope you have a blast!",
+                "badge_hint": "Check-in with ANY beer on 3\/17\/15 in your Local Timezone. Cheers!",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_StPatirkcs2015_sm.jpg?v=1",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_StPatirkcs2015_md.jpg?v=1",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_StPatirkcs2015_lg.jpg?v=1"
+                },
+                "created_at": "Wed, 18 Mar 2015 02:22:20 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3514,
+                "user_badge_id": 47513140,
+                "checkin_id": 155968588,
+                "badge_name": "Mardi Gras (2015)",
+                "badge_description": "Time to count up those beads, did you get more than last year? Here is to celebrating the end of Mardi Gras! Happy Fat Tuesday!",
+                "badge_hint": "Check-in any beer on Fat Tuesday (2\/17\/15).",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_MardiGras2015_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_MardiGras2015_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_MardiGras2015_lg.jpg"
+                },
+                "created_at": "Wed, 18 Feb 2015 03:29:05 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3512,
+                "user_badge_id": 47365760,
+                "checkin_id": 155785913,
+                "badge_name": "Beer City, USA",
+                "badge_description": "Congratulations! You have checked in two beers from Beer City USA, aka Grand Rapids, Michigan. Or, as USA Today prefers to call us, America’s Best Beer Town. This is where beer lovers come to enjoy more sensational suds per square mile, at 30+ close­by craft breweries.",
+                "badge_hint": "Check­in to two (2) beers by different Brewery from a list provided on our Blog from 2\/16\/15 to 3\/16\/2015",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_BeerCityUSA_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_BeerCityUSA_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_BeerCityUSA_lg.jpg"
+                },
+                "created_at": "Tue, 17 Feb 2015 05:36:54 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3258,
+                "user_badge_id": 47365761,
+                "checkin_id": 155785913,
+                "badge_name": "Founders Year-Around Arsenal",
+                "badge_description": "Beer doesn't have to be rare to be world-class. As long as you’re into bold, uncompromising, well-crafted beer, there’s something in Founders’ year-round arsenal for you.",
+                "badge_hint": "Check-in to two different year-round beers (Dirty Bastard, Centennial IPA, All Day IPA, Pale Ale, Porter, Red’s Rye IPA) from 2\/2\/15 to 3\/2\/15.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_YearRoundArsenal_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_YearRoundArsenal_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_YearRoundArsenal_lg.jpg"
+                },
+                "created_at": "Tue, 17 Feb 2015 05:36:54 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 46522347,
+                "badge_id": 12,
+                "checkin_id": 153415624,
+                "badge_name": "Luck of the Irish",
+                "badge_description": "You've discovered a pot of gold, or you've just had one too many. \r\n\r\nThat's at least 5 Irish beers. Try 5 more for Level 2.",
+                "badge_hint": "Try a couple beers (5 different) from the land that taught you that there is a pot of gold at the end of rainbow. This badge can be leveled to 10. (5 distinct beers per level).",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_irish_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_irish_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_irish_lg.jpg"
+                },
+                "created_at": "Sun, 08 Feb 2015 18:28:47 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 12,
+                            "badge_id": 46522347,
+                            "checkin_id": 153415624,
+                            "badge_name": "Luck of the Irish",
+                            "badge_description": "You've discovered a pot of gold, or you've just had one too many. \r\n\r\nThat's at least 5 Irish beers. Try 5 more for Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_irish_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_irish_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_irish_lg.jpg"
+                            },
+                            "created_at": "Sun, 08 Feb 2015 18:28:47 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 51688681,
+                "badge_id": 3358,
+                "checkin_id": 152758537,
+                "badge_name": "Hopped Up (Level 3)",
+                "badge_description": "Load up those hops, watch the IBU grow and drink it down! Now you’re all hopped up. The more bitter, the better. That's 15 different beers with an IBU of 65 or higher. Try 5 more for Level 4!",
+                "badge_hint": "Check-in 5 different beers with an IBU of 65 or higher.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_lg.jpg"
+                },
+                "created_at": "Sat, 07 Feb 2015 03:09:06 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 3,
+                    "items": [
+                        {
+                            "actual_badge_id": 3360,
+                            "badge_id": 51688681,
+                            "checkin_id": 166492534,
+                            "badge_name": "Hopped Up (Level 3)",
+                            "badge_description": "Load up those hops, watch the IBU grow and drink it down! Now you’re all hopped up. The more bitter, the better. That's 15 different beers with an IBU of 65 or higher. Try 5 more for Level 4!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_lg.jpg"
+                            },
+                            "created_at": "Thu, 26 Mar 2015 04:28:16 +0000"
+                        },
+                        {
+                            "actual_badge_id": 3359,
+                            "badge_id": 48238375,
+                            "checkin_id": 157896214,
+                            "badge_name": "Hopped Up (Level 2)",
+                            "badge_description": "Load up those hops, watch the IBU grow and drink it down! Now you’re all hopped up. The more bitter, the better. That's 10 different beers with an IBU of 65 or higher. Try 5 more for Level 3!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_lg.jpg"
+                            },
+                            "created_at": "Wed, 25 Feb 2015 02:55:52 +0000"
+                        },
+                        {
+                            "actual_badge_id": 3358,
+                            "badge_id": 46299146,
+                            "checkin_id": 152758537,
+                            "badge_name": "Hopped Up",
+                            "badge_description": "Load up those hops, watch the IBU grow and drink it down! Now you’re all hopped up. The more bitter, the better. That's 5 different beers with an IBU of 65 or higher. Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_HoppedUp_lg.jpg"
+                            },
+                            "created_at": "Sat, 07 Feb 2015 03:09:06 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3256,
+                "user_badge_id": 45730132,
+                "checkin_id": 151495228,
+                "badge_name": "Brew Bowl XLIX",
+                "badge_description": "Time to knock back your favorite brew while watching the grid iron battle between the East and the West! ",
+                "badge_hint": "Check-in any beer on Super Bowl Sunday, 2015.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_BrewBowlXLIX_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_BrewBowlXLIX_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_BrewBowlXLIX_lg.jpg"
+                },
+                "created_at": "Sun, 01 Feb 2015 21:51:10 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 45003938,
+                "badge_id": 827,
+                "checkin_id": 149803566,
+                "badge_name": "The Wine of Beers",
+                "badge_description": "Strong, bold flavors really suit you. The barleywine brings with it a long history dating all the way back to ancient Greece. That's 5 different Barleywine Beers! Try 5 more for Level 2!",
+                "badge_hint": "Check-in to 5 different beers that are categorized as a Barleywines.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_barleywine_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_barleywine_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_barleywine_lg.jpg"
+                },
+                "created_at": "Mon, 26 Jan 2015 05:16:51 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 827,
+                            "badge_id": 45003938,
+                            "checkin_id": 149803566,
+                            "badge_name": "The Wine of Beers",
+                            "badge_description": "Strong, bold flavors really suit you. The barleywine brings with it a long history dating all the way back to ancient Greece. That's 5 different Barleywine Beers! Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_barleywine_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_barleywine_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_barleywine_lg.jpg"
+                            },
+                            "created_at": "Mon, 26 Jan 2015 05:16:51 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 42927929,
+                "badge_id": 29,
+                "checkin_id": 145370686,
+                "badge_name": "Johnny Appleseed",
+                "badge_description": "Grab a pot and put it on your head because you're a modern day Johnny Appleseed. That's 5 different ciders. Try 5 more to unlock Level 2.",
+                "badge_hint": "Who doesn't like apples? Personally we like Cider. Try 5 different ones. This badge can be leveled to 10.\n",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_appleseed_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_appleseed_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_appleseed_lg.jpg"
+                },
+                "created_at": "Sat, 10 Jan 2015 06:15:30 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 29,
+                            "badge_id": 42927929,
+                            "checkin_id": 145370686,
+                            "badge_name": "Johnny Appleseed",
+                            "badge_description": "Grab a pot and put it on your head because you're a modern day Johnny Appleseed. That's 5 different ciders. Try 5 more to unlock Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_appleseed_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_appleseed_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_appleseed_lg.jpg"
+                            },
+                            "created_at": "Sat, 10 Jan 2015 06:15:30 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 42853659,
+                "badge_id": 701,
+                "checkin_id": 145140643,
+                "badge_name": "Swedish Brews",
+                "badge_description": "Normally DIY furniture and meatballs are all that come to mind, but now you can add Swedish beer to that list! That's 5 different beers from a brewery from Sweden. Try 5 more Level 2.",
+                "badge_hint": "Check-in 5 different beers from a brewery from Sweden.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_Sweden_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_Sweden_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_Sweden_lg.jpg"
+                },
+                "created_at": "Fri, 09 Jan 2015 22:26:43 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 701,
+                            "badge_id": 42853659,
+                            "checkin_id": 145140643,
+                            "badge_name": "Swedish Brews",
+                            "badge_description": "Normally DIY furniture and meatballs are all that come to mind, but now you can add Swedish beer to that list! That's 5 different beers from a brewery from Sweden. Try 5 more Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_Sweden_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_Sweden_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_Sweden_lg.jpg"
+                            },
+                            "created_at": "Fri, 09 Jan 2015 22:26:43 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 42600109,
+                "badge_id": 73,
+                "checkin_id": 144406892,
+                "badge_name": "Rising Sun",
+                "badge_description": "You have mastered the art of Japanese Beer. That's 5 different Beers from Japan. Try 5 more for Level 2.",
+                "badge_hint": "Drink 5 different beers from Japan. This badge can be leveled to 10 (5 Distinct Beer per Level)",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_risingSun_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_risingSun_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_risingSun_lg.jpg"
+                },
+                "created_at": "Mon, 05 Jan 2015 04:49:50 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 73,
+                            "badge_id": 42600109,
+                            "checkin_id": 144406892,
+                            "badge_name": "Rising Sun",
+                            "badge_description": "You have mastered the art of Japanese Beer. That's 5 different Beers from Japan. Try 5 more for Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_risingSun_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_risingSun_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_risingSun_lg.jpg"
+                            },
+                            "created_at": "Mon, 05 Jan 2015 04:49:50 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 42600110,
+                "badge_id": 711,
+                "checkin_id": 144406892,
+                "badge_name": "Fruits of Your Labor",
+                "badge_description": "It’s been a long day and now it’s time for a reward. Crisp, tasty and refreshing, enjoy that delicious fruit beer! That's 5 different beers Fruit Beers. Try 5 more for Level 2.",
+                "badge_hint": "Check-in 5 different beers with the style of Fruit Beer.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_FruitsOfYourLabor_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_FruitsOfYourLabor_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_FruitsOfYourLabor_lg.jpg"
+                },
+                "created_at": "Mon, 05 Jan 2015 04:49:50 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 711,
+                            "badge_id": 42600110,
+                            "checkin_id": 144406892,
+                            "badge_name": "Fruits of Your Labor",
+                            "badge_description": "It’s been a long day and now it’s time for a reward. Crisp, tasty and refreshing, enjoy that delicious fruit beer! That's 5 different beers Fruit Beers. Try 5 more for Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_FruitsOfYourLabor_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_FruitsOfYourLabor_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_FruitsOfYourLabor_lg.jpg"
+                            },
+                            "created_at": "Mon, 05 Jan 2015 04:49:50 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3201,
+                "user_badge_id": 41734944,
+                "checkin_id": 142660127,
+                "badge_name": "Happy Brew Year (2015)",
+                "badge_description": "Celebrate the start of a new year with your favorite beer. We wish you an amazing 2015 full of adventure and great brews. Cheers!",
+                "badge_hint": "Check-in any beer on 12\/31\/14 to 1\/4\/15. Happy New Year!",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NewYears2015_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NewYears2015_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_NewYears2015_lg.jpg"
+                },
+                "created_at": "Wed, 31 Dec 2014 19:40:56 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 221,
+                "user_badge_id": 41613008,
+                "checkin_id": 142422465,
+                "badge_name": "Beer Gathering",
+                "badge_description": "Beer is often better with friends. Besides, drinking socially is what we're all about! You've checked in with at least 10 other people within 5 hours.",
+                "badge_hint": "Check-in to a location with at least 10 others within 5 hours.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_beerGathering_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_beerGathering_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_beerGathering_lg.jpg"
+                },
+                "created_at": "Tue, 30 Dec 2014 23:37:26 +0000",
+                "is_level": false,
+                "category_id": 2,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 40962687,
+                "badge_id": 72,
+                "checkin_id": 140910084,
+                "badge_name": "Find the Source",
+                "badge_description": "Everyone loves fresh beer, but obviously not as much as you do. You went straight to the source. \r\n\r\nThat's a beer at 5 different venues categorized as a Brewery. Visit 5 more different ones for Level 2!",
+                "badge_hint": "Check-in a beer at 5 different venues categorized as a Brewery. This badge can be leveled to 10.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_findSource_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_findSource_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_findSource_lg.jpg"
+                },
+                "created_at": "Fri, 26 Dec 2014 19:15:59 +0000",
+                "is_level": true,
+                "category_id": 2,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 72,
+                            "badge_id": 40962687,
+                            "checkin_id": 140910084,
+                            "badge_name": "Find the Source",
+                            "badge_description": "Everyone loves fresh beer, but obviously not as much as you do. You went straight to the source. \r\n\r\nThat's a beer at 5 different venues categorized as a Brewery. Visit 5 more different ones for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_findSource_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_findSource_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_findSource_lg.jpg"
+                            },
+                            "created_at": "Fri, 26 Dec 2014 19:15:59 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3200,
+                "user_badge_id": 40724552,
+                "checkin_id": 140562810,
+                "badge_name": "Merry Brew-mas (2014)",
+                "badge_description": "’Tis the season of joy, cheer and of course, great beer. Wishing you a wonderful holiday season! Merry Brew-mas to all and to all a good pint. From all of us at Untappd, Happy Holidays!",
+                "badge_hint": "Check-in any beer from 12\/25\/14 to 12\/28\/14 in your local-time zone.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Christmas2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Christmas2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Christmas2014_lg.jpg"
+                },
+                "created_at": "Thu, 25 Dec 2014 20:02:02 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3199,
+                "user_badge_id": 40248482,
+                "checkin_id": 139410173,
+                "badge_name": "Shock Top Winter Collection (2014)",
+                "badge_description": "Aw yeah! You have officially unlocked Shock Top bragging rights and this sweet winter seasonal badge. Best. Day. Ever. Don’t forget to mix and match to create your own epic combos.",
+                "badge_hint": "Check in one beer from the 2014 Shock Top Winter sampler pack by 2\/15.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_ShockTopWinter_lg.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_ShockTopWinter_lg.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_ShockTopWinter_lg.jpg"
+                },
+                "created_at": "Sun, 21 Dec 2014 22:15:36 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 8,
+                "user_badge_id": 39216736,
+                "checkin_id": 136628608,
+                "badge_name": "Lite Weight",
+                "badge_description": "Watching your figure? You certainly like your light beer. That's at least 3 of the most popular American Light Beers.",
+                "badge_hint": "Drink the top 3 American Light beers. Come on - you see them on the commercials all the time.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_liteWeight_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_liteWeight_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_liteWeight_lg.jpg"
+                },
+                "created_at": "Fri, 12 Dec 2014 02:09:55 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 9,
+                "user_badge_id": 39216737,
+                "checkin_id": 136628608,
+                "badge_name": "All American",
+                "badge_description": "America, f**k yeah! It feels good to be an American! Now what channel’s got NASCAR?",
+                "badge_hint": "Tough one here - drink the popular American beers (Coors, Bud, Miller) - plus a special Platinum beer from Bud...",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_allAmerican_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_allAmerican_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_allAmerican_lg.jpg"
+                },
+                "created_at": "Fri, 12 Dec 2014 02:09:55 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 3198,
+                "user_badge_id": 37302771,
+                "checkin_id": 133136694,
+                "badge_name": "Beer-giving (2014)",
+                "badge_description": "Crack open your favorite brew and be thankful for all the craft beer community has given us while celebrating with friends and family! Cheers and happy Thanksgiving!",
+                "badge_hint": "Check-in any beer between 11\/27\/14 - 11\/30\/14 in your local-timezone. Happy Thanksgiving!",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_thanksgiving2014_sm.png",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_thanksgiving2014_md.png",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_thanksgiving2014_lg.png"
+                },
+                "created_at": "Fri, 28 Nov 2014 04:19:40 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 51428399,
+                "badge_id": 49,
+                "checkin_id": 131032585,
+                "badge_name": "Winter Wonderland (Level 2)",
+                "badge_description": "It's cold outside - warm up with Winter beers. That's at least 10 different Winter beers try 5 more for Level 3!",
+                "badge_hint": "Check-in to 5 different beers with a Winter theme (meaning that they have Winter in the title or style).\r\n",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_lg.jpg"
+                },
+                "created_at": "Fri, 21 Nov 2014 03:27:16 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 2,
+                    "items": [
+                        {
+                            "actual_badge_id": 818,
+                            "badge_id": 51428399,
+                            "checkin_id": 165815130,
+                            "badge_name": "Winter Wonderland (Level 2)",
+                            "badge_description": "It's cold outside - warm up with Winter beers. That's at least 10 different Winter beers try 5 more for Level 3!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_lg.jpg"
+                            },
+                            "created_at": "Sun, 22 Mar 2015 23:12:20 +0000"
+                        },
+                        {
+                            "actual_badge_id": 49,
+                            "badge_id": 33827430,
+                            "checkin_id": 131032585,
+                            "badge_name": "Winter Wonderland",
+                            "badge_description": "It's cold outside - warm up with Winter beers. That's at least 5 different Winter beers try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_wonderland_lg.jpg"
+                            },
+                            "created_at": "Fri, 21 Nov 2014 03:27:16 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 30152987,
+                "badge_id": 35,
+                "checkin_id": 130431925,
+                "badge_name": "Birthday Brew",
+                "badge_description": "Happy birthday to you! Drinks are on us! Hopefully you’ll remember this tomorrow.",
+                "badge_hint": "Go out and celebrate your birthday with Untappd!",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_bdayBrew_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_bdayBrew_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_bdayBrew_lg.jpg"
+                },
+                "created_at": "Tue, 18 Nov 2014 01:37:01 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 35,
+                            "badge_id": 30152987,
+                            "checkin_id": 130431925,
+                            "badge_name": "Birthday Brew",
+                            "badge_description": "Happy birthday to you! Drinks are on us! Hopefully you’ll remember this tomorrow.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_bdayBrew_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_bdayBrew_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_bdayBrew_lg.jpg"
+                            },
+                            "created_at": "Tue, 18 Nov 2014 01:37:01 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 42,
+                "user_badge_id": 29056952,
+                "checkin_id": 130071455,
+                "badge_name": "Legendary",
+                "badge_description": "Your beer tastes are legendary. That’s over 500 different brews!",
+                "badge_hint": "Check-in to 500 different beers. It's that simple.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_legendary_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_legendary_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_legendary_lg.jpg"
+                },
+                "created_at": "Sun, 16 Nov 2014 05:44:48 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 29035146,
+                "badge_id": 455,
+                "checkin_id": 129966008,
+                "badge_name": "Gourd to the Last Drop",
+                "badge_description": "Fall is in the air and the holidays are just around the corner, but pies and jack-o-lanterns aren't the only things pumpkins are good for. Pumpkin beers have grown in popularity, bringing with them a delicate balance of malt and spices. That's 5 different pumpkin beers! Try 5 more for Level 2!",
+                "badge_hint": "Check in to 5 different beers that have a style Pumpkin\/Yam. This badge can be leveled to 10. It is not retroactive, your counter started on 10\/11\/13.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_pumpkinBeer_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_pumpkinBeer_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_pumpkinBeer_lg.jpg"
+                },
+                "created_at": "Sun, 16 Nov 2014 01:56:19 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 455,
+                            "badge_id": 29035146,
+                            "checkin_id": 129966008,
+                            "badge_name": "Gourd to the Last Drop",
+                            "badge_description": "Fall is in the air and the holidays are just around the corner, but pies and jack-o-lanterns aren't the only things pumpkins are good for. Pumpkin beers have grown in popularity, bringing with them a delicate balance of malt and spices. That's 5 different pumpkin beers! Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_pumpkinBeer_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_pumpkinBeer_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_pumpkinBeer_lg.jpg"
+                            },
+                            "created_at": "Sun, 16 Nov 2014 01:56:19 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 36,
+                "user_badge_id": 28907537,
+                "checkin_id": 129390330,
+                "badge_name": "Here Comes the Brew",
+                "badge_description": "Weddings are always so nice, especially with an open bar. Let everyone know you’re at a wedding in the comment!",
+                "badge_hint": "Let your friends know that you're at a wedding with your check-in (add the word \"Wedding\" to your check-in comment)!",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_hereComesBrew_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_hereComesBrew_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_hereComesBrew_lg.jpg"
+                },
+                "created_at": "Fri, 14 Nov 2014 21:32:31 +0000",
+                "is_level": false,
+                "category_id": 2,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 814,
+                "user_badge_id": 28561884,
+                "checkin_id": 127819161,
+                "badge_name": "Coast to Coast Toast (2014)",
+                "badge_description": "What’s the Coast to Coast Toast? Learn more about the beers, nationwide Toast, events near you and more at <a href=\"http:\/\/www.coast-­2-­coast-­toast.com\/\" rel=\"link-out\">http:\/\/www.coast-­2-­coast-­toast.com<\/a>. By obtaining this badge, you’ll also be eligible to sign up and win a trip to Iceland for two, courtesy of Iceland Naturally, Total Beverage Solutions and Untappd! Winners will be chosen at random in a drawing on December 5th.",
+                "badge_hint": "Check­in one (1) beer from a selected list of beer on the Untappd Blog between 11\/1\/14 ­- 12\/1\/14.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_C2CT2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_C2CT2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_C2CT2014_lg.jpg"
+                },
+                "created_at": "Sat, 08 Nov 2014 02:16:19 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 816,
+                "user_badge_id": 28479351,
+                "checkin_id": 127514834,
+                "badge_name": "Stout Day (2014)",
+                "badge_description": "Cheers to the thick, roasted goodness that is the stout! International Stout Day is a celebration of this iconic beer style, creating awareness of it's bold, malty and full bodied deliciousness. Enjoy a stout and show your love!",
+                "badge_hint": "Check-in to any stout style beer on International Stout Day, November 6th!",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_StoutDay2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_StoutDay2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_StoutDay2014_lg.jpg"
+                },
+                "created_at": "Fri, 07 Nov 2014 01:51:51 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 32,
+                "user_badge_id": 28093236,
+                "checkin_id": 126230487,
+                "badge_name": "Six Pack",
+                "badge_description": "It’s in the fridge, so why not drink it. Hope you don’t get bored. Drink 6 of the same beer, in a row, in 1 week.",
+                "badge_hint": "They say a title tells the story. This time - they are dead on.  Drink 6 of the same beer, in a row, in 1 week. Don't have another a beer in-between!",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_sixPack_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_sixPack_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_sixPack_lg.jpg"
+                },
+                "created_at": "Sat, 01 Nov 2014 03:29:13 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 812,
+                "user_badge_id": 28023063,
+                "checkin_id": 126111038,
+                "badge_name": "Witch's Brew (2014)",
+                "badge_description": "Trick or treat? Halloween is here and the witch's brew is ready for partaking. Break out your most ghastly of beers and celebrate!",
+                "badge_hint": "Check-in any beer from 10\/31 to 11\/2 (in your local timezone).",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Halloween2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Halloween2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Halloween2014_lg.jpg"
+                },
+                "created_at": "Sat, 01 Nov 2014 00:00:41 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 27834646,
+                "badge_id": 671,
+                "checkin_id": 125730883,
+                "badge_name": "Going Dutch",
+                "badge_description": "When it comes to a delicious beer from the Netherlands, going Dutch doesn’t have to mean sharing it. That's 5 different beers from a brewery from the Netherlands. Try 5 more Level 2.",
+                "badge_hint": "Check-in 5 different beers from the Netherlands.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_GoingDutch_sm.jpg?v=1",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_GoingDutch_md.jpg?v=1",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_GoingDutch_lg.jpg?v=1"
+                },
+                "created_at": "Thu, 30 Oct 2014 03:17:04 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 671,
+                            "badge_id": 27834646,
+                            "checkin_id": 125730883,
+                            "badge_name": "Going Dutch",
+                            "badge_description": "When it comes to a delicious beer from the Netherlands, going Dutch doesn’t have to mean sharing it. That's 5 different beers from a brewery from the Netherlands. Try 5 more Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_GoingDutch_sm.jpg?v=1",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_GoingDutch_md.jpg?v=1",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_GoingDutch_lg.jpg?v=1"
+                            },
+                            "created_at": "Thu, 30 Oct 2014 03:17:04 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 810,
+                "user_badge_id": 27264591,
+                "checkin_id": 124027843,
+                "badge_name": "Untappd 4th Anniversary",
+                "badge_description": "Three cheers to four years! It's Untappd's fourth birthday and we couldn't be happier. Celebrate with your favorite brew - you deserve it. Thanks to you and the entire community for all the support! ",
+                "badge_hint": "Check-in to any beer and celebrate Untappd's 4th birthday between 10\/22 - 10\/31.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_utfouryears_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_utfouryears_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_utfouryears_lg.jpg"
+                },
+                "created_at": "Thu, 23 Oct 2014 04:43:30 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 43073655,
+                "badge_id": 751,
+                "checkin_id": 121786471,
+                "badge_name": "Brewnettes Have More Fun (Level 4)",
+                "badge_description": "The age old battle of who has more fun - blondes or brunettes? In this case, you obviously chose \"brewnettes\"!  That's 20 different Brown Ales. Try 5 more for Level 5.",
+                "badge_hint": "Check-in to 5 different beers with the style American Brown Ale, English Brown Ale, Imperial \/ Double Brown Ale or Belgian Brown Ale.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_lg.jpg"
+                },
+                "created_at": "Mon, 13 Oct 2014 00:40:12 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 4,
+                    "items": [
+                        {
+                            "actual_badge_id": 754,
+                            "badge_id": 43073655,
+                            "checkin_id": 145827995,
+                            "badge_name": "Brewnettes Have More Fun (Level 4)",
+                            "badge_description": "The age old battle of who has more fun - blondes or brunettes? In this case, you obviously chose \"brewnettes\"!  That's 20 different Brown Ales. Try 5 more for Level 5.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_lg.jpg"
+                            },
+                            "created_at": "Sun, 11 Jan 2015 05:57:18 +0000"
+                        },
+                        {
+                            "actual_badge_id": 753,
+                            "badge_id": 39315657,
+                            "checkin_id": 136870099,
+                            "badge_name": "Brewnettes Have More Fun (Level 3)",
+                            "badge_description": "The age old battle of who has more fun - blondes or brunettes? In this case, you obviously chose \"brewnettes\"!  That's 15 different Brown Ales. Try 5 more for Level 4.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_lg.jpg"
+                            },
+                            "created_at": "Sat, 13 Dec 2014 00:53:44 +0000"
+                        },
+                        {
+                            "actual_badge_id": 752,
+                            "badge_id": 28106321,
+                            "checkin_id": 126256703,
+                            "badge_name": "Brewnettes Have More Fun (Level 2)",
+                            "badge_description": "The age old battle of who has more fun - blondes or brunettes? In this case, you obviously chose \"brewnettes\"!  That's 10 different Brown Ales. Try 5 more for Level 3.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_lg.jpg"
+                            },
+                            "created_at": "Sat, 01 Nov 2014 04:56:19 +0000"
+                        },
+                        {
+                            "actual_badge_id": 751,
+                            "badge_id": 26715582,
+                            "checkin_id": 121786471,
+                            "badge_name": "Brewnettes Have More Fun",
+                            "badge_description": "The age old battle of who has more fun - blondes or brunettes? In this case, you obviously chose \"brewnettes\"!  Try 5 different Brown Ales. Try 5 more for Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_BrewnettesHaveMoreFun_lg.jpg"
+                            },
+                            "created_at": "Mon, 13 Oct 2014 00:40:12 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 54602642,
+                "badge_id": 409,
+                "checkin_id": 120367243,
+                "badge_name": "The Great White North  (Level 28)",
+                "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 140 different beers from a brewery in Canada! Try 5 more for Level 29.",
+                "badge_hint": "Drink 5 different beers from a brewery from Canada. This badge can be leveled to 10 (5 Distinct Beer per Level)",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                },
+                "created_at": "Tue, 07 Oct 2014 23:56:46 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 28,
+                    "items": [
+                        {
+                            "actual_badge_id": 1894,
+                            "badge_id": 54602642,
+                            "checkin_id": 173724799,
+                            "badge_name": "The Great White North  (Level 28)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 140 different beers from a brewery in Canada! Try 5 more for Level 29.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 18 Apr 2015 01:22:41 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1893,
+                            "badge_id": 54583011,
+                            "checkin_id": 173671514,
+                            "badge_name": "The Great White North  (Level 27)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 135 different beers from a brewery in Canada! Try 5 more for Level 28.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 18 Apr 2015 00:14:40 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1892,
+                            "badge_id": 53005876,
+                            "checkin_id": 169816716,
+                            "badge_name": "The Great White North  (Level 26)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 130 different beers from a brewery in Canada! Try 5 more for Level 27.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sun, 05 Apr 2015 01:23:20 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1891,
+                            "badge_id": 51772851,
+                            "checkin_id": 166683541,
+                            "badge_name": "The Great White North  (Level 25)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 125 different beers from a brewery in Canada! Try 5 more for Level 26.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 27 Mar 2015 01:26:20 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1890,
+                            "badge_id": 51411963,
+                            "checkin_id": 165770447,
+                            "badge_name": "The Great White North  (Level 24)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 120 different beers from a brewery in Canada! Try 5 more for Level 25.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sun, 22 Mar 2015 21:38:57 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1889,
+                            "badge_id": 51094173,
+                            "checkin_id": 164926678,
+                            "badge_name": "The Great White North  (Level 23)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 115 different beers from a brewery in Canada! Try 5 more for Level 24.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 21 Mar 2015 01:49:13 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1888,
+                            "badge_id": 50069249,
+                            "checkin_id": 162652542,
+                            "badge_name": "The Great White North  (Level 22)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 110 different beers from a brewery in Canada! Try 5 more for Level 23.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 14 Mar 2015 01:14:03 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1887,
+                            "badge_id": 48238374,
+                            "checkin_id": 157896214,
+                            "badge_name": "The Great White North  (Level 21)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 105 different beers from a brewery in Canada! Try 5 more for Level 22.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Wed, 25 Feb 2015 02:55:52 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1886,
+                            "badge_id": 46248424,
+                            "checkin_id": 152611516,
+                            "badge_name": "The Great White North  (Level 20)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 100 different beers from a brewery in Canada! Try 5 more for Level 21.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 06 Feb 2015 23:23:07 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1885,
+                            "badge_id": 43883960,
+                            "checkin_id": 147590404,
+                            "badge_name": "The Great White North  (Level 19)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 95 different beers from a brewery in Canada! Try 5 more for Level 20.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sun, 18 Jan 2015 04:04:13 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1884,
+                            "badge_id": 42599533,
+                            "checkin_id": 144405291,
+                            "badge_name": "The Great White North  (Level 18)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 90 different beers from a brewery in Canada! Try 5 more for Level 19.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Mon, 05 Jan 2015 04:38:03 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1883,
+                            "badge_id": 40576397,
+                            "checkin_id": 140327655,
+                            "badge_name": "The Great White North  (Level 17)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 85 different beers from a brewery in Canada! Try 5 more for Level 18.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Thu, 25 Dec 2014 01:07:39 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1882,
+                            "badge_id": 39315656,
+                            "checkin_id": 136870099,
+                            "badge_name": "The Great White North  (Level 16)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 80 different beers from a brewery in Canada! Try 5 more for Level 17.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 13 Dec 2014 00:53:44 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1881,
+                            "badge_id": 38627031,
+                            "checkin_id": 135212864,
+                            "badge_name": "The Great White North  (Level 15)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 75 different beers from a brewery in Canada! Try 5 more for Level 16.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 06 Dec 2014 03:43:26 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1880,
+                            "badge_id": 36667080,
+                            "checkin_id": 132601315,
+                            "badge_name": "The Great White North  (Level 14)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 70 different beers from a brewery in Canada! Try 5 more for Level 15.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Wed, 26 Nov 2014 23:18:36 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1879,
+                            "badge_id": 33827433,
+                            "checkin_id": 131032585,
+                            "badge_name": "The Great White North  (Level 13)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 65 different beers from a brewery in Canada! Try 5 more for Level 14.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 21 Nov 2014 03:27:16 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1878,
+                            "badge_id": 33827432,
+                            "checkin_id": 131032585,
+                            "badge_name": "The Great White North  (Level 12)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 60 different beers from a brewery in Canada! Try 5 more for Level 13.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 21 Nov 2014 03:27:16 +0000"
+                        },
+                        {
+                            "actual_badge_id": 1877,
+                            "badge_id": 33827431,
+                            "checkin_id": 131032585,
+                            "badge_name": "The Great White North  (Level 11)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 55 different beers from a brewery in Canada! Try 5 more for Level 12.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 21 Nov 2014 03:27:16 +0000"
+                        },
+                        {
+                            "actual_badge_id": 573,
+                            "badge_id": 28479353,
+                            "checkin_id": 127514834,
+                            "badge_name": "The Great White North (Level 10)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 50 different beers from a brewery in Canada! Try 5 more for Level 11.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 07 Nov 2014 01:51:51 +0000"
+                        },
+                        {
+                            "actual_badge_id": 572,
+                            "badge_id": 27836710,
+                            "checkin_id": 125739108,
+                            "badge_name": "The Great White North (Level 9)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 45 different beers from a brewery in Canada! Try 5 more for Level 10.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Thu, 30 Oct 2014 04:11:23 +0000"
+                        },
+                        {
+                            "actual_badge_id": 571,
+                            "badge_id": 27823368,
+                            "checkin_id": 125682659,
+                            "badge_name": "The Great White North (Level 8)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 40 different beers from a brewery in Canada! Try 5 more for Level 9.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Thu, 30 Oct 2014 00:44:59 +0000"
+                        },
+                        {
+                            "actual_badge_id": 570,
+                            "badge_id": 27635220,
+                            "checkin_id": 124991175,
+                            "badge_name": "The Great White North (Level 7)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 35 different beers from a brewery in Canada! Try 5 more for Level 8.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sun, 26 Oct 2014 03:31:25 +0000"
+                        },
+                        {
+                            "actual_badge_id": 569,
+                            "badge_id": 26836499,
+                            "checkin_id": 122365523,
+                            "badge_name": "The Great White North (Level 6)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 30 different beers from a brewery in Canada! Try 5 more for Level 7.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Thu, 16 Oct 2014 19:54:05 +0000"
+                        },
+                        {
+                            "actual_badge_id": 568,
+                            "badge_id": 26725124,
+                            "checkin_id": 121837631,
+                            "badge_name": "The Great White North (Level 5)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 25 different beers from a brewery in Canada! Try 5 more for Level 6.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Mon, 13 Oct 2014 03:45:02 +0000"
+                        },
+                        {
+                            "actual_badge_id": 567,
+                            "badge_id": 26714679,
+                            "checkin_id": 121781746,
+                            "badge_name": "The Great White North (Level 4)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 20 different beers from a brewery in Canada! Try 5 more for Level 5.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Mon, 13 Oct 2014 00:28:21 +0000"
+                        },
+                        {
+                            "actual_badge_id": 566,
+                            "badge_id": 26562920,
+                            "checkin_id": 121034038,
+                            "badge_name": "The Great White North (Level 3)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 15 different beers from a brewery in Canada! Try 5 more for Level 4.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Sat, 11 Oct 2014 02:13:20 +0000"
+                        },
+                        {
+                            "actual_badge_id": 565,
+                            "badge_id": 26506136,
+                            "checkin_id": 120765535,
+                            "badge_name": "The Great White North (Level 2)",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 10 different beers from a brewery in Canada! Try 5 more for Level 3.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Fri, 10 Oct 2014 02:11:23 +0000"
+                        },
+                        {
+                            "actual_badge_id": 409,
+                            "badge_id": 26418857,
+                            "checkin_id": 120367243,
+                            "badge_name": "The Great White North",
+                            "badge_description": "Out on the pond for some ice fishing, or perhaps watching some hockey, eh?  That’s 5 beers from a brewery in Canada! Try 5 more for Level 2!",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_canada_lg.jpg"
+                            },
+                            "created_at": "Tue, 07 Oct 2014 23:56:46 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 24667678,
+                "badge_id": 410,
+                "checkin_id": 112206876,
+                "badge_name": "The Gondolier",
+                "badge_description": "Some may argue that wine is better than beer, especially in a country so well known for it’s vineyards. We all know they’re wrong. Cheers! That’s 5 beers from a brewery in Italy. Try 5 more for Level 2.",
+                "badge_hint": "Drink 5 different beers from a brewery from Italy. This badge can be leveled to 10 (5 Distinct Beer per Level)",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_italy_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_italy_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_italy_lg.jpg"
+                },
+                "created_at": "Wed, 03 Sep 2014 23:19:58 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "actual_badge_id": 410,
+                            "badge_id": 24667678,
+                            "checkin_id": 112206876,
+                            "badge_name": "The Gondolier",
+                            "badge_description": "Some may argue that wine is better than beer, especially in a country so well known for it’s vineyards. We all know they’re wrong. Cheers! That’s 5 beers from a brewery in Italy. Try 5 more for Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_italy_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_italy_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_italy_lg.jpg"
+                            },
+                            "created_at": "Wed, 03 Sep 2014 23:19:58 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "user_badge_id": 54583013,
+                "badge_id": 424,
+                "checkin_id": 112206876,
+                "badge_name": "Trip to the Farm (Level 4)",
+                "badge_description": "You have a keen taste for this Belgian master piece. Did you know the Saison style beer was invented by Belgium Farms, brewed in the Winter and served the Spring\/Summer to all their workers? Well now you do! That’s 20 different Saisons, try 5 more for Level 5.",
+                "badge_hint": "Check in to 5 different Saison \/ Farmhouse Ales.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_sm.jpg",
+                    "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_md.jpg",
+                    "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_lg.jpg"
+                },
+                "created_at": "Wed, 03 Sep 2014 23:19:58 +0000",
+                "is_level": true,
+                "category_id": 1,
+                "levels": {
+                    "count": 4,
+                    "items": [
+                        {
+                            "actual_badge_id": 427,
+                            "badge_id": 54583013,
+                            "checkin_id": 173671514,
+                            "badge_name": "Trip to the Farm (Level 4)",
+                            "badge_description": "You have a keen taste for this Belgian master piece. Did you know the Saison style beer was invented by Belgium Farms, brewed in the Winter and served the Spring\/Summer to all their workers? Well now you do! That’s 20 different Saisons, try 5 more for Level 5.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_lg.jpg"
+                            },
+                            "created_at": "Sat, 18 Apr 2015 00:14:40 +0000"
+                        },
+                        {
+                            "actual_badge_id": 426,
+                            "badge_id": 28700279,
+                            "checkin_id": 128473591,
+                            "badge_name": "Trip to the Farm (Level 3)",
+                            "badge_description": "You have a keen taste for this Belgian master piece. Did you know the Saison style beer was invented by Belgium Farms, brewed in the Winter and served the Spring\/Summer to all their workers? Well now you do! That’s 15 different Saisons, try 5 more for Level 4.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_lg.jpg"
+                            },
+                            "created_at": "Sun, 09 Nov 2014 20:58:39 +0000"
+                        },
+                        {
+                            "actual_badge_id": 425,
+                            "badge_id": 25582304,
+                            "checkin_id": 116412873,
+                            "badge_name": "Trip to the Farm (Level 2)",
+                            "badge_description": "You have a keen taste for this Belgian master piece. Did you know the Saison style beer was invented by Belgium Farms, brewed in the Winter and served the Spring\/Summer to all their workers? Well now you do! That’s 10 different Saisons, try 5 more for Level 3.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_lg.jpg"
+                            },
+                            "created_at": "Sun, 21 Sep 2014 02:56:44 +0000"
+                        },
+                        {
+                            "actual_badge_id": 424,
+                            "badge_id": 24667679,
+                            "checkin_id": 112206876,
+                            "badge_name": "Trip to the Farm",
+                            "badge_description": "You have a keen taste for this Belgian master piece. Did you know the Saison style beer was invented by Belgium Farms, brewed in the Winter and served the Spring\/Summer to all their workers? Well now you do! That’s 5 different Saisons, try 5 more for Level 2.",
+                            "media": {
+                                "badge_image_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_sm.jpg",
+                                "badge_image_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_md.jpg",
+                                "badge_image_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_saison_lg.jpg"
+                            },
+                            "created_at": "Wed, 03 Sep 2014 23:19:58 +0000"
+                        }
+                    ]
+                },
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 77,
+                "user_badge_id": 24235914,
+                "checkin_id": 110309464,
+                "badge_name": "Trappist Travesty",
+                "badge_description": "Sounds like you’re considering joining the Trappist Monks. I thought Monks couldn't drink beer? Oh well. That's 5 Trappist Beers!",
+                "badge_hint": "Planning to be a monk? Try 5 different beers from Trappist Breweries! PS - Check Wikipedia.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_trappist_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_trappist_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_trappist_lg.jpg"
+                },
+                "created_at": "Wed, 27 Aug 2014 02:21:36 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 785,
+                "user_badge_id": 22770588,
+                "checkin_id": 105433874,
+                "badge_name": "Hop 2 It",
+                "badge_description": "Interpretations of IPAs range far and wide — and Founders has interpreted the style in many ways. Founders IPAs vary in taste, strength and color, from the crimson of Red’s Rye IPA (draft only right now) to the golden straw of Double Trouble. Try a couple and see which interpretation suits you best. Hop 2 It!",
+                "badge_hint": "Check­in to two (2) different IPAs from Founders Brewing Co listed on the Untappd Blog between August 1st ­- August 31st, 2014",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Hop2It_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Hop2It_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_Hop2It_lg.jpg"
+                },
+                "created_at": "Thu, 07 Aug 2014 16:18:26 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 796,
+                "user_badge_id": 22756936,
+                "checkin_id": 105418927,
+                "badge_name": "IPA Day (2014)",
+                "badge_description": "Today, we all raise a crisp, bitter toast to one of the most iconic beer styles, the India Pale Ale. It’s IPA Day, so join the world as we all celebrate this style’s hoppy goodness!",
+                "badge_hint": "Check-in any beer the has the style listed an Black IPA, American IPA, English IPA, Double IPA, Triple IPA or White IPA on August 7th, 2014 in your local timezone.",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_ipaday2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_ipaday2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_ipaday2014_lg.jpg"
+                },
+                "created_at": "Thu, 07 Aug 2014 15:46:51 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 670,
+                "user_badge_id": 20635991,
+                "checkin_id": 97210563,
+                "badge_name": "Independence Day (2014)",
+                "badge_description": "Happy 4th of July! Celebrate America's independence with good friends, good food and most importantly, good beers!",
+                "badge_hint": "Check-in any beer during July 4th Weekend 2014 (July 4th - July 6th).",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_july4th2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_july4th2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_july4th2014_lg.jpg"
+                },
+                "created_at": "Fri, 04 Jul 2014 14:08:35 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 84,
+                "user_badge_id": 19738504,
+                "checkin_id": 93740888,
+                "badge_name": "Untappd Groupie",
+                "badge_description": "Woah! You’ve had at least five beers that the Untappd founders have had. That’s tough since we like a wide variety of beers. Obviously you’re just trying to be cool like us!",
+                "badge_hint": "Have 5 beers that the Co-Founders of Untappd have had in the last 90 days.",
+                "badge_active_status": 1,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_groupie_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_groupie_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_groupie_lg.jpg"
+                },
+                "created_at": "Thu, 19 Jun 2014 14:38:57 +0000",
+                "is_level": false,
+                "category_id": 1,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            },
+            {
+                "badge_id": 656,
+                "user_badge_id": 19587300,
+                "checkin_id": 93149347,
+                "badge_name": "World Pint (2014)",
+                "badge_description": " Goooooaaaaalllll! Cheers to the diversity of the World Cup and may the best team win!",
+                "badge_hint": "Check-in to a beer from two different countries participating in the 2014 World Cup, from 6-12 to 7-13.\n",
+                "badge_active_status": 0,
+                "media": {
+                    "badge_image_sm": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_WorldCup2014_sm.jpg",
+                    "badge_image_md": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_WorldCup2014_md.jpg",
+                    "badge_image_lg": "https:\/\/untappd.s3.amazonaws.com\/badges\/bdg_WorldCup2014_lg.jpg"
+                },
+                "created_at": "Sun, 15 Jun 2014 17:03:50 +0000",
+                "is_level": false,
+                "category_id": 3,
+                "levels": [
+                ],
+                "badge_pack": 0,
+                "badge_pack_name": false,
+                "badge_pack_progress": {
+                    "completed": 0,
+                    "total": 0
+                }
+            }
+        ]
+    }
+}
