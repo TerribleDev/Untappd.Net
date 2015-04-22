@@ -1,0 +1,65 @@
+﻿{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.037,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.012,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 0,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "news": 0
+        }
+    },
+    "response": {
+        "search_type": "wildcard",
+        "sort": "",
+        "term": "wild rose",
+        "key": "wild* AND rose*",
+        "found": 2,
+        "brewery": {
+            "count": 2,
+            "items": [
+                {
+                    "brewery": {
+                        "brewery_id": 4885,
+                        "beer_count": 161,
+                        "brewery_name": "Wild Rose Brewery (Canada)",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-WildRoseBrewery_4885.jpeg",
+                        "country_name": "Canada",
+                        "location": {
+                            "brewery_city": "",
+                            "brewery_state": "",
+                            "lat": 0,
+                            "lng": 0
+                        }
+                    }
+                },
+                {
+                    "brewery": {
+                        "brewery_id": 15072,
+                        "beer_count": 4,
+                        "brewery_name": "Wilde Rose Bräukeller",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-WildeRoseBrauKeller_15072.jpeg",
+                        "country_name": "Germany",
+                        "location": {
+                            "brewery_city": "",
+                            "brewery_state": "",
+                            "lat": 0,
+                            "lng": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

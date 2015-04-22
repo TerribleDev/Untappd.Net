@@ -2,7 +2,7 @@
 
 namespace Untappd.Net.Client
 {
-    public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticadedUntappdCredentials
+    public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
     {
         /// <summary>
         /// UnAuthenticated request. Pass your API id and secret

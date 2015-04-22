@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RestSharp;
 using Untappd.Net.Client;
+using System.Threading;
 
 namespace Untappd.Net.Request
 {
@@ -10,6 +12,7 @@ namespace Untappd.Net.Request
     {
         internal IRestClient Client;
         internal IRestRequest Request;
+
         public Repository()
         {
             Client = new RestClient(Constants.BaseRequestString);
@@ -22,6 +25,17 @@ namespace Untappd.Net.Request
             Request = request;
         }
 
+        private void ConfigureGetRequest(IRestRequest request, string endPoint, IDictionary<string, string> bodyParameters = null)
+        {
+            request.Resource = endPoint;
+            request.Method = Method.GET;
+            if (request.Parameters != null) this.Request.Parameters.Clear();
+
+            if (bodyParameters != null)
+                foreach (var param in bodyParameters)
+                    request.AddParameter(param.Key, param.Value);
+        }
+
         /// <summary>
         /// Get the things!
         /// </summary>
@@ -30,39 +44,50 @@ namespace Untappd.Net.Request
         /// <param name="urlParameter">this is the main parameter for a request. ie v4/user/checkins/urlParameter. Consult the untappd docs, this can be null for a few requests</param>
         /// <param name="bodyParameters">Any additional params you wish to add to the request</param>
         /// <returns></returns>
-        public TResult Get<TResult> (IUnAuthenticadedUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
+        public TResult Get<TResult> (IUnAuthenticatedUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
             where TResult : IUnAuthenticatedRequest,new()
         {
             var result = new TResult();
-            Request.Resource = result.EndPoint(urlParameter);
-            Request.Method = Method.GET;
-            Request.AddParameter("client_id", credentials.ClientId);
-            Request.AddParameter("client_secret", credentials.ClientSecret);
-            if (bodyParameters != null)
-                foreach (var x in bodyParameters)
-                {
-                    Request.AddParameter(x.Key, x.Value);
-                }
-            var resp = Client.Execute(Request);
-            var jsonresult = JsonConvert.DeserializeObject<TResult>(resp.Content);
-            return jsonresult;
+            this.ConfigureGetRequest(this.Request, result.EndPoint(urlParameter), bodyParameters);
+            
+            this.Request.AddParameter("client_id", credentials.ClientId);
+            this.Request.AddParameter("client_secret", credentials.ClientSecret);
 
+            return this.DoRestRequest<TResult>(this.Request);
         }
 
-        public TResult Get<TResult>(IAuthenticatedUntappdCredentials credentials, string parameter = "", IDictionary<string, string> bodyParameters = null)
+        /// <summary>
+        /// Get the things! authenticated!
+        /// </summary>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="credentials">Pass in a credentials object</param>
+        /// <param name="urlParameter">this is the main parameter for a request. ie v4/user/checkins/urlParameter. Consult the untappd docs, this can be null for a few requests</param>
+        /// <param name="bodyParameters">Any additional params you wish to add to the request</param>
+        /// <returns></returns>
+        public TResult Get<TResult>(IAuthenticatedUntappdCredentials credentials, string urlParameter = "", IDictionary<string, string> bodyParameters = null)
             where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();
-            var client = new RestClient(Constants.BaseRequestString);
-            var request = new RestRequest(result.EndPoint(parameter), Method.GET);
-            request.AddParameter("access_token", credentials.AccessToken);
-            if (bodyParameters != null)
-                foreach (var param in bodyParameters)
-                    request.AddParameter(param.Key, param.Value);
+            this.ConfigureGetRequest(this.Request, result.EndPoint(urlParameter), bodyParameters);
 
-            var resp = client.Execute(request);
-            var jsonresult = JsonConvert.DeserializeObject<TResult>(resp.Content);
-            return jsonresult;
+            this.Request.AddParameter("access_token", credentials.AccessToken);
+
+            return this.DoRestRequest<TResult>(this.Request);
         }
+
+        private TResult DoRestRequest<TResult>(IRestRequest request)
+        {
+            var client = new RestClient(Constants.BaseRequestString);
+            var resp = client.Execute(request);
+            return JsonConvert.DeserializeObject<TResult>(resp.Content);
+        }
+
+        //private async Task<TResult> DoRestRequestAsync<TResult>(IRestRequest request)
+        //{
+        //    var client = new RestClient(Constants.BaseRequestString);
+        //    var cancellationTokenSource = new CancellationTokenSource();
+        //    var resp = await client.ExecuteTaskAsync(request, cancellationTokenSource.Token);
+        //    return JsonConvert.DeserializeObject<TResult>(resp.Content);
+        //}
     }
 }
