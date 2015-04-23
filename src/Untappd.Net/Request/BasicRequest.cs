@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Untappd.Net.Request
 {
     public abstract class BasicRequest

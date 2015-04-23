@@ -45,5 +45,14 @@ namespace Untappd.Net.UnitTests.Request
             Assert.IsTrue(constructorTest.Client != null);
             Assert.IsTrue(constructorTest.Request != null);
         }
+        [Test]
+        public void ConfirmConfigureGetRequestClearsParams()
+        {
+            var constructorTest = new Repository();
+            constructorTest.Request.Parameters.Add(new Parameter(){Name = "param"});
+            Assert.IsTrue(constructorTest.Request.Parameters.Count > 0);
+            constructorTest.ConfigureGetRequest("endpoint");
+            Assert.IsTrue(constructorTest.Request.Parameters.Count == 0);
+        }
     }
 }

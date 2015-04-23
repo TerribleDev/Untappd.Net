@@ -12,7 +12,7 @@ namespace Untappd.Net.Client
         /// </summary>
         /// <param name="clientId"></param>
         /// <param name="clientSecret"></param>
-        public UntappdCredentials(string clientId, string clientSecret)
+        protected UntappdCredentials(string clientId, string clientSecret)
         {
             if (string.IsNullOrWhiteSpace(clientId))
             {
