@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 using RestSharp;
 using Untappd.Net.Client;
-using System.Threading;
 
 namespace Untappd.Net.Request
 {
@@ -25,15 +22,18 @@ namespace Untappd.Net.Request
             Request = request;
         }
 
-        private void ConfigureGetRequest(IRestRequest request, string endPoint, IDictionary<string, string> bodyParameters = null)
+        internal void ConfigureGetRequest(string endPoint, IDictionary<string, string> bodyParameters = null)
         {
-            request.Resource = endPoint;
-            request.Method = Method.GET;
-            if (request.Parameters != null) this.Request.Parameters.Clear();
+            Request.Resource = endPoint;
+            Request.Method = Method.GET;
+            if (Request.Parameters != null) Request.Parameters.Clear();
 
-            if (bodyParameters != null)
-                foreach (var param in bodyParameters)
-                    request.AddParameter(param.Key, param.Value);
+            if (bodyParameters == null) return;
+            foreach (var param in bodyParameters)
+            {
+                Request.AddParameter(param.Key, param.Value);
+            }
+               
         }
 
         /// <summary>
@@ -48,12 +48,12 @@ namespace Untappd.Net.Request
             where TResult : IUnAuthenticatedRequest,new()
         {
             var result = new TResult();
-            this.ConfigureGetRequest(this.Request, result.EndPoint(urlParameter), bodyParameters);
+            ConfigureGetRequest(result.EndPoint(urlParameter), bodyParameters);
             
-            this.Request.AddParameter("client_id", credentials.ClientId);
-            this.Request.AddParameter("client_secret", credentials.ClientSecret);
+            Request.AddParameter("client_id", credentials.ClientId);
+            Request.AddParameter("client_secret", credentials.ClientSecret);
 
-            return this.DoRestRequest<TResult>(this.Request);
+            return DoRestRequest<TResult>();
         }
 
         /// <summary>
@@ -68,17 +68,17 @@ namespace Untappd.Net.Request
             where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();
-            this.ConfigureGetRequest(this.Request, result.EndPoint(urlParameter), bodyParameters);
+            ConfigureGetRequest(result.EndPoint(urlParameter), bodyParameters);
 
-            this.Request.AddParameter("access_token", credentials.AccessToken);
+            Request.AddParameter("access_token", credentials.AccessToken);
 
-            return this.DoRestRequest<TResult>(this.Request);
+            return DoRestRequest<TResult>();
         }
 
-        private TResult DoRestRequest<TResult>(IRestRequest request)
+        private TResult DoRestRequest<TResult>()
         {
             var client = new RestClient(Constants.BaseRequestString);
-            var resp = client.Execute(request);
+            var resp = client.Execute(Request);
             return JsonConvert.DeserializeObject<TResult>(resp.Content);
         }
 

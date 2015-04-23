@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Untappd.Net.Client
+﻿namespace Untappd.Net.Client
 {
     public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
     {
