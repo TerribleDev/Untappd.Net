@@ -11,6 +11,7 @@ namespace Untappd.Net
     /// </summary>
     /// <typeparam name="T"></typeparam>
     internal class SingleObjectArrayConverter<T> : JsonConverter
+        where T : new()
     {
         public override bool CanConvert(Type objectType)
         {
@@ -29,7 +30,7 @@ namespace Untappd.Net
             else if (reader.TokenType == JsonToken.StartArray)
             {
                 reader.Read();
-                retval = null;
+                retval = new T();
             }
 
             return retval;
