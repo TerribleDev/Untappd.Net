@@ -19,17 +19,18 @@ namespace Untappd.Net
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            object retval = new Object();
+            var retval = new Object();
 
-            if (reader.TokenType == JsonToken.StartObject)
+            switch (reader.TokenType)
             {
-                T instance = (T)serializer.Deserialize(reader, typeof(T));
-                retval = instance;
-            }
-            else if (reader.TokenType == JsonToken.StartArray)
-            {
-                reader.Read();
-                retval = null;
+                case JsonToken.StartObject:
+                    var instance = (T)serializer.Deserialize(reader, typeof(T));
+                    retval = instance;
+                    break;
+                case JsonToken.StartArray:
+                    reader.Read();
+                    retval = null;
+                    break;
             }
 
             return retval;

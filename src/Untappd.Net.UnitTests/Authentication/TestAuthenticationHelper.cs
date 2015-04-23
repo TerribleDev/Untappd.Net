@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 using Untappd.Net.Authentication;
 using Untappd.Net.Client;
@@ -46,6 +42,23 @@ namespace Untappd.Net.UnitTests.Authentication
         {
 
             AuthenticationHelper.TokenUrl(new UnAuthenticatedUntappdCredentials("d", "d"),  "ds", string.Empty);
+        }
+
+        [Test]
+        public void TestTokenUrl()
+        {
+
+           var s = AuthenticationHelper.TokenUrl(new UnAuthenticatedUntappdCredentials("d", "d"), "ds", "code");
+           Assert.AreEqual(s, Constants.OAuthTokenEndPoint + "/?client_id=d&client_secret=d&response_type=code&redirect_url=ds&code=code");
+
+        }
+        [Test]
+        public void TestRedirectUrl()
+        {
+
+            var s = AuthenticationHelper.RedirectUserTo(new UnAuthenticatedUntappdCredentials("d", "d"), "ds");
+            Assert.AreEqual(s, Constants.BaseRequestString + "/?client_id=d&response_type=code&redirect_url=ds");
+
         }
     }
 }
