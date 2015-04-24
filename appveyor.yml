@@ -2,7 +2,7 @@ version: 0.2.{build}
 configuration: Release
 notifications:
 - provider: Webhook
-  url: https://webhooks.gitter.im/e/4ddb88959635299132ce
+  url: https://webhooks.gitter.im/e/cff271c9681834896234
   on_build_success: true
   on_build_failure: true
   on_build_status_changed: true
