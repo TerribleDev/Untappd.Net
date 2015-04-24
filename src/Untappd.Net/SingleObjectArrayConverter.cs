@@ -15,7 +15,7 @@ namespace Untappd.Net
     {
         public override bool CanConvert(Type objectType)
         {
-            return (objectType.GetInterface("IUnAuthenticatedRequest") != null) || (objectType.GetInterface("IAuthenticatedRequest") != null);
+            return true;
 
         }
 

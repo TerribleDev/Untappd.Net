@@ -139,10 +139,5 @@ namespace Untappd.Net.UnitTests
         {
            Assert.IsTrue(new SingleObjectArrayConverter<UserActivityFeed>().CanConvert(typeof(UserActivityFeed)));
         }
-        [Test]
-        public void testTypeInValid()
-        {
-            Assert.IsFalse(new SingleObjectArrayConverter<UserActivityFeed>().CanConvert(typeof(Repository)));
-        }
     }
 }
