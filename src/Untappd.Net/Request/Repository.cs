@@ -2,6 +2,8 @@
 using Newtonsoft.Json;
 using RestSharp;
 using Untappd.Net.Client;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Untappd.Net.Request
 {
@@ -22,10 +24,10 @@ namespace Untappd.Net.Request
             Request = request;
         }
 
-        internal void ConfigureGetRequest(string endPoint, IDictionary<string, string> bodyParameters = null)
+        internal void ConfigureGetRequest(string endPoint, Method webMethod = Method.GET, IDictionary<string, string> bodyParameters = null)
         {
             Request.Resource = endPoint;
-            Request.Method = Method.GET;
+            Request.Method = webMethod;
             if (Request.Parameters != null) Request.Parameters.Clear();
 
             if (bodyParameters == null) return;
@@ -48,12 +50,28 @@ namespace Untappd.Net.Request
             where TResult : IUnAuthenticatedRequest,new()
         {
             var result = new TResult();
-            ConfigureGetRequest(result.EndPoint(urlParameter), bodyParameters);
-            
+            ConfigureGetRequest(result.EndPoint(urlParameter), Method.GET, bodyParameters);
             Request.AddParameter("client_id", credentials.ClientId);
             Request.AddParameter("client_secret", credentials.ClientSecret);
-
             return DoRestRequest<TResult>();
+        }
+
+        /// <summary>
+        /// Get the things! Async!
+        /// </summary>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="credentials"></param>
+        /// <param name="urlParameter"></param>
+        /// <param name="bodyParameters"></param>
+        /// <returns></returns>
+        public Task<TResult> GetAsync<TResult>(IUnAuthenticatedUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
+           where TResult : IUnAuthenticatedRequest, new()
+        {
+            var result = new TResult();
+            ConfigureGetRequest(result.EndPoint(urlParameter), Method.GET, bodyParameters);
+            Request.AddParameter("client_id", credentials.ClientId);
+            Request.AddParameter("client_secret", credentials.ClientSecret);
+            return DoRestRequestAsync<TResult>();
         }
 
         /// <summary>
@@ -68,26 +86,38 @@ namespace Untappd.Net.Request
             where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();
-            ConfigureGetRequest(result.EndPoint(urlParameter), bodyParameters);
-
+            ConfigureGetRequest(result.EndPoint(urlParameter), Method.GET, bodyParameters);
             Request.AddParameter("access_token", credentials.AccessToken);
-
             return DoRestRequest<TResult>();
+        }
+
+        /// <summary>
+        /// Get the things Authenticated! Async!!
+        /// </summary>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="credentials"></param>
+        /// <param name="urlParameter"></param>
+        /// <param name="bodyParameters"></param>
+        /// <returns></returns>
+        public Task<TResult> GetAsync<TResult>(IAuthenticatedUntappdCredentials credentials, string urlParameter = "", IDictionary<string, string> bodyParameters = null)
+           where TResult : IAuthenticatedRequest, new()
+        {
+            var result = new TResult();
+            ConfigureGetRequest(result.EndPoint(urlParameter), Method.GET, bodyParameters);
+            Request.AddParameter("access_token", credentials.AccessToken);
+            return DoRestRequestAsync<TResult>();
         }
 
         private TResult DoRestRequest<TResult>()
         {
-            var client = new RestClient(Constants.BaseRequestString);
-            var resp = client.Execute(Request);
-            return JsonConvert.DeserializeObject<TResult>(resp.Content);
+            var response = Client.Execute(this.Request);
+            return JsonConvert.DeserializeObject<TResult>(response.Content);
         }
 
-        //private async Task<TResult> DoRestRequestAsync<TResult>(IRestRequest request)
-        //{
-        //    var client = new RestClient(Constants.BaseRequestString);
-        //    var cancellationTokenSource = new CancellationTokenSource();
-        //    var resp = await client.ExecuteTaskAsync(request, cancellationTokenSource.Token);
-        //    return JsonConvert.DeserializeObject<TResult>(resp.Content);
-        //}
+        private async Task<TResult> DoRestRequestAsync<TResult>()
+        {
+            var response = await Client.ExecuteTaskAsync(Request);
+            return JsonConvert.DeserializeObject<TResult>(response.Content);
+        }
     }
 }

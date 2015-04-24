@@ -16,6 +16,7 @@ using Untappd.Net.Responses.UserInfo;
 using Untappd.Net.Responses.VenueInfo;
 using UserDistinctBeers = Untappd.Net.Responses.UserDistinctBeer;
 using UserWishList = Untappd.Net.Responses.UserWishlist;
+using System;
 
 namespace Untappd.Net.UnitTests
 {
@@ -124,6 +125,13 @@ namespace Untappd.Net.UnitTests
         {
             var json = File.ReadAllText(string.Format(ResponsePath, "UserActivityFeed.json"));
             var jsonresult = JsonConvert.DeserializeObject<UserActivityFeed>(json);
+        }
+
+        [Test]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void testNotImplementedException()
+        {
+             new SingleObjectArrayConverter<UserActivityFeed>().WriteJson(null, null, null);
         }
     }
 }

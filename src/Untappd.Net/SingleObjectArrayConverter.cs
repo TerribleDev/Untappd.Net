@@ -1,5 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
+using Untappd.Net.Request;
 
 namespace Untappd.Net
 {
@@ -14,12 +15,12 @@ namespace Untappd.Net
     {
         public override bool CanConvert(Type objectType)
         {
-            return true;
+            return objectType.IsAssignableFrom(typeof(IAuthenticatedRequest)) || objectType.IsAssignableFrom(typeof(IUnAuthenticatedRequest));
         }
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            var retval = new Object();
+            var retval = new object();
 
             switch (reader.TokenType)
             {

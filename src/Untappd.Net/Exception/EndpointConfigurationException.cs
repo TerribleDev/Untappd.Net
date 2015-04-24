@@ -1,5 +1,6 @@
 ﻿namespace Untappd.Net.Exception
 {
+    [System.Serializable]
     public class EndpointConfigurationException : BaseUntappdException
     {
         /// <summary>
