@@ -27,5 +27,15 @@ namespace Untappd.Net.UnitTests.Responses
                 && myType.GetInterface("IRequest") != null).Select(type => (IRequest) Activator.CreateInstance(type)).ToList();
             objects.ForEach(a=>Assert.IsNotNullOrEmpty(a.EndPoint("t")));
         }
+        [Test]
+         public void RunAllEndpointsWithEmptyString()
+        {
+
+            var objects = Assembly.GetAssembly(typeof (IRequest)).GetTypes().Where(myType => 
+                myType.IsClass 
+                && !myType.IsAbstract 
+                && myType.GetInterface("IRequest") != null).Select(type => (IRequest) Activator.CreateInstance(type)).ToList();
+            objects.ForEach(a=>Assert.IsNotNullOrEmpty(a.EndPoint(string.Empty)));
+        }
     }
 }
