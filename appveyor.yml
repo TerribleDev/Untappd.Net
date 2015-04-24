@@ -3,7 +3,7 @@ configuration: Release
 notifications:
   - provider: Webhook
     url: https://webhooks.gitter.im/e/4ddb88959635299132ce
-    on_build_success: false
+    on_build_success: true
     on_build_failure: True
     on_build_status_changed: true
 assembly_info:
