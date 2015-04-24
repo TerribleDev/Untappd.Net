@@ -133,5 +133,16 @@ namespace Untappd.Net.UnitTests
         {
              new SingleObjectArrayConverter<UserActivityFeed>().WriteJson(null, null, null);
         }
+
+        [Test]
+        public void testTypeValid()
+        {
+           Assert.IsTrue(new SingleObjectArrayConverter<UserActivityFeed>().CanConvert(typeof(UserActivityFeed)));
+        }
+        [Test]
+        public void testTypeInValid()
+        {
+            Assert.IsFalse(new SingleObjectArrayConverter<UserActivityFeed>().CanConvert(typeof(Repository)));
+        }
     }
 }
