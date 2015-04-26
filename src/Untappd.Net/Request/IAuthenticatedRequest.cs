@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Untappd.Net.Request
+﻿namespace Untappd.Net.Request
 {
     public interface IAuthenticatedRequest : IRequest
     {

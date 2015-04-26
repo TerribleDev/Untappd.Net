@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 using Untappd.Net.Request;
-using System.ComponentModel;
 
 namespace Untappd.Net.Responses.UserBadges
 {
