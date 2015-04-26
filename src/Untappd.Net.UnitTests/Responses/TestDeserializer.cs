@@ -29,10 +29,7 @@ namespace Untappd.Net.UnitTests
         [Ignore]
         public void GetActualJsonRequest()
         {
-            var credentials = new AuthenticatedUntappdCredentials(
-                "",
-                "",
-                "");
+            var credentials = new AuthenticatedUntappdCredentials("");
 
             Dictionary<string, string> parameters = new Dictionary<string, string>();
             parameters.Add("q", "wild rose");

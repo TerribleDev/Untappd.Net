@@ -28,11 +28,12 @@ namespace Untappd.Net
             {
                 case JsonToken.StartObject:
                     var instance = (T)serializer.Deserialize(reader, typeof(T));
-                retval = instance;
+                    retval = instance;
                     break;
                 case JsonToken.StartArray:
-                reader.Read();
-                retval = new T();
+                    reader.Read();
+                    retval = new T();
+                    break;
             }
 
             return retval;
