@@ -173,7 +173,7 @@ namespace Untappd.Net.Responses.UserBadges
         /// </summary>
         [JsonProperty(PropertyName = "levels")]
         [JsonConverter(typeof(SingleObjectArrayConverter<Levels>))]
-        public object Levels { get; set; }
+        public Levels Levels { get; set; }
 
         [JsonProperty("badge_pack")]
         public int BadgePack { get; set; }
