@@ -11,8 +11,7 @@ namespace Untappd.Net.Client
         /// <param name="accessToken"></param>
         /// <param name="clientId"></param>
         /// <param name="clientSecret"></param>
-        public AuthenticatedUntappdCredentials(string accessToken, string clientId, string clientSecret)
-            :base(clientId, clientSecret)
+        public AuthenticatedUntappdCredentials(string accessToken)
         {
             if (string.IsNullOrWhiteSpace(accessToken))
             {

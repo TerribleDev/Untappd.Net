@@ -7,6 +7,10 @@ namespace Untappd.Net.Client
         public string ClientId { get; private set; }
         public string ClientSecret { get; private set; }
 
+        protected UntappdCredentials()
+        {
+        }
+
         /// <summary>
         /// UnAuthenticated request. Pass your API id and secret
         /// </summary>
