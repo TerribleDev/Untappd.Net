@@ -18,37 +18,37 @@ namespace Untappd.Net.Responses.Actions
             {
                 var dict = new Dictionary<string, object>
                 {
-                    {"gmt_offset", gmt_offset},
-                    {"timezone", timezone},
-                    {"bid", bid}
+                    {"gmt_offset", GmtOffset},
+                    {"timezone", Timezone},
+                    {"bid", Bid}
                 };
-                if (geolat.HasValue)
+                if (Geolat.HasValue)
                 {
-                    dict.Add("geolat", geolat.Value);
+                    dict.Add("geolat", Geolat.Value);
                 }
-                if (geolng.HasValue)
+                if (Geolng.HasValue)
                 {
-                    dict.Add("geolng", geolng.Value);
+                    dict.Add("geolng", Geolng.Value);
                 }
-                if (!string.IsNullOrWhiteSpace(shout) && shout.Length <= 140)
+                if (!string.IsNullOrWhiteSpace(Shout) && Shout.Length <= 140)
                 {
-                    dict.Add("shout", shout);
+                    dict.Add("shout", Shout);
                 }
-                if (rating > 0 && rating < 6)
+                if (Rating > 0 && Rating < 6)
                 {
-                    dict.Add("rating", rating);
+                    dict.Add("rating", Rating);
                 }
                 return dict;
             }
         }
 
-        public string gmt_offset { get; private set; }
-        public string timezone { get; private set; }
-        public int bid { get; private set; }
-        public int? geolat { get; set; }
-        public int? geolng { get; set; }
+        public string GmtOffset { get; private set; }
+        public string Timezone { get; private set; }
+        public int Bid { get; private set; }
+        public int? Geolat { get; set; }
+        public int? Geolng { get; set; }
 
-        public string shout
+        public string Shout
         {
             get { return _shout; }
             set
@@ -57,11 +57,11 @@ namespace Untappd.Net.Responses.Actions
                 {
                     throw new ArgumentOutOfRangeException("value", value,"Shout can be no more than 140 characters");
                 }
-                _shout = value;
+                _shout = string.Copy(value);
             }
         }
 
-        public short rating
+        public short Rating
         {
             get { return _rating; }
             set
@@ -75,19 +75,19 @@ namespace Untappd.Net.Responses.Actions
         }
 
 
-        public CheckIn(string gmt_offset, string timezone, int bid)
+        public CheckIn(string gmtOffset, string timezone, int bid)
         {
-            if (string.IsNullOrWhiteSpace(gmt_offset))
+            if (string.IsNullOrWhiteSpace(gmtOffset))
             {
-                throw new ArgumentNullException("gmt_offset");
+                throw new ArgumentNullException("gmtOffset");
             }
             if (string.IsNullOrWhiteSpace(timezone))
             {
                 throw new ArgumentNullException("timezone");
             }
-            this.gmt_offset = string.Copy(gmt_offset);
-            this.timezone = string.Copy(timezone);
-            this.bid = bid;
+            GmtOffset = string.Copy(gmtOffset);
+            Timezone = string.Copy(timezone);
+            Bid = bid;
         }
     }
 }

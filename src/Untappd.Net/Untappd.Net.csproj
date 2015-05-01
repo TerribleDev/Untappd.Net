@@ -50,8 +50,14 @@
     <Compile Include="Request\IAction.cs" />
     <Compile Include="Request\RepositoryGet.cs" />
     <Compile Include="Request\RepositoryPost.cs" />
+    <Compile Include="Responses\Actions\RemoveFromWishList.cs" />
+    <Compile Include="Responses\Actions\AddToWishList.cs" />
+    <Compile Include="Responses\Actions\AddComment.cs" />
     <Compile Include="Responses\Actions\CheckIn.cs" />
     <Compile Include="Responses\Actions\PendingFriends.cs" />
+    <Compile Include="Responses\Actions\AcceptFriend.cs" />
+    <Compile Include="Responses\Actions\RemoveFriend.cs" />
+    <Compile Include="Responses\Actions\AddFriend.cs" />
     <Compile Include="Responses\Actions\ToastUntoast.cs" />
     <Compile Include="SingleObjectArrayConverter.cs" />
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />

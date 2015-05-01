@@ -7,10 +7,9 @@ namespace Untappd.Net.Responses.Actions
 {
     public class ToastUntoast : IAction
     {
-        public Method RequestMethod { get; private set; }
-        public IDictionary<string, object> BodyParameters { get; private set; }
-        public string CheckinId { get; private set; }
-        public string EndPoint { get { return string.Format("v4/checkin/toast/{0}", CheckinId); } }
+        public Method RequestMethod { get { return Method.POST; } }
+        public IDictionary<string, object> BodyParameters { get { return new Dictionary<string, object>(); } }
+        public string EndPoint { get; private set; }
         /// <summary>
         /// 
         /// </summary>
@@ -22,9 +21,7 @@ namespace Untappd.Net.Responses.Actions
             {
                 throw new ArgumentNullException("checkinId");
             }
-            CheckinId = string.Copy(checkinId);
-            BodyParameters = new Dictionary<string, object>();
-            RequestMethod = Method.POST;
+            EndPoint = string.Format("v4/checkin/toast/{0}", checkinId);
         }
     }
 }
