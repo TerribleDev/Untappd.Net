@@ -69,7 +69,7 @@ namespace Untappd.Net.UnitTests.Request
             var constructorTest = new Repository();
             constructorTest.Request.Parameters.Add(new Parameter(){Name = "param"});
             Assert.IsTrue(constructorTest.Request.Parameters.Count > 0);
-            constructorTest.ConfigureGetRequest("endpoint");
+            constructorTest.ConfigureRequest("endpoint");
             Assert.IsTrue(constructorTest.Request.Parameters.Count == 0);
         }
     }
