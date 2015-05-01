@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RestSharp;
-using Untappd.Net.Client;
-using System.Threading.Tasks;
-using System.Threading;
 
 namespace Untappd.Net.Request
 {

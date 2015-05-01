@@ -14,7 +14,7 @@ namespace Untappd.Net.Request
         /// <param name="urlParameter">this is the main parameter for a request. ie v4/user/checkins/urlParameter. Consult the untappd docs, this can be null for a few requests</param>
         /// <param name="bodyParameters">Any additional params you wish to add to the request</param>
         /// <returns></returns>
-        public TResult Get<TResult>(IUnAuthenticatedUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
+        public TResult Get<TResult>(IUnAuthenticatedUntappdCredentials credentials, string urlParameter, IDictionary<string, object> bodyParameters = null)
             where TResult : IUnAuthenticatedRequest, new()
         {
             var result = new TResult();
@@ -32,7 +32,7 @@ namespace Untappd.Net.Request
         /// <param name="urlParameter"></param>
         /// <param name="bodyParameters"></param>
         /// <returns></returns>
-        public Task<TResult> GetAsync<TResult>(IUnAuthenticatedUntappdCredentials credentials, string urlParameter, IDictionary<string, string> bodyParameters = null)
+        public Task<TResult> GetAsync<TResult>(IUnAuthenticatedUntappdCredentials credentials, string urlParameter, IDictionary<string, object> bodyParameters = null)
            where TResult : IUnAuthenticatedRequest, new()
         {
             var result = new TResult();
@@ -50,7 +50,7 @@ namespace Untappd.Net.Request
         /// <param name="urlParameter">this is the main parameter for a request. ie v4/user/checkins/urlParameter. Consult the untappd docs, this can be null for a few requests</param>
         /// <param name="bodyParameters">Any additional params you wish to add to the request</param>
         /// <returns></returns>
-        public TResult Get<TResult>(IAuthenticatedUntappdCredentials credentials, string urlParameter = "", IDictionary<string, string> bodyParameters = null)
+        public TResult Get<TResult>(IAuthenticatedUntappdCredentials credentials, string urlParameter = "", IDictionary<string, object> bodyParameters = null)
             where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();
@@ -67,7 +67,7 @@ namespace Untappd.Net.Request
         /// <param name="urlParameter"></param>
         /// <param name="bodyParameters"></param>
         /// <returns></returns>
-        public Task<TResult> GetAsync<TResult>(IAuthenticatedUntappdCredentials credentials, string urlParameter = "", IDictionary<string, string> bodyParameters = null)
+        public Task<TResult> GetAsync<TResult>(IAuthenticatedUntappdCredentials credentials, string urlParameter = "", IDictionary<string, object> bodyParameters = null)
            where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();

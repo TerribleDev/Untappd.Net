@@ -10,7 +10,7 @@ namespace Untappd.Net.Responses.Actions
         public Method RequestMethod { get; private set; }
         public IDictionary<string, object> BodyParameters { get; private set; }
         public string CheckinId { get; private set; }
-        public string EndPoint { get { return string.Format(" /v4/checkin/toast/{0}", CheckinId); } }
+        public string EndPoint { get { return string.Format("v4/checkin/toast/{0}", CheckinId); } }
         /// <summary>
         /// 
         /// </summary>

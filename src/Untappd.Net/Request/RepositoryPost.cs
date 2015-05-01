@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Untappd.Net.Client;
+﻿using Untappd.Net.Client;
 
 namespace Untappd.Net.Request
 {

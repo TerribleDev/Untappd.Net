@@ -10,23 +10,25 @@ namespace Untappd.Net.Responses.Actions
         private short _rating;
         private string _shout;
         public Method RequestMethod { get{ return Method.POST;} }
-        public string EndPoint { get { return "/v4/checkin/add"; } }
+        public string EndPoint { get { return "v4/checkin/add"; } }
 
         public IDictionary<string, object> BodyParameters
         {
             get
             {
-                var dict = new Dictionary<string, object>();
-                dict.Add("gmt_offset", gmt_offset);
-                dict.Add("timezone", timezone);
-                dict.Add("bid", bid);
+                var dict = new Dictionary<string, object>
+                {
+                    {"gmt_offset", gmt_offset},
+                    {"timezone", timezone},
+                    {"bid", bid}
+                };
                 if (geolat.HasValue)
                 {
-                    dict.Add("geolat", geolat);
+                    dict.Add("geolat", geolat.Value);
                 }
                 if (geolng.HasValue)
                 {
-                    dict.Add("geolng", geolat);
+                    dict.Add("geolng", geolng.Value);
                 }
                 if (!string.IsNullOrWhiteSpace(shout) && shout.Length <= 140)
                 {
