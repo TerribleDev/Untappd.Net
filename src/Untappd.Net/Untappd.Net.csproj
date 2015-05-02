@@ -47,6 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication\AuthenticationHelper.cs" />
+    <Compile Include="Request\IAction.cs" />
+    <Compile Include="Request\RepositoryGet.cs" />
+    <Compile Include="Request\RepositoryPost.cs" />
+    <Compile Include="Responses\Actions\RemoveFromWishList.cs" />
+    <Compile Include="Responses\Actions\AddToWishList.cs" />
+    <Compile Include="Responses\Actions\AddComment.cs" />
+    <Compile Include="Responses\Actions\CheckIn.cs" />
+    <Compile Include="Responses\Actions\PendingFriends.cs" />
+    <Compile Include="Responses\Actions\AcceptFriend.cs" />
+    <Compile Include="Responses\Actions\RemoveFriend.cs" />
+    <Compile Include="Responses\Actions\AddFriend.cs" />
+    <Compile Include="Responses\Actions\ToastUntoast.cs" />
     <Compile Include="SingleObjectArrayConverter.cs" />
     <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
     <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
@@ -79,9 +91,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Responses\Actions\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
