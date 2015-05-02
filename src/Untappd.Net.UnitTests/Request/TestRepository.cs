@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Moq;
 using Newtonsoft.Json;
 using NUnit.Framework;
@@ -6,7 +7,6 @@ using RestSharp;
 using Untappd.Net.Client;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.BeerInfo;
-using System.Threading.Tasks;
 
 namespace Untappd.Net.UnitTests.Request
 {
@@ -19,7 +19,7 @@ namespace Untappd.Net.UnitTests.Request
             var mockCreds = new Mock<IUnAuthenticatedUntappdCredentials>();
             mockCreds.Setup(a => a.ClientId).Returns("id");
             mockCreds.Setup(a => a.ClientSecret).Returns("secret");
-            var bodyParam = new Dictionary<string, string> {{"key", "value"}};
+            var bodyParam = new Dictionary<string, object> {{"key", "value"}};
             var client = new Mock<IRestClient>();
             var request = new Mock<IRestRequest>();
             request.Setup(a => a.AddParameter(It.IsAny<string>(), It.IsAny<string>()));
@@ -67,9 +67,9 @@ namespace Untappd.Net.UnitTests.Request
         public void ConfirmConfigureGetRequestClearsParams()
         {
             var constructorTest = new Repository();
-            constructorTest.Request.Parameters.Add(new Parameter(){Name = "param"});
+            constructorTest.Request.Parameters.Add(new Parameter {Name = "param"});
             Assert.IsTrue(constructorTest.Request.Parameters.Count > 0);
-            constructorTest.ConfigureGetRequest("endpoint");
+            constructorTest.ConfigureRequest("endpoint");
             Assert.IsTrue(constructorTest.Request.Parameters.Count == 0);
         }
     }

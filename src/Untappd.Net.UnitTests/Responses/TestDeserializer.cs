@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using NUnit.Framework;
@@ -16,7 +17,6 @@ using Untappd.Net.Responses.UserInfo;
 using Untappd.Net.Responses.VenueInfo;
 using UserDistinctBeers = Untappd.Net.Responses.UserDistinctBeer;
 using UserWishList = Untappd.Net.Responses.UserWishlist;
-using System;
 
 namespace Untappd.Net.UnitTests
 {
@@ -31,7 +31,7 @@ namespace Untappd.Net.UnitTests
         {
             var credentials = new AuthenticatedUntappdCredentials("");
 
-            Dictionary<string, string> parameters = new Dictionary<string, string>();
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
             parameters.Add("q", "wild rose");
 
             var repo = new Repository();
