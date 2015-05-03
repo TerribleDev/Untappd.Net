@@ -1,6 +1,5 @@
 ﻿using System;
 using Newtonsoft.Json;
-using Untappd.Net.Request;
 
 namespace Untappd.Net
 {

@@ -348,7 +348,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         [JsonProperty("count")]
         public int Count { get; set; }
 
-        [JsonProperty("auth_toast")]
+        [JsonProperty("auth_toast", NullValueHandling = NullValueHandling.Ignore)]
         public bool AuthToast { get; set; }
 
         [JsonProperty("items")]
@@ -483,6 +483,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
         public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]

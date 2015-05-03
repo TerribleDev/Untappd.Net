@@ -872,6 +872,7 @@ namespace Untappd.Net.Responses.UserInfo
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
         public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
