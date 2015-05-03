@@ -7,6 +7,7 @@ using RestSharp;
 using Untappd.Net.Client;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.BeerInfo;
+using Untappd.Net.Responses.Actions;
 
 namespace Untappd.Net.UnitTests.Request
 {
@@ -54,6 +55,15 @@ namespace Untappd.Net.UnitTests.Request
             repository.GetAsync<BeerInfo>(mockAuthCreds.Object, "awesome", bodyParam).Wait();
             request.Verify(a => a.AddParameter("key", "value"));
             request.Verify(a => a.AddParameter("access_token", "accessToken"));
+
+            mockAuthCreds.Setup(a => a.AccessToken).Returns("PostaccessToken");
+            var checkin = new CheckIn("-5", "EST", 1044097) { Shout = "Awesome Brew", Rating = 4 };
+            repository.Post(mockAuthCreds.Object, checkin);
+            request.Verify(a => a.AddParameter("access_token", "PostaccessToken"));
+
+            mockAuthCreds.Setup(a => a.AccessToken).Returns("PostAsyncaccessToken");
+            repository.PostAsync(mockAuthCreds.Object, checkin).Wait();
+            request.Verify(a => a.AddParameter("access_token", "PostAsyncaccessToken"));
         }
 
         [Test]
