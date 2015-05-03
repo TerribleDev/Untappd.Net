@@ -46,6 +46,17 @@ var t = new Repository().Get<ActivityFeed>(ts);
 
 ```
 
+For Actions (usually post requests). Note: Actions return a dynamic object. Usually these responses are not needed, and you should still be able to use the dynamic object's data. If strong typed returns is required feel free to file an issue. However we don't predict people will really need to care about the returns of these actions.
+
+
+```csharp
+
+var ts = new AuthenticatedUntappdCredentials("token", "key", "secret");
+var checkin = new CheckIn("-5", "EST", 1044097) { Shout = "Awesome Brew", Rating = 4 };
+var response = repository.Post(ts, checkin);
+
+```
+
 ## Contributing
 
 * Everyone is welcome to contribute!
