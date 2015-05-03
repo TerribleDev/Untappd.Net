@@ -162,6 +162,12 @@ namespace Untappd.Net.Responses.UserBadges
         [JsonProperty("is_level")]
         public bool IsLevel { get; set; }
 
+        [JsonProperty("badge_type")]
+        public string BadgeType { get; set; }
+
+        [JsonProperty("has_badge")]
+        public bool HasBadge { get; set; }
+
         [JsonProperty("category_id")]
         public int CategoryId { get; set; }
 
@@ -175,7 +181,7 @@ namespace Untappd.Net.Responses.UserBadges
         public Levels Levels { get; set; }
 
         [JsonProperty("badge_pack")]
-        public int BadgePack { get; set; }
+        public bool BadgePack { get; set; }
 
         [JsonProperty("badge_pack_name")]
         public bool BadgePackName { get; set; }
