@@ -8,6 +8,7 @@ using Untappd.Net.Client;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.BeerInfo;
 using Untappd.Net.Responses.Actions;
+using System.IO;
 
 namespace Untappd.Net.UnitTests.Request
 {
@@ -27,8 +28,7 @@ namespace Untappd.Net.UnitTests.Request
             request.Setup(a => a.AddParameter(It.IsAny<string>(), It.IsAny<string>()));
            
             var response = new Mock<IRestResponse>();
-            var obj = JsonConvert.SerializeObject(new BeerInfo());
-            response.Setup(a => a.Content).Returns(obj);
+            response.Setup(a => a.Content).Returns(File.ReadAllText("../../Responses/json/BeerInfo.json"));
             client.Setup(a => a.Execute(It.IsAny<IRestRequest>())).Callback(() =>
             {
             }).Returns(response.Object);
