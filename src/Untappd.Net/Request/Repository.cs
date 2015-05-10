@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RestSharp;
+using Untappd.Net.Client;
 
 namespace Untappd.Net.Request
 {
@@ -35,6 +36,20 @@ namespace Untappd.Net.Request
             }
                
         }
+
+        internal void ConfigureRequest(IUnAuthenticatedUntappdCredentials credentials, string endPoint, IDictionary<string, object> bodyParameters = null, Method webMethod = Method.GET)
+        {
+            ConfigureRequest(endPoint, bodyParameters, webMethod);
+            Request.AddParameter("client_id", credentials.ClientId);
+            Request.AddParameter("client_secret", credentials.ClientSecret);
+
+        }
+
+        internal void ConfigureRequest(IAuthenticatedUntappdCredentials credentials, string endPoint, IDictionary<string, object> bodyParameters = null, Method webMethod = Method.GET)
+        {
+            ConfigureRequest(endPoint, bodyParameters, webMethod);
+            Request.AddParameter("access_token", credentials.AccessToken);
+        } 
 
         private TResult ExecuteRequest<TResult>()
         {
