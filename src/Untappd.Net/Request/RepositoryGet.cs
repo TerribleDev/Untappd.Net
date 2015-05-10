@@ -18,9 +18,7 @@ namespace Untappd.Net.Request
             where TResult : IUnAuthenticatedRequest, new()
         {
             var result = new TResult();
-            ConfigureRequest(result.EndPoint(urlParameter), bodyParameters);
-            Request.AddParameter("client_id", credentials.ClientId);
-            Request.AddParameter("client_secret", credentials.ClientSecret);
+            ConfigureRequest(credentials, result.EndPoint(urlParameter), bodyParameters);
             return ExecuteRequest<TResult>();
         }
 
@@ -36,9 +34,7 @@ namespace Untappd.Net.Request
            where TResult : IUnAuthenticatedRequest, new()
         {
             var result = new TResult();
-            ConfigureRequest(result.EndPoint(urlParameter), bodyParameters);
-            Request.AddParameter("client_id", credentials.ClientId);
-            Request.AddParameter("client_secret", credentials.ClientSecret);
+            ConfigureRequest(credentials, result.EndPoint(urlParameter), bodyParameters);
             return ExecuteRequestAsync<TResult>();
         }
 
@@ -54,8 +50,7 @@ namespace Untappd.Net.Request
             where TResult : IAuthenticatedRequest, new()
         {
             var result = new TResult();
-            ConfigureRequest(result.EndPoint(urlParameter), bodyParameters);
-            Request.AddParameter("access_token", credentials.AccessToken);
+            ConfigureRequest(credentials, result.EndPoint(urlParameter), bodyParameters);
             return ExecuteRequest<TResult>();
         }
 

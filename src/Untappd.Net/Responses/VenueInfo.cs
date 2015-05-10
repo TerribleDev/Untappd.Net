@@ -271,6 +271,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact2>))]
         public Contact2 Contact { get; set; }
 
         [JsonProperty("location")]
@@ -405,6 +406,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public Location3 Location { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact3>))]
         public Contact3 Contact { get; set; }
 
         [JsonProperty("public_venue")]
@@ -562,6 +564,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact4>))]
         public Contact4 Contact { get; set; }
 
         [JsonProperty("location")]
@@ -671,6 +674,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public Location5 Location { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact5>))]
         public Contact5 Contact { get; set; }
 
         [JsonProperty("public_venue")]
@@ -1074,6 +1078,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact6>))]
         public Contact6 Contact { get; set; }
 
         [JsonProperty("location")]
@@ -1150,7 +1155,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public Categories Categories { get; set; }
 
         [JsonProperty("stats")]
-        public Stats Stats { get; set; }
+        public Stats Stats { get; set; } 
 
         [JsonProperty("venue_icon")]
         public VenueIcon VenueIcon { get; set; }
@@ -1162,6 +1167,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public Location Location { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact>))]
         public Contact Contact { get; set; }
 
         [JsonProperty("foursquare")]
@@ -1171,6 +1177,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public Media Media { get; set; }
 
         [JsonProperty("checkins")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
         public Checkins Checkins { get; set; }
 
         [JsonProperty("top_beers")]
@@ -1192,6 +1199,7 @@ namespace Untappd.Net.Responses.VenueInfo
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
         public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]

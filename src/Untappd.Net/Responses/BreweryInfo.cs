@@ -892,6 +892,7 @@ namespace Untappd.Net.Responses.BreweryInfo
         public Media Media { get; set; }
 
         [JsonProperty("checkins")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
         public Checkins Checkins { get; set; }
 
         [JsonProperty("beer_list")]
@@ -913,6 +914,7 @@ namespace Untappd.Net.Responses.BreweryInfo
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
         public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]

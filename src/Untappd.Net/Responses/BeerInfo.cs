@@ -128,6 +128,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact>))]
         public Contact Contact { get; set; }
 
         [JsonProperty("location")]
@@ -241,6 +242,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact2>))]
         public Contact2 Contact { get; set; }
 
         [JsonProperty("location")]
@@ -350,6 +352,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public int IsPrivate { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact>))]
         public object Contact { get; set; }
     }
 
@@ -444,6 +447,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact3>))]
         public Contact3 Contact { get; set; }
 
         [JsonProperty("location")]
@@ -758,6 +762,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Contact4>))]
         public Contact4 Contact { get; set; }
 
         [JsonProperty("location")]
@@ -910,6 +915,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public Media Media { get; set; }
 
         [JsonProperty("checkins")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
         public Checkins Checkins { get; set; }
 
         [JsonProperty("similar")]
@@ -937,6 +943,7 @@ namespace Untappd.Net.Responses.BeerInfo
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
         public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]

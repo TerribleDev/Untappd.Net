@@ -502,6 +502,7 @@ namespace Untappd.Net.Responses.Feeds.ActivityFeed
         public bool Mg { get; set; }
 
         [JsonProperty("checkins")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
         public Checkins Checkins { get; set; }
 
         [JsonProperty("pagination")]
