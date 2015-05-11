@@ -21,7 +21,7 @@ namespace Untappd.Net.UnitTests.Client
             Assert.AreEqual(token, "awesome");
             token = "newString";
             //Make sure the reference is not copied over
-            Assert.AreEqual("awesome", t.AccessToken);
+            Assert.AreEqual("awesome", t.AuthenticationData["access_token"]);
         }
     }
 }

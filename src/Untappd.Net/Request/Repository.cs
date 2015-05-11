@@ -1,8 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.Net;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using RestSharp;
 using Untappd.Net.Client;
+using Untappd.Net.Exception;
+using System;
 
 namespace Untappd.Net.Request
 {
@@ -10,57 +14,105 @@ namespace Untappd.Net.Request
     {
         internal IRestClient Client;
         internal IRestRequest Request;
+        private bool FailFast { get; set; }
+        /// <summary>
+        /// Event to listen to when failFast is set to false
+        /// This allows you to capture the excpetion, before its swallowed
+        /// </summary>
+        public event UnhandledExceptionEventHandler OnExceptionThrown;
 
-        public Repository()
+        /// <summary>
+        /// Make a repository
+        /// </summary>
+        /// <param name="failFast">Should we throw exceptions? or just return null</param>
+        public Repository(bool failFast = true)
         {
             Client = new RestClient(Constants.BaseRequestString);
             Request = new RestRequest();
+            FailFast = failFast;
         }
 
+        [Obsolete("This constructor is used for mocking purposes only", false)]
         internal Repository(IRestClient client, IRestRequest request)
         {
             Client = client;
             Request = request;
         }
 
-        internal void ConfigureRequest(string endPoint, IDictionary<string, object> bodyParameters = null , Method webMethod = Method.GET)
+        internal Repository ConfigureRequest(string endPoint, IDictionary<string, object> bodyParameters = null, Method webMethod = Method.GET)
         {
             Request.Resource = endPoint;
             Request.Method = webMethod;
-            if (Request.Parameters != null) Request.Parameters.Clear();
+            if (Request.Parameters != null && Request.Parameters.Count > 0)
+            {
+                Request.Parameters.Clear();
+            }
 
-            if (bodyParameters == null) return;
+            if (bodyParameters == null) return this;
             foreach (var param in bodyParameters)
             {
                 Request.AddParameter(param.Key, param.Value);
             }
-               
+            return this;
         }
 
-        internal void ConfigureRequest(IUnAuthenticatedUntappdCredentials credentials, string endPoint, IDictionary<string, object> bodyParameters = null, Method webMethod = Method.GET)
+        internal Repository ConfigureRequest(IUntappdCredentials credentials, string endPoint, IDictionary<string, object> bodyParameters = null, Method webMethod = Method.GET)
         {
             ConfigureRequest(endPoint, bodyParameters, webMethod);
-            Request.AddParameter("client_id", credentials.ClientId);
-            Request.AddParameter("client_secret", credentials.ClientSecret);
-
-        }
-
-        internal void ConfigureRequest(IAuthenticatedUntappdCredentials credentials, string endPoint, IDictionary<string, object> bodyParameters = null, Method webMethod = Method.GET)
-        {
-            ConfigureRequest(endPoint, bodyParameters, webMethod);
-            Request.AddParameter("access_token", credentials.AccessToken);
+            foreach (var untappdCredential in credentials.AuthenticationData)
+            {
+                Request.AddParameter(untappdCredential.Key, untappdCredential.Value);
+            }
+            return this;
         } 
 
         private TResult ExecuteRequest<TResult>()
+            where TResult : class 
         {
-            var response = Client.Execute(Request);
-            return JsonConvert.DeserializeObject<TResult>(response.Content);
+            return ProcessExecution<TResult>(Client.Execute(Request));
         }
 
         private async Task<TResult> ExecuteRequestAsync<TResult>()
+            where TResult : class 
         {
-            var response = await Client.ExecuteTaskAsync(Request);
-            return JsonConvert.DeserializeObject<TResult>(response.Content);
+            return ProcessExecution<TResult>(await Client.ExecuteTaskAsync(Request));
+        }
+
+        private TResult ProcessExecution<TResult>(IRestResponse response)
+            where TResult : class 
+        {
+            //if the return type is not 200 throw errors
+            if (response.StatusCode != HttpStatusCode.OK)
+            {
+                var excpetion = new HttpErrorException(Request, response);
+                if (OnExceptionThrown != null)
+                {
+                    OnExceptionThrown(this, new UnhandledExceptionEventArgs(excpetion, FailFast));
+                }
+                if (FailFast)
+                {
+                    throw excpetion;
+                }
+                return null;
+            }
+            //try to deserialize
+            try
+            {
+                return JsonConvert.DeserializeObject<TResult>(response.Content);
+            }
+            catch(System.Exception e)
+            {
+                if (OnExceptionThrown != null)
+                {
+                    OnExceptionThrown(this, new UnhandledExceptionEventArgs(e, FailFast));
+                }
+                if (FailFast)
+                {
+                    throw;
+                }
+               
+                return null;
+            }
         }
     }
 }

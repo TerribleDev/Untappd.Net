@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication\AuthenticationHelper.cs" />
+    <Compile Include="Exception\HttpErrorException.cs" />
     <Compile Include="Request\IAction.cs" />
     <Compile Include="Request\RepositoryGet.cs" />
     <Compile Include="Request\RepositoryPost.cs" />

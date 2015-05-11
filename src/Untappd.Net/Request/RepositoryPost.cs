@@ -13,8 +13,8 @@ namespace Untappd.Net.Request
         /// <returns>returns dynamic since often the return doesn't matter</returns>
         public dynamic Post(IAuthenticatedUntappdCredentials credentials, IAction action)
         {
-            ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod);
-            return ExecuteRequest<dynamic>();
+            return ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod) 
+                .ExecuteRequest<dynamic>();
         }
 
         /// <summary>
@@ -25,8 +25,8 @@ namespace Untappd.Net.Request
         /// <returns>returns dynamic since often the return doesn't matter</returns>
         public Task<dynamic> PostAsync(IAuthenticatedUntappdCredentials credentials, IAction action)
         {
-            ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod);
-            return ExecuteRequestAsync<dynamic>();
+            return ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod)
+            .ExecuteRequestAsync<dynamic>();
         }
     }
 }

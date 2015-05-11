@@ -2,6 +2,5 @@
 {
     public interface IAuthenticatedUntappdCredentials : IUntappdCredentials
     {
-        string AccessToken { get; }
     }
 }

@@ -1,23 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace Untappd.Net.Client
 {
     public class AuthenticatedUntappdCredentials : UntappdCredentials, IAuthenticatedUntappdCredentials
     {
-        public string AccessToken { get; private set; }
         /// <summary>
         /// Pass your authenticated access token
         /// </summary>
         /// <param name="accessToken"></param>
-        /// <param name="clientId"></param>
-        /// <param name="clientSecret"></param>
         public AuthenticatedUntappdCredentials(string accessToken)
         {
             if (string.IsNullOrWhiteSpace(accessToken))
             {
                 throw new ArgumentNullException("accessToken");
             }
-            AccessToken = string.Copy(accessToken);
+            AuthenticationData = new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            {
+                {"access_token", accessToken}
+            });
         }
     }
 }
