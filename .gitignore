@@ -11,6 +11,8 @@
 *.userprefs
 
 **/.settings
+NDependOut
+*.ndproj
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

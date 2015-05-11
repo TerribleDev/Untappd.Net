@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Moq;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using RestSharp;
-using Untappd.Net.Client;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.BeerInfo;
 using Untappd.Net.Responses.Actions;
 using System.IO;
+using Untappd.Net.Authentication;
 
 namespace Untappd.Net.UnitTests.Request
 {
@@ -19,8 +20,11 @@ namespace Untappd.Net.UnitTests.Request
         public void ConfirmRequestWorks()
         {
             var mockCreds = new Mock<IUnAuthenticatedUntappdCredentials>();
-            mockCreds.Setup(a => a.ClientId).Returns("id");
-            mockCreds.Setup(a => a.ClientSecret).Returns("secret");
+            mockCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            {
+                {"client_id", "id"},
+                 {"client_secret", "secret"}
+            }));
             var bodyParam = new Dictionary<string, object> {{"key", "value"}};
             var client = new Mock<IRestClient>();
             var request = new Mock<IRestRequest>();
@@ -38,16 +42,19 @@ namespace Untappd.Net.UnitTests.Request
             var repository = new Repository(client.Object, request.Object);
            
             repository.Get<BeerInfo>(mockCreds.Object, "awesome", bodyParam);
-            request.Verify(a => a.AddParameter("client_id", mockCreds.Object.ClientId));
-            request.Verify(a => a.AddParameter("client_secret", mockCreds.Object.ClientSecret));
+            request.Verify(a => a.AddParameter("client_id", mockCreds.Object.AuthenticationData["client_id"]));
+            request.Verify(a => a.AddParameter("client_secret", mockCreds.Object.AuthenticationData["client_secret"]));
             request.Verify(a => a.AddParameter("key", "value"));
             repository.GetAsync<BeerInfo>(mockCreds.Object, "awesome", bodyParam).Wait();
-            request.Verify(a => a.AddParameter("client_id", mockCreds.Object.ClientId));
-            request.Verify(a => a.AddParameter("client_secret", mockCreds.Object.ClientSecret));
+            request.Verify(a => a.AddParameter("client_id", mockCreds.Object.AuthenticationData["client_id"]));
+            request.Verify(a => a.AddParameter("client_secret", mockCreds.Object.AuthenticationData["client_secret"]));
             request.Verify(a => a.AddParameter("key", "value"));
 
             var mockAuthCreds = new Mock<IAuthenticatedUntappdCredentials>();
-            mockAuthCreds.Setup(a => a.AccessToken).Returns("accessToken");
+            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            {
+                {"access_token", "accessToken"}
+            }));
 
             repository.Get<BeerInfo>(mockAuthCreds.Object, "awesome", bodyParam);
             request.Verify(a => a.AddParameter("key", "value"));
@@ -56,12 +63,18 @@ namespace Untappd.Net.UnitTests.Request
             request.Verify(a => a.AddParameter("key", "value"));
             request.Verify(a => a.AddParameter("access_token", "accessToken"));
 
-            mockAuthCreds.Setup(a => a.AccessToken).Returns("PostaccessToken");
+            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            {
+                {"access_token", "PostaccessToken"}
+            }));
             var checkin = new CheckIn("-5", "EST", 1044097) { Shout = "Awesome Brew", Rating = 4 };
             repository.Post(mockAuthCreds.Object, checkin);
             request.Verify(a => a.AddParameter("access_token", "PostaccessToken"));
 
-            mockAuthCreds.Setup(a => a.AccessToken).Returns("PostAsyncaccessToken");
+            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            {
+                {"access_token", "PostAsyncaccessToken"}
+            }));
             repository.PostAsync(mockAuthCreds.Object, checkin).Wait();
             request.Verify(a => a.AddParameter("access_token", "PostAsyncaccessToken"));
         }
