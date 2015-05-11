@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Untappd.Net.Client
+namespace Untappd.Net.Authentication
 {
     public interface IUntappdCredentials
     {

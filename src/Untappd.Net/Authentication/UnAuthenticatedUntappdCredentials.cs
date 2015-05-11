@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Untappd.Net.Client
+namespace Untappd.Net.Authentication
 {
     public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
     {

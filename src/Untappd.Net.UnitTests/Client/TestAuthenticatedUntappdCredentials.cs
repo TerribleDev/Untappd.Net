@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 
 namespace Untappd.Net.UnitTests.Client
 {

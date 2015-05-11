@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 
 namespace Untappd.Net.Request
 {

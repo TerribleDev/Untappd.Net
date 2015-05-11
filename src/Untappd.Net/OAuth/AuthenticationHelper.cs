@@ -1,7 +1,7 @@
 ﻿using System;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 
-namespace Untappd.Net.Authentication
+namespace Untappd.Net.OAuth
 {
     public static class AuthenticationHelper
     {

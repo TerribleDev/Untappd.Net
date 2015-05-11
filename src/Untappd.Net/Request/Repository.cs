@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
-using Untappd.Net.Client;
 using Untappd.Net.Exception;
 using System;
+using Untappd.Net.Authentication;
 
 namespace Untappd.Net.Request
 {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 using Untappd.Net.Exception;
 
 namespace Untappd.Net.Request

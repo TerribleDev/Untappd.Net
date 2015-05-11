@@ -5,11 +5,11 @@ using Moq;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using RestSharp;
-using Untappd.Net.Client;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.BeerInfo;
 using Untappd.Net.Responses.Actions;
 using System.IO;
+using Untappd.Net.Authentication;
 
 namespace Untappd.Net.UnitTests.Request
 {
