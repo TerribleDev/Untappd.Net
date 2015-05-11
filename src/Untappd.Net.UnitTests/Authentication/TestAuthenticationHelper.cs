@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using Untappd.Net.Authentication;
-using Untappd.Net.Client;
+using Untappd.Net.OAuth;
 
 namespace Untappd.Net.UnitTests.Authentication
 {

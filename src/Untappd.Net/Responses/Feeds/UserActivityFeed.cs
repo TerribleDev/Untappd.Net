@@ -472,6 +472,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public Pagination Pagination { get; set; }
 
         [JsonProperty("checkins")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
         public Checkins Checkins { get; set; }
     }
 

@@ -46,7 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Authentication\AuthenticationHelper.cs" />
+    <Compile Include="OAuth\AuthenticationHelper.cs" />
+    <Compile Include="Exception\HttpErrorException.cs" />
     <Compile Include="Request\IAction.cs" />
     <Compile Include="Request\RepositoryGet.cs" />
     <Compile Include="Request\RepositoryPost.cs" />
@@ -60,12 +61,12 @@
     <Compile Include="Responses\Actions\AddFriend.cs" />
     <Compile Include="Responses\Actions\ToastUntoast.cs" />
     <Compile Include="SingleObjectArrayConverter.cs" />
-    <Compile Include="Client\AuthenticatedUntappdCredentials.cs" />
-    <Compile Include="Client\IAuthenticatedUntappdCredentials.cs" />
-    <Compile Include="Client\IUnAuthenticatedUntappdCredentials.cs" />
-    <Compile Include="Client\IUntappdCredentials.cs" />
-    <Compile Include="Client\UnAuthenticatedUntappdCredentials.cs" />
-    <Compile Include="Client\UntappdCredentials.cs" />
+    <Compile Include="Authentication\AuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Authentication\IAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Authentication\IUnAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Authentication\IUntappdCredentials.cs" />
+    <Compile Include="Authentication\UnAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Authentication\UntappdCredentials.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Exception\BaseUntappdException.cs" />
     <Compile Include="Exception\EndpointConfigurationException.cs" />

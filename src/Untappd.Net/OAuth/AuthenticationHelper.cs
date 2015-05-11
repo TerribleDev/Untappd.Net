@@ -1,7 +1,7 @@
 ﻿using System;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 
-namespace Untappd.Net.Authentication
+namespace Untappd.Net.OAuth
 {
     public static class AuthenticationHelper
     {
@@ -24,7 +24,7 @@ namespace Untappd.Net.Authentication
             }
            
             return string.Format("{0}/?client_id={1}&response_type=code&redirect_url={2}", Constants.BaseRequestString,
-                credentials.ClientId, redirectUrl);
+                credentials.AuthenticationData["client_id"], redirectUrl);
         }
 
         /// <summary>
@@ -51,8 +51,8 @@ namespace Untappd.Net.Authentication
             }
             return string.Format("{0}/?client_id={1}&client_secret={2}&response_type=code&redirect_url={3}&code={4}", 
                 Constants.OAuthTokenEndPoint, 
-                credentials.ClientId, 
-                credentials.ClientSecret,
+                credentials.AuthenticationData["client_id"], 
+                credentials.AuthenticationData["client_secret"],
                 redirectUrl, 
                 code);
         }

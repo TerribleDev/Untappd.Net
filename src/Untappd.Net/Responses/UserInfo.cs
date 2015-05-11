@@ -5,7 +5,7 @@ using Untappd.Net.Request;
 namespace Untappd.Net.Responses.UserInfo
 {
 
-    public sealed class ResponseTime
+   public class ResponseTime
     {
 
         [JsonProperty("time")]
@@ -31,17 +31,40 @@ namespace Untappd.Net.Responses.UserInfo
         [JsonProperty("code")]
         public int Code { get; set; }
 
-        [JsonProperty("error_detail")]
-        public string ErrorDetail { get; set; }
-
-        [JsonProperty("error_type")]
-        public string ErrorType { get; set; }
-
         [JsonProperty("response_time")]
         public ResponseTime ResponseTime { get; set; }
 
         [JsonProperty("init_time")]
         public InitTime InitTime { get; set; }
+    }
+
+    public class UnreadCount
+    {
+
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+
+        [JsonProperty("toasts")]
+        public int Toasts { get; set; }
+
+        [JsonProperty("friends")]
+        public int Friends { get; set; }
+
+        [JsonProperty("messages")]
+        public int Messages { get; set; }
+
+        [JsonProperty("news")]
+        public int News { get; set; }
+    }
+
+    public class Notifications
+    {
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("unread_count")]
+        public UnreadCount UnreadCount { get; set; }
     }
 
     public class Stats
@@ -215,7 +238,7 @@ namespace Untappd.Net.Responses.UserInfo
         public string Bio { get; set; }
 
         [JsonProperty("relationship")]
-        public object Relationship { get; set; }
+        public string Relationship { get; set; }
 
         [JsonProperty("user_avatar")]
         public string UserAvatar { get; set; }
@@ -315,6 +338,118 @@ namespace Untappd.Net.Responses.UserInfo
         public int BreweryActive { get; set; }
     }
 
+    public class Item3
+    {
+
+        [JsonProperty("category_name")]
+        public string CategoryName { get; set; }
+
+        [JsonProperty("category_id")]
+        public string CategoryId { get; set; }
+
+        [JsonProperty("is_primary")]
+        public bool IsPrimary { get; set; }
+    }
+
+    public class Categories
+    {
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("items")]
+        public IList<Item3> Items { get; set; }
+    }
+
+    public class Location3
+    {
+
+        [JsonProperty("venue_address")]
+        public string VenueAddress { get; set; }
+
+        [JsonProperty("venue_city")]
+        public string VenueCity { get; set; }
+
+        [JsonProperty("venue_state")]
+        public string VenueState { get; set; }
+
+        [JsonProperty("venue_country")]
+        public string VenueCountry { get; set; }
+
+        [JsonProperty("lat")]
+        public double Lat { get; set; }
+
+        [JsonProperty("lng")]
+        public double Lng { get; set; }
+    }
+
+    public class Contact4
+    {
+
+        [JsonProperty("twitter")]
+        public string Twitter { get; set; }
+
+        [JsonProperty("venue_url")]
+        public string VenueUrl { get; set; }
+    }
+
+    public class Foursquare
+    {
+
+        [JsonProperty("foursquare_id")]
+        public string FoursquareId { get; set; }
+
+        [JsonProperty("foursquare_url")]
+        public string FoursquareUrl { get; set; }
+    }
+
+    public class VenueIcon
+    {
+
+        [JsonProperty("sm")]
+        public string Sm { get; set; }
+
+        [JsonProperty("md")]
+        public string Md { get; set; }
+
+        [JsonProperty("lg")]
+        public string Lg { get; set; }
+    }
+
+    public class Venue
+    {
+
+        [JsonProperty("venue_id")]
+        public int VenueId { get; set; }
+
+        [JsonProperty("venue_name")]
+        public string VenueName { get; set; }
+
+        [JsonProperty("primary_category")]
+        public string PrimaryCategory { get; set; }
+
+        [JsonProperty("parent_category_id")]
+        public string ParentCategoryId { get; set; }
+
+        [JsonProperty("categories")]
+        public Categories Categories { get; set; }
+
+        [JsonProperty("location")]
+        public Location3 Location { get; set; }
+
+        [JsonProperty("contact")]
+        public Contact4 Contact { get; set; }
+
+        [JsonProperty("public_venue")]
+        public bool PublicVenue { get; set; }
+
+        [JsonProperty("foursquare")]
+        public Foursquare Foursquare { get; set; }
+
+        [JsonProperty("venue_icon")]
+        public VenueIcon VenueIcon { get; set; }
+    }
+
     public class Comments
     {
 
@@ -359,10 +494,10 @@ namespace Untappd.Net.Responses.UserInfo
         public string AccountType { get; set; }
 
         [JsonProperty("brewery_details")]
-        public object BreweryDetails { get; set; }
+        public IList<object> BreweryDetails { get; set; }
     }
 
-    public class Item3
+    public class Item4
     {
 
         [JsonProperty("uid")]
@@ -391,10 +526,10 @@ namespace Untappd.Net.Responses.UserInfo
         public int Count { get; set; }
 
         [JsonProperty("auth_toast")]
-        public object AuthToast { get; set; }
+        public bool AuthToast { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item3> Items { get; set; }
+        public IList<Item4> Items { get; set; }
     }
 
     public class Photo
@@ -413,7 +548,7 @@ namespace Untappd.Net.Responses.UserInfo
         public string PhotoImgOg { get; set; }
     }
 
-    public class Item4
+    public class Item5
     {
 
         [JsonProperty("photo_id")]
@@ -430,7 +565,7 @@ namespace Untappd.Net.Responses.UserInfo
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item4> Items { get; set; }
+        public IList<Item5> Items { get; set; }
     }
 
     public class Source
@@ -456,7 +591,7 @@ namespace Untappd.Net.Responses.UserInfo
         public string Lg { get; set; }
     }
 
-    public class Item5
+    public class Item6
     {
 
         [JsonProperty("badge_id")]
@@ -485,7 +620,7 @@ namespace Untappd.Net.Responses.UserInfo
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item5> Items { get; set; }
+        public IList<Item6> Items { get; set; }
     }
 
     public class Item2
@@ -513,7 +648,8 @@ namespace Untappd.Net.Responses.UserInfo
         public Brewery2 Brewery { get; set; }
 
         [JsonProperty("venue")]
-        public object Venue { get; set; }
+        [JsonConverter(typeof(SingleObjectArrayConverter<Venue>))]
+        public Venue Venue { get; set; }
 
         [JsonProperty("comments")]
         public Comments Comments { get; set; }
@@ -616,7 +752,7 @@ namespace Untappd.Net.Responses.UserInfo
         public bool WishList { get; set; }
     }
 
-    public class Contact4
+    public class Contact5
     {
 
         [JsonProperty("twitter")]
@@ -632,7 +768,7 @@ namespace Untappd.Net.Responses.UserInfo
         public string Url { get; set; }
     }
 
-    public class Location3
+    public class Location4
     {
 
         [JsonProperty("brewery_city")]
@@ -667,16 +803,128 @@ namespace Untappd.Net.Responses.UserInfo
         public string CountryName { get; set; }
 
         [JsonProperty("contact")]
-        public Contact4 Contact { get; set; }
+        public Contact5 Contact { get; set; }
 
         [JsonProperty("location")]
-        public Location3 Location { get; set; }
+        public Location4 Location { get; set; }
 
         [JsonProperty("brewery_active")]
         public int BreweryActive { get; set; }
     }
 
-    public class Item6
+    public class Item8
+    {
+
+        [JsonProperty("category_name")]
+        public string CategoryName { get; set; }
+
+        [JsonProperty("category_id")]
+        public string CategoryId { get; set; }
+
+        [JsonProperty("is_primary")]
+        public bool IsPrimary { get; set; }
+    }
+
+    public class Categories2
+    {
+
+        [JsonProperty("count")]
+        public int Count { get; set; }
+
+        [JsonProperty("items")]
+        public IList<Item8> Items { get; set; }
+    }
+
+    public class Location5
+    {
+
+        [JsonProperty("venue_address")]
+        public string VenueAddress { get; set; }
+
+        [JsonProperty("venue_city")]
+        public string VenueCity { get; set; }
+
+        [JsonProperty("venue_state")]
+        public string VenueState { get; set; }
+
+        [JsonProperty("venue_country")]
+        public string VenueCountry { get; set; }
+
+        [JsonProperty("lat")]
+        public double Lat { get; set; }
+
+        [JsonProperty("lng")]
+        public double Lng { get; set; }
+    }
+
+    public class Contact6
+    {
+
+        [JsonProperty("twitter")]
+        public string Twitter { get; set; }
+
+        [JsonProperty("venue_url")]
+        public string VenueUrl { get; set; }
+    }
+
+    public class Foursquare2
+    {
+
+        [JsonProperty("foursquare_id")]
+        public string FoursquareId { get; set; }
+
+        [JsonProperty("foursquare_url")]
+        public string FoursquareUrl { get; set; }
+    }
+
+    public class VenueIcon2
+    {
+
+        [JsonProperty("sm")]
+        public string Sm { get; set; }
+
+        [JsonProperty("md")]
+        public string Md { get; set; }
+
+        [JsonProperty("lg")]
+        public string Lg { get; set; }
+    }
+
+    public class Venue2
+    {
+
+        [JsonProperty("venue_id")]
+        public int VenueId { get; set; }
+
+        [JsonProperty("venue_name")]
+        public string VenueName { get; set; }
+
+        [JsonProperty("primary_category")]
+        public string PrimaryCategory { get; set; }
+
+        [JsonProperty("parent_category_id")]
+        public string ParentCategoryId { get; set; }
+
+        [JsonProperty("categories")]
+        public Categories2 Categories { get; set; }
+
+        [JsonProperty("location")]
+        public Location5 Location { get; set; }
+
+        [JsonProperty("contact")]
+        public Contact6 Contact { get; set; }
+
+        [JsonProperty("public_venue")]
+        public bool PublicVenue { get; set; }
+
+        [JsonProperty("foursquare")]
+        public Foursquare2 Foursquare { get; set; }
+
+        [JsonProperty("venue_icon")]
+        public VenueIcon2 VenueIcon { get; set; }
+    }
+
+    public class Item7
     {
 
         [JsonProperty("photo_id")]
@@ -701,7 +949,7 @@ namespace Untappd.Net.Responses.UserInfo
         public Brewery3 Brewery { get; set; }
 
         [JsonProperty("venue")]
-        public object Venue { get; set; }
+        public Venue2 Venue { get; set; }
     }
 
     public class Media2
@@ -711,14 +959,14 @@ namespace Untappd.Net.Responses.UserInfo
         public int Count { get; set; }
 
         [JsonProperty("items")]
-        public IList<Item6> Items { get; set; }
+        public IList<Item7> Items { get; set; }
     }
 
-    public class Contact5
+    public class Contact7
     {
 
         [JsonProperty("facebook")]
-        public string Facebook { get; set; }
+        public int Facebook { get; set; }
 
         [JsonProperty("twitter")]
         public string Twitter { get; set; }
@@ -726,39 +974,51 @@ namespace Untappd.Net.Responses.UserInfo
 
     public class Badge
     {
+
         [JsonProperty("badges_to_facebook")]
         public int BadgesToFacebook { get; set; }
+
         [JsonProperty("badges_to_twitter")]
         public int BadgesToTwitter { get; set; }
     }
 
     public class Checkin
     {
+
         [JsonProperty("checkin_to_facebook")]
         public int CheckinToFacebook { get; set; }
+
         [JsonProperty("checkin_to_twitter")]
         public int CheckinToTwitter { get; set; }
+
         [JsonProperty("checkin_to_foursquare")]
         public int CheckinToFoursquare { get; set; }
     }
 
     public class Navigation
     {
+
         [JsonProperty("default_to_checkin")]
         public int DefaultToCheckin { get; set; }
     }
 
     public class Settings
     {
+
         [JsonProperty("badge")]
         public Badge Badge { get; set; }
+
         [JsonProperty("checkin")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkin>))]
         public Checkin Checkin { get; set; }
+
         [JsonProperty("navigation")]
         public Navigation Navigation { get; set; }
+
         [JsonProperty("email_address")]
         public string EmailAddress { get; set; }
     }
+
     public class User
     {
 
@@ -805,7 +1065,7 @@ namespace Untappd.Net.Responses.UserInfo
         public int IsSupporter { get; set; }
 
         [JsonProperty("relationship")]
-        public object Relationship { get; set; }
+        public string Relationship { get; set; }
 
         [JsonProperty("untappd_url")]
         public string UntappdUrl { get; set; }
@@ -820,41 +1080,20 @@ namespace Untappd.Net.Responses.UserInfo
         public RecentBrews RecentBrews { get; set; }
 
         [JsonProperty("checkins")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
         public Checkins Checkins { get; set; }
 
         [JsonProperty("media")]
         public Media2 Media { get; set; }
 
         [JsonProperty("contact")]
-        public Contact5 Contact { get; set; }
+        public Contact7 Contact { get; set; }
 
         [JsonProperty("date_joined")]
         public string DateJoined { get; set; }
 
         [JsonProperty("settings")]
         public Settings Settings { get; set; }
-    }
-
-    public class UnreadCount
-    {
-        [JsonProperty("comments")]
-        public int Comments { get; set; }
-        [JsonProperty("toasts")]
-        public int Toasts { get; set; }
-        [JsonProperty("friends")]
-        public int Friends { get; set; }
-        [JsonProperty("messages")]
-        public int Messages { get; set; }
-        [JsonProperty("news")]
-        public int news { get; set; }
-    }
-
-    public class Notifications
-    {
-        [JsonProperty("type")]
-        public string Type { get; set; }
-        [JsonProperty("unread_count")]
-        public UnreadCount UnreadCount { get; set; }
     }
 
     public class Response

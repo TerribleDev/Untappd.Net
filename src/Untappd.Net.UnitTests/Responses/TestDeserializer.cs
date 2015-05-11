@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.BeerInfo;
 using Untappd.Net.Responses.BeerSearch;

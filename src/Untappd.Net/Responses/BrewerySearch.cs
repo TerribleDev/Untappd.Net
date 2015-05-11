@@ -152,6 +152,7 @@ namespace Untappd.Net.Responses.BrewerySearch
         public Meta Meta { get; set; }
 
         [JsonProperty("notifications")]
+        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
         public Notifications Notifications { get; set; }
 
         [JsonProperty("response")]
