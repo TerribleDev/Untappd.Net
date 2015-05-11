@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Untappd.Net.Client;
+using Untappd.Net.Authentication;
 
 namespace Untappd.Net.Request
 {
@@ -13,9 +13,8 @@ namespace Untappd.Net.Request
         /// <returns>returns dynamic since often the return doesn't matter</returns>
         public dynamic Post(IAuthenticatedUntappdCredentials credentials, IAction action)
         {
-            ConfigureRequest(action.EndPoint, action.BodyParameters, action.RequestMethod);
-            Request.AddParameter("access_token", credentials.AccessToken);
-            return ExecuteRequest<dynamic>();
+            return ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod) 
+                .ExecuteRequest<dynamic>();
         }
 
         /// <summary>
@@ -26,9 +25,8 @@ namespace Untappd.Net.Request
         /// <returns>returns dynamic since often the return doesn't matter</returns>
         public Task<dynamic> PostAsync(IAuthenticatedUntappdCredentials credentials, IAction action)
         {
-            ConfigureRequest(action.EndPoint, action.BodyParameters, action.RequestMethod);
-            Request.AddParameter("access_token", credentials.AccessToken);
-            return ExecuteRequestAsync<dynamic>();
+            return ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod)
+            .ExecuteRequestAsync<dynamic>();
         }
     }
 }

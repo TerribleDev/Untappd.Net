@@ -1,7 +1,6 @@
-﻿namespace Untappd.Net.Client
+﻿namespace Untappd.Net.Authentication
 {
     public interface IAuthenticatedUntappdCredentials : IUntappdCredentials
     {
-        string AccessToken { get; }
     }
 }

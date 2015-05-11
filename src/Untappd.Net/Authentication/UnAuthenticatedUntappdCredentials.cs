@@ -1,22 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
-namespace Untappd.Net.Client
+namespace Untappd.Net.Authentication
 {
-    public abstract class UntappdCredentials : IUntappdCredentials
+    public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
     {
-        public string ClientId { get; private set; }
-        public string ClientSecret { get; private set; }
-
-        protected UntappdCredentials()
-        {
-        }
-
         /// <summary>
         /// UnAuthenticated request. Pass your API id and secret
         /// </summary>
         /// <param name="clientId"></param>
         /// <param name="clientSecret"></param>
-        protected UntappdCredentials(string clientId, string clientSecret)
+        public UnAuthenticatedUntappdCredentials(string clientId, string clientSecret)
         {
             if (string.IsNullOrWhiteSpace(clientId))
             {
@@ -26,8 +21,10 @@ namespace Untappd.Net.Client
             {
                 throw new ArgumentNullException("clientSecret");
             }
-            ClientId = string.Copy(clientId);
-            ClientSecret = string.Copy(clientSecret);
+            AuthenticationData = new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            {
+                {"client_id", clientId}, {"client_secret", clientSecret}
+            });
         }
     }
 }
