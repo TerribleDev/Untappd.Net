@@ -1,15 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Threading.Tasks;
 using Moq;
-using Newtonsoft.Json;
 using NUnit.Framework;
 using RestSharp;
-using Untappd.Net.Request;
-using Untappd.Net.Responses.BeerInfo;
-using Untappd.Net.Responses.Actions;
-using System.IO;
 using Untappd.Net.Authentication;
+using Untappd.Net.Request;
+using Untappd.Net.Responses.Actions;
+using Untappd.Net.Responses.BeerInfo;
 
 namespace Untappd.Net.UnitTests.Request
 {

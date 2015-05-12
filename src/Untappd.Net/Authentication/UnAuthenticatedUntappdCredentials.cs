@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 
 namespace Untappd.Net.Authentication
 {
-    public class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
+    public sealed class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
     {
         /// <summary>
         /// UnAuthenticated request. Pass your API id and secret

@@ -10,7 +10,7 @@ namespace Untappd.Net
     /// Deserialize json as T if json schema defines an object.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    internal class SingleObjectArrayConverter<T> : JsonConverter
+    internal sealed class SingleObjectArrayConverter<T> : JsonConverter
         where T : new()
     {
         public override bool CanConvert(Type objectType)
