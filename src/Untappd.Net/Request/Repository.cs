@@ -1,16 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using RestSharp;
-using Untappd.Net.Exception;
-using System;
 using Untappd.Net.Authentication;
+using Untappd.Net.Exception;
 
 namespace Untappd.Net.Request
 {
-    public partial class Repository
+    public sealed partial class Repository
     {
         internal IRestClient Client;
         internal IRestRequest Request;

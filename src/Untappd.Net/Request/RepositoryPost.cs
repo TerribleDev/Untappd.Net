@@ -3,7 +3,7 @@ using Untappd.Net.Authentication;
 
 namespace Untappd.Net.Request
 {
-    public partial class Repository
+    public sealed partial class Repository
     {
         /// <summary>
         /// do a post with actions

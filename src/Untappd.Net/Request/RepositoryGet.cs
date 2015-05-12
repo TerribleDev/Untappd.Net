@@ -5,7 +5,7 @@ using Untappd.Net.Exception;
 
 namespace Untappd.Net.Request
 {
-    public partial class Repository
+    public sealed partial class Repository
     {
         /// <summary>
         /// Get the things!

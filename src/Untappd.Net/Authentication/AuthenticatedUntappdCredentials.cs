@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 
 namespace Untappd.Net.Authentication
 {
-    public class AuthenticatedUntappdCredentials : UntappdCredentials, IAuthenticatedUntappdCredentials
+    public sealed class AuthenticatedUntappdCredentials : UntappdCredentials, IAuthenticatedUntappdCredentials
     {
         /// <summary>
         /// Pass your authenticated access token

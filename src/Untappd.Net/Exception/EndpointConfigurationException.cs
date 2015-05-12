@@ -3,7 +3,7 @@
 namespace Untappd.Net.Exception
 {
     [Serializable]
-    public class EndpointConfigurationException : BaseUntappdException
+    public sealed class EndpointConfigurationException : BaseUntappdException
     {
         /// <summary>
         /// Called when a class has an empty endpoint
