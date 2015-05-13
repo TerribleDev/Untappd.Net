@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using Untappd.Net.Authentication;
 
-namespace Untappd.Net.UnitTests.Client
+namespace Untappd.Net.UnitTests.Authentication
 {
     [TestFixture]
     public class TestAuthenticatedUntappdCredentials

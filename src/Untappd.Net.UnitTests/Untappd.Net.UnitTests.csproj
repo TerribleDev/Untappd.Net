@@ -73,8 +73,8 @@
     <Compile Include="Responses\Actions\TestSimpleActions.cs" />
     <Compile Include="Responses\TestDeserializer.cs" />
     <Compile Include="Authentication\TestAuthenticationHelper.cs" />
-    <Compile Include="Client\TestAuthenticatedUntappdCredentials.cs" />
-    <Compile Include="Client\TestUnAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Authentication\TestAuthenticatedUntappdCredentials.cs" />
+    <Compile Include="Authentication\TestUnAuthenticatedUntappdCredentials.cs" />
     <Compile Include="Exception\TestBaseUntappdException.cs" />
     <Compile Include="Exception\TestEndpointConfigurationException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
