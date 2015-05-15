@@ -65,13 +65,15 @@ namespace Untappd.Net.UnitTests.Responses.Actions
         [Test]
         public void TestArgumentNull()
         {
+#pragma warning disable NR0026 // Possible unassigned object created by 'new'
             Assert.Throws<ArgumentNullException>(() => { new AcceptFriend(string.Empty); });
             Assert.Throws<ArgumentNullException>(() => { new AddFriend(string.Empty); });
             Assert.Throws<ArgumentNullException>(() => { new RemoveFriend(string.Empty); });
             Assert.Throws<ArgumentNullException>(() => { new ToastUntoast(string.Empty); });
             Assert.Throws<ArgumentNullException>(() => { new AddComment(string.Empty, "ds"); });
             Assert.Throws<ArgumentNullException>(() => { new AddComment("ds", string.Empty); });
-            Assert.Throws<ArgumentOutOfRangeException>(() => { new AddComment("ds", new String('d', 141)); });
+            Assert.Throws<ArgumentOutOfRangeException>(() => { new AddComment("ds", new string('d', 141)); });
+#pragma warning restore NR0026 // Possible unassigned object created by 'new'
         }
     }
 }

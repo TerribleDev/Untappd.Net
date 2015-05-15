@@ -476,9 +476,9 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
         public Checkins Checkins { get; set; }
     }
 
-    public class UserActivityFeed : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
+    public class UserActivityFeed : BaseRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/checkins{0}"; } }
+        protected override string EndPoint_ { get { return "v4/user/checkins{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

@@ -13,7 +13,7 @@ namespace Untappd.Net.Request
         /// <returns>returns dynamic since often the return doesn't matter</returns>
         public dynamic Post(IAuthenticatedUntappdCredentials credentials, IAction action)
         {
-            return ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod) 
+            return ConfigureRequest(credentials, action.EndPoint, action.BodyParameters, action.RequestMethod)
                 .ExecuteRequest<dynamic>();
         }
 

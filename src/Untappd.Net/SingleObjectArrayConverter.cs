@@ -6,11 +6,11 @@ namespace Untappd.Net
     /// <summary>
     /// Created to fix bad json results.
     /// Object expected but sometimes it comes as an empty array.
-    /// 
+    ///
     /// Deserialize json as T if json schema defines an object.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    internal sealed class SingleObjectArrayConverter<T> : JsonConverter
+    sealed class SingleObjectArrayConverter<T> : JsonConverter
         where T : new()
     {
         public override bool CanConvert(Type objectType)

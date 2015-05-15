@@ -11,16 +11,16 @@ namespace Untappd.Net.UnitTests.Responses
     {
 
         /// <summary>
-        /// Run through all the endpoints to make sure they all atleast do not error out. 
+        /// Run through all the endpoints to make sure they all atleast do not error out.
         /// This is so we can get a high code coverage, while also covering new types that get added.
         /// </summary>
         [Test]
         public void RunAllEndpoints()
         {
 
-            var objects = Assembly.GetAssembly(typeof (IRequest)).GetTypes().Where(myType => 
-                myType.IsClass 
-                && !myType.IsAbstract 
+            var objects = Assembly.GetAssembly(typeof (IRequest)).GetTypes().Where(myType =>
+                myType.IsClass
+                && !myType.IsAbstract
                 && myType.GetInterface("IRequest") != null).Select(type => (IRequest) Activator.CreateInstance(type)).ToList();
             objects.ForEach(a=>Assert.IsNotNullOrEmpty(a.EndPoint("t")));
         }
@@ -28,9 +28,9 @@ namespace Untappd.Net.UnitTests.Responses
          public void RunAllEndpointsWithEmptyString()
         {
 
-            var objects = Assembly.GetAssembly(typeof (IRequest)).GetTypes().Where(myType => 
-                myType.IsClass 
-                && !myType.IsAbstract 
+            var objects = Assembly.GetAssembly(typeof (IRequest)).GetTypes().Where(myType =>
+                myType.IsClass
+                && !myType.IsAbstract
                 && myType.GetInterface("IRequest") != null).Select(type => (IRequest) Activator.CreateInstance(type)).ToList();
             objects.ForEach(a=>Assert.IsNotNullOrEmpty(a.EndPoint(string.Empty)));
         }

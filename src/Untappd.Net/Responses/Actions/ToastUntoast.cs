@@ -19,9 +19,9 @@ namespace Untappd.Net.Responses.Actions
         {
             if (string.IsNullOrWhiteSpace(checkinId))
             {
-                throw new ArgumentNullException("checkinId");
+                throw new ArgumentNullException(nameof(checkinId));
             }
-            EndPoint = string.Format("v4/checkin/toast/{0}", checkinId);
+            EndPoint = $"v4/checkin/toast/{checkinId}";
         }
     }
 }

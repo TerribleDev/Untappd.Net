@@ -223,9 +223,9 @@ namespace Untappd.Net.Responses.UserDistinctBeer
         public Beers Beers { get; set; }
     }
 
-    public class UserDistinctBeers : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
+    public class UserDistinctBeers : BaseRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/beers{0}"; } }
+        protected override string EndPoint_ { get { return "v4/user/beers{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

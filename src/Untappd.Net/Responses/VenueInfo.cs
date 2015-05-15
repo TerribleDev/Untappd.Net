@@ -1191,9 +1191,9 @@ namespace Untappd.Net.Responses.VenueInfo
         public Venue Venue { get; set; }
     }
 
-    public class VenueInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
+    public class VenueInfo : BaseRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/venue/info{0}"; } }
+        protected override string EndPoint_ { get { return "v4/venue/info{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

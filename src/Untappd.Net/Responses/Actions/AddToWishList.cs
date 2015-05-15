@@ -11,7 +11,7 @@ namespace Untappd.Net.Responses.Actions
         public IDictionary<string, object> BodyParameters { get; private set; }
         public AddToWishList(int beerId)
         {
-            BodyParameters = new Dictionary<string, object>() { { "bid", beerId } };
+            BodyParameters = new Dictionary<string, object> { { "bid", beerId } };
 
         }
     }
