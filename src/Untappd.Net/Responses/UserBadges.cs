@@ -205,9 +205,9 @@ namespace Untappd.Net.Responses.UserBadges
     /// It fails getting the badge levels.
     /// added manually.
     /// </summary>
-    public class UserBadges : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
+    public class UserBadges : BaseRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/badges{0}"; } }
+        protected override string EndPoint_ { get { return "v4/user/badges{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

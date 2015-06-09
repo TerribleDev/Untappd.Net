@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -36,3 +37,4 @@ using System.Runtime.InteropServices;
 //If AssemblyFileVersion is not explicitly set, it takes its value from the AssemblyVersion attribute. 
 //[assembly: AssemblyFileVersion("0.2.*")]
 [assembly: InternalsVisibleTo("Untappd.Net.UnitTests")]
+[assembly: CLSCompliant(true)]

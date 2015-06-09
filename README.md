@@ -60,6 +60,7 @@ var response = repository.Post(ts, checkin);
 ## Contributing
 
 * Everyone is welcome to contribute!
+* We use the latest language features in c# 6. Visual studio 2015 is required.
 * If you are looking for something to do, look at the issues.
 * There are no special instructions, submit pull requests against the master branch.
 * Releases to nuget occur on successful release branch builds.

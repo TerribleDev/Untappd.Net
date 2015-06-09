@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 
 namespace Untappd.Net.Authentication
 {
-    public sealed class UnAuthenticatedUntappdCredentials : UntappdCredentials, IUnAuthenticatedUntappdCredentials
+    public sealed class UnAuthenticatedUntappdCredentials : BaseUntappdCredentials, IUnAuthenticatedUntappdCredentials
     {
         /// <summary>
         /// UnAuthenticated request. Pass your API id and secret
@@ -15,13 +15,13 @@ namespace Untappd.Net.Authentication
         {
             if (string.IsNullOrWhiteSpace(clientId))
             {
-                throw new ArgumentNullException("clientId");
+                throw new ArgumentNullException(nameof(clientId));
             }
             if (string.IsNullOrWhiteSpace(clientSecret))
             {
-                throw new ArgumentNullException("clientSecret");
+                throw new ArgumentNullException(nameof(clientSecret));
             }
-            AuthenticationData = new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            AuthenticationData = new ReadOnlyDictionary<string, string>(new Dictionary<string, string>
             {
                 {"client_id", clientId}, {"client_secret", clientSecret}
             });

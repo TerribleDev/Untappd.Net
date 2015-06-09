@@ -2,9 +2,9 @@
 
 namespace Untappd.Net.Request
 {
-    public abstract class BasicRequest
+    public abstract class BaseRequest
     {
-        protected abstract string _EndPoint { get; }
+        protected abstract string EndPoint_ { get; }
         /// <summary>
         /// Pass in the parameter into the request...ie username, brewery, etc.
         /// </summary>
@@ -12,12 +12,12 @@ namespace Untappd.Net.Request
         /// <returns></returns>
         public string EndPoint(string parameter = "")
         {
-            if (!String.IsNullOrEmpty(parameter))
+            if (!string.IsNullOrEmpty(parameter))
             {
-                parameter = string.Format("/{0}", parameter);
-                return string.Format(_EndPoint, parameter);
+                parameter = $"/{parameter}";
+                return string.Format(EndPoint_, parameter);
             }
-            return string.Format(_EndPoint, string.Empty);
+            return string.Format(EndPoint_, string.Empty);
         }
     }
 }

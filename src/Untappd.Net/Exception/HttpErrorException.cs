@@ -14,7 +14,7 @@ namespace Untappd.Net.Exception
             }
         }
 
-        private readonly string _message;
+        readonly string _message;
         public HttpErrorException(IRestRequest request, IRestResponse response)
         {
             var code = (int) response.StatusCode;
@@ -24,8 +24,7 @@ namespace Untappd.Net.Exception
                     "HttpError is being throw with a 200 error. Something has gone horribly wrong");
             }
 
-            _message = string.Format("HttpError {0} was returned with Message: {1}{2}", code, Environment.NewLine,
-                response.ErrorMessage);
+            _message = $"HttpError {code} was returned with Message: {Environment.NewLine}{                response.ErrorMessage}";
             Data.Add("Request Object", JsonConvert.SerializeObject(request));
             Data.Add("Response Object", JsonConvert.SerializeObject(response));
         }

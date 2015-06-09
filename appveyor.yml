@@ -1,5 +1,8 @@
 version: 0.4.{build}
+os: Visual Studio 2015 RC
 configuration: Release
+install:
+  - set PATH=C:\Program Files (x86)\MSBuild\14.0\Bin;%PATH%
 notifications:
 - provider: Webhook
   url: https://webhooks.gitter.im/e/cff271c9681834896234

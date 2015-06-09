@@ -7,8 +7,8 @@ namespace Untappd.Net.Responses.Actions
 {
     public class CheckIn : IAction
     {
-        private short _rating;
-        private string _shout;
+        short _rating;
+        string _shout;
         public Method RequestMethod { get{ return Method.POST;} }
         public string EndPoint { get { return "v4/checkin/add"; } }
 
@@ -55,7 +55,7 @@ namespace Untappd.Net.Responses.Actions
             {
                 if (value.Length > 140)
                 {
-                    throw new ArgumentOutOfRangeException("value", value,"Shout can be no more than 140 characters");
+                    throw new ArgumentOutOfRangeException(nameof(value), value,"Shout can be no more than 140 characters");
                 }
                 _shout = string.Copy(value);
             }
@@ -68,7 +68,7 @@ namespace Untappd.Net.Responses.Actions
             {
                 if (value < 1 || value > 5)
                 {
-                    throw new ArgumentOutOfRangeException("value", value, "Ratings should be between 1 and 5");
+                    throw new ArgumentOutOfRangeException(nameof(value), value, "Ratings should be between 1 and 5");
                 }
                 _rating = value;
             }
@@ -79,11 +79,11 @@ namespace Untappd.Net.Responses.Actions
         {
             if (string.IsNullOrWhiteSpace(gmtOffset))
             {
-                throw new ArgumentNullException("gmtOffset");
+                throw new ArgumentNullException(nameof(gmtOffset));
             }
             if (string.IsNullOrWhiteSpace(timezone))
             {
-                throw new ArgumentNullException("timezone");
+                throw new ArgumentNullException(nameof(timezone));
             }
             GmtOffset = string.Copy(gmtOffset);
             Timezone = string.Copy(timezone);

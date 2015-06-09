@@ -23,7 +23,7 @@ namespace Untappd.Net.UnitTests.Responses
     [TestFixture]
     public class TestDeserializer
     {
-        private static string ResponsePath = "../../Responses/Json/{0}";
+        static string ResponsePath = "../../Responses/Json/{0}";
 
         [Test]
         [Ignore]
@@ -31,7 +31,7 @@ namespace Untappd.Net.UnitTests.Responses
         {
             var credentials = new AuthenticatedUntappdCredentials("");
 
-            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            var parameters = new Dictionary<string, object>();
             parameters.Add("q", "wild rose");
 
             var repo = new Repository();

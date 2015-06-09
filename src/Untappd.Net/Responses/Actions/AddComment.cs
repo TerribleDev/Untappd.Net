@@ -14,17 +14,17 @@ namespace Untappd.Net.Responses.Actions
         {
             if (string.IsNullOrWhiteSpace(checkinId))
             {
-                throw new ArgumentNullException("checkinId");
+                throw new ArgumentNullException(nameof(checkinId));
             }
             if (string.IsNullOrWhiteSpace(shout))
             {
-                throw new ArgumentNullException("shout");
+                throw new ArgumentNullException(nameof(shout));
             }
             if (shout.Length > 140)
             {
-                throw new ArgumentOutOfRangeException("shout", shout, "Shout cannot be more than 140 characters");
+                throw new ArgumentOutOfRangeException(nameof(shout), shout, "Shout cannot be more than 140 characters");
             }
-            EndPoint = string.Format("v4/checkin/addcomment/{0}", checkinId);
+            EndPoint = $"v4/checkin/addcomment/{checkinId}";
             BodyParameters = new Dictionary<string, object> {{shout, shout}};
 
         }

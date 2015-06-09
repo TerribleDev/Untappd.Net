@@ -15,16 +15,15 @@ namespace Untappd.Net.OAuth
         {
             if (credentials == null)
             {
-                throw new ArgumentNullException("credentials");
+                throw new ArgumentNullException(nameof(credentials));
             }
 
             if (string.IsNullOrWhiteSpace(redirectUrl))
             {
-                throw new ArgumentNullException("redirectUrl");
+                throw new ArgumentNullException(nameof(redirectUrl));
             }
-           
-            return string.Format("{0}/?client_id={1}&response_type=code&redirect_url={2}", Constants.BaseRequestString,
-                credentials.AuthenticationData["client_id"], redirectUrl);
+
+            return $"{Constants.BaseRequestString}/?client_id={                credentials.AuthenticationData["client_id"]}&response_type=code&redirect_url={redirectUrl}";
         }
 
         /// <summary>
@@ -38,23 +37,18 @@ namespace Untappd.Net.OAuth
         {
             if (credentials == null)
             {
-                throw new ArgumentNullException("credentials");
+                throw new ArgumentNullException(nameof(credentials));
             }
 
             if (string.IsNullOrWhiteSpace(redirectUrl))
             {
-                throw new ArgumentNullException("redirectUrl");
+                throw new ArgumentNullException(nameof(redirectUrl));
             }
             if (string.IsNullOrWhiteSpace(code))
             {
-                throw new ArgumentNullException("code");
+                throw new ArgumentNullException(nameof(code));
             }
-            return string.Format("{0}/?client_id={1}&client_secret={2}&response_type=code&redirect_url={3}&code={4}", 
-                Constants.OAuthTokenEndPoint, 
-                credentials.AuthenticationData["client_id"], 
-                credentials.AuthenticationData["client_secret"],
-                redirectUrl, 
-                code);
+            return $"{Constants.OAuthTokenEndPoint}/?client_id={credentials.AuthenticationData["client_id"]}&client_secret={credentials.AuthenticationData["client_secret"]}&response_type=code&redirect_url={redirectUrl}&code={code}";
         }
     }
 }

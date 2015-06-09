@@ -14,9 +14,9 @@ namespace Untappd.Net.Responses.Actions
         {
             if (string.IsNullOrWhiteSpace(target_id))
             {
-                throw new ArgumentNullException("target_id");
+                throw new ArgumentNullException(nameof(target_id));
             }
-            EndPoint = string.Format("v4/friend/request/{0}", target_id);
+            EndPoint = $"v4/friend/request/{target_id}";
         }
     }
 }

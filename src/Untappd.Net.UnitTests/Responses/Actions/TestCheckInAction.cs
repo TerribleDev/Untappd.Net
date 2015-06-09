@@ -10,16 +10,18 @@ namespace Untappd.Net.UnitTests.Responses.Actions
         [Test]
         public void TestAccessors()
         {
+#pragma warning disable NR0026 // Possible unassigned object created by 'new'
             Assert.Throws<ArgumentNullException>(() => { new CheckIn(string.Empty, "timezone", 1); });
             Assert.Throws<ArgumentNullException>(() => { new CheckIn("1", string.Empty, 1); });
+#pragma warning restore NR0026 // Possible unassigned object created by 'new'
             var checkin = new CheckIn("offset", "timezone", 1);
             Assert.IsNotNullOrEmpty(checkin.RequestMethod.ToString());
             Assert.Throws<ArgumentOutOfRangeException>(() => { checkin.Rating = -1; });
             Assert.Throws<ArgumentOutOfRangeException>(() => { checkin.Rating = 6; });
-            Assert.Throws<ArgumentOutOfRangeException>(() => { checkin.Shout = new String('d', 141); });
+            Assert.Throws<ArgumentOutOfRangeException>(() => { checkin.Shout = new string('d', 141); });
             checkin.Rating = 3;
             Assert.AreEqual(3, checkin.Rating);
-            var t = "tst";
+            const string t = "tst";
             checkin.Shout = t;
             Assert.IsNotNullOrEmpty(checkin.EndPoint);
             Assert.AreEqual(checkin.Shout, t);

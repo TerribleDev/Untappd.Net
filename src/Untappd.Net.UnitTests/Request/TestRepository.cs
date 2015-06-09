@@ -19,7 +19,7 @@ namespace Untappd.Net.UnitTests.Request
         public void ConfirmRequestWorks()
         {
             var mockCreds = new Mock<IUnAuthenticatedUntappdCredentials>();
-            mockCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            mockCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>
             {
                 {"client_id", "id"},
                  {"client_secret", "secret"}
@@ -29,7 +29,7 @@ namespace Untappd.Net.UnitTests.Request
             var request = new Mock<IRestRequest>();
             request.Setup(a => a.AddParameter(It.IsAny<string>(), It.IsAny<string>()));
             request.Setup(a => a.AddParameter(It.IsAny<string>(), It.IsAny<string>()));
-           
+
             var response = new Mock<IRestResponse>();
             response.Setup(a => a.Content).Returns(File.ReadAllText("../../Responses/json/BeerInfo.json"));
             client.Setup(a => a.Execute(It.IsAny<IRestRequest>())).Callback(() =>
@@ -38,8 +38,10 @@ namespace Untappd.Net.UnitTests.Request
             client.Setup(a => a.ExecuteTaskAsync(It.IsAny<IRestRequest>())).Callback(() =>
             {
             }).Returns(Task.Run(()=> response.Object));
+#pragma warning disable CS0618 // Type or member is obsolete
             var repository = new Repository(client.Object, request.Object);
-           
+#pragma warning restore CS0618 // Type or member is obsolete
+
             repository.Get<BeerInfo>(mockCreds.Object, "awesome", bodyParam);
             request.Verify(a => a.AddParameter("client_id", mockCreds.Object.AuthenticationData["client_id"]));
             request.Verify(a => a.AddParameter("client_secret", mockCreds.Object.AuthenticationData["client_secret"]));
@@ -50,7 +52,7 @@ namespace Untappd.Net.UnitTests.Request
             request.Verify(a => a.AddParameter("key", "value"));
 
             var mockAuthCreds = new Mock<IAuthenticatedUntappdCredentials>();
-            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>
             {
                 {"access_token", "accessToken"}
             }));
@@ -62,7 +64,7 @@ namespace Untappd.Net.UnitTests.Request
             request.Verify(a => a.AddParameter("key", "value"));
             request.Verify(a => a.AddParameter("access_token", "accessToken"));
 
-            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>
             {
                 {"access_token", "PostaccessToken"}
             }));
@@ -70,7 +72,7 @@ namespace Untappd.Net.UnitTests.Request
             repository.Post(mockAuthCreds.Object, checkin);
             request.Verify(a => a.AddParameter("access_token", "PostaccessToken"));
 
-            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>()
+            mockAuthCreds.Setup(a => a.AuthenticationData).Returns(new ReadOnlyDictionary<string, string>(new Dictionary<string, string>
             {
                 {"access_token", "PostAsyncaccessToken"}
             }));

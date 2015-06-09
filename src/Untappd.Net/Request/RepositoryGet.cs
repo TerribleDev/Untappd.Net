@@ -54,7 +54,7 @@ namespace Untappd.Net.Request
             where TResult : class,IAuthenticatedRequest, new()
         {
             var result = new TResult();
-            return ConfigureRequest(credentials, result.EndPoint(urlParameter), bodyParameters) 
+            return ConfigureRequest(credentials, result.EndPoint(urlParameter), bodyParameters)
             .ExecuteRequest<TResult>();
         }
 

@@ -509,9 +509,9 @@ namespace Untappd.Net.Responses.Feeds.ActivityFeed
         public Pagination Pagination { get; set; }
     }
 
-    public class ActivityFeed : BasicRequest, IAuthenticatedRequest
+    public class ActivityFeed : BaseRequest, IAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "/v4/checkin/recent"; } }
+        protected override string EndPoint_ { get { return "/v4/checkin/recent"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

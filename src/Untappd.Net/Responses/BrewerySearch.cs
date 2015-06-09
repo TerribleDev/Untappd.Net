@@ -144,9 +144,9 @@ namespace Untappd.Net.Responses.BrewerySearch
         public Brewery Brewery { get; set; }
     }
 
-    public class BrewerySearch : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
+    public class BrewerySearch : BaseRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/search/brewery"; } }
+        protected override string EndPoint_ { get { return "v4/search/brewery"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
