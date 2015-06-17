@@ -32,10 +32,6 @@ build :compile  => ['tools:nuget_fetch'] do |b|
   b.sln = 'Untappd.Net.sln'
 end
 
-task :tp do
-  puts NUNIT
-end
-
 test_runner :nunit do |tests|
   tests.files = FileList["src/**/*UnitTests/bin/#{Configuration}/*UnitTests.dll"] # dll files with test
   tests.exe = "packages/NUnit.Runners.2.6.4/tools/nunit-console.exe" # executable to run tests with
