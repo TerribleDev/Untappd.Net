@@ -31,7 +31,7 @@ namespace Untappd.Net.UnitTests.Request
             request.Setup(a => a.AddParameter(It.IsAny<string>(), It.IsAny<string>()));
            
             var response = new Mock<IRestResponse>();
-            response.Setup(a => a.Content).Returns(File.ReadAllText("../../Responses/json/BeerInfo.json"));
+            response.Setup(a => a.Content).Returns(File.ReadAllText("../../Responses/Json/BeerInfo.json"));
             client.Setup(a => a.Execute(It.IsAny<IRestRequest>())).Callback(() =>
             {
             }).Returns(response.Object);

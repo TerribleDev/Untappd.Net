@@ -1,0 +1,13 @@
+language: ruby
+install:
+  - sudo apt-get update
+  - sudo apt-get install puppet
+  - puppet module install puppetlabs-apt
+  - puppet apply assets/puppet/site.pp
+  - bundle
+script:
+  - bundle exec rake preflight
+notifications:
+  email:
+    - tparnell8@gmail.com
+gemfile: Gemfile
