@@ -1,0 +1,6 @@
+language: csharp
+solution: Untappd.Net.sln
+script:
+  - xbuild /p:Configuration=Release Untappd.Net.sln
+  - mono ./packages/NUnit.Runners.*/tools/nunit-console.exe ./src/*Tests/bin/Release/*Tests.dll
+sudo: false
