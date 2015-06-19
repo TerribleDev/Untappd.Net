@@ -41,3 +41,6 @@ deploy:
     secure: wsN6BzH8ETiXhB9SndP57mHhivqM+CVnghI/+w5XE3bI8K092Z4V4FrJixcrxKnI
   on:
     branch: release
+artifacts:
+  - path: output/gendarme.html
+  name: gendarme
