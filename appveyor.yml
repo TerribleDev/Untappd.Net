@@ -42,5 +42,5 @@ deploy:
   on:
     branch: release
 artifacts:
-  - path: output/gendarme.html
-  name: gendarme
+   path: output/gendarme.html
+   name: gendarme
