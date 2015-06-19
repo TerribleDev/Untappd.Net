@@ -9,7 +9,7 @@ namespace :tools do
 
 			FileUtils.mkdir_p("#{NUGET}")
 			File.open("#{NUGET}/nuget.exe", "wb") do |file|
-				file.write open('http://nuget.org/nuget.exe').read
+				file.write open('https://nuget.org/nuget.exe').read
 			end
 		end
 	end
