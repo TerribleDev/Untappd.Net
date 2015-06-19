@@ -4,7 +4,7 @@ script:
   - xbuild /p:Configuration=Release Untappd.Net.sln
   - mono ./packages/NUnit.Runners.*/tools/nunit-console.exe ./src/*Tests/bin/Release/*Tests.dll
 sudo: false
-after_script:
+script:
   - gem install bundle
   - bundle
-  - rake cs_lint
+  - rake preflight
