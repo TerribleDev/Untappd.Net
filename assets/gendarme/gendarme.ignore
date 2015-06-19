@@ -11,8 +11,8 @@ R: Gendarme.Rules.Exceptions.MissingExceptionConstructorsRule
 A: Untappd.Net
 
 # TODO: Implement
-#R: Gendarme.Rules.BadPractice.DoNotForgetNotImplementedMethodsRule
-#N: Untappd.Net
+R: Gendarme.Rules.BadPractice.DoNotForgetNotImplementedMethodsRule
+N: Untappd.Net
 
 
 R: Gendarme.Rules.Design.ConsiderAddingInterfaceRule
