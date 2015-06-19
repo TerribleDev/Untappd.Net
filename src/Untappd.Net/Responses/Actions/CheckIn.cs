@@ -53,6 +53,10 @@ namespace Untappd.Net.Responses.Actions
             get { return _shout; }
             set
             {
+                if (value == null)
+                {
+                        throw new ArgumentNullException("value");
+                }
                 if (value.Length > 140)
                 {
                     throw new ArgumentOutOfRangeException("value", value,"Shout can be no more than 140 characters");

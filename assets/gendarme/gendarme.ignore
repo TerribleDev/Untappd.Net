@@ -1,0 +1,60 @@
+# we have hard coded strings...sue us
+R: Gendarme.Rules.Design.PreferUriOverStringRule
+A: *
+
+# We don't really care if our exceptions are not serializable
+R: Gendarme.Rules.Serialization.MissingSerializationConstructorRule
+A: Untappd.Net
+
+# Either implement or do not bother
+R: Gendarme.Rules.Exceptions.MissingExceptionConstructorsRule
+A: Untappd.Net
+
+# TODO: Implement
+R: Gendarme.Rules.BadPractice.DoNotForgetNotImplementedMethodsRule
+N: Untappd.Net
+
+
+R: Gendarme.Rules.Design.ConsiderAddingInterfaceRule
+T: Untappd.Net.Request.BasicRequest # This class is an abstract class, its inheritors should implement the interface
+T: Untappd.Net.SingleObjectArrayConverter # We should figure out how to implement the write json here...
+A: Untappd.Net
+
+# Microsoft says we shouldn't dispose tasks ourselves
+R: Gendarme.Rules.Correctness.EnsureLocalDisposalRule
+M: System.Void Untappd.Net.Request.Repository/<ExecuteRequestAsync>c__async0`1::MoveNext()
+
+# We use the obsolete constructor for testing
+R: Gendarme.Rules.Performance.AvoidUncalledPrivateCodeRule
+T: Untappd.Net.Request.Repository
+
+# we really want constants
+R: Gendarme.Rules.BadPractice.AvoidVisibleConstantFieldRule
+T: Untappd.Net.Constants
+
+# for json binding
+R: Gendarme.Rules.Naming.AvoidNonAlphanumericIdentifierRule
+A: Untappd.Net
+
+# cannot be helped
+R: Gendarme.Rules.Naming.AvoidDeepNamespaceHierarchyRule
+A: Untappd.Net
+
+R: Gendarme.Rules.Maintainability.AvoidLackOfCohesionOfMethodsRule
+A: Untappd.Net
+
+# We need to multiple call
+R: Gendarme.Rules.Performance.AvoidRepetitiveCallsToPropertiesRule
+T: Untappd.Net.Request.Repository
+
+# we want to do this here
+R: Gendarme.Rules.Exceptions.DoNotSwallowErrorsCatchingNonSpecificExceptionsRule
+M: System.Void Untappd.Net.Request.Repository/<ExecuteRequestAsync>c__async0`1::MoveNext()
+
+# We violate case sometimes for json bindings
+R: Gendarme.Rules.Naming.UseCorrectCasingRule
+A: Untappd.Net
+
+# TODO: Serialize properly
+R: Gendarme.Rules.Serialization.ImplementISerializableCorrectlyRule
+T: Untappd.Net.Exception.HttpErrorException

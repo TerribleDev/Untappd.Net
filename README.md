@@ -11,6 +11,22 @@
 
 This is a c# wrapper around the Untappd API. This can be downloaded via [Nuget](https://www.nuget.org/packages/Untappd.Net/), or the [backup feed](https://www.myget.org/F/untappd-net/api/v2).
 
+## Building via command line
+
+If you wish to build via command line install ruby, and ruby gems. Open up a console in the root directory of this project, and then run the following:
+
+* `gem install rake`
+* `gem install bundle`
+* `bundle`
+* `rake preflight`
+
+## My PR is broken, it works in VS!
+
+if your pull request is broken either one of two things is happening.
+
+1. Your changes are not mono compatible, which prevent linux users from using your changes. This will only happen if travis ci says your build is broken, but appveyor does not.
+2. You have added gendarme violations. You can run gendarme locally by running `rake preflight` from your console.
+
 ## API Coverage
 
 Current both Authenticated and Unauthenticated requests.

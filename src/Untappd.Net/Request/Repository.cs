@@ -13,7 +13,7 @@ namespace Untappd.Net.Request
     {
         internal IRestClient Client;
         internal IRestRequest Request;
-        private bool FailFast { get; set; }
+        bool FailFast { get; set; }
         /// <summary>
         /// Event to listen to when failFast is set to false
         /// This allows you to capture the excpetion, before its swallowed
@@ -65,28 +65,30 @@ namespace Untappd.Net.Request
             return this;
         } 
 
-        private TResult ExecuteRequest<TResult>()
+        TResult ExecuteRequest<TResult>()
             where TResult : class 
         {
             return ProcessExecution<TResult>(Client.Execute(Request));
         }
 
-        private async Task<TResult> ExecuteRequestAsync<TResult>()
+        async Task<TResult> ExecuteRequestAsync<TResult>()
             where TResult : class 
         {
             return ProcessExecution<TResult>(await Client.ExecuteTaskAsync(Request));
         }
 
-        private TResult ProcessExecution<TResult>(IRestResponse response)
+        TResult ProcessExecution<TResult>(IRestResponse response)
             where TResult : class 
         {
             //if the return type is not 200 throw errors
             if (response.StatusCode != HttpStatusCode.OK)
             {
                 var excpetion = new HttpErrorException(Request, response);
-                if (OnExceptionThrown != null)
+                var eventThrow = OnExceptionThrown;
+
+                if (eventThrow != null)
                 {
-                    OnExceptionThrown(this, new UnhandledExceptionEventArgs(excpetion, FailFast));
+                    eventThrow(this, new UnhandledExceptionEventArgs(excpetion, FailFast));
                 }
                 if (FailFast)
                 {
@@ -101,9 +103,11 @@ namespace Untappd.Net.Request
             }
             catch(System.Exception e)
             {
-                if (OnExceptionThrown != null)
+                var eventThrow = OnExceptionThrown;
+
+                if (eventThrow != null)
                 {
-                    OnExceptionThrown(this, new UnhandledExceptionEventArgs(e, FailFast));
+                        eventThrow(this, new UnhandledExceptionEventArgs(e, FailFast));
                 }
                 if (FailFast)
                 {
