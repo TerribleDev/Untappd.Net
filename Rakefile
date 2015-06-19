@@ -51,7 +51,7 @@ task :cs_lint do
     CMD_PREFIX = "mono"
   end
 
-  sh "#{CMD_PREFIX} packages/Mono.Gendarme.2.11.0.20121120/tools/gendarme.exe src/Untappd.Net/bin/#{Configuration}/Untappd.Net.dll --html output/gendarme.html --severity high+ --ignore assets/gendarme/gendarme.ignore"
+  sh "#{CMD_PREFIX} packages/Mono.Gendarme.2.11.0.20121120/tools/gendarme.exe src/Untappd.Net/bin/#{Configuration}/Untappd.Net.dll --html output/gendarme.html --severity high+ --ignore assets/gendarme/gendarme.ignore --console"
 
 end
 
