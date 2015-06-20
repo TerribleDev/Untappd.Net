@@ -3,4 +3,4 @@ dependencies:
     - sudo apt-get update; sudo apt-get install mono-devel
 test:
   override:
-    - rake preflight
+    - bundle exec rake preflight
