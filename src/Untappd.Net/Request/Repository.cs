@@ -13,7 +13,7 @@ namespace Untappd.Net.Request
     {
         internal IRestClient Client;
         internal IRestRequest Request;
-        bool FailFast { get; set; }
+        public bool FailFast { get; set; }
         /// <summary>
         /// Event to listen to when failFast is set to false
         /// This allows you to capture the excpetion, before its swallowed
