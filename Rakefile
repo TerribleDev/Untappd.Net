@@ -20,9 +20,11 @@ task :build => [:compile]
 
 desc 'Run the tests'
 task :test => [:nunit]
+desc 'run Static analysis linters'
+task :lint => [:build, :cs_lint]
 
 desc 'Retrieve, Build, Test'
-task :preflight => [:clean, :retrieve, :build, :test, :cs_lint]
+task :preflight => [:clean, :retrieve, :build, :test, :lint]
 
 desc 'cleans up artifacts'
 task :clean do
@@ -46,8 +48,7 @@ test_runner :nunit do |tests|
   tests.exe = "packages/NUnit.Runners.2.6.4/tools/nunit-console.exe" # executable to run tests with
 end
 
-desc 'run static analysis'
-task :cs_lint => :build do
+task :cs_lint do
 
   unless Dir.exists?('output')
     Dir.mkdir('output')
