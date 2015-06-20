@@ -23,7 +23,7 @@ desc 'Run the tests'
 task :test => [:nunit]
 
 desc 'Retrieve, Build, Test'
-task :preflight => [:retrieve, :build, :test]
+task :preflight => [:retrieve, :build, :test, :cs_lint]
 
 
 
@@ -36,6 +36,25 @@ test_runner :nunit do |tests|
   tests.files = FileList["src/**/*UnitTests/bin/#{Configuration}/*UnitTests.dll"] # dll files with test
   tests.exe = "packages/NUnit.Runners.2.6.4/tools/nunit-console.exe" # executable to run tests with
 end
+
+task :cs_lint do
+
+  unless Dir.exists?('output')
+    Dir.mkdir('output')
+
+  end
+
+
+
+  CMD_PREFIX = ""
+  if !OS.windows?
+    CMD_PREFIX = "mono"
+  end
+
+  sh "#{CMD_PREFIX} packages/Mono.Gendarme.2.11.0.20121120/tools/gendarme.exe src/Untappd.Net/bin/#{Configuration}/Untappd.Net.dll --html output/gendarme.html --severity high+ --ignore assets/gendarme/gendarme.ignore --console"
+
+end
+
 
 # task :tests => :'tests:unit'
 

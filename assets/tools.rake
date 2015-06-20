@@ -9,7 +9,7 @@ namespace :tools do
 
 			FileUtils.mkdir_p("#{NUGET}")
 			File.open("#{NUGET}/nuget.exe", "wb") do |file|
-				file.write open('http://nuget.org/nuget.exe').read
+				file.write open('https://nuget.org/nuget.exe').read
 			end
 		end
 	end
@@ -30,7 +30,7 @@ namespace :tools do
 	# Make sure we get solution-level deps
 		sh "#{CMD_PREFIX} #{NUGET}/nuget.exe i .nuget/packages.config -o packages"
 
-		FileList["**/packages.config"].each { |filepath|
+		FileList["src/**/packages.config"].each { |filepath|
 			sh "#{CMD_PREFIX} #{NUGET}/nuget.exe i #{filepath} -o packages"
 		}
 	end

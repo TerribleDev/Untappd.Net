@@ -4,6 +4,7 @@ using RestSharp;
 
 namespace Untappd.Net.Exception
 {
+    [Serializable]
     public sealed class HttpErrorException : BaseUntappdException
     {
         public override string Message
@@ -17,6 +18,14 @@ namespace Untappd.Net.Exception
         private readonly string _message;
         public HttpErrorException(IRestRequest request, IRestResponse response)
         {
+            if(request == null)
+            {
+                throw new ArgumentNullException("request");
+            }
+            if (response == null)
+            {
+                 throw new ArgumentNullException("response");
+            }
             var code = (int) response.StatusCode;
             if (code == 200)
             {

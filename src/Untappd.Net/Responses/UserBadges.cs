@@ -207,7 +207,7 @@ namespace Untappd.Net.Responses.UserBadges
     /// </summary>
     public class UserBadges : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/badges{0}"; } }
+        protected override string EndPointWithConfiguration { get { return "v4/user/badges{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
