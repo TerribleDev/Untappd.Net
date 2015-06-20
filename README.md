@@ -25,6 +25,10 @@ If you wish to build via command line install ruby, and ruby gems. Open up a con
 * `bundle`
 * `rake preflight`
 
+### Linux Boxes
+
+If you are on a linux box, please make sure you have `mono` and `mono-devel` in your path. Easiest way to install on ubuntu is to run `sudo apt-get install mono-complete`
+
 ## My PR is broken, it works in VS!
 
 if your pull request is broken either one of two things is happening.
