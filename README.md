@@ -1,6 +1,11 @@
-**Master (Windows):** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
-**Master (Linux):** [![Build Status](https://travis-ci.org/tparnell8/Untappd.Net.svg?branch=master)](https://travis-ci.org/tparnell8/Untappd.Net)
+**Master AppVeyor Build (Windows):** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
+
+**Master Travis-CI (Linux):** [![Build Status](https://travis-ci.org/tparnell8/Untappd.Net.svg?branch=master)](https://travis-ci.org/tparnell8/Untappd.Net)
+
+**Master Circle-CI (Linux):** [![Circle CI](https://circleci.com/gh/tparnell8/Untappd.Net/tree/master.svg?style=svg)](https://circleci.com/gh/tparnell8/Untappd.Net/tree/master)
+
 **Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/Release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
+
 **Code Coverage:** [![Coverage Status](https://coveralls.io/repos/tparnell8/Untappd.Net/badge.svg?branch=master)](https://coveralls.io/r/tparnell8/Untappd.Net?branch=master)
 
 **Kanban** [![Stories in Ready](https://badge.waffle.io/tparnell8/untappd.net.png?label=ready&title=Ready)](https://waffle.io/tparnell8/untappd.net)
