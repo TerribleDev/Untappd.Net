@@ -22,7 +22,7 @@ desc 'Run the tests'
 task :test => [:nunit]
 
 desc 'Retrieve, Build, Test'
-task :preflight => [:retrieve, :build, :test, :cs_lint]
+task :preflight => [:clean, :retrieve, :build, :test, :cs_lint]
 
 desc 'cleans up artifacts'
 task :clean do
