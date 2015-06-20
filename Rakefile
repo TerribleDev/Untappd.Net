@@ -1,4 +1,3 @@
-require 'bundler/setup'
 require 'rake/clean'
 require 'albacore'
 require 'open-uri'
@@ -25,7 +24,17 @@ task :test => [:nunit]
 desc 'Retrieve, Build, Test'
 task :preflight => [:retrieve, :build, :test, :cs_lint]
 
+desc 'cleans up artifacts'
+task :clean do
+  puts 'cleaning artifacts from directory'
+  FileUtils.rm_rf("output")
+  FileUtils.rm_rf("packages")
+  FileUtils.rm_rf("tools")
+  FileUtils.rm_rf(Dir.glob("src/**/*.dll"))
+  FileUtils.rm_rf(Dir.glob("src/**/*.pdb"))
+  FileUtils.rm_rf(Dir.glob("src/**/*.mdb"))
 
+end
 
 build :compile  => ['tools:nuget_fetch'] do |b|
   b.prop 'Configuration', Configuration
@@ -37,7 +46,8 @@ test_runner :nunit do |tests|
   tests.exe = "packages/NUnit.Runners.2.6.4/tools/nunit-console.exe" # executable to run tests with
 end
 
-task :cs_lint do
+desc 'run static analysis'
+task :cs_lint => :build do
 
   unless Dir.exists?('output')
     Dir.mkdir('output')
