@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using Untappd.Net.Exception;
-
 namespace Untappd.Net.UnitTests.Exception
 {
     [TestFixture]
@@ -24,5 +23,7 @@ namespace Untappd.Net.UnitTests.Exception
         {
             throw new BaseUntappdException("messageHere", new System.Exception("innerException!"));
         }
+
+
     }
 }

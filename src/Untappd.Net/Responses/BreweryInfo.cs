@@ -908,7 +908,7 @@ namespace Untappd.Net.Responses.BreweryInfo
 
     public class BreweryInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/brewery/info{0}"; } }
+        protected override string EndPointWithConfiguration { get { return "v4/brewery/info{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

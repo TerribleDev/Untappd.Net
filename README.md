@@ -1,5 +1,11 @@
-**Master:** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
+**Master AppVeyor Build (Windows):** [![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/master?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/master)
+
+**Master Travis-CI (Linux):** [![Build Status](https://travis-ci.org/tparnell8/Untappd.Net.svg?branch=master)](https://travis-ci.org/tparnell8/Untappd.Net)
+
+**Master Circle-CI (Linux):** [![Circle CI](https://circleci.com/gh/tparnell8/Untappd.Net/tree/master.svg?style=svg)](https://circleci.com/gh/tparnell8/Untappd.Net/tree/master)
+
 **Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/Release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
+
 **Code Coverage:** [![Coverage Status](https://coveralls.io/repos/tparnell8/Untappd.Net/badge.svg?branch=master)](https://coveralls.io/r/tparnell8/Untappd.Net?branch=master)
 
 **Kanban** [![Stories in Ready](https://badge.waffle.io/tparnell8/untappd.net.png?label=ready&title=Ready)](https://waffle.io/tparnell8/untappd.net)
@@ -9,6 +15,22 @@
 # Untappd.Net
 
 This is a c# wrapper around the Untappd API. This can be downloaded via [Nuget](https://www.nuget.org/packages/Untappd.Net/), or the [backup feed](https://www.myget.org/F/untappd-net/api/v2).
+
+## Building via command line
+
+If you wish to build via command line install ruby, and ruby gems. Open up a console in the root directory of this project, and then run the following:
+
+* `gem install rake`
+* `gem install bundle`
+* `bundle`
+* `rake preflight`
+
+## My PR is broken, it works in VS!
+
+if your pull request is broken either one of two things is happening.
+
+1. Your changes are not mono compatible, which prevent linux users from using your changes. This will only happen if travis ci says your build is broken, but appveyor does not.
+2. You have added gendarme violations. You can run gendarme locally by running `rake preflight` from your console.
 
 ## API Coverage
 

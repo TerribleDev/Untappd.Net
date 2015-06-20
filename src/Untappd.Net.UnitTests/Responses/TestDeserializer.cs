@@ -18,7 +18,7 @@ using Untappd.Net.Responses.VenueInfo;
 using UserDistinctBeers = Untappd.Net.Responses.UserDistinctBeer;
 using UserWishList = Untappd.Net.Responses.UserWishlist;
 
-namespace Untappd.Net.UnitTests
+namespace Untappd.Net.UnitTests.Responses
 {
     [TestFixture]
     public class TestDeserializer

@@ -1193,7 +1193,7 @@ namespace Untappd.Net.Responses.VenueInfo
 
     public class VenueInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/venue/info{0}"; } }
+        protected override string EndPointWithConfiguration { get { return "v4/venue/info{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

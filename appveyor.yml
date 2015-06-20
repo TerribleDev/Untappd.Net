@@ -25,6 +25,9 @@ build:
 after_test:
 - packages\OpenCover.4.5.3723\OpenCover.Console.exe -register:user -filter:"+[Untappd.Net*]* -[*Tests]*" -target:"packages\NUnit.Runners.2.6.4\tools\nunit-console.exe" -targetargs:"/noshadow /domain:single  src\Untappd.Net.UnitTests\bin\Release\Untappd.Net.UnitTests.dll" -output:coverage.xml
 - packages\coveralls.io.1.3.4\tools\coveralls.net.exe --opencover coverage.xml
+- gem install bundle
+- bundle
+- rake cs_lint
 deploy:
 - provider: NuGet
   server:
@@ -38,3 +41,6 @@ deploy:
     secure: wsN6BzH8ETiXhB9SndP57mHhivqM+CVnghI/+w5XE3bI8K092Z4V4FrJixcrxKnI
   on:
     branch: release
+artifacts:
+   path: output/gendarme.html
+   name: gendarme

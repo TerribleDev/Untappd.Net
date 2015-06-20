@@ -136,7 +136,7 @@ namespace Untappd.Net.Responses.UserFriends
 
     public class UserFriends : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/friends{0}"; } }
+        protected override string EndPointWithConfiguration { get { return "v4/user/friends{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

@@ -511,7 +511,7 @@ namespace Untappd.Net.Responses.Feeds.ActivityFeed
 
     public class ActivityFeed : BasicRequest, IAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "/v4/checkin/recent"; } }
+        protected override string EndPointWithConfiguration { get { return "/v4/checkin/recent"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }

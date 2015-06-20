@@ -1099,7 +1099,7 @@ namespace Untappd.Net.Responses.UserInfo
 
     public class UserInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
     {
-        protected override string _EndPoint { get { return "v4/user/info{0}"; } }
+        protected override string EndPointWithConfiguration { get { return "v4/user/info{0}"; } }
 
         [JsonProperty("meta")]
         public Meta Meta { get; set; }
