@@ -4,6 +4,8 @@
 
 **Master Circle-CI (Linux):** [![Circle CI](https://circleci.com/gh/tparnell8/Untappd.Net/tree/master.svg?style=svg)](https://circleci.com/gh/tparnell8/Untappd.Net/tree/master)
 
+**Master CodeShip (Linux):**[ ![Codeship Status for tparnell8/Untappd.Net](https://codeship.com/projects/aa00c9e0-f94b-0132-799e-3a92bb520805/status?branch=master)](https://codeship.com/projects/86796)
+
 **Release:**[![Build status](https://ci.appveyor.com/api/projects/status/e21297waldfrso3p/branch/Release?svg=true)](https://ci.appveyor.com/project/tparnell8/untappd-net/branch/Release)
 
 **Code Coverage:** [![Coverage Status](https://coveralls.io/repos/tparnell8/Untappd.Net/badge.svg?branch=master)](https://coveralls.io/r/tparnell8/Untappd.Net?branch=master)
