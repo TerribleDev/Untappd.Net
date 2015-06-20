@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - sudo apt-get update; sudo apt-get install  mono-devel mono-complete
+    - sudo apt-get update; sudo apt-get install  mono-devel mono-complete -f
 test:
   override:
     - rake preflight
