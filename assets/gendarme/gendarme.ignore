@@ -22,7 +22,7 @@ A: Untappd.Net
 
 # Microsoft says we shouldn't dispose tasks ourselves
 R: Gendarme.Rules.Correctness.EnsureLocalDisposalRule
-M: System.Void Untappd.Net.Request.Repository/<ExecuteRequestAsync>c__async0`1::MoveNext()
+A: Untappd.Net
 
 # We use the obsolete constructor for testing
 R: Gendarme.Rules.Performance.AvoidUncalledPrivateCodeRule
