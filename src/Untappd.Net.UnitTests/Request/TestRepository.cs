@@ -9,6 +9,7 @@ using Untappd.Net.Authentication;
 using Untappd.Net.Request;
 using Untappd.Net.Responses.Actions;
 using Untappd.Net.Responses.BeerInfo;
+using Untappd.Net.Exception;
 
 namespace Untappd.Net.UnitTests.Request
 {
@@ -67,6 +68,14 @@ namespace Untappd.Net.UnitTests.Request
                 {"access_token", "PostaccessToken"}
             }));
             var checkin = new CheckIn("-5", "EST", 1044097) { Shout = "Awesome Brew", Rating = 4 };
+            repository.FailFast = true;
+            repository.OnExceptionThrown += (sender, e) => 
+                {
+                    Assert.IsNotNull(sender);
+                    Assert.IsNotNull(e);
+                };
+            Assert.Throws<HttpErrorException>(()=>repository.Post(mockAuthCreds.Object, checkin));
+            repository.FailFast = false;
             repository.Post(mockAuthCreds.Object, checkin);
             request.Verify(a => a.AddParameter("access_token", "PostaccessToken"));
 

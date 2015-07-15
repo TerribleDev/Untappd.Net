@@ -7,4 +7,4 @@ sudo: false
 script:
   - gem install bundle
   - bundle
-  - rake preflight
+  - bundle exec rake preflight

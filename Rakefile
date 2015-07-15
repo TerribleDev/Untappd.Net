@@ -1,4 +1,3 @@
-require 'bundler/setup'
 require 'rake/clean'
 require 'albacore'
 require 'open-uri'
@@ -21,11 +20,23 @@ task :build => [:compile]
 
 desc 'Run the tests'
 task :test => [:nunit]
+desc 'run Static analysis linters'
+task :lint => [:build, :cs_lint]
 
 desc 'Retrieve, Build, Test'
-task :preflight => [:retrieve, :build, :test, :cs_lint]
+task :preflight => [:clean, :retrieve, :build, :test, :lint]
 
+desc 'cleans up artifacts'
+task :clean do
+  puts 'cleaning artifacts from directory'
+  FileUtils.rm_rf("output")
+  FileUtils.rm_rf("packages")
+  FileUtils.rm_rf("tools")
+  FileUtils.rm_rf(Dir.glob("src/**/*.dll"))
+  FileUtils.rm_rf(Dir.glob("src/**/*.pdb"))
+  FileUtils.rm_rf(Dir.glob("src/**/*.mdb"))
 
+end
 
 build :compile  => ['tools:nuget_fetch'] do |b|
   b.prop 'Configuration', Configuration

@@ -7,10 +7,17 @@ namespace :tools do
 		if !FileTest.exist?("#{NUGET}/nuget.exe")
 			puts 'Downloading nuget from nuget.org'
 
+			begin
 			FileUtils.mkdir_p("#{NUGET}")
 			File.open("#{NUGET}/nuget.exe", "wb") do |file|
 				file.write open('https://nuget.org/nuget.exe').read
 			end
+		rescue
+			FileUtils.rm_rf("#{NUGET}/nuget.exe")
+			File.open("#{NUGET}/nuget.exe", "wb") do |file|
+				file.write open('http://nuget.org/nuget.exe').read
+			end
+		end
 		end
 	end
 
@@ -27,7 +34,7 @@ namespace :tools do
         end
 		end
 
-	# Make sure we get solution-level deps
+	  # Make sure we get solution-level deps
 		sh "#{CMD_PREFIX} #{NUGET}/nuget.exe i .nuget/packages.config -o packages"
 
 		FileList["src/**/packages.config"].each { |filepath|

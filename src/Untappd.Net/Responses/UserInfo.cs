@@ -204,7 +204,10 @@ namespace Untappd.Net.Responses.UserInfo
     {
 
         [JsonProperty("facebook")]
-        public int Facebook { get; set; }
+        public string Facebook { get; set; }
+
+        [JsonProperty("twitter")]
+        public string Twitter { get; set; }
     }
 
     public class User2
@@ -964,6 +967,9 @@ namespace Untappd.Net.Responses.UserInfo
 
         [JsonProperty("facebook")]
         public int Facebook { get; set; }
+
+        [JsonProperty("twitter")]
+        public string Twitter { get; set; }
     }
 
     public class Badge
