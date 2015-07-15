@@ -83,7 +83,7 @@ namespace Untappd.Net.Responses.Feeds.UserActivityFeed
     {
 
         [JsonProperty("facebook")]
-        public int Facebook { get; set; }
+        public string Facebook { get; set; }
     }
 
     public class User
