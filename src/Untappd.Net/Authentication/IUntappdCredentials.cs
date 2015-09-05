@@ -2,8 +2,8 @@
 
 namespace Untappd.Net.Authentication
 {
-    public interface IUntappdCredentials
-    {
-        IReadOnlyDictionary<string, string> AuthenticationData { get; } 
-    }
+	public interface IUntappdCredentials
+	{
+		IReadOnlyDictionary<string, string> AuthenticationData { get; }
+	}
 }
