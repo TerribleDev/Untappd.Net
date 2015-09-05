@@ -4,1205 +4,1141 @@ using Untappd.Net.Request;
 
 namespace Untappd.Net.Responses.VenueInfo
 {
+	public class ResponseTime
+	{
+		[JsonProperty("time")]
+		public double Time { get; set; }
 
-    public class ResponseTime
-    {
+		[JsonProperty("measure")]
+		public string Measure { get; set; }
+	}
 
-        [JsonProperty("time")]
-        public double Time { get; set; }
+	public class InitTime
+	{
+		[JsonProperty("time")]
+		public double Time { get; set; }
+
+		[JsonProperty("measure")]
+		public string Measure { get; set; }
+	}
+
+	public class Meta
+	{
+		[JsonProperty("code")]
+		public int Code { get; set; }
 
-        [JsonProperty("measure")]
-        public string Measure { get; set; }
-    }
+		[JsonProperty("response_time")]
+		public ResponseTime ResponseTime { get; set; }
 
-    public class InitTime
-    {
+		[JsonProperty("init_time")]
+		public InitTime InitTime { get; set; }
+	}
 
-        [JsonProperty("time")]
-        public double Time { get; set; }
+	public class UnreadCount
+	{
+		[JsonProperty("comments")]
+		public int Comments { get; set; }
 
-        [JsonProperty("measure")]
-        public string Measure { get; set; }
-    }
+		[JsonProperty("toasts")]
+		public int Toasts { get; set; }
+
+		[JsonProperty("friends")]
+		public int Friends { get; set; }
 
-    public class Meta
-    {
+		[JsonProperty("messages")]
+		public int Messages { get; set; }
 
-        [JsonProperty("code")]
-        public int Code { get; set; }
+		[JsonProperty("news")]
+		public int News { get; set; }
+	}
 
-        [JsonProperty("response_time")]
-        public ResponseTime ResponseTime { get; set; }
+	public class Notifications
+	{
+		[JsonProperty("type")]
+		public string Type { get; set; }
 
-        [JsonProperty("init_time")]
-        public InitTime InitTime { get; set; }
-    }
+		[JsonProperty("unread_count")]
+		public UnreadCount UnreadCount { get; set; }
+	}
 
-    public class UnreadCount
-    {
+	public class Item
+	{
+		[JsonProperty("category_name")]
+		public string CategoryName { get; set; }
+
+		[JsonProperty("category_id")]
+		public string CategoryId { get; set; }
 
-        [JsonProperty("comments")]
-        public int Comments { get; set; }
+		[JsonProperty("is_primary")]
+		public bool IsPrimary { get; set; }
+	}
 
-        [JsonProperty("toasts")]
-        public int Toasts { get; set; }
+	public class Categories
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("friends")]
-        public int Friends { get; set; }
+		[JsonProperty("items")]
+		public IList<Item> Items { get; set; }
+	}
 
-        [JsonProperty("messages")]
-        public int Messages { get; set; }
+	public class Stats
+	{
+		[JsonProperty("total_count")]
+		public int TotalCount { get; set; }
 
-        [JsonProperty("news")]
-        public int News { get; set; }
-    }
+		[JsonProperty("user_count")]
+		public int UserCount { get; set; }
 
-    public class Notifications
-    {
+		[JsonProperty("total_user_count")]
+		public int TotalUserCount { get; set; }
 
-        [JsonProperty("type")]
-        public string Type { get; set; }
+		[JsonProperty("monthly_count")]
+		public int MonthlyCount { get; set; }
 
-        [JsonProperty("unread_count")]
-        public UnreadCount UnreadCount { get; set; }
-    }
+		[JsonProperty("weekly_count")]
+		public int WeeklyCount { get; set; }
+	}
 
-    public class Item
-    {
+	public class VenueIcon
+	{
+		[JsonProperty("sm")]
+		public string Sm { get; set; }
 
-        [JsonProperty("category_name")]
-        public string CategoryName { get; set; }
+		[JsonProperty("md")]
+		public string Md { get; set; }
 
-        [JsonProperty("category_id")]
-        public string CategoryId { get; set; }
+		[JsonProperty("lg")]
+		public string Lg { get; set; }
+	}
 
-        [JsonProperty("is_primary")]
-        public bool IsPrimary { get; set; }
-    }
+	public class Location
+	{
+		[JsonProperty("venue_address")]
+		public string VenueAddress { get; set; }
 
-    public class Categories
-    {
+		[JsonProperty("venue_city")]
+		public string VenueCity { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("venue_state")]
+		public string VenueState { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item> Items { get; set; }
-    }
+		[JsonProperty("venue_country")]
+		public string VenueCountry { get; set; }
 
-    public class Stats
-    {
+		[JsonProperty("lat")]
+		public double Lat { get; set; }
 
-        [JsonProperty("total_count")]
-        public int TotalCount { get; set; }
+		[JsonProperty("lng")]
+		public double Lng { get; set; }
+	}
 
-        [JsonProperty("user_count")]
-        public int UserCount { get; set; }
+	public class Contact
+	{
+		[JsonProperty("twitter")]
+		public string Twitter { get; set; }
 
-        [JsonProperty("total_user_count")]
-        public int TotalUserCount { get; set; }
+		[JsonProperty("venue_url")]
+		public string VenueUrl { get; set; }
+	}
 
-        [JsonProperty("monthly_count")]
-        public int MonthlyCount { get; set; }
+	public class Foursquare
+	{
+		[JsonProperty("foursquare_id")]
+		public string FoursquareId { get; set; }
 
-        [JsonProperty("weekly_count")]
-        public int WeeklyCount { get; set; }
-    }
+		[JsonProperty("foursquare_url")]
+		public string FoursquareUrl { get; set; }
+	}
 
-    public class VenueIcon
-    {
+	public class Photo
+	{
+		[JsonProperty("photo_img_sm")]
+		public string PhotoImgSm { get; set; }
 
-        [JsonProperty("sm")]
-        public string Sm { get; set; }
+		[JsonProperty("photo_img_md")]
+		public string PhotoImgMd { get; set; }
 
-        [JsonProperty("md")]
-        public string Md { get; set; }
+		[JsonProperty("photo_img_lg")]
+		public string PhotoImgLg { get; set; }
 
-        [JsonProperty("lg")]
-        public string Lg { get; set; }
-    }
+		[JsonProperty("photo_img_og")]
+		public string PhotoImgOg { get; set; }
+	}
 
-    public class Location
-    {
+	public class Beer
+	{
+		[JsonProperty("bid")]
+		public int Bid { get; set; }
 
-        [JsonProperty("venue_address")]
-        public string VenueAddress { get; set; }
+		[JsonProperty("beer_name")]
+		public string BeerName { get; set; }
 
-        [JsonProperty("venue_city")]
-        public string VenueCity { get; set; }
+		[JsonProperty("beer_label")]
+		public string BeerLabel { get; set; }
 
-        [JsonProperty("venue_state")]
-        public string VenueState { get; set; }
+		[JsonProperty("beer_abv")]
+		public double BeerAbv { get; set; }
 
-        [JsonProperty("venue_country")]
-        public string VenueCountry { get; set; }
+		[JsonProperty("beer_ibu")]
+		public int BeerIbu { get; set; }
 
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
+		[JsonProperty("beer_slug")]
+		public string BeerSlug { get; set; }
 
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
+		[JsonProperty("beer_description")]
+		public string BeerDescription { get; set; }
 
-    public class Contact
-    {
+		[JsonProperty("is_in_production")]
+		public int IsInProduction { get; set; }
 
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
+		[JsonProperty("beer_style_id")]
+		public int BeerStyleId { get; set; }
 
-        [JsonProperty("venue_url")]
-        public string VenueUrl { get; set; }
-    }
+		[JsonProperty("beer_style")]
+		public string BeerStyle { get; set; }
 
-    public class Foursquare
-    {
+		[JsonProperty("auth_rating")]
+		public double AuthRating { get; set; }
 
-        [JsonProperty("foursquare_id")]
-        public string FoursquareId { get; set; }
+		[JsonProperty("wish_list")]
+		public bool WishList { get; set; }
 
-        [JsonProperty("foursquare_url")]
-        public string FoursquareUrl { get; set; }
-    }
+		[JsonProperty("beer_active")]
+		public int BeerActive { get; set; }
+	}
 
-    public class Photo
-    {
+	public class Contact2
+	{
+		[JsonProperty("twitter")]
+		public string Twitter { get; set; }
 
-        [JsonProperty("photo_img_sm")]
-        public string PhotoImgSm { get; set; }
+		[JsonProperty("facebook")]
+		public string Facebook { get; set; }
 
-        [JsonProperty("photo_img_md")]
-        public string PhotoImgMd { get; set; }
+		[JsonProperty("url")]
+		public string Url { get; set; }
+	}
 
-        [JsonProperty("photo_img_lg")]
-        public string PhotoImgLg { get; set; }
+	public class Location2
+	{
+		[JsonProperty("brewery_city")]
+		public string BreweryCity { get; set; }
 
-        [JsonProperty("photo_img_og")]
-        public string PhotoImgOg { get; set; }
-    }
+		[JsonProperty("brewery_state")]
+		public string BreweryState { get; set; }
 
-    public class Beer
-    {
+		[JsonProperty("lat")]
+		public double Lat { get; set; }
 
-        [JsonProperty("bid")]
-        public int Bid { get; set; }
+		[JsonProperty("lng")]
+		public double Lng { get; set; }
+	}
 
-        [JsonProperty("beer_name")]
-        public string BeerName { get; set; }
+	public class Brewery
+	{
+		[JsonProperty("brewery_id")]
+		public int BreweryId { get; set; }
 
-        [JsonProperty("beer_label")]
-        public string BeerLabel { get; set; }
+		[JsonProperty("brewery_name")]
+		public string BreweryName { get; set; }
 
-        [JsonProperty("beer_abv")]
-        public double BeerAbv { get; set; }
+		[JsonProperty("brewery_slug")]
+		public string BrewerySlug { get; set; }
 
-        [JsonProperty("beer_ibu")]
-        public int BeerIbu { get; set; }
+		[JsonProperty("brewery_label")]
+		public string BreweryLabel { get; set; }
 
-        [JsonProperty("beer_slug")]
-        public string BeerSlug { get; set; }
+		[JsonProperty("country_name")]
+		public string CountryName { get; set; }
 
-        [JsonProperty("beer_description")]
-        public string BeerDescription { get; set; }
+		[JsonProperty("contact")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Contact2>))]
+		public Contact2 Contact { get; set; }
 
-        [JsonProperty("is_in_production")]
-        public int IsInProduction { get; set; }
+		[JsonProperty("location")]
+		public Location2 Location { get; set; }
 
-        [JsonProperty("beer_style_id")]
-        public int BeerStyleId { get; set; }
+		[JsonProperty("brewery_active")]
+		public int BreweryActive { get; set; }
+	}
 
-        [JsonProperty("beer_style")]
-        public string BeerStyle { get; set; }
+	public class User
+	{
+		[JsonProperty("uid")]
+		public int Uid { get; set; }
 
-        [JsonProperty("auth_rating")]
-        public double AuthRating { get; set; }
+		[JsonProperty("user_name")]
+		public string UserName { get; set; }
 
-        [JsonProperty("wish_list")]
-        public bool WishList { get; set; }
+		[JsonProperty("first_name")]
+		public string FirstName { get; set; }
 
-        [JsonProperty("beer_active")]
-        public int BeerActive { get; set; }
-    }
+		[JsonProperty("last_name")]
+		public string LastName { get; set; }
 
-    public class Contact2
-    {
+		[JsonProperty("user_avatar")]
+		public string UserAvatar { get; set; }
 
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
+		[JsonProperty("relationship")]
+		public string Relationship { get; set; }
 
-        [JsonProperty("facebook")]
-        public string Facebook { get; set; }
+		[JsonProperty("is_private")]
+		public int IsPrivate { get; set; }
+	}
 
-        [JsonProperty("url")]
-        public string Url { get; set; }
-    }
+	public class Item3
+	{
+		[JsonProperty("category_name")]
+		public string CategoryName { get; set; }
 
-    public class Location2
-    {
+		[JsonProperty("category_id")]
+		public string CategoryId { get; set; }
 
-        [JsonProperty("brewery_city")]
-        public string BreweryCity { get; set; }
+		[JsonProperty("is_primary")]
+		public bool IsPrimary { get; set; }
+	}
 
-        [JsonProperty("brewery_state")]
-        public string BreweryState { get; set; }
+	public class Categories2
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
+		[JsonProperty("items")]
+		public IList<Item3> Items { get; set; }
+	}
 
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
+	public class Location3
+	{
+		[JsonProperty("venue_address")]
+		public string VenueAddress { get; set; }
 
-    public class Brewery
-    {
+		[JsonProperty("venue_city")]
+		public string VenueCity { get; set; }
 
-        [JsonProperty("brewery_id")]
-        public int BreweryId { get; set; }
+		[JsonProperty("venue_state")]
+		public string VenueState { get; set; }
 
-        [JsonProperty("brewery_name")]
-        public string BreweryName { get; set; }
+		[JsonProperty("venue_country")]
+		public string VenueCountry { get; set; }
 
-        [JsonProperty("brewery_slug")]
-        public string BrewerySlug { get; set; }
+		[JsonProperty("lat")]
+		public double Lat { get; set; }
 
-        [JsonProperty("brewery_label")]
-        public string BreweryLabel { get; set; }
+		[JsonProperty("lng")]
+		public double Lng { get; set; }
+	}
 
-        [JsonProperty("country_name")]
-        public string CountryName { get; set; }
+	public class Contact3
+	{
+		[JsonProperty("twitter")]
+		public string Twitter { get; set; }
 
-        [JsonProperty("contact")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Contact2>))]
-        public Contact2 Contact { get; set; }
+		[JsonProperty("venue_url")]
+		public string VenueUrl { get; set; }
+	}
 
-        [JsonProperty("location")]
-        public Location2 Location { get; set; }
+	public class Foursquare2
+	{
+		[JsonProperty("foursquare_id")]
+		public string FoursquareId { get; set; }
 
-        [JsonProperty("brewery_active")]
-        public int BreweryActive { get; set; }
-    }
+		[JsonProperty("foursquare_url")]
+		public string FoursquareUrl { get; set; }
+	}
 
-    public class User
-    {
+	public class VenueIcon2
+	{
+		[JsonProperty("sm")]
+		public string Sm { get; set; }
 
-        [JsonProperty("uid")]
-        public int Uid { get; set; }
+		[JsonProperty("md")]
+		public string Md { get; set; }
 
-        [JsonProperty("user_name")]
-        public string UserName { get; set; }
+		[JsonProperty("lg")]
+		public string Lg { get; set; }
+	}
 
-        [JsonProperty("first_name")]
-        public string FirstName { get; set; }
+	public class Venue2
+	{
+		[JsonProperty("venue_id")]
+		public int VenueId { get; set; }
 
-        [JsonProperty("last_name")]
-        public string LastName { get; set; }
+		[JsonProperty("venue_name")]
+		public string VenueName { get; set; }
 
-        [JsonProperty("user_avatar")]
-        public string UserAvatar { get; set; }
+		[JsonProperty("primary_category")]
+		public string PrimaryCategory { get; set; }
 
-        [JsonProperty("relationship")]
-        public string Relationship { get; set; }
+		[JsonProperty("parent_category_id")]
+		public string ParentCategoryId { get; set; }
 
-        [JsonProperty("is_private")]
-        public int IsPrivate { get; set; }
-    }
+		[JsonProperty("categories")]
+		public Categories2 Categories { get; set; }
 
-    public class Item3
-    {
+		[JsonProperty("location")]
+		public Location3 Location { get; set; }
 
-        [JsonProperty("category_name")]
-        public string CategoryName { get; set; }
+		[JsonProperty("contact")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Contact3>))]
+		public Contact3 Contact { get; set; }
 
-        [JsonProperty("category_id")]
-        public string CategoryId { get; set; }
+		[JsonProperty("public_venue")]
+		public bool PublicVenue { get; set; }
 
-        [JsonProperty("is_primary")]
-        public bool IsPrimary { get; set; }
-    }
+		[JsonProperty("foursquare")]
+		public Foursquare2 Foursquare { get; set; }
 
-    public class Categories2
-    {
+		[JsonProperty("venue_icon")]
+		public VenueIcon2 VenueIcon { get; set; }
+	}
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+	public class Item2
+	{
+		[JsonProperty("photo_id")]
+		public int PhotoId { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item3> Items { get; set; }
-    }
+		[JsonProperty("photo")]
+		public Photo Photo { get; set; }
 
-    public class Location3
-    {
+		[JsonProperty("created_at")]
+		public string CreatedAt { get; set; }
 
-        [JsonProperty("venue_address")]
-        public string VenueAddress { get; set; }
+		[JsonProperty("checkin_id")]
+		public int CheckinId { get; set; }
 
-        [JsonProperty("venue_city")]
-        public string VenueCity { get; set; }
+		[JsonProperty("beer")]
+		public Beer Beer { get; set; }
 
-        [JsonProperty("venue_state")]
-        public string VenueState { get; set; }
+		[JsonProperty("brewery")]
+		public Brewery Brewery { get; set; }
 
-        [JsonProperty("venue_country")]
-        public string VenueCountry { get; set; }
+		[JsonProperty("user")]
+		public User User { get; set; }
 
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
+		[JsonProperty("venue")]
+		public Venue2 Venue { get; set; }
+	}
 
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
+	public class Media
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-    public class Contact3
-    {
+		[JsonProperty("items")]
+		public IList<Item2> Items { get; set; }
+	}
 
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
+	public class User2
+	{
+		[JsonProperty("uid")]
+		public int Uid { get; set; }
 
-        [JsonProperty("venue_url")]
-        public string VenueUrl { get; set; }
-    }
+		[JsonProperty("user_name")]
+		public string UserName { get; set; }
 
-    public class Foursquare2
-    {
+		[JsonProperty("first_name")]
+		public string FirstName { get; set; }
 
-        [JsonProperty("foursquare_id")]
-        public string FoursquareId { get; set; }
+		[JsonProperty("last_name")]
+		public string LastName { get; set; }
 
-        [JsonProperty("foursquare_url")]
-        public string FoursquareUrl { get; set; }
-    }
+		[JsonProperty("relationship")]
+		public string Relationship { get; set; }
 
-    public class VenueIcon2
-    {
+		[JsonProperty("is_supporter")]
+		public int IsSupporter { get; set; }
 
-        [JsonProperty("sm")]
-        public string Sm { get; set; }
+		[JsonProperty("user_avatar")]
+		public string UserAvatar { get; set; }
 
-        [JsonProperty("md")]
-        public string Md { get; set; }
+		[JsonProperty("is_private")]
+		public int IsPrivate { get; set; }
+	}
 
-        [JsonProperty("lg")]
-        public string Lg { get; set; }
-    }
+	public class Beer2
+	{
+		[JsonProperty("bid")]
+		public int Bid { get; set; }
 
-    public class Venue2
-    {
+		[JsonProperty("beer_name")]
+		public string BeerName { get; set; }
 
-        [JsonProperty("venue_id")]
-        public int VenueId { get; set; }
+		[JsonProperty("beer_abv")]
+		public double BeerAbv { get; set; }
 
-        [JsonProperty("venue_name")]
-        public string VenueName { get; set; }
+		[JsonProperty("beer_label")]
+		public string BeerLabel { get; set; }
 
-        [JsonProperty("primary_category")]
-        public string PrimaryCategory { get; set; }
+		[JsonProperty("beer_style")]
+		public string BeerStyle { get; set; }
 
-        [JsonProperty("parent_category_id")]
-        public string ParentCategoryId { get; set; }
+		[JsonProperty("auth_rating")]
+		public double AuthRating { get; set; }
 
-        [JsonProperty("categories")]
-        public Categories2 Categories { get; set; }
+		[JsonProperty("wish_list")]
+		public bool WishList { get; set; }
 
-        [JsonProperty("location")]
-        public Location3 Location { get; set; }
+		[JsonProperty("beer_active")]
+		public int BeerActive { get; set; }
+	}
 
-        [JsonProperty("contact")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Contact3>))]
-        public Contact3 Contact { get; set; }
+	public class Contact4
+	{
+		[JsonProperty("twitter")]
+		public string Twitter { get; set; }
 
-        [JsonProperty("public_venue")]
-        public bool PublicVenue { get; set; }
+		[JsonProperty("facebook")]
+		public string Facebook { get; set; }
 
-        [JsonProperty("foursquare")]
-        public Foursquare2 Foursquare { get; set; }
+		[JsonProperty("instagram")]
+		public string Instagram { get; set; }
 
-        [JsonProperty("venue_icon")]
-        public VenueIcon2 VenueIcon { get; set; }
-    }
+		[JsonProperty("url")]
+		public string Url { get; set; }
+	}
 
-    public class Item2
-    {
+	public class Location4
+	{
+		[JsonProperty("brewery_city")]
+		public string BreweryCity { get; set; }
 
-        [JsonProperty("photo_id")]
-        public int PhotoId { get; set; }
+		[JsonProperty("brewery_state")]
+		public string BreweryState { get; set; }
 
-        [JsonProperty("photo")]
-        public Photo Photo { get; set; }
+		[JsonProperty("lat")]
+		public double Lat { get; set; }
 
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
+		[JsonProperty("lng")]
+		public double Lng { get; set; }
+	}
 
-        [JsonProperty("checkin_id")]
-        public int CheckinId { get; set; }
+	public class Brewery2
+	{
+		[JsonProperty("brewery_id")]
+		public int BreweryId { get; set; }
 
-        [JsonProperty("beer")]
-        public Beer Beer { get; set; }
+		[JsonProperty("brewery_name")]
+		public string BreweryName { get; set; }
 
-        [JsonProperty("brewery")]
-        public Brewery Brewery { get; set; }
+		[JsonProperty("brewery_slug")]
+		public string BrewerySlug { get; set; }
 
-        [JsonProperty("user")]
-        public User User { get; set; }
+		[JsonProperty("brewery_label")]
+		public string BreweryLabel { get; set; }
 
-        [JsonProperty("venue")]
-        public Venue2 Venue { get; set; }
-    }
+		[JsonProperty("country_name")]
+		public string CountryName { get; set; }
 
-    public class Media
-    {
+		[JsonProperty("contact")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Contact4>))]
+		public Contact4 Contact { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("location")]
+		public Location4 Location { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item2> Items { get; set; }
-    }
+		[JsonProperty("brewery_active")]
+		public int BreweryActive { get; set; }
+	}
 
-    public class User2
-    {
+	public class Item5
+	{
+		[JsonProperty("category_name")]
+		public string CategoryName { get; set; }
 
-        [JsonProperty("uid")]
-        public int Uid { get; set; }
+		[JsonProperty("category_id")]
+		public string CategoryId { get; set; }
 
-        [JsonProperty("user_name")]
-        public string UserName { get; set; }
+		[JsonProperty("is_primary")]
+		public bool IsPrimary { get; set; }
+	}
 
-        [JsonProperty("first_name")]
-        public string FirstName { get; set; }
+	public class Categories3
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("last_name")]
-        public string LastName { get; set; }
+		[JsonProperty("items")]
+		public IList<Item5> Items { get; set; }
+	}
 
-        [JsonProperty("relationship")]
-        public string Relationship { get; set; }
+	public class Location5
+	{
+		[JsonProperty("venue_address")]
+		public string VenueAddress { get; set; }
 
-        [JsonProperty("is_supporter")]
-        public int IsSupporter { get; set; }
+		[JsonProperty("venue_city")]
+		public string VenueCity { get; set; }
 
-        [JsonProperty("user_avatar")]
-        public string UserAvatar { get; set; }
+		[JsonProperty("venue_state")]
+		public string VenueState { get; set; }
 
-        [JsonProperty("is_private")]
-        public int IsPrivate { get; set; }
-    }
+		[JsonProperty("venue_country")]
+		public string VenueCountry { get; set; }
 
-    public class Beer2
-    {
+		[JsonProperty("lat")]
+		public double Lat { get; set; }
 
-        [JsonProperty("bid")]
-        public int Bid { get; set; }
+		[JsonProperty("lng")]
+		public double Lng { get; set; }
+	}
 
-        [JsonProperty("beer_name")]
-        public string BeerName { get; set; }
+	public class Contact5
+	{
+		[JsonProperty("twitter")]
+		public string Twitter { get; set; }
 
-        [JsonProperty("beer_abv")]
-        public double BeerAbv { get; set; }
+		[JsonProperty("venue_url")]
+		public string VenueUrl { get; set; }
+	}
 
-        [JsonProperty("beer_label")]
-        public string BeerLabel { get; set; }
+	public class Foursquare3
+	{
+		[JsonProperty("foursquare_id")]
+		public string FoursquareId { get; set; }
 
-        [JsonProperty("beer_style")]
-        public string BeerStyle { get; set; }
+		[JsonProperty("foursquare_url")]
+		public string FoursquareUrl { get; set; }
+	}
 
-        [JsonProperty("auth_rating")]
-        public double AuthRating { get; set; }
+	public class VenueIcon3
+	{
+		[JsonProperty("sm")]
+		public string Sm { get; set; }
 
-        [JsonProperty("wish_list")]
-        public bool WishList { get; set; }
+		[JsonProperty("md")]
+		public string Md { get; set; }
 
-        [JsonProperty("beer_active")]
-        public int BeerActive { get; set; }
-    }
+		[JsonProperty("lg")]
+		public string Lg { get; set; }
+	}
 
-    public class Contact4
-    {
+	public class Venue3
+	{
+		[JsonProperty("venue_id")]
+		public int VenueId { get; set; }
 
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
+		[JsonProperty("venue_name")]
+		public string VenueName { get; set; }
 
-        [JsonProperty("facebook")]
-        public string Facebook { get; set; }
+		[JsonProperty("primary_category")]
+		public string PrimaryCategory { get; set; }
 
-        [JsonProperty("instagram")]
-        public string Instagram { get; set; }
+		[JsonProperty("parent_category_id")]
+		public string ParentCategoryId { get; set; }
 
-        [JsonProperty("url")]
-        public string Url { get; set; }
-    }
+		[JsonProperty("categories")]
+		public Categories3 Categories { get; set; }
 
-    public class Location4
-    {
+		[JsonProperty("location")]
+		public Location5 Location { get; set; }
 
-        [JsonProperty("brewery_city")]
-        public string BreweryCity { get; set; }
+		[JsonProperty("contact")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Contact5>))]
+		public Contact5 Contact { get; set; }
 
-        [JsonProperty("brewery_state")]
-        public string BreweryState { get; set; }
+		[JsonProperty("public_venue")]
+		public bool PublicVenue { get; set; }
 
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
+		[JsonProperty("foursquare")]
+		public Foursquare3 Foursquare { get; set; }
 
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
+		[JsonProperty("venue_icon")]
+		public VenueIcon3 VenueIcon { get; set; }
+	}
 
-    public class Brewery2
-    {
+	public class User3
+	{
+		[JsonProperty("uid")]
+		public int Uid { get; set; }
 
-        [JsonProperty("brewery_id")]
-        public int BreweryId { get; set; }
+		[JsonProperty("user_name")]
+		public string UserName { get; set; }
 
-        [JsonProperty("brewery_name")]
-        public string BreweryName { get; set; }
+		[JsonProperty("first_name")]
+		public string FirstName { get; set; }
 
-        [JsonProperty("brewery_slug")]
-        public string BrewerySlug { get; set; }
+		[JsonProperty("last_name")]
+		public string LastName { get; set; }
 
-        [JsonProperty("brewery_label")]
-        public string BreweryLabel { get; set; }
+		[JsonProperty("bio")]
+		public string Bio { get; set; }
 
-        [JsonProperty("country_name")]
-        public string CountryName { get; set; }
+		[JsonProperty("location")]
+		public string Location { get; set; }
 
-        [JsonProperty("contact")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Contact4>))]
-        public Contact4 Contact { get; set; }
+		[JsonProperty("relationship")]
+		public string Relationship { get; set; }
 
-        [JsonProperty("location")]
-        public Location4 Location { get; set; }
+		[JsonProperty("is_supporter")]
+		public int IsSupporter { get; set; }
 
-        [JsonProperty("brewery_active")]
-        public int BreweryActive { get; set; }
-    }
+		[JsonProperty("user_avatar")]
+		public string UserAvatar { get; set; }
 
-    public class Item5
-    {
+		[JsonProperty("user_link")]
+		public string UserLink { get; set; }
 
-        [JsonProperty("category_name")]
-        public string CategoryName { get; set; }
+		[JsonProperty("account_type")]
+		public string AccountType { get; set; }
 
-        [JsonProperty("category_id")]
-        public string CategoryId { get; set; }
+		[JsonProperty("brewery_details")]
+		public IList<object> BreweryDetails { get; set; }
+	}
 
-        [JsonProperty("is_primary")]
-        public bool IsPrimary { get; set; }
-    }
+	public class Item6
+	{
+		[JsonProperty("user")]
+		public User3 User { get; set; }
 
-    public class Categories3
-    {
+		[JsonProperty("checkin_id")]
+		public int CheckinId { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("comment_id")]
+		public int CommentId { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item5> Items { get; set; }
-    }
+		[JsonProperty("comment_owner")]
+		public bool CommentOwner { get; set; }
 
-    public class Location5
-    {
+		[JsonProperty("comment_editor")]
+		public bool CommentEditor { get; set; }
 
-        [JsonProperty("venue_address")]
-        public string VenueAddress { get; set; }
+		[JsonProperty("comment")]
+		public string Comment { get; set; }
 
-        [JsonProperty("venue_city")]
-        public string VenueCity { get; set; }
+		[JsonProperty("created_at")]
+		public string CreatedAt { get; set; }
 
-        [JsonProperty("venue_state")]
-        public string VenueState { get; set; }
+		[JsonProperty("comment_source")]
+		public string CommentSource { get; set; }
+	}
 
-        [JsonProperty("venue_country")]
-        public string VenueCountry { get; set; }
+	public class Comments
+	{
+		[JsonProperty("total_count")]
+		public int TotalCount { get; set; }
 
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
+		[JsonProperty("items")]
+		public IList<Item6> Items { get; set; }
+	}
 
-    public class Contact5
-    {
+	public class User4
+	{
+		[JsonProperty("uid")]
+		public int Uid { get; set; }
 
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
+		[JsonProperty("user_name")]
+		public string UserName { get; set; }
 
-        [JsonProperty("venue_url")]
-        public string VenueUrl { get; set; }
-    }
+		[JsonProperty("first_name")]
+		public string FirstName { get; set; }
 
-    public class Foursquare3
-    {
+		[JsonProperty("last_name")]
+		public string LastName { get; set; }
 
-        [JsonProperty("foursquare_id")]
-        public string FoursquareId { get; set; }
+		[JsonProperty("bio")]
+		public string Bio { get; set; }
 
-        [JsonProperty("foursquare_url")]
-        public string FoursquareUrl { get; set; }
-    }
+		[JsonProperty("location")]
+		public string Location { get; set; }
 
-    public class VenueIcon3
-    {
+		[JsonProperty("user_avatar")]
+		public string UserAvatar { get; set; }
 
-        [JsonProperty("sm")]
-        public string Sm { get; set; }
+		[JsonProperty("user_link")]
+		public string UserLink { get; set; }
 
-        [JsonProperty("md")]
-        public string Md { get; set; }
+		[JsonProperty("account_type")]
+		public string AccountType { get; set; }
 
-        [JsonProperty("lg")]
-        public string Lg { get; set; }
-    }
+		[JsonProperty("brewery_details")]
+		public IList<object> BreweryDetails { get; set; }
+	}
 
-    public class Venue3
-    {
+	public class Item7
+	{
+		[JsonProperty("uid")]
+		public int Uid { get; set; }
 
-        [JsonProperty("venue_id")]
-        public int VenueId { get; set; }
+		[JsonProperty("user")]
+		public User4 User { get; set; }
 
-        [JsonProperty("venue_name")]
-        public string VenueName { get; set; }
+		[JsonProperty("like_id")]
+		public int LikeId { get; set; }
 
-        [JsonProperty("primary_category")]
-        public string PrimaryCategory { get; set; }
+		[JsonProperty("like_owner")]
+		public bool LikeOwner { get; set; }
 
-        [JsonProperty("parent_category_id")]
-        public string ParentCategoryId { get; set; }
+		[JsonProperty("created_at")]
+		public string CreatedAt { get; set; }
+	}
 
-        [JsonProperty("categories")]
-        public Categories3 Categories { get; set; }
+	public class Toasts
+	{
+		[JsonProperty("total_count")]
+		public int TotalCount { get; set; }
 
-        [JsonProperty("location")]
-        public Location5 Location { get; set; }
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("contact")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Contact5>))]
-        public Contact5 Contact { get; set; }
+		[JsonProperty("auth_toast")]
+		public bool AuthToast { get; set; }
 
-        [JsonProperty("public_venue")]
-        public bool PublicVenue { get; set; }
+		[JsonProperty("items")]
+		public IList<Item7> Items { get; set; }
+	}
 
-        [JsonProperty("foursquare")]
-        public Foursquare3 Foursquare { get; set; }
+	public class Photo2
+	{
+		[JsonProperty("photo_img_sm")]
+		public string PhotoImgSm { get; set; }
 
-        [JsonProperty("venue_icon")]
-        public VenueIcon3 VenueIcon { get; set; }
-    }
+		[JsonProperty("photo_img_md")]
+		public string PhotoImgMd { get; set; }
 
-    public class User3
-    {
+		[JsonProperty("photo_img_lg")]
+		public string PhotoImgLg { get; set; }
 
-        [JsonProperty("uid")]
-        public int Uid { get; set; }
+		[JsonProperty("photo_img_og")]
+		public string PhotoImgOg { get; set; }
+	}
 
-        [JsonProperty("user_name")]
-        public string UserName { get; set; }
+	public class Item8
+	{
+		[JsonProperty("photo_id")]
+		public int PhotoId { get; set; }
 
-        [JsonProperty("first_name")]
-        public string FirstName { get; set; }
+		[JsonProperty("photo")]
+		public Photo2 Photo { get; set; }
+	}
 
-        [JsonProperty("last_name")]
-        public string LastName { get; set; }
+	public class Media2
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("bio")]
-        public string Bio { get; set; }
+		[JsonProperty("items")]
+		public IList<Item8> Items { get; set; }
+	}
 
-        [JsonProperty("location")]
-        public string Location { get; set; }
+	public class Source
+	{
+		[JsonProperty("app_name")]
+		public string AppName { get; set; }
 
-        [JsonProperty("relationship")]
-        public string Relationship { get; set; }
+		[JsonProperty("app_website")]
+		public string AppWebsite { get; set; }
+	}
 
-        [JsonProperty("is_supporter")]
-        public int IsSupporter { get; set; }
+	public class BadgeImage
+	{
+		[JsonProperty("sm")]
+		public string Sm { get; set; }
 
-        [JsonProperty("user_avatar")]
-        public string UserAvatar { get; set; }
+		[JsonProperty("md")]
+		public string Md { get; set; }
 
-        [JsonProperty("user_link")]
-        public string UserLink { get; set; }
+		[JsonProperty("lg")]
+		public string Lg { get; set; }
+	}
 
-        [JsonProperty("account_type")]
-        public string AccountType { get; set; }
+	public class Item9
+	{
+		[JsonProperty("badge_id")]
+		public int BadgeId { get; set; }
 
-        [JsonProperty("brewery_details")]
-        public IList<object> BreweryDetails { get; set; }
-    }
+		[JsonProperty("user_badge_id")]
+		public int UserBadgeId { get; set; }
 
-    public class Item6
-    {
+		[JsonProperty("badge_name")]
+		public string BadgeName { get; set; }
 
-        [JsonProperty("user")]
-        public User3 User { get; set; }
+		[JsonProperty("badge_description")]
+		public string BadgeDescription { get; set; }
 
-        [JsonProperty("checkin_id")]
-        public int CheckinId { get; set; }
+		[JsonProperty("created_at")]
+		public string CreatedAt { get; set; }
 
-        [JsonProperty("comment_id")]
-        public int CommentId { get; set; }
+		[JsonProperty("badge_image")]
+		public BadgeImage BadgeImage { get; set; }
+	}
 
-        [JsonProperty("comment_owner")]
-        public bool CommentOwner { get; set; }
+	public class Badges
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("comment_editor")]
-        public bool CommentEditor { get; set; }
+		[JsonProperty("items")]
+		public IList<Item9> Items { get; set; }
+	}
 
-        [JsonProperty("comment")]
-        public string Comment { get; set; }
+	public class Item4
+	{
+		[JsonProperty("checkin_id")]
+		public int CheckinId { get; set; }
 
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
+		[JsonProperty("created_at")]
+		public string CreatedAt { get; set; }
 
-        [JsonProperty("comment_source")]
-        public string CommentSource { get; set; }
-    }
+		[JsonProperty("rating_score")]
+		public double RatingScore { get; set; }
 
-    public class Comments
-    {
+		[JsonProperty("checkin_comment")]
+		public string CheckinComment { get; set; }
 
-        [JsonProperty("total_count")]
-        public int TotalCount { get; set; }
+		[JsonProperty("user")]
+		public User2 User { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("beer")]
+		public Beer2 Beer { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item6> Items { get; set; }
-    }
+		[JsonProperty("brewery")]
+		public Brewery2 Brewery { get; set; }
 
-    public class User4
-    {
+		[JsonProperty("venue")]
+		public Venue3 Venue { get; set; }
 
-        [JsonProperty("uid")]
-        public int Uid { get; set; }
+		[JsonProperty("comments")]
+		public Comments Comments { get; set; }
 
-        [JsonProperty("user_name")]
-        public string UserName { get; set; }
+		[JsonProperty("toasts")]
+		public Toasts Toasts { get; set; }
 
-        [JsonProperty("first_name")]
-        public string FirstName { get; set; }
+		[JsonProperty("media")]
+		public Media2 Media { get; set; }
 
-        [JsonProperty("last_name")]
-        public string LastName { get; set; }
+		[JsonProperty("source")]
+		public Source Source { get; set; }
 
-        [JsonProperty("bio")]
-        public string Bio { get; set; }
+		[JsonProperty("badges")]
+		public Badges Badges { get; set; }
+	}
 
-        [JsonProperty("location")]
-        public string Location { get; set; }
+	public class Checkins
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("user_avatar")]
-        public string UserAvatar { get; set; }
+		[JsonProperty("items")]
+		public IList<Item4> Items { get; set; }
+	}
 
-        [JsonProperty("user_link")]
-        public string UserLink { get; set; }
+	public class Beer3
+	{
+		[JsonProperty("bid")]
+		public int Bid { get; set; }
 
-        [JsonProperty("account_type")]
-        public string AccountType { get; set; }
+		[JsonProperty("beer_name")]
+		public string BeerName { get; set; }
 
-        [JsonProperty("brewery_details")]
-        public IList<object> BreweryDetails { get; set; }
-    }
+		[JsonProperty("beer_label")]
+		public string BeerLabel { get; set; }
 
-    public class Item7
-    {
+		[JsonProperty("beer_abv")]
+		public double BeerAbv { get; set; }
 
-        [JsonProperty("uid")]
-        public int Uid { get; set; }
+		[JsonProperty("beer_ibu")]
+		public int BeerIbu { get; set; }
 
-        [JsonProperty("user")]
-        public User4 User { get; set; }
+		[JsonProperty("beer_slug")]
+		public string BeerSlug { get; set; }
 
-        [JsonProperty("like_id")]
-        public int LikeId { get; set; }
+		[JsonProperty("beer_description")]
+		public string BeerDescription { get; set; }
 
-        [JsonProperty("like_owner")]
-        public bool LikeOwner { get; set; }
+		[JsonProperty("is_in_production")]
+		public int IsInProduction { get; set; }
 
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
-    }
+		[JsonProperty("beer_style_id")]
+		public int BeerStyleId { get; set; }
 
-    public class Toasts
-    {
+		[JsonProperty("beer_style")]
+		public string BeerStyle { get; set; }
 
-        [JsonProperty("total_count")]
-        public int TotalCount { get; set; }
+		[JsonProperty("auth_rating")]
+		public double AuthRating { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("wish_list")]
+		public bool WishList { get; set; }
 
-        [JsonProperty("auth_toast")]
-        public bool AuthToast { get; set; }
+		[JsonProperty("beer_active")]
+		public int BeerActive { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item7> Items { get; set; }
-    }
+		[JsonProperty("rating_score")]
+		public double RatingScore { get; set; }
 
-    public class Photo2
-    {
+		[JsonProperty("rating_count")]
+		public int RatingCount { get; set; }
+	}
 
-        [JsonProperty("photo_img_sm")]
-        public string PhotoImgSm { get; set; }
+	public class Contact6
+	{
+		[JsonProperty("twitter")]
+		public string Twitter { get; set; }
 
-        [JsonProperty("photo_img_md")]
-        public string PhotoImgMd { get; set; }
+		[JsonProperty("facebook")]
+		public string Facebook { get; set; }
 
-        [JsonProperty("photo_img_lg")]
-        public string PhotoImgLg { get; set; }
+		[JsonProperty("url")]
+		public string Url { get; set; }
+	}
 
-        [JsonProperty("photo_img_og")]
-        public string PhotoImgOg { get; set; }
-    }
+	public class Location6
+	{
+		[JsonProperty("brewery_city")]
+		public string BreweryCity { get; set; }
 
-    public class Item8
-    {
+		[JsonProperty("brewery_state")]
+		public string BreweryState { get; set; }
 
-        [JsonProperty("photo_id")]
-        public int PhotoId { get; set; }
+		[JsonProperty("lat")]
+		public double Lat { get; set; }
 
-        [JsonProperty("photo")]
-        public Photo2 Photo { get; set; }
-    }
+		[JsonProperty("lng")]
+		public double Lng { get; set; }
+	}
 
-    public class Media2
-    {
+	public class Brewery3
+	{
+		[JsonProperty("brewery_id")]
+		public int BreweryId { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("brewery_name")]
+		public string BreweryName { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item8> Items { get; set; }
-    }
+		[JsonProperty("brewery_slug")]
+		public string BrewerySlug { get; set; }
 
-    public class Source
-    {
+		[JsonProperty("brewery_label")]
+		public string BreweryLabel { get; set; }
 
-        [JsonProperty("app_name")]
-        public string AppName { get; set; }
+		[JsonProperty("country_name")]
+		public string CountryName { get; set; }
 
-        [JsonProperty("app_website")]
-        public string AppWebsite { get; set; }
-    }
+		[JsonProperty("contact")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Contact6>))]
+		public Contact6 Contact { get; set; }
 
-    public class BadgeImage
-    {
+		[JsonProperty("location")]
+		public Location6 Location { get; set; }
 
-        [JsonProperty("sm")]
-        public string Sm { get; set; }
+		[JsonProperty("brewery_active")]
+		public int BreweryActive { get; set; }
+	}
 
-        [JsonProperty("md")]
-        public string Md { get; set; }
+	public class Friends
+	{
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("lg")]
-        public string Lg { get; set; }
-    }
+		[JsonProperty("items")]
+		public IList<object> Items { get; set; }
+	}
 
-    public class Item9
-    {
+	public class Item10
+	{
+		[JsonProperty("created_at")]
+		public string CreatedAt { get; set; }
 
-        [JsonProperty("badge_id")]
-        public int BadgeId { get; set; }
+		[JsonProperty("total_count")]
+		public int TotalCount { get; set; }
 
-        [JsonProperty("user_badge_id")]
-        public int UserBadgeId { get; set; }
+		[JsonProperty("your_count")]
+		public int YourCount { get; set; }
 
-        [JsonProperty("badge_name")]
-        public string BadgeName { get; set; }
+		[JsonProperty("beer")]
+		public Beer3 Beer { get; set; }
 
-        [JsonProperty("badge_description")]
-        public string BadgeDescription { get; set; }
+		[JsonProperty("brewery")]
+		public Brewery3 Brewery { get; set; }
 
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
+		[JsonProperty("friends")]
+		public Friends Friends { get; set; }
+	}
 
-        [JsonProperty("badge_image")]
-        public BadgeImage BadgeImage { get; set; }
-    }
+	public class TopBeers
+	{
+		[JsonProperty("offset")]
+		public int Offset { get; set; }
 
-    public class Badges
-    {
+		[JsonProperty("limit")]
+		public int Limit { get; set; }
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+		[JsonProperty("count")]
+		public int Count { get; set; }
 
-        [JsonProperty("items")]
-        public IList<Item9> Items { get; set; }
-    }
+		[JsonProperty("items")]
+		public IList<Item10> Items { get; set; }
+	}
 
-    public class Item4
-    {
+	public class Venue
+	{
+		[JsonProperty("venue_id")]
+		public int VenueId { get; set; }
 
-        [JsonProperty("checkin_id")]
-        public int CheckinId { get; set; }
+		[JsonProperty("venue_name")]
+		public string VenueName { get; set; }
 
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
+		[JsonProperty("last_updated")]
+		public string LastUpdated { get; set; }
 
-        [JsonProperty("rating_score")]
-        public double RatingScore { get; set; }
+		[JsonProperty("primary_category")]
+		public string PrimaryCategory { get; set; }
 
-        [JsonProperty("checkin_comment")]
-        public string CheckinComment { get; set; }
+		[JsonProperty("categories")]
+		public Categories Categories { get; set; }
 
-        [JsonProperty("user")]
-        public User2 User { get; set; }
+		[JsonProperty("stats")]
+		public Stats Stats { get; set; }
 
-        [JsonProperty("beer")]
-        public Beer2 Beer { get; set; }
+		[JsonProperty("venue_icon")]
+		public VenueIcon VenueIcon { get; set; }
 
-        [JsonProperty("brewery")]
-        public Brewery2 Brewery { get; set; }
+		[JsonProperty("public_venue")]
+		public bool PublicVenue { get; set; }
 
-        [JsonProperty("venue")]
-        public Venue3 Venue { get; set; }
+		[JsonProperty("location")]
+		public Location Location { get; set; }
 
-        [JsonProperty("comments")]
-        public Comments Comments { get; set; }
+		[JsonProperty("contact")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Contact>))]
+		public Contact Contact { get; set; }
 
-        [JsonProperty("toasts")]
-        public Toasts Toasts { get; set; }
+		[JsonProperty("foursquare")]
+		public Foursquare Foursquare { get; set; }
 
-        [JsonProperty("media")]
-        public Media2 Media { get; set; }
+		[JsonProperty("media")]
+		public Media Media { get; set; }
 
-        [JsonProperty("source")]
-        public Source Source { get; set; }
+		[JsonProperty("checkins")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
+		public Checkins Checkins { get; set; }
 
-        [JsonProperty("badges")]
-        public Badges Badges { get; set; }
-    }
+		[JsonProperty("top_beers")]
+		public TopBeers TopBeers { get; set; }
+	}
 
-    public class Checkins
-    {
+	public class Response
+	{
+		[JsonProperty("venue")]
+		public Venue Venue { get; set; }
+	}
 
-        [JsonProperty("count")]
-        public int Count { get; set; }
+	public class VenueInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
+	{
+		protected override string EndPointWithConfiguration { get { return "v4/venue/info{0}"; } }
 
-        [JsonProperty("items")]
-        public IList<Item4> Items { get; set; }
-    }
+		[JsonProperty("meta")]
+		public Meta Meta { get; set; }
 
-    public class Beer3
-    {
+		[JsonProperty("notifications")]
+		[JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
+		public Notifications Notifications { get; set; }
 
-        [JsonProperty("bid")]
-        public int Bid { get; set; }
-
-        [JsonProperty("beer_name")]
-        public string BeerName { get; set; }
-
-        [JsonProperty("beer_label")]
-        public string BeerLabel { get; set; }
-
-        [JsonProperty("beer_abv")]
-        public double BeerAbv { get; set; }
-
-        [JsonProperty("beer_ibu")]
-        public int BeerIbu { get; set; }
-
-        [JsonProperty("beer_slug")]
-        public string BeerSlug { get; set; }
-
-        [JsonProperty("beer_description")]
-        public string BeerDescription { get; set; }
-
-        [JsonProperty("is_in_production")]
-        public int IsInProduction { get; set; }
-
-        [JsonProperty("beer_style_id")]
-        public int BeerStyleId { get; set; }
-
-        [JsonProperty("beer_style")]
-        public string BeerStyle { get; set; }
-
-        [JsonProperty("auth_rating")]
-        public double AuthRating { get; set; }
-
-        [JsonProperty("wish_list")]
-        public bool WishList { get; set; }
-
-        [JsonProperty("beer_active")]
-        public int BeerActive { get; set; }
-
-        [JsonProperty("rating_score")]
-        public double RatingScore { get; set; }
-
-        [JsonProperty("rating_count")]
-        public int RatingCount { get; set; }
-    }
-
-    public class Contact6
-    {
-
-        [JsonProperty("twitter")]
-        public string Twitter { get; set; }
-
-        [JsonProperty("facebook")]
-        public string Facebook { get; set; }
-
-        [JsonProperty("url")]
-        public string Url { get; set; }
-    }
-
-    public class Location6
-    {
-
-        [JsonProperty("brewery_city")]
-        public string BreweryCity { get; set; }
-
-        [JsonProperty("brewery_state")]
-        public string BreweryState { get; set; }
-
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
-
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
-
-    public class Brewery3
-    {
-
-        [JsonProperty("brewery_id")]
-        public int BreweryId { get; set; }
-
-        [JsonProperty("brewery_name")]
-        public string BreweryName { get; set; }
-
-        [JsonProperty("brewery_slug")]
-        public string BrewerySlug { get; set; }
-
-        [JsonProperty("brewery_label")]
-        public string BreweryLabel { get; set; }
-
-        [JsonProperty("country_name")]
-        public string CountryName { get; set; }
-
-        [JsonProperty("contact")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Contact6>))]
-        public Contact6 Contact { get; set; }
-
-        [JsonProperty("location")]
-        public Location6 Location { get; set; }
-
-        [JsonProperty("brewery_active")]
-        public int BreweryActive { get; set; }
-    }
-
-    public class Friends
-    {
-
-        [JsonProperty("count")]
-        public int Count { get; set; }
-
-        [JsonProperty("items")]
-        public IList<object> Items { get; set; }
-    }
-
-    public class Item10
-    {
-
-        [JsonProperty("created_at")]
-        public string CreatedAt { get; set; }
-
-        [JsonProperty("total_count")]
-        public int TotalCount { get; set; }
-
-        [JsonProperty("your_count")]
-        public int YourCount { get; set; }
-
-        [JsonProperty("beer")]
-        public Beer3 Beer { get; set; }
-
-        [JsonProperty("brewery")]
-        public Brewery3 Brewery { get; set; }
-
-        [JsonProperty("friends")]
-        public Friends Friends { get; set; }
-    }
-
-    public class TopBeers
-    {
-
-        [JsonProperty("offset")]
-        public int Offset { get; set; }
-
-        [JsonProperty("limit")]
-        public int Limit { get; set; }
-
-        [JsonProperty("count")]
-        public int Count { get; set; }
-
-        [JsonProperty("items")]
-        public IList<Item10> Items { get; set; }
-    }
-
-    public class Venue
-    {
-
-        [JsonProperty("venue_id")]
-        public int VenueId { get; set; }
-
-        [JsonProperty("venue_name")]
-        public string VenueName { get; set; }
-
-        [JsonProperty("last_updated")]
-        public string LastUpdated { get; set; }
-
-        [JsonProperty("primary_category")]
-        public string PrimaryCategory { get; set; }
-
-        [JsonProperty("categories")]
-        public Categories Categories { get; set; }
-
-        [JsonProperty("stats")]
-        public Stats Stats { get; set; } 
-
-        [JsonProperty("venue_icon")]
-        public VenueIcon VenueIcon { get; set; }
-
-        [JsonProperty("public_venue")]
-        public bool PublicVenue { get; set; }
-
-        [JsonProperty("location")]
-        public Location Location { get; set; }
-
-        [JsonProperty("contact")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Contact>))]
-        public Contact Contact { get; set; }
-
-        [JsonProperty("foursquare")]
-        public Foursquare Foursquare { get; set; }
-
-        [JsonProperty("media")]
-        public Media Media { get; set; }
-
-        [JsonProperty("checkins")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Checkins>))]
-        public Checkins Checkins { get; set; }
-
-        [JsonProperty("top_beers")]
-        public TopBeers TopBeers { get; set; }
-    }
-
-    public class Response
-    {
-
-        [JsonProperty("venue")]
-        public Venue Venue { get; set; }
-    }
-
-    public class VenueInfo : BasicRequest, IAuthenticatedRequest, IUnAuthenticatedRequest
-    {
-        protected override string EndPointWithConfiguration { get { return "v4/venue/info{0}"; } }
-
-        [JsonProperty("meta")]
-        public Meta Meta { get; set; }
-
-        [JsonProperty("notifications")]
-        [JsonConverter(typeof(SingleObjectArrayConverter<Notifications>))]
-        public Notifications Notifications { get; set; }
-
-        [JsonProperty("response")]
-        public Response Response { get; set; }
-    }
+		[JsonProperty("response")]
+		public Response Response { get; set; }
+	}
 }

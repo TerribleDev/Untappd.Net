@@ -1,6 +1,6 @@
 ﻿namespace Untappd.Net.Authentication
 {
-    public interface IAuthenticatedUntappdCredentials : IUntappdCredentials
-    {
-    }
+	public interface IAuthenticatedUntappdCredentials : IUntappdCredentials
+	{
+	}
 }
