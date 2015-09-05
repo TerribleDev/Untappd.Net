@@ -39,7 +39,9 @@ namespace Untappd.Net.UnitTests.Request
 			client.Setup(a => a.ExecuteTaskAsync(It.IsAny<IRestRequest>())).Callback(() =>
 			{
 			}).Returns(Task.Run(() => response.Object));
+#pragma warning disable CS0618 // Type or member is obsolete Using as intended
 			var repository = new Repository(client.Object, request.Object);
+#pragma warning restore CS0618 // Type or member is obsolete
 
 			repository.Get<BeerInfo>(mockCreds.Object, "awesome", bodyParam);
 			request.Verify(a => a.AddParameter("client_id", mockCreds.Object.AuthenticationData["client_id"]));
@@ -93,6 +95,14 @@ namespace Untappd.Net.UnitTests.Request
 			var constructorTest = new Repository();
 			Assert.IsTrue(constructorTest.Client != null);
 			Assert.IsTrue(constructorTest.Request != null);
+		}
+
+		[Test]
+		public void TimeoutShouldGetPassedIn()
+		{
+			var timeout = 100;
+			var repo = new Repository(timeout: timeout);
+			Assert.AreEqual(repo.Request.Timeout, timeout);
 		}
 
 		[Test]
