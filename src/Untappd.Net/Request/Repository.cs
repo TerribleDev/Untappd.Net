@@ -25,10 +25,13 @@ namespace Untappd.Net.Request
 		/// Make a repository
 		/// </summary>
 		/// <param name="failFast">Should we throw exceptions? or just return null</param>
-		public Repository(bool failFast = true)
+		public Repository(bool failFast = true, int timeout = 0)
 		{
 			Client = new RestClient(Constants.BaseRequestString);
-			Request = new RestRequest();
+			Request = new RestRequest
+			{
+				Timeout = timeout
+			};
 			FailFast = failFast;
 		}
 
