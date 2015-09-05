@@ -69,7 +69,7 @@ For Authenticated requests:
 
 ```csharp
 
-var ts = new AuthenticatedUntappdCredentials("token", "key", "secret");
+var ts = new AuthenticatedUntappdCredentials("token");
 var t = new Repository().Get<ActivityFeed>(ts);
 
 ```
@@ -79,7 +79,7 @@ For Actions (usually post requests). Note: Actions return a dynamic object. Usua
 
 ```csharp
 
-var ts = new AuthenticatedUntappdCredentials("token", "key", "secret");
+var ts = new AuthenticatedUntappdCredentials("token");
 var checkin = new CheckIn("-5", "EST", 1044097) { Shout = "Awesome Brew", Rating = 4 };
 var response = repository.Post(ts, checkin);
 

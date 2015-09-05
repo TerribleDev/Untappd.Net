@@ -1,25 +1,28 @@
+require 'openssl'
+
 namespace :tools do
 
 	# If we don't have a copy of nuget, download it
-	task :nuget_bootstrap do
-		puts 'Ensuring NuGet exists in tools/NuGet'
+	# If we don't have a copy of nuget, download it
+		task :nuget_bootstrap do
+			puts 'Ensuring NuGet exists in tools/NuGet'
 
-		if !FileTest.exist?("#{NUGET}/nuget.exe")
-			puts 'Downloading nuget from nuget.org'
+			if !FileTest.exist?("#{NUGET}/nuget.exe")
+				puts 'Downloading nuget from nuget.org'
 
-			begin
-			FileUtils.mkdir_p("#{NUGET}")
-			File.open("#{NUGET}/nuget.exe", "wb") do |file|
-				file.write open('https://nuget.org/nuget.exe').read
+				begin
+				FileUtils.mkdir_p("#{NUGET}")
+				File.open("#{NUGET}/nuget.exe", "wb") do |file|
+					file.write open('http://nuget.org/nuget.exe', {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read
+				end
+			rescue
+				FileUtils.rm_rf("#{NUGET}/nuget.exe")
+				File.open("#{NUGET}/nuget.exe", "wb") do |file|
+					file.write open('https://nuget.org/nuget.exe', {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read
+				end
 			end
-		rescue
-			FileUtils.rm_rf("#{NUGET}/nuget.exe")
-			File.open("#{NUGET}/nuget.exe", "wb") do |file|
-				file.write open('http://nuget.org/nuget.exe').read
 			end
 		end
-		end
-	end
 
 	# Fetch nuget dependencies for all packages
 	task :nuget_fetch => :nuget_bootstrap do

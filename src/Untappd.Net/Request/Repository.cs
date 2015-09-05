@@ -14,6 +14,7 @@ namespace Untappd.Net.Request
         internal IRestClient Client;
         internal IRestRequest Request;
         public bool FailFast { get; set; }
+
         /// <summary>
         /// Event to listen to when failFast is set to false
         /// This allows you to capture the excpetion, before its swallowed
@@ -24,10 +25,14 @@ namespace Untappd.Net.Request
         /// Make a repository
         /// </summary>
         /// <param name="failFast">Should we throw exceptions? or just return null</param>
-        public Repository(bool failFast = true)
+        /// <param name="timeout">Set a timeout in milliseconds</param>
+        public Repository(bool failFast = true, int timeout = 0)
         {
             Client = new RestClient(Constants.BaseRequestString);
-            Request = new RestRequest();
+            Request = new RestRequest
+            {
+                Timeout = timeout
+            };
             FailFast = failFast;
         }
 
@@ -63,22 +68,22 @@ namespace Untappd.Net.Request
                 Request.AddParameter(untappdCredential.Key, untappdCredential.Value);
             }
             return this;
-        } 
+        }
 
-        TResult ExecuteRequest<TResult>()
-            where TResult : class 
+        private TResult ExecuteRequest<TResult>()
+            where TResult : class
         {
             return ProcessExecution<TResult>(Client.Execute(Request));
         }
 
-        async Task<TResult> ExecuteRequestAsync<TResult>()
-            where TResult : class 
+        private async Task<TResult> ExecuteRequestAsync<TResult>()
+            where TResult : class
         {
             return ProcessExecution<TResult>(await Client.ExecuteTaskAsync(Request));
         }
 
-        TResult ProcessExecution<TResult>(IRestResponse response)
-            where TResult : class 
+        private TResult ProcessExecution<TResult>(IRestResponse response)
+            where TResult : class
         {
             //if the return type is not 200 throw errors
             if (response.StatusCode != HttpStatusCode.OK)
@@ -101,19 +106,19 @@ namespace Untappd.Net.Request
             {
                 return JsonConvert.DeserializeObject<TResult>(response.Content);
             }
-            catch(System.Exception e)
+            catch (System.Exception e)
             {
                 var eventThrow = OnExceptionThrown;
 
                 if (eventThrow != null)
                 {
-                        eventThrow(this, new UnhandledExceptionEventArgs(e, FailFast));
+                    eventThrow(this, new UnhandledExceptionEventArgs(e, FailFast));
                 }
                 if (FailFast)
                 {
                     throw;
                 }
-               
+
                 return null;
             }
         }

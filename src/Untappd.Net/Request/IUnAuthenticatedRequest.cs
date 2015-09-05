@@ -1,6 +1,6 @@
 ﻿namespace Untappd.Net.Request
 {
-    public interface IUnAuthenticatedRequest : IRequest
-    {
-    }
+	public interface IUnAuthenticatedRequest : IRequest
+	{
+	}
 }
