@@ -96,3 +96,4 @@ var response = repository.Post(ts, checkin);
 Current contributors:
 * Tommy James Parnell (https://github.com/tparnell8)
 * Rodrigo P Reis (https://github.com/rodkings)
+
