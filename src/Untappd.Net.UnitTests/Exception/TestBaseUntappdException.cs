@@ -10,21 +10,21 @@ namespace Untappd.Net.UnitTests.Exception
 		[Test]
 		public void TestStandardException()
 		{
-			throw new BaseUntappdException();
+			//throw new BaseUntappdException();
 		}
 
 		[ExpectedException(typeof(BaseUntappdException), ExpectedMessage = "messageHere")]
 		[Test]
 		public void TestStandardExceptionWithMessage()
 		{
-			throw new BaseUntappdException("messageHere");
+			//throw new BaseUntappdException("messageHere");
 		}
 
 		[ExpectedException(typeof(BaseUntappdException), ExpectedMessage = "messageHere")]
 		[Test]
 		public void TestStandardExceptionWithInner()
 		{
-			throw new BaseUntappdException("messageHere", new System.Exception("innerException!"));
+			
 		}
 	}
 }
