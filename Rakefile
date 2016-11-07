@@ -25,7 +25,7 @@ task :lint => [:build, :cs_lint]
 
 desc 'Retrieve, Build, Test'
 task :preflight => [:clean, :retrieve, :build, :test, :lint]
-
+throw "oops"
 desc 'cleans up artifacts'
 task :clean do
   puts 'cleaning artifacts from directory'
